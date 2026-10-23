@@ -14,7 +14,8 @@ from bible_rag.text import fold
 
 FILTERS = ("language", "source", "testament", "book_id", "edition")
 VERSE_FIELDS = ("verse_uid", "source", "language", "testament", "book_id", "book_name", "chapter",
-                "verse", "edition", "source_ref", "canon_ref", "versification", "text_display")
+                "verse", "edition", "source_ref", "canon_ref", "alignment", "versification",
+                "text_display")
 # Dropped from lexical queries so "the"/"of" don't dominate an OR match. Hebrew and Greek
 # queries come from the translation skills as content words, so they need no list.
 EN_STOPWORDS = frozenset("""
@@ -102,6 +103,31 @@ class VerseStore:
         params = (row["source"], row["book_id"], row["chapter"], row["edition"],
                   row["verse"] - before, row["verse"] + after)
         return [dict(r) for r in self.con.execute(sql, params)]
+
+    def cross_refs(self, canon_ref, min_votes=None, testament=None, limit=50):
+        """Links from one verse, strongest first, each labeled with its relation class."""
+        from bible_rag.books import testament as testament_of
+        from bible_rag.crossrefs import ALLUSION_MIN_VOTES, relation
+
+        # A range target was stored once per verse; report it once, at its first verse.
+        rows = self.con.execute(
+            "SELECT min(id) AS first, to_range, votes, dataset FROM ("
+            "  SELECT rowid AS id, coalesce(to_range, to_canon_ref) AS to_range, votes, dataset"
+            "  FROM cross_refs WHERE from_canon_ref = ? AND votes >= ?) "
+            "GROUP BY to_range, dataset ORDER BY votes DESC, first",
+            (canon_ref, ALLUSION_MIN_VOTES if min_votes is None else min_votes)).fetchall()
+        out = []
+        for r in rows:
+            to = self.con.execute("SELECT to_canon_ref FROM cross_refs WHERE rowid = ?",
+                                  (r["first"],)).fetchone()[0]
+            if testament and testament_of(to.split(".")[0]) != testament:
+                continue
+            out.append({"to": to, "votes": r["votes"], "relation": relation(r["votes"]),
+                        "dataset": r["dataset"],
+                        "to_range": r["to_range"] if r["to_range"] != to else None})
+            if len(out) == limit:
+                break
+        return out
 
     def lexical(self, query, filters=None, k=20, phrase=False):
         """BM25 search: [{"verse_uid", "rank", "score"}], best first. Lower bm25 is better."""

@@ -43,6 +43,13 @@ OSIS_TO_USFM = {
     "Obad": "OBA", "Jonah": "JON", "Mic": "MIC", "Nah": "NAM", "Hab": "HAB", "Zeph": "ZEP",
     "Hag": "HAG", "Zech": "ZEC", "Mal": "MAL",
 }
+OSIS_NT_TO_USFM = {
+    "Matt": "MAT", "Mark": "MRK", "Luke": "LUK", "John": "JHN", "Acts": "ACT", "Rom": "ROM",
+    "1Cor": "1CO", "2Cor": "2CO", "Gal": "GAL", "Eph": "EPH", "Phil": "PHP", "Col": "COL",
+    "1Thess": "1TH", "2Thess": "2TH", "1Tim": "1TI", "2Tim": "2TI", "Titus": "TIT", "Phlm": "PHM",
+    "Heb": "HEB", "Jas": "JAS", "1Pet": "1PE", "2Pet": "2PE", "1John": "1JN", "2John": "2JN",
+    "3John": "3JN", "Jude": "JUD", "Rev": "REV",
+}
 
 # Swete LXX files, keyed by the number prefix of the file name (also the first part of
 # source_ref). Value: (USFM code, edition). Edition separates the Old Greek ("og") and

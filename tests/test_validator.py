@@ -129,27 +129,45 @@ def test_unknown_fields_are_rejected(store, answer):
     assert codes(validate(answer, store)) == ["schema"]
 
 
-def test_verified_cross_ref_needs_data(store, answer):
-    answer["passages"][0]["cross_refs"] = [{"to": "GEN.1.1", "relation": "verified"}]
-    assert codes(validate(answer, store)) == ["schema"]  # no dataset named
-    answer["passages"][0]["cross_refs"][0]["dataset"] = "openbible"
-    assert codes(validate(answer, store)) == ["unverifiable"]  # no cross_refs table yet
-
-
-@pytest.fixture()
-def store_with_xrefs(tmp_path, db):
-    """A small copy of the verse store with a cross_refs table."""
+def small_store(tmp_path, xrefs=None):
+    """A small copy of the verse store, with a cross_refs table only if `xrefs` is given."""
     path = tmp_path / "verses.db"
     con = sqlite3.connect(path)
     con.execute("ATTACH ? AS real", (str(SQLITE),))
     con.execute("CREATE TABLE verses AS SELECT * FROM real.verses "
                 "WHERE canon_ref IN ('JHN.1.1', 'GEN.1.1', 'ISA.40.3')")
-    con.execute("CREATE TABLE cross_refs (from_canon_ref, to_canon_ref, votes, dataset)")
-    con.executemany("INSERT INTO cross_refs VALUES (?, ?, ?, 'openbible')",
-                    [("JHN.1.1", "GEN.1.1", XREF_MIN_VOTES + 5), ("JHN.1.1", "ISA.40.3", 1)])
+    if xrefs is not None:
+        con.execute("CREATE TABLE cross_refs (from_canon_ref, to_canon_ref, votes, dataset)")
+        con.executemany("INSERT INTO cross_refs VALUES (?, ?, ?, 'openbible')", xrefs)
     con.commit()
     con.close()
     return VerseStore(path)
+
+
+def test_verified_cross_ref_needs_data(tmp_path, db, answer):
+    store = small_store(tmp_path)  # no cross_refs table
+    answer["passages"][0]["cross_refs"] = [{"to": "GEN.1.1", "relation": "verified"}]
+    assert codes(validate(answer, store)) == ["schema"]  # no dataset named
+    answer["passages"][0]["cross_refs"][0]["dataset"] = "openbible"
+    assert codes(validate(answer, store)) == ["unverifiable"]
+
+
+@pytest.fixture()
+def store_with_xrefs(tmp_path, db):
+    return small_store(tmp_path, [("JHN.1.1", "GEN.1.1", XREF_MIN_VOTES + 5),
+                                  ("JHN.1.1", "ISA.40.3", 1)])
+
+
+def test_real_quotation_is_verified(store, answer):
+    if not store.con.execute("SELECT 1 FROM sqlite_master WHERE name = 'cross_refs'").fetchone():
+        pytest.skip("verses.db has no cross_refs yet")
+    passage = answer["passages"][0]
+    passage.update(canon_ref="JHN.1.23", display_ref="John 1:23", texts=[
+        {"kind": "established_translation", "source": "web", "language": "en", "verse_uid": "web:JHN.1.23",
+         "text": store.get(["web:JHN.1.23"])["web:JHN.1.23"]["text_display"]}],
+        cross_refs=[{"to": "ISA.40.3", "relation": "verified", "dataset": "openbible"},
+                    {"to": "ISA.40.4", "relation": "verified", "dataset": "openbible"}])  # inside range
+    assert validate(answer, store)["valid"]
 
 
 @pytest.mark.parametrize("to, expected", [

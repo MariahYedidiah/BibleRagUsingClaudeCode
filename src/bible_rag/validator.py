@@ -13,9 +13,8 @@ import unicodedata
 from pydantic import ValidationError
 
 from bible_rag.books import BOOK_NAMES
+from bible_rag.crossrefs import VERIFIED_MIN_VOTES as XREF_MIN_VOTES
 from bible_rag.schemas import Answer
-
-XREF_MIN_VOTES = 10  # "verified" threshold; tune once the cross-reference data is loaded
 _SPACES = re.compile(r"\s+")
 
 

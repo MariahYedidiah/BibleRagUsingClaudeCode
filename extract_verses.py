@@ -44,8 +44,19 @@ def write_jsonl(filename, records):
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
     print(f"{filename}: {len(records):,} records")
 
+def text_without_notes(el):
+    """Verse text without <note> content: OSHB notes hold English editorial remarks
+    ("We read ... differently than BHS"), KJV cross-numbering markers ("KJV:Ps.23.1") and
+    marginal (qere) readings. Text after a note (its tail) still belongs to the verse."""
+    parts = [el.text or ""]
+    for child in el:
+        if child.tag.rsplit("}", 1)[-1] != "note":
+            parts.append(text_without_notes(child))
+        parts.append(child.tail or "")
+    return "".join(parts)
+
 def parse_osis(path):
-    # Parse each verse independently, including nested text.
+    # Parse each verse independently, including nested text but not notes.
     root = ET.parse(path).getroot()
     verses = []
     for el in root.iter():
@@ -56,7 +67,7 @@ def parse_osis(path):
         if not m:
             continue
         book, chapter, verse = m.groups()
-        text = "".join(el.itertext())
+        text = text_without_notes(el)
         text = re.sub(r"\s+", " ", text).strip()
         if text:
             verses.append({
@@ -125,26 +136,64 @@ def parse_usfm(path, source, language):
     flush()
     return records
 
+# Digitization artifacts in the Swete text (none of them are Greek text):
+LXX_ALT_NUMBER = re.compile(r"\(\s*[\d¹²³⁰-⁹]+\s*\)")        # "(52)ἕως": alternative verse number
+LXX_DIGITS = re.compile(r"[\d¹²³⁰-⁹]+")                       # "1Καὶ", "³καὶ", stray "20"
+LXX_LATIN_TOKEN = re.compile(r"(?<!\S)[A-Za-z]+(?!\S)")       # "B", "VI", "om": sigla, numerals
+LXX_ROMAN_PREFIX = re.compile("(?<!\\S)[IVXLC]{2,}(?=[Ͱ-Ͽἀ-῿])")  # "IXκαὶ"
+# Latin letters typed for look-alike Greek capitals/letters inside Greek words ("Aἰλὰμ").
+LXX_LOOKALIKES = str.maketrans("ABEZHIKMNOPTXYol", "ΑΒΕΖΗΙΚΜΝΟΡΤΧΥοι")
+GREEK = re.compile("[Ͱ-Ͽἀ-῿]")
+
+def clean_lxx(text):
+    text = LXX_ALT_NUMBER.sub(" ", text)
+    text = LXX_DIGITS.sub("", text)
+    text = LXX_LATIN_TOKEN.sub(" ", text)
+    text = LXX_ROMAN_PREFIX.sub("", text)
+    text = " ".join(t.translate(LXX_LOOKALIKES) if GREEK.search(t) else t for t in text.split())
+    return re.sub(r"\s+([,.;·])", r"\1", text).strip()
+
+# In these Swete files a psalm/ode title comes before verse 1 of its chapter but carries a
+# stale verse number (e.g. Ps 22's title is labeled 22.32). It becomes verse 0.
+LXX_TITLE_BOOKS = {"Psalmi", "Psalmi_Salomonis", "Odae"}
+# Typos in the Swete source: (file book name, chapter, verse as labeled) -> correct verse.
+LXX_VERSE_FIXES = {
+    ("Psalmi", 88, 84): 48,  # sits between 88.47 and 88.49; 88.48 is otherwise missing
+}
+
 def parse_lxx():
     records = []
     for path in sorted((ROOT / "lxx-swete" / "data").glob("*.txt")):
         book_name = path.stem.split(".", 1)[-1]
         prefix = path.stem.split(".", 1)[0]
         book_id = LXX_BOOKS.get(book_name, f"LXX_{prefix}")
-        grouped = defaultdict(list)
+        words = []
         with path.open(encoding="utf-8-sig") as f:
             for line in f:
                 m = re.match(r"^\s*\d+\.(\d+)\.(\d+)\s+(.+?)\s*$", line)
                 if m:
-                    chapter, verse, word = m.groups()
-                    grouped[(int(chapter), int(verse))].append(word)
+                    chapter, verse, word = int(m.group(1)), int(m.group(2)), m.group(3)
+                    verse = LXX_VERSE_FIXES.get((book_name, chapter, verse), verse)
+                    words.append((chapter, verse, word))
+        first_v1 = {}
+        for i, (chapter, verse, _) in enumerate(words):
+            if verse == 1:
+                first_v1.setdefault(chapter, i)
+        grouped = defaultdict(list)
+        for i, (chapter, verse, word) in enumerate(words):
+            if book_name in LXX_TITLE_BOOKS and i < first_v1.get(chapter, -1) and verse > 1:
+                verse = 0
+            grouped[(chapter, verse)].append(word)
         for (chapter, verse), words in sorted(grouped.items()):
+            text = clean_lxx(" ".join(words))
+            if not text:  # nothing but a stray number or siglum
+                continue
             records.append({
                 "source":"lxx_swete", "language":"grc",
                 "book_id":book_id, "book_name":book_name,
                 "chapter":chapter, "verse":verse,
                 "source_ref":f"{prefix}.{chapter}.{verse}",
-                "text":" ".join(words)
+                "text":text
             })
     return records
 

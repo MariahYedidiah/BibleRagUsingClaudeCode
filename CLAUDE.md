@@ -27,6 +27,7 @@ uv run bible-rag health
 uv run bible-rag search "God's compassion for the suffering" "variant 2" --lang he,grc --testament OT --k 10
 uv run bible-rag search --lexical "ואהבת לרעך כמוך" --lang he --mode lexical   # no service needed
 uv run bible-rag verse JHN.3.16 --source sblgnt,web --context 2                 # no service needed
+uv run bible-rag xref MRK.1.3 --testament OT                                    # cross-references, no service
 ```
 
 ## Retrieval (phase 1)
@@ -71,18 +72,23 @@ Record schema (same for all four files):
 
 `source` values: `oshb_wlc`, `lxx_swete`, `sblgnt`, `web`. `language` values: `he`, `grc`, `en`.
 
+Licenses, download URLs and the purpose of every dataset (including the OpenBible cross-references and STEPBible TVTMS versification data in `data/raw/openbible/` and `data/raw/stepbible/`) are in `docs/data-sources.md`. Swete's LXX is CC BY-SA, so anything derived from it must stay CC BY-SA if distributed.
+
+## Canonical alignment (phase 3)
+
+`canon_ref` is every verse's English (KJV-numbered) reference, so the same `canon_ref` means the same verse in every source. `alignment` says how exact that is: `mapped` (one-to-one), `partial` (part of, or more than, the standard verse), `unmapped` (no reliable match; native number kept). `chapter`/`verse`/`source_ref` keep the native numbering. Psalm titles have no English verse and get verse 0 (`PSA.3.0`).
+
+- **Hebrew:** OSHB's `VerseMap.xml` (`versification.map_hebrew`). VerseMap doesn't separate two-verse psalm titles (it maps Ps 51:2 and 51:3 both to 51:1); the earlier verse is treated as title.
+- **LXX:** STEPBible TVTMS (`versification.map_lxx`). Each TVTMS row's tests ("Psa.22:6=Last") are evaluated against Swete's actual verses, because Swete mixes traditions (Greek Psalms, English-style Malachi/Joel). If no row passes strictly, a relaxed pass ignores the variant-only tests and marks the result `partial`. A verse that keeps its own number only because nothing matched, when another verse was mapped onto that number, is `unmapped` (5 verses: LXX Jer 30:1-5).
+- **SBLGNT:** 9 verses differ from KJV numbering (`SBLGNT_MAP`). WEB follows KJV.
+- Result: lxx 28,713 mapped / 358 partial / 5 unmapped; oshb 23,209 / 1 / 3; sblgnt 7,921 / 6 / 0. No two `mapped` verses of one source share a `canon_ref`; ~99% of LXX and Hebrew OT references exist in WEB.
+- **Cross-references** (`crossrefs.py`, `cross_refs` table): OpenBible.info, ranges within a chapter expanded per verse. Relation by votes: `verified` ≥ 25, `possible_allusion` ≥ 5, else `thematic` (calibrated on 12 known NT quotations, all ≥ 32). `uv run bible-rag xref MRK.1.3 --testament OT`.
+
 ## Known data issues
 
-Book codes are fixed in the Parquet/SQLite layer (`src/bible_rag/books.py`), so `canon_ref` joins across sources at the book level. The JSONL files still carry the raw codes below. **Versification is not mapped yet**: rows with `versification` = `wlc` or `lxx` use native verse numbers.
-
-Raw JSONL issues (handled by `books.py`, not by `extract_verses.py`):
-
-- **Hebrew (OSHB)** uses OSIS book codes uppercased (`EXOD`, `1SAM`, `PS`, `SONG`), not the USFM codes used elsewhere (`EXO`, `1SA`, `PSA`, `SNG`). `book_name` is the raw OSIS code (e.g. `1Chr`), because the `BOOKS` lookup misses.
-- **LXX** maps only part of its books through `LXX_BOOKS`. The rest fall back to `LXX_<file prefix>` (e.g. Kingdoms, Chronicles, Joel, Jonah, the deuterocanon). `book_name` is the Latin file name (e.g. `Numeri`), and `source_ref` uses the file prefix (`01.1.1`), not the book code.
-- **LXX versification** differs from the Masoretic text (Psalms numbering, Jeremiah order, etc.), so an identical reference can still mean a different verse.
-- WEB and SBLGNT use clean USFM codes and are the reference scheme.
-
-Next: apply `data/raw/oshb/wlc/VerseMap.xml` and an LXX mapping to make `canon_ref` truly canonical.
+- **Fixed in `extract_verses.py`:** OSHB `<note>` text (English editorial notes, "KJV:Ps.23.1" markers, qere readings) leaked into 2,000+ Hebrew verses; notes are now skipped, so text is the written (ketiv) text. Swete psalm/ode titles carried stale verse numbers (Ps 22's title was "22.32") and are now verse 0. Swete digitization artifacts (alternate verse numbers "(52)", glued digits/superscripts, Roman numerals, Latin look-alike letters, stray sigla) are cleaned by `clean_lxx`. Typo Ps 88.84 → 88.48 (`LXX_VERSE_FIXES`).
+- **Not fixed:** ~100 LXX verses have OCR errors inside Greek words ("Μrπτον" for Αἴγυπτον); guessing corrections would be riskier than leaving them. Swete Song 7 and Job 16 each have one verse labeled with the wrong chapter. SBLGNT keeps its ⸂ ⸃ ⟦ ⟧ signs in `text_display`; `normalize()` drops them for embedding and search.
+- The JSONL files still carry raw book codes (OSIS for Hebrew, `LXX_<prefix>` for some LXX books); `books.py` normalizes them in the Parquet/SQLite layer.
 
 Use `bible_rag.text.normalize()` before embedding a query and `fold()` before an FTS5 `MATCH`, the same as at index time.
 

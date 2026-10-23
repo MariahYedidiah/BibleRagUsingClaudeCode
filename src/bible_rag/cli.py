@@ -5,6 +5,7 @@
     bible-rag search "q" ["variant" ...] [options]   hybrid search (needs the service)
     bible-rag search "q" --mode lexical              BM25 only, works without the service
     bible-rag verse JHN.3.16 [--source sblgnt,web]   exact lookup, works without the service
+    bible-rag xref MRK.1.3 [--testament OT]          cross-references with relation class, no service
     bible-rag validate runs/<id>/answer.json         anti-fabrication check, works without the service
 
 Errors print {"error": ...} and exit non-zero: 1 for a bad request, 2 if the service is down.
@@ -77,6 +78,17 @@ def verse(args):
     return {"canon_ref": ref, "verses": rows}
 
 
+def xref(args):
+    from bible_rag.crossrefs import ALLUSION_MIN_VOTES, VERIFIED_MIN_VOTES
+    from bible_rag.store import VerseStore
+
+    ref = args.ref.upper()
+    links = VerseStore().cross_refs(ref, args.min_votes, args.testament, args.limit)
+    return {"from": ref, "dataset": "openbible",
+            "thresholds": {"verified": VERIFIED_MIN_VOTES, "possible_allusion": ALLUSION_MIN_VOTES},
+            "links": links}
+
+
 def validate(args):
     from bible_rag.store import VerseStore
     from bible_rag.validator import validate as check
@@ -131,6 +143,12 @@ def parser():
     v.add_argument("--source", help="comma-separated sources")
     v.add_argument("--context", type=int, default=0)
 
+    x = sub.add_parser("xref", help="cross-references from a verse (OpenBible.info)")
+    x.add_argument("ref", help="e.g. MRK.1.3")
+    x.add_argument("--testament", choices=["OT", "NT", "DC"], help="only links into this testament")
+    x.add_argument("--min-votes", type=int, help="default: the possible-allusion threshold")
+    x.add_argument("--limit", type=int, default=20)
+
     c = sub.add_parser("validate", help="check an answer.json against the verse store")
     c.add_argument("path")
     return p
@@ -146,7 +164,7 @@ def main(argv=None):
             emit(call(args.port, "/health"))
         if args.command == "validate":
             return validate(args)
-        emit(search(args) if args.command == "search" else verse(args))
+        emit({"search": search, "verse": verse, "xref": xref}[args.command](args))
     except ServiceDown as e:
         emit({"error": str(e)}, 2)
     except (ValueError, FileNotFoundError) as e:

@@ -7,12 +7,16 @@ import unicodedata
 _HEB_MARKS = re.compile("[֑-ֽ֯׀׃-ׅ]")
 # Standalone setumah (ס) / petuchah (פ): paragraph markers, not words.
 _HEB_PARAGRAPH = re.compile(r"(?<!\S)[ספ](?!\S)")
+# SBLGNT editorial signs: ⸂ ⸃ mark variant units, ⟦ ⟧ later additions. Kept for display.
+_GRC_SIGNS = re.compile("[⸂⸃⟦⟧]")
 _SPACES = re.compile(r"\s+")
 
 
 def normalize(text, language):
     """The text that gets embedded."""
     text = unicodedata.normalize("NFC", text)
+    if language == "grc":
+        text = _GRC_SIGNS.sub("", text)
     if language == "he":
         text = text.replace("/", "").replace("־", " ")  # morpheme separators, maqaf
         text = _HEB_MARKS.sub("", text)
