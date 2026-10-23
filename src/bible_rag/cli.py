@@ -9,7 +9,13 @@
     bible-rag terms --corpus oshb_wlc חסד רחמים      how many verses contain each term, no service
     bible-rag draft translation ISA.7.14 --source oshb_wlc   skeleton with the original verbatim
     bible-rag validate runs/<id>/answer.json         anti-fabrication check, works without the service
-    bible-rag check translation|terms FILE.json      check a translation skill's output
+    bible-rag check KIND FILE.json [--run ID]        check translation|terms|specialist|xrefs|analysis|answer
+    bible-rag pack specialist|xrefs ...              assemble an agent result from the store, then check it
+    bible-rag run new "question"                     create runs/<id>/ (prints the run_id)
+    bible-rag run trace ID EVENT --agent A [--group G] [--detail ..] [--path ..] [--status ..]
+    bible-rag run confidence ID                      evidence confidence from the specialist results
+    bible-rag run answer ID                          synthesis.json -> answer.json + answer.md, validated
+    bible-rag run show ID                            trace and files (demo mode)
 
 Errors print {"error": ...} and exit non-zero: 1 for a bad request, 2 if the service is down.
 `validate` exits 1 when the answer is invalid.
@@ -136,14 +142,17 @@ def validate(args, kind="answer"):
 
     check = {"answer": validator.validate, "translation": validator.validate_translation,
              "terms": validator.validate_query_terms, "specialist": validator.validate_specialist,
-             "xrefs": validator.validate_xrefs}[kind]
+             "xrefs": validator.validate_xrefs, "analysis": validator.validate_analysis}[kind]
     with open(args.path, encoding="utf-8") as f:
         try:
             data = json.load(f)
         except json.JSONDecodeError as e:
             emit({"valid": False, "errors": [{"path": "$", "code": "json", "message": str(e)}],
                   "warnings": []}, 1)
-    result = check(data, VerseStore())
+    if kind == "answer":
+        result = check(data, VerseStore(), getattr(args, "run", None))
+    else:
+        result = check(data, VerseStore())
     emit(result, 0 if result["valid"] else 1)
 
 
@@ -167,6 +176,45 @@ def pack(args):
     results.write(obj, args.out)
     emit({"out": args.out, **check, "passages" if args.pack_kind == "specialist" else "entries":
           len(obj.get("passages", obj.get("entries", [])))}, 0 if check["valid"] else 1)
+
+
+def run(args):
+    from bible_rag import runs
+
+    if args.run_cmd == "new":
+        emit(runs.new_run(args.question, args.id))
+    if not (runs.run_dir(args.id) / "trace.json").exists():
+        emit({"error": f"no run {args.id}; create it with `bible-rag run new`"}, 1)
+    if args.run_cmd == "trace":
+        emit(runs.trace(args.id, args.event, args.agent, args.group, args.detail, args.path, args.status))
+    if args.run_cmd == "confidence":
+        c = runs.confidence(args.id)
+        runs.save(c, runs.run_dir(args.id) / "confidence.json")
+        emit(c)
+    if args.run_cmd == "show":
+        print(runs.show(args.id))
+        sys.exit(0)
+    if args.run_cmd == "answer":
+        from pydantic import ValidationError
+
+        from bible_rag import validator
+        from bible_rag.schemas import SynthesisDraft
+        from bible_rag.store import VerseStore
+
+        d = runs.run_dir(args.id)
+        draft = runs.load(d / "synthesis.json")
+        try:
+            SynthesisDraft.model_validate(draft)
+        except ValidationError as e:
+            emit({"valid": False, "errors": validator._schema_errors(e), "warnings": []}, 1)
+        store = VerseStore()
+        answer = runs.pack_answer(args.id, draft, store)
+        result = validator.validate(answer, store, args.id)
+        runs.save(answer, d / "answer.json")
+        if result["valid"]:
+            (d / "answer.md").write_text(runs.render(answer), encoding="utf-8")
+        emit({"answer": str(d / "answer.json"), "markdown": str(d / "answer.md") if result["valid"] else None,
+              **result}, 0 if result["valid"] else 1)
 
 
 def serve(args):
@@ -230,8 +278,26 @@ def parser():
     c.add_argument("path")
 
     k = sub.add_parser("check", help="check a skill's or agent's JSON output")
-    k.add_argument("kind", choices=["translation", "terms", "specialist", "xrefs", "answer"])
+    k.add_argument("kind", choices=["translation", "terms", "specialist", "xrefs", "analysis", "answer"])
     k.add_argument("path")
+    k.add_argument("--run", help="answer only: also check the confidence level against this run")
+
+    r = sub.add_parser("run", help="run folders, trace, confidence and the final answer")
+    r_sub = r.add_subparsers(dest="run_cmd", required=True)
+    rn = r_sub.add_parser("new")
+    rn.add_argument("question")
+    rn.add_argument("--id", help="run id (default: timestamp + slug)")
+    rt = r_sub.add_parser("trace")
+    rt.add_argument("id")
+    rt.add_argument("event", choices=["analysis", "delegate", "result", "skill", "check", "retry",
+                                      "synthesis", "answer", "note"])
+    rt.add_argument("--agent", required=True)
+    rt.add_argument("--group", help="same value for delegations sent in parallel")
+    rt.add_argument("--detail")
+    rt.add_argument("--path")
+    rt.add_argument("--status", choices=["ok", "failed", "empty"])
+    for name in ("confidence", "show", "answer"):
+        r_sub.add_parser(name).add_argument("id")
 
     pk = sub.add_parser("pack", help="assemble an agent result from the verse store, then check it")
     pk_sub = pk.add_subparsers(dest="pack_kind", required=True)
@@ -267,6 +333,8 @@ def main(argv=None):
             return validate(args, getattr(args, "kind", "answer"))
         if args.command == "pack":
             return pack(args)
+        if args.command == "run":
+            return run(args)
         emit({"search": search, "verse": verse, "xref": xref, "terms": terms,
               "draft": draft}[args.command](args))
     except ServiceDown as e:

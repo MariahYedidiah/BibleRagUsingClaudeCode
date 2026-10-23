@@ -22,6 +22,7 @@ CORPUS_LABELS = {"oshb_wlc": "Hebrew (OSHB/WLC)", "lxx_swete": "Septuagint Greek
 CORPUS_SOURCES = {"oshb_wlc": ["oshb_wlc"], "lxx_swete": ["lxx_swete"], "sblgnt": ["sblgnt"],
                   "lxx_swete+sblgnt": ["lxx_swete", "sblgnt"]}
 _SPACES = re.compile(r"\s+")
+CANON_REF_RE = re.compile(r"^[1-4A-Z][A-Z0-9]{2}\.\d+\.\d+$")
 
 
 def same_text(a):
@@ -208,7 +209,44 @@ def validate_xrefs(data, store):
     return _result(errors, [])
 
 
-def validate(data, store):
+CITATION = re.compile(r"\[([1-4A-Z][A-Z0-9]{2}\.\d+\.\d+)\]")
+
+
+def validate_analysis(data, store):
+    """Check the leader's query analysis: real references, a complete variant set."""
+    from bible_rag.schemas import QueryAnalysis
+
+    try:
+        a = QueryAnalysis.model_validate(data)
+    except ValidationError as e:
+        return _result(_schema_errors(e), [])
+    errors, warnings = [], []
+    if len(a.variant_kinds) != len(a.queries):
+        errors.append({"path": "variant_kinds", "code": "variants",
+                       "message": "one kind per query variant"})
+    if a.variant_kinds[0] != "original" or a.queries[0].strip() != a.question.strip():
+        errors.append({"path": "queries[0]", "code": "variants",
+                       "message": "the first variant is the original question, unchanged"})
+    if a.polarity == "polarized" and not {"neutral", "contrasting"} <= set(a.variant_kinds):
+        errors.append({"path": "variant_kinds", "code": "polarized",
+                       "message": "a polarized question needs neutral and contrasting variants"})
+    if set(a.variant_kinds) == {"original", "antonym"}:
+        errors.append({"path": "variant_kinds", "code": "antonym_only",
+                       "message": "a literal antonym can't be the only reformulation"})
+    for i, ref in enumerate(a.explicit_refs):
+        if not CANON_REF_RE.match(ref) or not store.con.execute(
+                "SELECT 1 FROM verses WHERE canon_ref = ?", (ref,)).fetchone():
+            errors.append({"path": f"explicit_refs[{i}]", "code": "unknown_reference",
+                           "message": f"{ref} is not a canon_ref in the verse store"})
+    if "NT_OT" in a.workflows and "NT" not in a.workflows:
+        errors.append({"path": "workflows", "code": "workflows", "message": "NT_OT needs NT"})
+    if a.testament == "unknown":
+        warnings.append({"path": "testament", "code": "unknown",
+                         "message": "testament unknown: run both workflows"})
+    return _result(errors, warnings)
+
+
+def validate(data, store, run_id=None):
     """{"valid", "errors", "warnings"}; each issue has a JSON path, a code and a message."""
     errors, warnings = [], []
 
@@ -285,6 +323,16 @@ def validate(data, store):
             elif hit[0] < XREF_MIN_VOTES:
                 error(path, "weak_cross_ref", f"{hit[0]} votes < {XREF_MIN_VOTES}; not 'verified'")
 
-    if answer.confidence.level == "insufficient" and answer.passages and not answer.clarifying_question:
+    shown = {p.canon_ref for p in answer.passages}
+    for ref in sorted(set(CITATION.findall(answer.answer)) - shown):
+        error("answer", "uncited_reference", f"the answer cites [{ref}], which is not a shown passage")
+    if run_id:
+        from bible_rag.runs import confidence
+
+        computed = confidence(run_id)["level"]
+        if answer.confidence.level != computed:
+            error("confidence.level", "confidence",
+                  f"computed level is {computed!r}; an answer can't overrule it")
+    if answer.confidence.level == "insufficient" and not answer.clarifying_question:
         warn("confidence", "insufficient", "insufficient evidence but no clarifying question")
     return {"valid": not errors, "errors": errors, "warnings": warnings}

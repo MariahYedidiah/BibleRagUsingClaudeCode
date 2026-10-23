@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **bible-rag** is a retrieval-augmented generation (RAG) system over the Bible in Hebrew, Greek and English. The goal: embed verses, retrieve the relevant ones for a question, and answer with an LLM grounded in those verses.
 
-**Status:** phases 1–5 are done (retrieval, validator, verse alignment + cross-references, translation skills, specialist agents); next are the leader and synthesis agents (phase 6). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; the skills, validator and specialist agents exist; the leader and synthesis agents don't yet.
+**Status:** phases 1–6 are done (retrieval, validator, verse alignment + cross-references, translation skills, specialist agents, leader + synthesis); next is the golden-query evaluation (phase 7). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; all agents, skills and checks exist. Run it with `claude --agent leader-agent` or `/bible-ask "<question>" [--demo]`.
 
 ## Environment
 
@@ -115,6 +115,14 @@ Five subagents in `.claude/agents/`. Each judges relevance; deterministic comman
 - Cross-reference agent: `bible-rag xref` → optional `xref_adjust.json` (downgrades with notes only) → `bible-rag pack xrefs ... --out runs/<id>/cross-reference-agent.json` (`check xrefs`: every link in the dataset, votes exact, no upgrades, `verified_targets` = verified links).
 - `.claude/settings.json` allows `Bash(uv run bible-rag *)` and edits under `runs/**`, so agents run without permission prompts.
 - New agent files weren't picked up by the session that created them; start a new Claude Code session to load them.
+
+## Orchestration (phase 6)
+
+- **Entry points:** `claude --agent leader-agent` (the leader is the main thread; `tools: Agent(...)` limits it to the six team agents) or `/bible-ask "<question>" [--demo]` (an ordinary session follows `.claude/agents/leader-agent.md`). Start `uv run bible-rag serve` first for vector search; without it everything runs lexical-only.
+- **Leader workflow:** `run new` → `analysis.json` (`QueryAnalysis`, `check analysis`: original question first, polarized questions need neutral + contrasting variants, an antonym is never the only variant, explicit refs must exist) → parallel retrieval delegations (trace group `r1`) → for `NT_OT`: cross-reference agent, then parallel OT specialists on `verified_targets` with `run_id <id>/xref` → `run confidence` (one retry under `<id>/r2` if low/insufficient) → synthesis-agent → `check answer --run` → show `answer.md`.
+- **Confidence** (`runs.confidence`): insufficient = nothing kept; high = ≥2 refs kept in ≥2 languages and ≥1 passage found by both vector and lexical; medium = ≥1 cross-lingual ref or ≥2 both-method passages; low otherwise. Provisional until phase 7 calibration; the answer can't override it (`check answer --run`).
+- **Synthesis** writes only `synthesis.json` (prose with `[CANON_REF]` citations + passage picks with notes). `bible-rag run answer <id>` assembles `answer.json` from the specialist results (texts from the store, machine translations, `missing` entries for corpora that weren't retrieved, cross-refs, `referenced_by`), validates it (citations must be shown passages, confidence must match) and renders `answer.md` in the spec's order: OT = WEB, Hebrew, Hebrew→English, LXX, LXX→English; NT = SBLGNT, Greek→English, WEB, then verified OT references under the NT passage.
+- **Demo mode:** `trace.json` records every delegation with its parallel group; `uv run bible-rag run show <id>` prints it.
 
 ## Known data issues
 

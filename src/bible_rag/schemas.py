@@ -71,6 +71,8 @@ class Passage(Strict):
     texts: list[TextEntry] = Field(min_length=1)
     retrieval: dict | None = None  # ranks, scores and which query/method found it
     cross_refs: list[CrossRef] = []
+    referenced_by: list[str] = []  # NT canon_refs whose verified cross-reference points here
+    note: str | None = None        # why the synthesis shows this passage
     missing: list[Missing] = []
 
 
@@ -206,9 +208,47 @@ class CrossRefResult(Strict):
     notes: list[str] = []
 
 
+VariantKind = Literal["original", "neutral", "contrasting", "antonym", "expanded"]
+
+
+class QueryAnalysis(Strict):
+    """The leader's analysis of the question (runs/<id>/analysis.json)."""
+    run_id: str
+    question: str
+    understanding: str            # the question restated in one or two sentences
+    intent: Literal["explain", "find_passages", "compare_texts", "word_study",
+                    "reference_lookup", "other"]
+    topics: list[str] = Field(min_length=1)
+    sentiment: Literal["positive", "neutral", "negative", "mixed"]
+    polarity: Literal["neutral", "polarized"]
+    polarity_note: str = ""
+    explicit_refs: list[str] = []  # canon_refs named in the question
+    testament: Literal["OT", "NT", "both", "unknown"]
+    workflows: list[Literal["OT", "NT", "NT_OT"]] = Field(min_length=1)
+    queries: list[str] = Field(min_length=1)     # retrieval variants, the original first
+    variant_kinds: list[VariantKind] = Field(min_length=1)
+    filters: dict = {}
+    notes: list[str] = []
+
+
+class SynthesisPick(Strict):
+    canon_ref: str = Field(pattern=CANON_REF)
+    note: str = Field(min_length=1)  # why this passage is shown
+
+
+class SynthesisDraft(Strict):
+    """What the synthesis agent writes (runs/<id>/synthesis.json); `pack answer` does the rest."""
+    run_id: str
+    answer: str = Field(min_length=1)  # markdown; cite passages as [PSA.103.8]
+    passages: list[SynthesisPick]
+    clarifying_question: str | None = None
+    notes: list[str] = []
+
+
 class Answer(Strict):
     question: str
     answer: str                   # markdown shown to the user
     passages: list[Passage]
     confidence: Confidence
     clarifying_question: str | None = None
+    run_id: str | None = None
