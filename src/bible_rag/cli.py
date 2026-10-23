@@ -5,8 +5,10 @@
     bible-rag search "q" ["variant" ...] [options]   hybrid search (needs the service)
     bible-rag search "q" --mode lexical              BM25 only, works without the service
     bible-rag verse JHN.3.16 [--source sblgnt,web]   exact lookup, works without the service
+    bible-rag validate runs/<id>/answer.json         anti-fabrication check, works without the service
 
 Errors print {"error": ...} and exit non-zero: 1 for a bad request, 2 if the service is down.
+`validate` exits 1 when the answer is invalid.
 """
 
 import argparse
@@ -75,6 +77,20 @@ def verse(args):
     return {"canon_ref": ref, "verses": rows}
 
 
+def validate(args):
+    from bible_rag.store import VerseStore
+    from bible_rag.validator import validate as check
+
+    with open(args.path, encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError as e:
+            emit({"valid": False, "errors": [{"path": "$", "code": "json", "message": str(e)}],
+                  "warnings": []}, 1)
+    result = check(data, VerseStore())
+    emit(result, 0 if result["valid"] else 1)
+
+
 def serve(args):
     import uvicorn
 
@@ -114,6 +130,9 @@ def parser():
     v.add_argument("ref", help="e.g. JHN.3.16")
     v.add_argument("--source", help="comma-separated sources")
     v.add_argument("--context", type=int, default=0)
+
+    c = sub.add_parser("validate", help="check an answer.json against the verse store")
+    c.add_argument("path")
     return p
 
 
@@ -125,6 +144,8 @@ def main(argv=None):
             return serve(args)
         if args.command == "health":
             emit(call(args.port, "/health"))
+        if args.command == "validate":
+            return validate(args)
         emit(search(args) if args.command == "search" else verse(args))
     except ServiceDown as e:
         emit({"error": str(e)}, 2)

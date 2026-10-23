@@ -48,7 +48,6 @@ chromadb
 sentence-transformers 
 pyarrow 
 pandas
-argostranslate
 transformers 
 torch
 sentencepiece

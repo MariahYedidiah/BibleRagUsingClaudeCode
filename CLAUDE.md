@@ -37,6 +37,13 @@ uv run bible-rag verse JHN.3.16 --source sblgnt,web --context 2                 
 - **Service** (`server.py`, FastAPI): agents must go through it for vector search so only one model copy is loaded. Lexical search and `verse` lookups read SQLite directly. The CLI exits 2 with a start-the-service message if it is down, 1 on bad input.
 - Shared paths and model settings live in `src/bible_rag/config.py`; `scripts/build_index.py` imports them.
 
+## Validation (phase 2)
+
+- `schemas.py` (pydantic, `extra="forbid"`): `Answer` → `Passage` → `TextEntry` / `CrossRef`. A `TextEntry` is `original` or `established_translation` (must cite `verse_uid`) or `machine_translation` (must have `translator` and `translates`, never a `verse_uid`). A `verified` cross-reference must name its dataset. Missing data goes in `missing` with a reason.
+- `validator.py` / `uv run bible-rag validate answer.json`: every quoted text must equal the stored verse (NFC + whitespace-insensitive; `excerpt: true` allows a contiguous part), source/language labels must match the store, references must exist, a `mapped` passage can't quote a verse with another `canon_ref`, machine translations must translate a verse quoted in the same passage, and `verified` cross-references must be in the `cross_refs` table with ≥ `XREF_MIN_VOTES`. Until that table exists (phase 3), any `verified` cross-reference fails.
+- Exit 0 = valid, 1 = invalid. Errors fail the answer; warnings (display_ref mismatch, unaligned partial passage) don't.
+- `uv run pytest` would also run `tests/test_vector_store.py`, which loads bge-m3. While another process holds the model, use `--ignore=tests/test_vector_store.py`.
+
 Embedding all ~91k verses takes ~5-6 h on this CPU. It is resumable: cached shards in `data/processed/embeddings/` are reused. The model loads in bfloat16 because fp32 (~4 GB) swapped on this 16 GB machine, and `HF_HOME` points at `.cache/huggingface` to keep the 2.3 GB model off C:. No linter is configured.
 
 ## Data layout
