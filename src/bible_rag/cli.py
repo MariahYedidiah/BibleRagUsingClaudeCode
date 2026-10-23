@@ -135,7 +135,8 @@ def validate(args, kind="answer"):
     from bible_rag.store import VerseStore
 
     check = {"answer": validator.validate, "translation": validator.validate_translation,
-             "terms": validator.validate_query_terms}[kind]
+             "terms": validator.validate_query_terms, "specialist": validator.validate_specialist,
+             "xrefs": validator.validate_xrefs}[kind]
     with open(args.path, encoding="utf-8") as f:
         try:
             data = json.load(f)
@@ -144,6 +145,28 @@ def validate(args, kind="answer"):
                   "warnings": []}, 1)
     result = check(data, VerseStore())
     emit(result, 0 if result["valid"] else 1)
+
+
+def pack(args):
+    """Build the agent result, write it, then check it (exit 1 if the check fails)."""
+    from bible_rag import results, validator
+    from bible_rag.schemas import SPECIALIST_CORPUS
+    from bible_rag.store import VerseStore
+
+    store = VerseStore()
+    if args.pack_kind == "specialist":
+        obj = results.pack_specialist(
+            args.agent, args.run, SPECIALIST_CORPUS[args.agent], args.search,
+            results.load_json(args.selection), store, args.translations, args.context)
+        check = validator.validate_specialist(obj, store)
+    else:
+        adjust = results.load_json(args.adjust) if args.adjust else None
+        obj = results.pack_xrefs(args.run, args.refs, store, args.testament, args.min_votes,
+                                 args.limit, adjust)
+        check = validator.validate_xrefs(obj, store)
+    results.write(obj, args.out)
+    emit({"out": args.out, **check, "passages" if args.pack_kind == "specialist" else "entries":
+          len(obj.get("passages", obj.get("entries", [])))}, 0 if check["valid"] else 1)
 
 
 def serve(args):
@@ -206,9 +229,29 @@ def parser():
     c = sub.add_parser("validate", help="check an answer.json against the verse store")
     c.add_argument("path")
 
-    k = sub.add_parser("check", help="check a translation skill's JSON output")
-    k.add_argument("kind", choices=["translation", "terms", "answer"])
+    k = sub.add_parser("check", help="check a skill's or agent's JSON output")
+    k.add_argument("kind", choices=["translation", "terms", "specialist", "xrefs", "answer"])
     k.add_argument("path")
+
+    pk = sub.add_parser("pack", help="assemble an agent result from the verse store, then check it")
+    pk_sub = pk.add_subparsers(dest="pack_kind", required=True)
+    ps = pk_sub.add_parser("specialist")
+    ps.add_argument("--agent", required=True, choices=["english-retrieval-agent", "hebrew-specialist-agent",
+                                                       "septuagint-specialist-agent", "greek-new-testament-agent"])
+    ps.add_argument("--run", required=True, help="run id (folder under runs/)")
+    ps.add_argument("--search", action="append", default=[], help="saved `bible-rag search` output (repeatable)")
+    ps.add_argument("--selection", required=True, help="keep/discard JSON written by the agent")
+    ps.add_argument("--translations", help="translation skill output for the kept verses")
+    ps.add_argument("--context", type=int, default=0)
+    ps.add_argument("--out", required=True)
+    px = pk_sub.add_parser("xrefs")
+    px.add_argument("refs", nargs="+", help="NT canon_refs to look up")
+    px.add_argument("--run", required=True)
+    px.add_argument("--testament", default="OT", choices=["OT", "NT", "DC"])
+    px.add_argument("--min-votes", type=int)
+    px.add_argument("--limit", type=int, default=20)
+    px.add_argument("--adjust", help="JSON with downgrades and notes written by the agent")
+    px.add_argument("--out", required=True)
     return p
 
 
@@ -222,6 +265,8 @@ def main(argv=None):
             emit(call(args.port, "/health"))
         if args.command in ("validate", "check"):
             return validate(args, getattr(args, "kind", "answer"))
+        if args.command == "pack":
+            return pack(args)
         emit({"search": search, "verse": verse, "xref": xref, "terms": terms,
               "draft": draft}[args.command](args))
     except ServiceDown as e:

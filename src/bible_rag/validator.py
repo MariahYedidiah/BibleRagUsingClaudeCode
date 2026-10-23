@@ -14,7 +14,8 @@ from pydantic import ValidationError
 
 from bible_rag.books import BOOK_NAMES
 from bible_rag.crossrefs import VERIFIED_MIN_VOTES as XREF_MIN_VOTES
-from bible_rag.schemas import Answer, PassageTranslation, QueryTerms, SkillError
+from bible_rag.schemas import (SPECIALIST_CORPUS, Answer, CrossRefResult, PassageTranslation,
+                               QueryTerms, SkillError, SpecialistResult)
 
 CORPUS_LABELS = {"oshb_wlc": "Hebrew (OSHB/WLC)", "lxx_swete": "Septuagint Greek (Swete LXX)",
                  "sblgnt": "New Testament Greek (SBLGNT)"}
@@ -120,6 +121,91 @@ def validate_query_terms(data, store):
         errors.append({"path": "language", "code": "wrong_language",
                        "message": f"{q.corpus} is {expected}"})
     return _result(errors, warnings)
+
+
+def validate_specialist(data, store):
+    """Check a specialist result: verbatim texts, its own corpus only, valid translations."""
+    try:
+        r = SpecialistResult.model_validate(data)
+    except ValidationError as e:
+        return _result(_schema_errors(e), [])
+    errors, warnings = [], []
+    if SPECIALIST_CORPUS[r.agent] != r.corpus:
+        errors.append({"path": "corpus", "code": "wrong_corpus",
+                       "message": f"{r.agent} searches {SPECIALIST_CORPUS[r.agent]}, not {r.corpus}"})
+    rows = store.get([p.verse_uid for p in r.passages])
+    for i, p in enumerate(r.passages):
+        at = f"passages[{i}]"
+        row = rows.get(p.verse_uid)
+        if row is None:
+            errors.append({"path": at, "code": "unknown_verse", "message": f"{p.verse_uid} not in store"})
+            continue
+        if p.rank != i + 1:
+            errors.append({"path": f"{at}.rank", "code": "rank", "message": f"expected {i + 1}"})
+        if row["source"] != r.corpus:
+            errors.append({"path": at, "code": "wrong_corpus",
+                           "message": f"{p.verse_uid} is {row['source']}, outside {r.corpus}"})
+        for field in ("canon_ref", "source", "alignment", "edition"):
+            if getattr(p, field) != row[field]:
+                errors.append({"path": f"{at}.{field}", "code": f"wrong_{field}",
+                               "message": f"store has {row[field]!r}"})
+        if same_text(p.text) != same_text(row["text_display"]):
+            errors.append({"path": f"{at}.text", "code": "text_mismatch",
+                           "message": "text must be verbatim from the verse store"})
+        if p.translation is not None:
+            if p.translation.verse_uid != p.verse_uid:
+                errors.append({"path": f"{at}.translation", "code": "orphan_translation",
+                               "message": f"translates {p.translation.verse_uid}"})
+            sub = validate_translation(p.translation.model_dump(), store)
+            errors += [{**e, "path": f"{at}.translation.{e['path']}"} for e in sub["errors"]]
+            warnings += [{**w, "path": f"{at}.translation.{w['path']}"} for w in sub["warnings"]]
+        elif r.corpus != "web":
+            warnings.append({"path": at, "code": "untranslated",
+                             "message": f"{p.verse_uid} has no machine translation"})
+    if not r.passages and not r.missing:
+        warnings.append({"path": "passages", "code": "empty",
+                         "message": "no passages kept; say why in `missing`"})
+    if r.service == "down":
+        warnings.append({"path": "service", "code": "lexical_only",
+                         "message": "vector search was unavailable; results are lexical only"})
+    return _result(errors, warnings)
+
+
+def validate_xrefs(data, store):
+    """Check a cross-reference result: every link exists, relations are never upgraded."""
+    from bible_rag.crossrefs import relation as relation_for_votes
+    from bible_rag.results import RELATION_ORDER
+
+    try:
+        r = CrossRefResult.model_validate(data)
+    except ValidationError as e:
+        return _result(_schema_errors(e), [])
+    errors, verified = [], []
+    for i, entry in enumerate(r.entries):
+        for j, link in enumerate(entry.links):
+            at = f"entries[{i}].links[{j}]"
+            row = store.con.execute(
+                "SELECT max(votes) FROM cross_refs WHERE from_canon_ref = ? AND to_canon_ref = ? "
+                "AND dataset = ?", (entry.from_ref, link.to, link.dataset)).fetchone()
+            if row[0] is None:
+                errors.append({"path": at, "code": "unknown_cross_ref",
+                               "message": f"{entry.from_ref} -> {link.to} is not in {link.dataset}"})
+                continue
+            if link.votes != row[0]:
+                errors.append({"path": f"{at}.votes", "code": "votes", "message": f"dataset has {row[0]}"})
+            allowed = relation_for_votes(row[0])
+            if RELATION_ORDER[link.relation] > RELATION_ORDER[allowed]:
+                errors.append({"path": f"{at}.relation", "code": "upgraded",
+                               "message": f"{row[0]} votes allow at most {allowed!r}"})
+            if link.relation != allowed and not link.note:
+                errors.append({"path": f"{at}.note", "code": "unexplained_downgrade",
+                               "message": "a downgraded relation needs a note"})
+            if link.relation == "verified" and link.to not in verified:
+                verified.append(link.to)
+    if r.verified_targets != verified:
+        errors.append({"path": "verified_targets", "code": "verified_targets",
+                       "message": f"should be {verified}"})
+    return _result(errors, [])
 
 
 def validate(data, store):

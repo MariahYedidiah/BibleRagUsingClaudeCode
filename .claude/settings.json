@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run bible-rag *)",
+      "Write(runs/**)",
+      "Edit(runs/**)",
+      "Read(runs/**)",
+      "Skill(english-to-hebrew)",
+      "Skill(hebrew-to-english)",
+      "Skill(english-to-greek)",
+      "Skill(greek-to-english)"
+    ]
+  }
+}

@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **bible-rag** is a retrieval-augmented generation (RAG) system over the Bible in Hebrew, Greek and English. The goal: embed verses, retrieve the relevant ones for a question, and answer with an LLM grounded in those verses.
 
-**Status:** phases 1–4 are done (retrieval, validator, verse alignment + cross-references, translation skills); next are the specialist agents (phase 5). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; agents, skills and the validator don't exist yet.
+**Status:** phases 1–5 are done (retrieval, validator, verse alignment + cross-references, translation skills, specialist agents); next are the leader and synthesis agents (phase 6). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; the skills, validator and specialist agents exist; the leader and synthesis agents don't yet.
 
 ## Environment
 
@@ -98,6 +98,23 @@ Four skills in `.claude/skills/`, each with its own instructions, JSON output an
 - `check translation` verifies: original equals the stored verse, source/label/canon_ref match, `method: machine`, `translator: claude:<model>`, translation differs from the original, and warns if a non-`mapped` alignment isn't mentioned in `uncertainties`. It accepts a list; `_`-prefixed draft helper fields (`_web_text`, `_edition`) are ignored.
 - Hebrew index forms keep prefixes/suffixes attached and drop points (`וְ/יָפֶת` → `ויפת`), so query skills must produce inflected surface forms; unpointed forms can be homographs (`בצרה` = "in distress" or Bozrah).
 - Skill outputs go under `runs/` (git-ignored).
+
+## Specialist agents (phase 5)
+
+Five subagents in `.claude/agents/`. Each judges relevance; deterministic commands do everything that must be exact, so no agent ever types scripture.
+
+| Agent | Corpus | Model | Preloaded skills |
+|---|---|---|---|
+| `english-retrieval-agent` | `web` | haiku | none |
+| `hebrew-specialist-agent` | `oshb_wlc` | sonnet | english-to-hebrew, hebrew-to-english |
+| `septuagint-specialist-agent` | `lxx_swete` | sonnet | english-to-greek, greek-to-english |
+| `greek-new-testament-agent` | `sblgnt` | sonnet | english-to-greek, greek-to-english |
+| `cross-reference-agent` | `cross_refs` | sonnet | none |
+
+- Retrieval specialists: `bible-rag health` → (query skill for lexical terms) → `bible-rag search ... > runs/<id>/<x>_search.json` (`--mode lexical` without English queries when the service is down) → judge relevance → translate kept verses (`draft` + skill + `check translation`) → selection file (`keep` with `relevance`, `discard` with `reason`, `notes`, `missing`, no scripture) → `bible-rag pack specialist ... --out runs/<id>/<agent>.json`, which copies texts from the store and runs `check specialist`. They reply with only the path and a two-line summary.
+- Cross-reference agent: `bible-rag xref` → optional `xref_adjust.json` (downgrades with notes only) → `bible-rag pack xrefs ... --out runs/<id>/cross-reference-agent.json` (`check xrefs`: every link in the dataset, votes exact, no upgrades, `verified_targets` = verified links).
+- `.claude/settings.json` allows `Bash(uv run bible-rag *)` and edits under `runs/**`, so agents run without permission prompts.
+- New agent files weren't picked up by the session that created them; start a new Claude Code session to load them.
 
 ## Known data issues
 

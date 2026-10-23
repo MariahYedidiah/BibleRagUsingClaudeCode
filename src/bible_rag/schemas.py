@@ -123,6 +123,89 @@ class SkillError(Strict):
     input: str
 
 
+SPECIALIST_CORPUS = {
+    "english-retrieval-agent": "web",
+    "hebrew-specialist-agent": "oshb_wlc",
+    "septuagint-specialist-agent": "lxx_swete",
+    "greek-new-testament-agent": "sblgnt",
+}
+
+
+class Hit(Strict):
+    query: str
+    method: Literal["vector", "lexical"]
+    rank: int
+    score: float
+
+
+class ContextVerse(Strict):
+    verse_uid: str
+    verse: int
+    text_display: str
+
+
+class SpecialistPassage(Strict):
+    rank: int = Field(ge=1)
+    canon_ref: str = Field(pattern=CANON_REF)
+    verse_uid: str
+    source: Source
+    language: Literal["he", "grc", "en"]
+    testament: Literal["OT", "NT", "DC"]
+    edition: str = ""
+    alignment: Literal["mapped", "partial", "unmapped"]
+    text: str                      # verbatim from the verse store (filled by `bible-rag pack`)
+    found_by: list[Literal["vector", "lexical", "reference"]]
+    hits: list[Hit] = []
+    rrf: float | None = None
+    relevance: str = Field(min_length=1)  # the agent's reason for keeping it
+    context: list[ContextVerse] = []
+    translation: PassageTranslation | None = None
+
+
+class Discarded(Strict):
+    verse_uid: str
+    reason: str
+
+
+class SpecialistResult(Strict):
+    """What a retrieval specialist hands to the leader. Built by `bible-rag pack specialist`."""
+    agent: Literal["english-retrieval-agent", "hebrew-specialist-agent",
+                   "septuagint-specialist-agent", "greek-new-testament-agent"]
+    run_id: str
+    corpus: Literal["web", "oshb_wlc", "lxx_swete", "sblgnt"]
+    queries: list[str] = []
+    lexical_queries: list[str] = []
+    service: Literal["up", "down"]  # was vector search available?
+    signals: list[dict] = []        # raw retrieval signals, one per search
+    passages: list[SpecialistPassage]
+    discarded: list[Discarded] = []
+    missing: list[Missing] = []
+    notes: list[str] = []
+
+
+class XrefLink(Strict):
+    to: str = Field(pattern=CANON_REF)
+    votes: int
+    relation: Literal["verified", "possible_allusion", "thematic"]
+    dataset: str
+    to_range: str | None = None
+    note: str | None = None
+
+
+class XrefEntry(Strict):
+    from_ref: str = Field(pattern=CANON_REF)
+    links: list[XrefLink]
+
+
+class CrossRefResult(Strict):
+    """What the cross-reference agent hands to the leader. Built by `bible-rag pack xrefs`."""
+    agent: Literal["cross-reference-agent"] = "cross-reference-agent"
+    run_id: str
+    entries: list[XrefEntry]
+    verified_targets: list[str]     # OT canon_refs to run the full OT workflow on
+    notes: list[str] = []
+
+
 class Answer(Strict):
     question: str
     answer: str                   # markdown shown to the user
