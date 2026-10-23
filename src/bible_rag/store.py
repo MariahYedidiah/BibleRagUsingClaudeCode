@@ -104,6 +104,18 @@ class VerseStore:
                   row["verse"] - before, row["verse"] + after)
         return [dict(r) for r in self.con.execute(sql, params)]
 
+    def term_counts(self, terms, sources):
+        """{term: number of verses in `sources` containing it as a whole word (folded)}."""
+        out = {}
+        marks = ", ".join("?" * len(sources))
+        for term in terms:
+            match = match_expression(term, phrase=True)
+            out[term] = 0 if match is None else self.con.execute(
+                "SELECT count(*) FROM verses_fts JOIN verses v ON v.id = verses_fts.rowid "
+                f"WHERE verses_fts MATCH ? AND v.source IN ({marks})",
+                [match] + list(sources)).fetchone()[0]
+        return out
+
     def cross_refs(self, canon_ref, min_votes=None, testament=None, limit=50):
         """Links from one verse, strongest first, each labeled with its relation class."""
         from bible_rag.books import testament as testament_of

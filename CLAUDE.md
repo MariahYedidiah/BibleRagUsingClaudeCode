@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **bible-rag** is a retrieval-augmented generation (RAG) system over the Bible in Hebrew, Greek and English. The goal: embed verses, retrieve the relevant ones for a question, and answer with an LLM grounded in those verses.
 
-**Status:** data ingestion, indexing and hybrid retrieval (phase 1) are done. `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; agents, skills and the validator don't exist yet.
+**Status:** phases 1–4 are done (retrieval, validator, verse alignment + cross-references, translation skills); next are the specialist agents (phase 5). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; agents, skills and the validator don't exist yet.
 
 ## Environment
 
@@ -83,6 +83,21 @@ Licenses, download URLs and the purpose of every dataset (including the OpenBibl
 - **SBLGNT:** 9 verses differ from KJV numbering (`SBLGNT_MAP`). WEB follows KJV.
 - Result: lxx 28,713 mapped / 358 partial / 5 unmapped; oshb 23,209 / 1 / 3; sblgnt 7,921 / 6 / 0. No two `mapped` verses of one source share a `canon_ref`; ~99% of LXX and Hebrew OT references exist in WEB.
 - **Cross-references** (`crossrefs.py`, `cross_refs` table): OpenBible.info, ranges within a chapter expanded per verse. Relation by votes: `verified` ≥ 25, `possible_allusion` ≥ 5, else `thematic` (calibrated on 12 known NT quotations, all ≥ 32). `uv run bible-rag xref MRK.1.3 --testament OT`.
+
+## Translation skills (phase 4)
+
+Four skills in `.claude/skills/`, each with its own instructions, JSON output and error objects (`{"error", "message", "input"}`). Outputs are machine translations or search terms; they are never shown as scripture.
+
+| Skill | Input → output | Deterministic support |
+|---|---|---|
+| `hebrew-to-english` | oshb_wlc verses → `PassageTranslation` | `bible-rag draft translation REF --source oshb_wlc` copies the original verbatim; `bible-rag check translation FILE` |
+| `greek-to-english` | lxx_swete or sblgnt verses → `PassageTranslation`, labeled "Septuagint Greek (Swete LXX)" or "New Testament Greek (SBLGNT)" | same, `--source lxx_swete|sblgnt`, `--edition og|th` for LXX Daniel/Susanna/Bel |
+| `english-to-hebrew` | English query → `QueryTerms` for BM25 over oshb_wlc | `bible-rag terms --corpus oshb_wlc ...` (whole-word verse counts); `bible-rag check terms FILE` rejects terms with 0 hits |
+| `english-to-greek` | English query → `QueryTerms` for lxx_swete / sblgnt | same, `--corpus lxx_swete|sblgnt|lxx_swete+sblgnt` |
+
+- `check translation` verifies: original equals the stored verse, source/label/canon_ref match, `method: machine`, `translator: claude:<model>`, translation differs from the original, and warns if a non-`mapped` alignment isn't mentioned in `uncertainties`. It accepts a list; `_`-prefixed draft helper fields (`_web_text`, `_edition`) are ignored.
+- Hebrew index forms keep prefixes/suffixes attached and drop points (`וְ/יָפֶת` → `ויפת`), so query skills must produce inflected surface forms; unpointed forms can be homographs (`בצרה` = "in distress" or Bozrah).
+- Skill outputs go under `runs/` (git-ignored).
 
 ## Known data issues
 

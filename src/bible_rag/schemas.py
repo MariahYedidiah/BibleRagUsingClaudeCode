@@ -80,6 +80,49 @@ class Confidence(Strict):
     signals: dict = {}
 
 
+class PassageTranslation(Strict):
+    """Output of the hebrew-to-english and greek-to-english skills."""
+    canon_ref: str = Field(pattern=CANON_REF)
+    verse_uid: str
+    source: Literal["oshb_wlc", "lxx_swete", "sblgnt"]
+    corpus_label: Literal["Hebrew (OSHB/WLC)", "Septuagint Greek (Swete LXX)",
+                          "New Testament Greek (SBLGNT)"]
+    original: str                  # copied verbatim from `bible-rag verse`
+    translation: str = Field(min_length=1)
+    method: Literal["machine"] = "machine"
+    translator: str = Field(pattern=r"^claude:\S+$")
+    literal_notes: list[str] = []  # word-level renderings worth showing
+    uncertainties: list[str] = []  # variants, idioms, ambiguous grammar
+    web_reference: str | None = None  # verse_uid of the WEB verse shown for comparison
+    differences_from_web: list[str] = []
+
+
+class QueryTerm(Strict):
+    term: str = Field(min_length=1)  # surface form as it appears in the corpus
+    gloss: str
+    hits: int = Field(ge=0)          # verses containing it, from `bible-rag terms`
+
+
+class QueryTerms(Strict):
+    """Output of the english-to-hebrew and english-to-greek skills: search terms, never scripture."""
+    query: str
+    language: Literal["he", "grc"]
+    corpus: Literal["oshb_wlc", "lxx_swete", "sblgnt", "lxx_swete+sblgnt"]
+    terms: list[QueryTerm] = Field(min_length=1)
+    lexical_queries: list[str] = Field(min_length=1)  # pass to `bible-rag search --lexical`
+    method: Literal["machine"] = "machine"
+    translator: str = Field(pattern=r"^claude:\S+$")
+    display: Literal[False] = False  # these terms are never shown as scripture
+    notes: list[str] = []
+
+
+class SkillError(Strict):
+    error: Literal["empty_input", "unknown_reference", "wrong_language", "no_terms_found",
+                   "check_failed"]
+    message: str
+    input: str
+
+
 class Answer(Strict):
     question: str
     answer: str                   # markdown shown to the user

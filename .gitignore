@@ -22,3 +22,6 @@ data/
 # Claude Code: personal permissions and temporary worktrees
 .claude/settings.local.json
 .claude/worktrees/
+
+# Agent and skill run outputs (example runs are committed explicitly later)
+runs/

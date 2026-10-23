@@ -6,7 +6,10 @@
     bible-rag search "q" --mode lexical              BM25 only, works without the service
     bible-rag verse JHN.3.16 [--source sblgnt,web]   exact lookup, works without the service
     bible-rag xref MRK.1.3 [--testament OT]          cross-references with relation class, no service
+    bible-rag terms --corpus oshb_wlc חסד רחמים      how many verses contain each term, no service
+    bible-rag draft translation ISA.7.14 --source oshb_wlc   skeleton with the original verbatim
     bible-rag validate runs/<id>/answer.json         anti-fabrication check, works without the service
+    bible-rag check translation|terms FILE.json      check a translation skill's output
 
 Errors print {"error": ...} and exit non-zero: 1 for a bad request, 2 if the service is down.
 `validate` exits 1 when the answer is invalid.
@@ -89,10 +92,50 @@ def xref(args):
             "links": links}
 
 
-def validate(args):
+def draft(args):
+    """Translation skeletons with the original copied verbatim, for a skill to fill in."""
     from bible_rag.store import VerseStore
-    from bible_rag.validator import validate as check
+    from bible_rag.validator import CORPUS_LABELS
 
+    store, items = VerseStore(), []
+    for ref in args.refs:
+        rows = (list(store.get([ref]).values()) if ":" in ref
+                else store.by_ref(ref.upper(), {"source": args.source}))
+        rows = [r for r in rows if r["source"] == args.source and (not args.edition or r["edition"] == args.edition)]
+        if not rows:
+            items.append({"error": "unknown_reference", "input": ref,
+                          "message": f"{ref} is not in {args.source}"})
+            continue
+        for row in rows:
+            web = store.by_ref(row["canon_ref"], {"source": "web"})
+            items.append({
+                "canon_ref": row["canon_ref"], "verse_uid": row["verse_uid"], "source": row["source"],
+                "corpus_label": CORPUS_LABELS[row["source"]], "original": row["text_display"],
+                "translation": "", "method": "machine", "translator": "claude:",
+                "literal_notes": [], "uncertainties": [] if row["alignment"] == "mapped" else
+                [f"verse numbering alignment is {row['alignment']}"],
+                "web_reference": web[0]["verse_uid"] if web else None, "differences_from_web": [],
+                "_web_text": web[0]["text_display"] if web else None,  # remove before checking
+                "_edition": row["edition"] or None,
+            })
+    return items if len(items) != 1 else items[0]
+
+
+def terms(args):
+    from bible_rag.store import VerseStore
+    from bible_rag.validator import CORPUS_SOURCES
+
+    counts = VerseStore().term_counts(args.terms, CORPUS_SOURCES[args.corpus])
+    return {"corpus": args.corpus, "counts": counts,
+            "missing": [t for t, n in counts.items() if n == 0]}
+
+
+def validate(args, kind="answer"):
+    from bible_rag import validator
+    from bible_rag.store import VerseStore
+
+    check = {"answer": validator.validate, "translation": validator.validate_translation,
+             "terms": validator.validate_query_terms}[kind]
     with open(args.path, encoding="utf-8") as f:
         try:
             data = json.load(f)
@@ -149,8 +192,23 @@ def parser():
     x.add_argument("--min-votes", type=int, help="default: the possible-allusion threshold")
     x.add_argument("--limit", type=int, default=20)
 
+    d = sub.add_parser("draft", help="translation skeleton with the original copied verbatim")
+    d.add_argument("kind", choices=["translation"])
+    d.add_argument("refs", nargs="+", help="canon_refs (PSA.23.1) or verse_uids")
+    d.add_argument("--source", required=True, choices=["oshb_wlc", "lxx_swete", "sblgnt"])
+    d.add_argument("--edition", choices=["og", "th"], help="LXX Daniel/Susanna/Bel edition")
+
+    t = sub.add_parser("terms", help="verse counts for search terms in a corpus")
+    t.add_argument("terms", nargs="+")
+    t.add_argument("--corpus", required=True,
+                   choices=["oshb_wlc", "lxx_swete", "sblgnt", "lxx_swete+sblgnt"])
+
     c = sub.add_parser("validate", help="check an answer.json against the verse store")
     c.add_argument("path")
+
+    k = sub.add_parser("check", help="check a translation skill's JSON output")
+    k.add_argument("kind", choices=["translation", "terms", "answer"])
+    k.add_argument("path")
     return p
 
 
@@ -162,9 +220,10 @@ def main(argv=None):
             return serve(args)
         if args.command == "health":
             emit(call(args.port, "/health"))
-        if args.command == "validate":
-            return validate(args)
-        emit({"search": search, "verse": verse, "xref": xref}[args.command](args))
+        if args.command in ("validate", "check"):
+            return validate(args, getattr(args, "kind", "answer"))
+        emit({"search": search, "verse": verse, "xref": xref, "terms": terms,
+              "draft": draft}[args.command](args))
     except ServiceDown as e:
         emit({"error": str(e)}, 2)
     except (ValueError, FileNotFoundError) as e:
