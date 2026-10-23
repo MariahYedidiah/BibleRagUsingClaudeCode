@@ -1,0 +1,54 @@
+langchain
+ipykernel
+python-dotenv
+langchain_community
+##has loads of document loaders==can load the data from many different sources
+pypdf
+bs4
+##bs4 is used to scrap data from websites
+arxiv
+PyMuPDF
+wikipedia
+langchain-text-splitters
+langchain-openai
+chromadb
+sentence_transformers
+langchain_huggingface
+tqdm
+faiss-cpu
+#when we move to cloud use faiss-gpu,in local use cpu
+chromadb
+langchain_chroma
+
+
+langchain-classic
+streamlit
+torch #torchvision is built entirely on top of torch (PyTorch).Pytorch's pkg name is torch.
+torchvision
+langchain_groq
+fastapi
+uvicorn
+langserve
+sse_starlette
+langchain-mcp-adapters
+mcp
+
+pandas
+lxml
+sentence-transformers
+psycopg[binary]
+pgvector
+python-dotenv
+langchain
+langgraph
+langchain-ollama
+
+ollama
+chromadb 
+sentence-transformers 
+pyarrow 
+pandas
+argostranslate
+transformers 
+torch
+sentencepiece

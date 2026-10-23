@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "sqlite": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "D:/bible-rag/data/vectorless.db"
+      ]
+    },
+    "chromadb": {
+      "command": "uvx",
+      "args": [
+        "chroma-mcp-server"
+      ],
+      "env": {
+        "CHROMA_CLIENT_TYPE": "persistent",
+        "CHROMA_DATA_DIR": "D:/bible-rag/data/vector_db"
+      }
+    }
+  }
+}
