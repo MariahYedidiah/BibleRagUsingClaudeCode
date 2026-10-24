@@ -41,7 +41,7 @@ uv run bible-rag xref MRK.1.3 --testament OT                                    
 ## Validation (phase 2)
 
 - `schemas.py` (pydantic, `extra="forbid"`): `Answer` → `Passage` → `TextEntry` / `CrossRef`. A `TextEntry` is `original` or `established_translation` (must cite `verse_uid`) or `machine_translation` (must have `translator` and `translates`, never a `verse_uid`). A `verified` cross-reference must name its dataset. Missing data goes in `missing` with a reason.
-- `validator.py` / `uv run bible-rag validate answer.json`: every quoted text must equal the stored verse (NFC + whitespace-insensitive; `excerpt: true` allows a contiguous part), source/language labels must match the store, references must exist, a `mapped` passage can't quote a verse with another `canon_ref`, machine translations must translate a verse quoted in the same passage, and `verified` cross-references must be in the `cross_refs` table with ≥ `XREF_MIN_VOTES`. Until that table exists (phase 3), any `verified` cross-reference fails.
+- `validator.py` / `uv run bible-rag validate answer.json`: every quoted text must equal the stored verse (NFC + whitespace-insensitive; `excerpt: true` allows a contiguous part), source/language labels must match the store, references must exist, a `mapped` passage can't quote a verse with another `canon_ref`, machine translations must translate a verse quoted in the same passage, and `verified` cross-references must be in the `cross_refs` table with ≥ `XREF_MIN_VOTES`. Without the table, any `verified` cross-reference fails.
 - Exit 0 = valid, 1 = invalid. Errors fail the answer; warnings (display_ref mismatch, unaligned partial passage) don't.
 - `uv run pytest` would also run `tests/test_vector_store.py`, which loads bge-m3. While another process holds the model, use `--ignore=tests/test_vector_store.py`.
 
@@ -114,7 +114,7 @@ Five subagents in `.claude/agents/`. Each judges relevance; deterministic comman
 - Retrieval specialists: `bible-rag health` → (query skill for lexical terms) → `bible-rag search ... > runs/<id>/<x>_search.json` (`--mode lexical` without English queries when the service is down) → judge relevance → translate kept verses (`draft` + skill + `check translation`) → selection file (`keep` with `relevance`, `discard` with `reason`, `notes`, `missing`, no scripture) → `bible-rag pack specialist ... --out runs/<id>/<agent>.json`, which copies texts from the store and runs `check specialist`. They reply with only the path and a two-line summary.
 - Cross-reference agent: `bible-rag xref` → optional `xref_adjust.json` (downgrades with notes only) → `bible-rag pack xrefs ... --out runs/<id>/cross-reference-agent.json` (`check xrefs`: every link in the dataset, votes exact, no upgrades, `verified_targets` = verified links).
 - `.claude/settings.json` allows `Bash(uv run bible-rag *)` and edits under `runs/**`, so agents run without permission prompts.
-- New agent files weren't picked up by the session that created them; start a new Claude Code session to load them.
+- New agent files can take a while to be picked up by a running session; if an agent type is "not found", wait or start a new session.
 
 ## Orchestration (phase 6)
 
@@ -127,6 +127,7 @@ Five subagents in `.claude/agents/`. Each judges relevance; deterministic comman
 ## Known data issues
 
 - **Fixed in `extract_verses.py`:** OSHB `<note>` text (English editorial notes, "KJV:Ps.23.1" markers, qere readings) leaked into 2,000+ Hebrew verses; notes are now skipped, so text is the written (ketiv) text. Swete psalm/ode titles carried stale verse numbers (Ps 22's title was "22.32") and are now verse 0. Swete digitization artifacts (alternate verse numbers "(52)", glued digits/superscripts, Roman numerals, Latin look-alike letters, stray sigla) are cleaned by `clean_lxx`. Typo Ps 88.84 → 88.48 (`LXX_VERSE_FIXES`).
+- **Hebrew embeddings use pointed text** (user decision, 2026-10-24). bge-m3's tokenizer splits pointed Hebrew into single letters and vowel marks (mean 77.5 tokens/verse vs 25.9 unpointed, where it sees whole words like `▁ישראל`), so Hebrew embeds ~3× slower and may embed less well. Check with phase 7's cross-lingual recall before changing; switching would mean re-embedding all Hebrew verses. Also: ~2% of WEB verses exceed `MAX_SEQ_LEN` 256 tokens and are truncated for embedding.
 - **Not fixed:** ~100 LXX verses have OCR errors inside Greek words ("Μrπτον" for Αἴγυπτον); guessing corrections would be riskier than leaving them. Swete Song 7 and Job 16 each have one verse labeled with the wrong chapter. SBLGNT keeps its ⸂ ⸃ ⟦ ⟧ signs in `text_display`; `normalize()` drops them for embedding and search.
 - The JSONL files still carry raw book codes (OSIS for Hebrew, `LXX_<prefix>` for some LXX books); `books.py` normalizes them in the Parquet/SQLite layer.
 
@@ -141,4 +142,4 @@ These dependencies are declared but not used yet: LangChain / LangGraph, sentenc
 - Put new application code under `src/bible_rag/`. The top-level scripts are one-off data prep.
 - Read raw sources with `utf-8-sig`, because some have BOMs. Write JSONL with `ensure_ascii=False` so Hebrew and Greek stay readable.
 - Pipeline order: `data/raw` → `extract_verses.py` → `data/processed/verses/*.jsonl` → (to build) embeddings/index → retrieval → LLM. Regenerate the JSONL after any change to the parsers. The script overwrites the JSONL files and warns if any dataset comes out empty.
-- `.env` is not in `.gitignore` yet. Add it before creating one for API keys.
+- `.env` is git-ignored; put any API keys there.
