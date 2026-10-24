@@ -1,0 +1,478 @@
+{
+  "queries": [
+    "Who is the voice crying in the wilderness?"
+  ],
+  "lexical_queries": [
+    "φωνή βοῶντος ἐρήμῳ",
+    "βοῶν ἔρημον"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02662,
+      "verse_uid": "lxx_swete:49.27.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 27,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "49.27.22",
+      "canon_ref": "JER.50.22",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ πολέμου καὶ συντριβὴ μεγάλη ἐν γῆ Χαλδαίων.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.525
+        },
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 29,
+          "score": -7.8043
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02346,
+      "verse_uid": "lxx_swete:11.15.14",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1SA",
+      "book_name": "1 Samuel",
+      "chapter": 15,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "11.15.14",
+      "canon_ref": "1SA.15.14",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ εἶπεν Σαμουὴλ καὶ τίς ἡ φωνὴ τοῦ ποιμνίου τούτου ἐν τοῖς ὠσίν μου, καὶ φωνὴ τῶν βοῶν ἣν ἐγὼ ἀκούω;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 30,
+          "score": 0.4841
+        },
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 21,
+          "score": -7.9721
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:32.38.34",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 38,
+      "verse": 34,
+      "edition": "",
+      "source_ref": "32.38.34",
+      "canon_ref": "JOB.38.34",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καλέσεις δὲ νέφος φωνῇ, καὶ τρόμῳ ὕδατος λάβρῳ ὑπακούσεταί σου;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5619
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:48.40.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 40,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "48.40.3",
+      "canon_ref": "ISA.40.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 1,
+          "score": -23.7322
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:27.28.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 28,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "27.28.8",
+      "canon_ref": "PSA.29.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ Κυρίου συνσείοντος ἔρημον, συνσείσει Κύριος τὴν ἔρημον Καδής.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "βοῶν ἔρημον",
+          "method": "lexical",
+          "rank": 1,
+          "score": -10.904
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.4.21",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 4,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "49.4.21",
+      "canon_ref": "JER.4.21",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἕως πότε ὄψομαι φεύγοντας, ἀκούων φωνὴν σαλπίγγων;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5611
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:48.66.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 66,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "48.66.6",
+      "canon_ref": "ISA.66.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ κραυγῆς ἐκ πόλεως, φωνὴ ἐκ ναοῦ, φωνὴ Κυρίου ἀνταποδιδόντος ἀνταπόδοσιν τοῖς ἀντικειμένοις.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.0182
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:27.106.35",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 106,
+      "verse": 35,
+      "edition": "",
+      "source_ref": "27.106.35",
+      "canon_ref": "PSA.107.35",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἔθέτο ἔρημον εἰς λιμένας ὑδάτων,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "βοῶν ἔρημον",
+          "method": "lexical",
+          "rank": 2,
+          "score": -9.671
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:29.7.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 7,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "29.7.8",
+      "canon_ref": "PRO.7.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "παραπορευόμενον παρὰ γωνίαν ἐν διόδοις οἴκων αὐτῆς καὶ λαλοῦντα",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5435
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:27.28.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 28,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "27.28.4",
+      "canon_ref": "PSA.29.4",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ Κυρίου ἐν ἰσχύι, φωνὴ Κυρίου ἐν μεγαλοπρεπίᾳ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 3,
+          "score": -9.7577
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:04.8.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "NUM",
+      "book_name": "Numbers",
+      "chapter": 8,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "04.8.8",
+      "canon_ref": "NUM.8.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ λήλψονται μόσχον ἓνα ἐκ βοῶν κα τούτου θυσίαν σεμιδάλεως ἀναπεποιημένην ἐν ἐλαίῳ, καὶ μόσχον ἐνιαύσιον ἐκ βοῶν λήμψῃ περὶ ἁμαρτίας.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "βοῶν ἔρημον",
+          "method": "lexical",
+          "rank": 3,
+          "score": -9.4771
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:05.5.26",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "DEU",
+      "book_name": "Deuteronomy",
+      "chapter": 5,
+      "verse": 26,
+      "edition": "",
+      "source_ref": "05.5.26",
+      "canon_ref": "DEU.5.26",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "τίς γὰρ σὰρξ ἥτις ἤκουσεν φωνὴν θεοῦ ζῶντος λαλοῦντος ἐκ μέσου τοῦ πυρὸς ὡς ἡμεῖς, καὶ ζήσεται;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5427
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:42.3.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "NAM",
+      "book_name": "Nahum",
+      "chapter": 3,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "42.3.2",
+      "canon_ref": "NAM.3.2",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ μαστίγων καὶ φωνὴ σεισμοῦ τροχῶν, καὶ ἵππου διώκοντος καὶ ἅρματος ἀναβράσσοντος,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.1286
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:53.20.10",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 20,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "53.20.10",
+      "canon_ref": "EZK.20.10",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἤγαγον αὐτοὺς εἰς τὴν ἔρημον,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "βοῶν ἔρημον",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.3889
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01538,
+      "verse_uid": "lxx_swete:49.40.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 40,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "49.40.11",
+      "canon_ref": "JER.33.11",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φωνὴ εὐφροσύνης καὶ φωνὴ χαρμοσύνης, φωνὴ νυμφίου καὶ φωνὴ νύμφης, φωνὴ λεγόντων Ἐξομολογεῖσθε Κυρίῳ Παντοκράτορι, ὅτι χρηστὸς Κύριος, ὅτι εἰς τὸν αἰῶνα τὸ ἔλεος αὐτοῦ· καὶ εἰσοίσουσιν δῶρα εἰς οἶκον Κυρίου, ὅτι ἀποστρέψω πᾶσαν τὴν ἀποικίαν τῆς γῆς ἐκείνης κατὰ τὸ πρότερον, εἶπεν Κύριος.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 5,
+          "score": -8.8874
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5619,
+    "vector_margin": 0.0008,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 4,
+    "lists_with_hits": 3,
+    "lists_containing_top_result": 2
+  }
+}

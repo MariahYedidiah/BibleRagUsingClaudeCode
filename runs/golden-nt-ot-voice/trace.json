@@ -1,0 +1,118 @@
+{
+  "run_id": "golden-nt-ot-voice",
+  "question": "Who is the voice crying in the wilderness?",
+  "started": "2026-10-24T21:54:18",
+  "events": [
+    {
+      "t": "2026-10-24T21:54:22",
+      "event": "analysis",
+      "agent": "leader-agent",
+      "path": "runs/golden-nt-ot-voice/analysis.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:54:24",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1",
+      "detail": "web (NT)"
+    },
+    {
+      "t": "2026-10-24T21:54:26",
+      "event": "delegate",
+      "agent": "greek-new-testament-agent",
+      "group": "r1",
+      "detail": "sblgnt"
+    },
+    {
+      "t": "2026-10-24T21:55:25",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-nt-ot-voice/english-retrieval-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:55:45",
+      "event": "result",
+      "agent": "greek-new-testament-agent",
+      "path": "runs/golden-nt-ot-voice/greek-new-testament-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:55:46",
+      "event": "delegate",
+      "agent": "cross-reference-agent",
+      "group": "xref",
+      "detail": "MAT.3.3 LUK.3.4 JHN.1.23 MRK.1.3"
+    },
+    {
+      "t": "2026-10-24T21:56:16",
+      "event": "result",
+      "agent": "cross-reference-agent",
+      "path": "runs/golden-nt-ot-voice/cross-reference-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:56:18",
+      "event": "delegate",
+      "agent": "hebrew-specialist-agent",
+      "group": "r1-ot",
+      "detail": "verified target ISA.40.3"
+    },
+    {
+      "t": "2026-10-24T21:56:19",
+      "event": "delegate",
+      "agent": "septuagint-specialist-agent",
+      "group": "r1-ot",
+      "detail": "verified target ISA.40.3"
+    },
+    {
+      "t": "2026-10-24T21:56:21",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1-ot",
+      "detail": "verified target ISA.40.3"
+    },
+    {
+      "t": "2026-10-24T21:58:33",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-nt-ot-voice/xref/english-retrieval-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:58:34",
+      "event": "result",
+      "agent": "hebrew-specialist-agent",
+      "path": "runs/golden-nt-ot-voice/xref/hebrew-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:58:35",
+      "event": "result",
+      "agent": "septuagint-specialist-agent",
+      "path": "runs/golden-nt-ot-voice/xref/septuagint-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:58:37",
+      "event": "delegate",
+      "agent": "synthesis-agent",
+      "group": "synth",
+      "detail": "confidence computed"
+    },
+    {
+      "t": "2026-10-24T21:59:25",
+      "event": "result",
+      "agent": "synthesis-agent",
+      "path": "runs/golden-nt-ot-voice/answer.md",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T21:59:27",
+      "event": "answer",
+      "agent": "leader-agent",
+      "status": "ok"
+    }
+  ]
+}

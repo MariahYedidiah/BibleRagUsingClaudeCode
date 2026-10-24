@@ -1,0 +1,386 @@
+{
+  "question": "Who is the voice crying in the wilderness?",
+  "answer": "In the Gospels, the \"voice of one crying in the wilderness\" is John the Baptist, and the words come from the prophet Isaiah.\n\n**Who the voice is.** In John's Gospel the speaker names himself. When questioned, he answers that he is the voice of one crying in the wilderness, \"as Isaiah the prophet said\" [JHN.1.23]. The specialists read \"he\" here as John the Baptist from the surrounding narrative, which is not shown here. In the New Testament Greek (SBLGNT) he says *Ἐγὼ φωνή*, \"I am a voice\" (machine translation). Matthew says of John, \"this is he who was spoken of by Isaiah the prophet\" [MAT.3.3]. Mark [MRK.1.3] and Luke [LUK.3.4] quote the same words when they introduce John's ministry, and Luke cites \"the book of the words of Isaiah the prophet\". In Mark the verse continues a quotation that begins in the previous verse, which is not shown here. So all four Gospels attach the voice to John: John's Gospel through his own claim, the other three by applying the prophecy to him.\n\n**Where the words come from.** All four Gospel verses have a verified cross-reference (OpenBible.info) to Isaiah 40:3 [ISA.40.3]. In Isaiah the voice itself is not named. WEB calls it only \"the voice of one who calls out\", and the machine translation of the Hebrew renders it \"A voice is calling\".\n\n**A difference between the texts, not to be smoothed over.** The Hebrew (OSHB/WLC) and the Septuagint Greek (Swete LXX) of Isaiah 40:3 attach \"in the wilderness\" to different words:\n- In the Hebrew and in WEB, \"in the wilderness\" goes with the command: the road is to be prepared in the wilderness. The Hebrew specialist notes that the Hebrew accents favour this reading, and that the parallel line adds \"in the desert\" for the highway.\n- In the Septuagint, \"in the wilderness\" goes with the voice: *ἐν τῇ ἐρήμῳ βοῶντος*, \"of one crying in the wilderness\". This is the wording the Gospels quote. The Septuagint's second line also differs: \"make straight the paths of our God\" (machine translation), where WEB has \"make a level highway in the desert for our God\", and the LXX verse has no \"desert\".\n\nIn the Gospel quotations, the wilderness is where the voice is crying, as in the Septuagint. In the Hebrew it is where the way is to be prepared.\n\nThe Greek specialist flagged two smaller points. John's Gospel has \"make straight the way of the Lord\" (*Εὐθύνατε*), where the others have \"prepare\". The SBLGNT also marks small text-critical variants in Matthew 3:3 and Luke 3:4.\n\nOther passages the cross-reference data links to these verses (Malachi 3:1 and 4:6, Isaiah 57:14 and 62:10) have only \"possible allusion\" status, were not retrieved, and are not used here.",
+  "passages": [
+    {
+      "canon_ref": "JHN.1.23",
+      "display_ref": "John 1:23",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "ἔφη· Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἠσαΐας ὁ προφήτης.",
+          "verse_uid": "sblgnt:JHN.1.23"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "He said: I am a voice of one crying in the wilderness: Make straight the way of the Lord, as Isaiah the prophet said.",
+          "translates": "sblgnt:JHN.1.23",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "John has 'make straight' (Εὐθύνατε) rather than 'prepare/make ready'; Speaker identifies himself as the voice (Ἐγὼ φωνή)"
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’ as Isaiah the prophet said.”",
+          "verse_uid": "web:JHN.1.23"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.03105,
+          "relevance": "Direct answer: John the Baptist says of himself 'I am a voice of one crying in the wilderness', citing Isaiah."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06325,
+          "relevance": "John the Baptist answers the Pharisees' question directly: he says he is the voice of one crying in the wilderness; found by both variants and both methods."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "ISA.40.3",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 56,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "John the Baptist names himself as the voice crying in the wilderness, citing Isaiah",
+      "missing": []
+    },
+    {
+      "canon_ref": "ISA.40.3",
+      "display_ref": "Isaiah 40:3",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "The voice of one who calls out, “Prepare the way of the LORD in the wilderness! Make a level highway in the desert for our God.",
+          "verse_uid": "web:ISA.40.3"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃",
+          "verse_uid": "oshb_wlc:Isa.40.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "A voice is calling: In the wilderness prepare the way of the LORD; make straight in the desert plain a highway for our God.",
+          "translates": "oshb_wlc:Isa.40.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Phrase division: 'a voice calls in the wilderness' vs. 'in the wilderness prepare' (the Hebrew accents favor the latter; the Gospels and LXX take the former); WEB reads 'The voice of one who calls out'; mine 'A voice is calling' (qol as exclamation); WEB 'level highway'; mine 'highway', 'make straight'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν.",
+          "verse_uid": "lxx_swete:48.40.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "The voice of one crying in the wilderness: Prepare the way of the Lord; make straight the paths of our God.",
+          "translates": "lxx_swete:48.40.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX places 'in the wilderness' with the crying voice (ἐν τῇ ἐρήμῳ βοῶντος); Hebrew/WEB place 'in the wilderness' with 'prepare the way'; LXX has 'make straight the paths of our God' where WEB has 'make a level highway in the desert for our God'; 'desert' is not in the LXX verse"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.0276,
+          "relevance": "Requested reference. Isaiah 40:3 is the OT source of the 'voice crying in the wilderness' wording; it answers the question by naming the speaker as 'one who calls out'. Found by vector search at rank 4 of the combined list."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.03279,
+          "relevance": "The voice crying in the wilderness: 'prepare the way of the LORD'; the passage quoted in the Gospels."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "The prophetic text of the voice crying in the wilderness; LXX syntax attaches 'in the wilderness' to the crier, as the NT quotations do."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "JHN.1.23",
+        "LUK.3.4",
+        "MAT.3.3",
+        "MRK.1.3"
+      ],
+      "note": "The Old Testament source; the Hebrew and the Septuagint attach 'in the wilderness' to different words",
+      "missing": []
+    },
+    {
+      "canon_ref": "MAT.3.3",
+      "display_ref": "Matthew 3:3",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "οὗτος γάρ ἐστιν ὁ ῥηθεὶς ⸂ διὰ ⸃ Ἠσαΐου τοῦ προφήτου λέγοντος· Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+          "verse_uid": "sblgnt:MAT.3.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "For this is the one spoken of through Isaiah the prophet, saying: A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight.",
+          "translates": "sblgnt:MAT.3.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "variant unit: διά is marked by ⸂ ⸃"
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make the way of the Lord ready! Make his paths straight!”",
+          "verse_uid": "web:MAT.3.3"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04688,
+          "relevance": "Identifies John the Baptist's ministry (context v.1-2) as the fulfilment of the voice crying in the wilderness, attributed to Isaiah."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06237,
+          "relevance": "Matthew identifies the speaker in the wilderness as the one spoken of by Isaiah the prophet, the voice crying in the wilderness; found by both methods."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "ISA.40.3",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 49,
+          "note": null
+        },
+        {
+          "to": "MAL.3.1",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 23,
+          "note": null
+        },
+        {
+          "to": "ISA.57.14",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 11,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "Matthew applies Isaiah's voice to John",
+      "missing": []
+    },
+    {
+      "canon_ref": "MRK.1.3",
+      "display_ref": "Mark 1:3",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ,",
+          "verse_uid": "sblgnt:MRK.1.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight,",
+          "translates": "sblgnt:MRK.1.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "WEB adds 'Make ready'; Greek verb is ἑτοιμάσατε, same sense"
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "the voice of one crying in the wilderness, ‘Make ready the way of the Lord! Make his paths straight!’”",
+          "verse_uid": "web:MRK.1.3"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04918,
+          "relevance": "Quotes the voice crying in the wilderness, applied to John (v.4)."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06557,
+          "relevance": "Mark identifies the voice crying in the wilderness as the forerunner's voice (quoting Isaiah 40:3); found by both query variants, vector and lexical."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "ISA.40.3",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 32,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "Mark's quotation, part of a citation that begins in 1:2, introducing John",
+      "missing": []
+    },
+    {
+      "canon_ref": "LUK.3.4",
+      "display_ref": "Luke 3:4",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "ὡς γέγραπται ἐν βίβλῳ λόγων Ἠσαΐου τοῦ ⸂ προφήτου ⸃· Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+          "verse_uid": "sblgnt:LUK.3.4"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "As it is written in the book of the words of Isaiah the prophet: A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight,",
+          "translates": "sblgnt:LUK.3.4",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "variant unit: προφήτου is marked by ⸂ ⸃"
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "As it is written in the book of the words of Isaiah the prophet, “The voice of one crying in the wilderness, ‘Make ready the way of the Lord. Make his paths straight.",
+          "verse_uid": "web:LUK.3.4"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04813,
+          "relevance": "Quotes the voice crying in the wilderness with 'as it is written' formula, applied to John (v.2-3)."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06152,
+          "relevance": "Luke gives the Isaiah citation of the voice crying in the wilderness, introducing John's ministry; found by both methods."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "ISA.40.3",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 30,
+          "note": null
+        },
+        {
+          "to": "ISA.62.10",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 8,
+          "note": null
+        },
+        {
+          "to": "ISA.57.14",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 7,
+          "note": null
+        },
+        {
+          "to": "MAL.4.6",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 6,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "Luke cites 'the book of the words of Isaiah the prophet' for John's ministry",
+      "missing": []
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "basis": "11 passages kept; 5 references found in two or more languages; 9 passages found by both vector and lexical search",
+    "signals": {
+      "passages_kept": 11,
+      "cross_lingual_refs": [
+        "ISA.40.3",
+        "JHN.1.23",
+        "LUK.3.4",
+        "MAT.3.3",
+        "MRK.1.3"
+      ],
+      "found_by_both_methods": 9,
+      "above_vector_floor": 8,
+      "found_by_two_or_more_queries": 9,
+      "top_vector_score": 0.9578,
+      "vector_search_available": true
+    }
+  },
+  "clarifying_question": null,
+  "run_id": "golden-nt-ot-voice"
+}

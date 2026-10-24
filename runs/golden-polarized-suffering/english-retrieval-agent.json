@@ -217,7 +217,7 @@
       "testament": "NT",
       "edition": "",
       "alignment": "mapped",
-      "text": "Won’ t|strong=\"G3588\" God|strong=\"G2316\" avenge|strong=\"G1557\" his|strong=\"G1909\" chosen|strong=\"G1588\" ones who|strong=\"G3588\" are|strong=\"G3588\" crying out|strong=\"G2532\" to|strong=\"G2532\" him|strong=\"G3588\" day|strong=\"G2250\" and|strong=\"G2532\" night|strong=\"G3571\" , and|strong=\"G2532\" yet|strong=\"G2532\" he|strong=\"G2532\" exercises|strong=\"G4160\" patience|strong=\"G3114\" with|strong=\"G2532\" them|strong=\"G3588\" ?",
+      "text": "Won’t God avenge his chosen ones who are crying out to him day and night, and yet he exercises patience with them?",
       "found_by": [
         "vector"
       ],
@@ -241,17 +241,17 @@
         {
           "verse_uid": "web:LUK.18.6",
           "verse": 6,
-          "text_display": "The Lord said, “Listen to|strong=\"G3004\" what|strong=\"G5101\" the|strong=\"G1161\" unrighteous judge|strong=\"G2923\" says|strong=\"G3004\" ."
+          "text_display": "The Lord said, “Listen to what the unrighteous judge says."
         },
         {
           "verse_uid": "web:LUK.18.7",
           "verse": 7,
-          "text_display": "Won’ t|strong=\"G3588\" God|strong=\"G2316\" avenge|strong=\"G1557\" his|strong=\"G1909\" chosen|strong=\"G1588\" ones who|strong=\"G3588\" are|strong=\"G3588\" crying out|strong=\"G2532\" to|strong=\"G2532\" him|strong=\"G3588\" day|strong=\"G2250\" and|strong=\"G2532\" night|strong=\"G3571\" , and|strong=\"G2532\" yet|strong=\"G2532\" he|strong=\"G2532\" exercises|strong=\"G4160\" patience|strong=\"G3114\" with|strong=\"G2532\" them|strong=\"G3588\" ?"
+          "text_display": "Won’t God avenge his chosen ones who are crying out to him day and night, and yet he exercises patience with them?"
         },
         {
           "verse_uid": "web:LUK.18.8",
           "verse": 8,
-          "text_display": "I|strong=\"G3754\" tell|strong=\"G3004\" you|strong=\"G5210\" that|strong=\"G3754\" he|strong=\"G3754\" will|strong=\"G1093\" avenge|strong=\"G1557\" them|strong=\"G3588\" quickly|strong=\"G5034\" . Nevertheless|strong=\"G4133\" , when|strong=\"G1722\" the|strong=\"G1722\" Son|strong=\"G5207\" of|strong=\"G5207\" Man|strong=\"G5207\" comes|strong=\"G2064\" , will|strong=\"G1093\" he|strong=\"G3754\" find|strong=\"G2147\" faith|strong=\"G4102\" on|strong=\"G1909\" the|strong=\"G1722\" earth|strong=\"G1093\" ?”"
+          "text_display": "I tell you that he will avenge them quickly. Nevertheless, when the Son of Man comes, will he find faith on the earth?”"
         }
       ]
     },

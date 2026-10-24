@@ -1,0 +1,474 @@
+{
+  "queries": [
+    "Who is the voice crying in the wilderness?"
+  ],
+  "lexical_queries": [
+    "קול קורא",
+    "במדבר מדבר פנו ישרו"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.03279,
+      "verse_uid": "oshb_wlc:Isa.40.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 40,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Isa.40.3",
+      "canon_ref": "ISA.40.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 1,
+          "score": -20.054
+        },
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 1,
+          "score": -31.1998
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02316,
+      "verse_uid": "oshb_wlc:Job.15.21",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 15,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "Job.15.21",
+      "canon_ref": "JOB.15.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "קוֹל־פְּחָדִ֥ים בְּ/אָזְנָ֑י/ו בַּ֝/שָּׁל֗וֹם שׁוֹדֵ֥ד יְבוֹאֶֽ/נּוּ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 30,
+          "score": 0.4623
+        },
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 23,
+          "score": -9.0605
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Prov.9.16",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 9,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "Prov.9.16",
+      "canon_ref": "PRO.9.16",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "מִי־פֶ֭תִי יָסֻ֣ר הֵ֑נָּה וַ/חֲסַר־לֵ֝֗ב וְ/אָ֣מְרָה לּֽ/וֹ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5368
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Lam.3.39",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 3,
+      "verse": 39,
+      "edition": "",
+      "source_ref": "Lam.3.39",
+      "canon_ref": "LAM.3.39",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "מַה־יִּתְאוֹנֵן֙ אָדָ֣ם חָ֔י גֶּ֖בֶר עַל־חטא/ו׃ ס",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4899
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ezek.10.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 10,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Ezek.10.13",
+      "canon_ref": "EZK.10.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לָ/א֖וֹפַנִּ֑ים לָ/הֶ֛ם קוֹרָ֥א הַ/גַּלְגַּ֖ל בְּ/אָזְנָֽ/י׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.7339
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Exod.19.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 19,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Exod.19.2",
+      "canon_ref": "EXO.19.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יִּסְע֣וּ מֵ/רְפִידִ֗ים וַ/יָּבֹ֨אוּ֙ מִדְבַּ֣ר סִינַ֔י וַֽ/יַּחֲנ֖וּ בַּ/מִּדְבָּ֑ר וַ/יִּֽחַן־שָׁ֥ם יִשְׂרָאֵ֖ל נֶ֥גֶד הָ/הָֽר׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 2,
+          "score": -16.0238
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Hag.2.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "HAG",
+      "book_name": "Haggai",
+      "chapter": 2,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Hag.2.3",
+      "canon_ref": "HAG.2.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "מִ֤י בָ/כֶם֙ הַ/נִּשְׁאָ֔ר אֲשֶׁ֤ר רָאָה֙ אֶת־הַ/בַּ֣יִת הַ/זֶּ֔ה בִּ/כְבוֹד֖/וֹ הָ/רִאשׁ֑וֹן וּ/מָ֨ה אַתֶּ֜ם רֹאִ֤ים אֹת/וֹ֙ עַ֔תָּה הֲ/ל֥וֹא כָמֹ֛/הוּ כְּ/אַ֖יִן בְּ/עֵינֵי/כֶֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.489
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Ps.42.8",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 42,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "Ps.42.8",
+      "canon_ref": "PSA.42.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "תְּהֽוֹם־אֶל־תְּה֣וֹם ק֭וֹרֵא לְ/ק֣וֹל צִנּוֹרֶ֑י/ךָ כָּֽל־מִשְׁבָּרֶ֥י/ךָ וְ֝/גַלֶּ֗י/ךָ עָלַ֥/י עָבָֽרוּ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.6363
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Num.27.14",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "NUM",
+      "book_name": "Numbers",
+      "chapter": 27,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "Num.27.14",
+      "canon_ref": "NUM.27.14",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כַּ/אֲשֶׁר֩ מְרִיתֶ֨ם פִּ֜/י בְּ/מִדְבַּר־צִ֗ן בִּ/מְרִיבַת֙ הָֽ/עֵדָ֔ה לְ/הַקְדִּישֵׁ֥/נִי בַ/מַּ֖יִם לְ/עֵינֵי/הֶ֑ם הֵ֛ם מֵֽי־מְרִיבַ֥ת קָדֵ֖שׁ מִדְבַּר־צִֽן׃ פ",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 3,
+          "score": -14.5765
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Isa.23.8",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 23,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "Isa.23.8",
+      "canon_ref": "ISA.23.8",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "מִ֚י יָעַ֣ץ זֹ֔את עַל־צֹ֖ר הַ/מַּֽעֲטִירָ֑ה אֲשֶׁ֤ר סֹחֲרֶ֨י/ה֙ שָׂרִ֔ים כִּנְעָנֶ֖י/הָ נִכְבַּדֵּי־אָֽרֶץ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4888
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Isa.66.6",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 66,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "Isa.66.6",
+      "canon_ref": "ISA.66.6",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "ק֤וֹל שָׁאוֹן֙ מֵ/עִ֔יר ק֖וֹל מֵֽ/הֵיכָ֑ל ק֣וֹל יְהוָ֔ה מְשַׁלֵּ֥ם גְּמ֖וּל לְ/אֹיְבָֽי/ו׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.3926
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:1Sam.26.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "1SA",
+      "book_name": "1 Samuel",
+      "chapter": 26,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "1Sam.26.2",
+      "canon_ref": "1SA.26.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יָּ֣קָם שָׁא֗וּל וַ/יֵּ֨רֶד֙ אֶל־מִדְבַּר־זִ֔יף וְ/אִתּ֛/וֹ שְׁלֹֽשֶׁת־אֲלָפִ֥ים אִ֖ישׁ בְּחוּרֵ֣י יִשְׂרָאֵ֑ל לְ/בַקֵּ֥שׁ אֶת־דָּוִ֖ד בְּ/מִדְבַּר־זִֽיף׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 4,
+          "score": -14.2546
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Prov.21.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 21,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Prov.21.13",
+      "canon_ref": "PRO.21.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אֹטֵ֣ם אָ֭זְנ/וֹ מִ/זַּעֲקַת־דָּ֑ל גַּֽם־ה֥וּא יִ֝קְרָ֗א וְ/לֹ֣א יֵעָנֶֽה׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.4857
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Hab.2.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "HAB",
+      "book_name": "Habakkuk",
+      "chapter": 2,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Hab.2.2",
+      "canon_ref": "HAB.2.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יַּעֲנֵ֤/נִי יְהוָה֙ וַ/יֹּ֔אמֶר כְּת֣וֹב חָז֔וֹן וּ/בָאֵ֖ר עַל־הַ/לֻּח֑וֹת לְמַ֥עַן יָר֖וּץ ק֥וֹרֵא בֽ/וֹ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.3474
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Exod.15.22",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 15,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "Exod.15.22",
+      "canon_ref": "EXO.15.22",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יַּסַּ֨ע מֹשֶׁ֤ה אֶת־יִשְׂרָאֵל֙ מִ/יַּם־ס֔וּף וַ/יֵּצְא֖וּ אֶל־מִדְבַּר־שׁ֑וּר וַ/יֵּלְכ֧וּ שְׁלֹֽשֶׁת־יָמִ֛ים בַּ/מִּדְבָּ֖ר וְ/לֹא־מָ֥צְאוּ מָֽיִם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 5,
+          "score": -14.2546
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5368,
+    "vector_margin": 0.0469,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 4,
+    "lists_with_hits": 3,
+    "lists_containing_top_result": 2
+  }
+}

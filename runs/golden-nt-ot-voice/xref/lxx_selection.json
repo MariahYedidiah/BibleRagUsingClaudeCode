@@ -1,0 +1,14 @@
+{
+ "keep": [
+  {
+   "canon_ref": "ISA.40.3",
+   "relevance": "The prophetic text of the voice crying in the wilderness; LXX syntax attaches 'in the wilderness' to the crier, as the NT quotations do."
+  }
+ ],
+ "discard": [],
+ "notes": [
+  "Alignment mapped; Swete Isa 40:3 matches English numbering.",
+  "LXX vs Hebrew: location 'wilderness' modifies the voice, not the road."
+ ],
+ "missing": []
+}

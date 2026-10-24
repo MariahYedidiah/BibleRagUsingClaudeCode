@@ -37,7 +37,7 @@
       "n": 48,
       "top_vector_score_median": 0.4679,
       "top_vector_score_min": 0.4117,
-      "top_vector_score_max": 0.5436
+      "top_vector_score_max": 0.5519
     },
     "oshb_wlc/hybrid": {
       "n": 25,
@@ -45,17 +45,14 @@
       "top_vector_score_min": 0.5181,
       "top_vector_score_max": 0.7836,
       "recall@1": 0.16,
-      "recall@5": 0.28,
-      "recall@10": 0.32,
-      "mrr": 0.227,
+      "recall@5": 0.36,
+      "recall@10": 0.44,
+      "mrr": 0.254,
       "misses": [
         "The Spirit of God was hovering over the surface of the waters",
         "Abraham believed God and it was counted to him as righteousness",
-        "God told Moses his name: I am who I am",
         "A pillar of cloud by day and a pillar of fire by night led the people",
         "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
-        "Love your neighbor as yourself",
-        "Love the people around you as much as you love yourself",
         "The Lord is my shepherd, I lack nothing",
         "The fear of the Lord is where wisdom and knowledge begin",
         "They will beat their swords into plowshares",
@@ -74,17 +71,14 @@
       "top_vector_score_min": 0.5181,
       "top_vector_score_max": 0.7836,
       "recall@1": 0.16,
-      "recall@5": 0.28,
-      "recall@10": 0.32,
-      "mrr": 0.227,
+      "recall@5": 0.36,
+      "recall@10": 0.44,
+      "mrr": 0.254,
       "misses": [
         "The Spirit of God was hovering over the surface of the waters",
         "Abraham believed God and it was counted to him as righteousness",
-        "God told Moses his name: I am who I am",
         "A pillar of cloud by day and a pillar of fire by night led the people",
         "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
-        "Love your neighbor as yourself",
-        "Love the people around you as much as you love yourself",
         "The Lord is my shepherd, I lack nothing",
         "The fear of the Lord is where wisdom and knowledge begin",
         "They will beat their swords into plowshares",
@@ -133,24 +127,26 @@
     },
     "web/hybrid": {
       "n": 41,
-      "top_vector_score_median": 0.8115,
+      "top_vector_score_median": 0.8349,
       "top_vector_score_min": 0.6549,
       "top_vector_score_max": 0.9811,
       "recall@1": 0.854,
-      "recall@5": 1.0,
-      "recall@10": 1.0,
-      "mrr": 0.913,
-      "misses": []
+      "recall@5": 0.976,
+      "recall@10": 0.976,
+      "mrr": 0.909,
+      "misses": [
+        "Jesus cried when his friend died"
+      ]
     },
     "web/vector": {
       "n": 41,
-      "top_vector_score_median": 0.8115,
+      "top_vector_score_median": 0.8349,
       "top_vector_score_min": 0.6549,
       "top_vector_score_max": 0.9811,
-      "recall@1": 0.829,
+      "recall@1": 0.854,
       "recall@5": 0.976,
       "recall@10": 0.976,
-      "mrr": 0.88,
+      "mrr": 0.889,
       "misses": [
         "Love the people around you as much as you love yourself"
       ]
@@ -422,7 +418,7 @@
       "kind": "paraphrase",
       "corpus": "oshb_wlc",
       "mode": "vector",
-      "rank": null,
+      "rank": 10,
       "top": "EXO.6.2",
       "top_vector_score": 0.7033,
       "vector_margin": 0.0878
@@ -432,7 +428,7 @@
       "kind": "paraphrase",
       "corpus": "oshb_wlc",
       "mode": "hybrid",
-      "rank": null,
+      "rank": 10,
       "top": "EXO.6.2",
       "top_vector_score": 0.7033,
       "vector_margin": 0.0878
@@ -662,7 +658,7 @@
       "kind": "quote",
       "corpus": "oshb_wlc",
       "mode": "vector",
-      "rank": null,
+      "rank": 4,
       "top": "PSA.119.17",
       "top_vector_score": 0.6151,
       "vector_margin": 0.0061
@@ -672,7 +668,7 @@
       "kind": "quote",
       "corpus": "oshb_wlc",
       "mode": "hybrid",
-      "rank": null,
+      "rank": 4,
       "top": "PSA.119.17",
       "top_vector_score": 0.6151,
       "vector_margin": 0.0061
@@ -722,7 +718,7 @@
       "kind": "paraphrase",
       "corpus": "oshb_wlc",
       "mode": "vector",
-      "rank": null,
+      "rank": 3,
       "top": "PSA.119.119",
       "top_vector_score": 0.6136,
       "vector_margin": 0.0044
@@ -732,7 +728,7 @@
       "kind": "paraphrase",
       "corpus": "oshb_wlc",
       "mode": "hybrid",
-      "rank": null,
+      "rank": 3,
       "top": "PSA.119.119",
       "top_vector_score": 0.6136,
       "vector_margin": 0.0044
@@ -1605,7 +1601,7 @@
       "rank": null,
       "top": "LEV.12.3",
       "top_vector_score": 0.6432,
-      "vector_margin": 0.0287
+      "vector_margin": 0.0245
     },
     {
       "query": "The righteous will live by his faith",
@@ -1615,7 +1611,7 @@
       "rank": null,
       "top": "LEV.12.3",
       "top_vector_score": 0.6432,
-      "vector_margin": 0.0287
+      "vector_margin": 0.0245
     },
     {
       "query": "The righteous will live by his faith",
@@ -1722,20 +1718,20 @@
       "kind": "paraphrase",
       "corpus": "web",
       "mode": "vector",
-      "rank": 2,
-      "top": "1JN.4.9",
-      "top_vector_score": 0.7633,
-      "vector_margin": 0.0632
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.8352,
+      "vector_margin": 0.0719
     },
     {
       "query": "God loved the world so much that he gave his only Son",
       "kind": "paraphrase",
       "corpus": "web",
       "mode": "hybrid",
-      "rank": 2,
-      "top": "1JN.4.9",
-      "top_vector_score": 0.7633,
-      "vector_margin": 0.0632
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.8352,
+      "vector_margin": 0.0719
     },
     {
       "query": "God loved the world so much that he gave his only Son",
@@ -1772,8 +1768,8 @@
       "kind": "paraphrase",
       "corpus": "web",
       "mode": "hybrid",
-      "rank": 5,
-      "top": "MAT.27.50",
+      "rank": null,
+      "top": "MRK.15.37",
       "top_vector_score": 0.8334,
       "vector_margin": 0.1503
     },
@@ -1802,20 +1798,20 @@
       "kind": "quote",
       "corpus": "web",
       "mode": "vector",
-      "rank": 3,
-      "top": "ROM.9.1",
-      "top_vector_score": 0.6811,
-      "vector_margin": 0.0375
+      "rank": 5,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7349,
+      "vector_margin": 0.0165
     },
     {
       "query": "I am the way, the truth and the life",
       "kind": "quote",
       "corpus": "web",
       "mode": "hybrid",
-      "rank": 1,
-      "top": "JHN.14.6",
-      "top_vector_score": 0.6811,
-      "vector_margin": 0.0375
+      "rank": 2,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7349,
+      "vector_margin": 0.0165
     },
     {
       "query": "I am the way, the truth and the life",
@@ -1844,8 +1840,8 @@
       "mode": "vector",
       "rank": 1,
       "top": "MAT.5.3",
-      "top_vector_score": 0.7548,
-      "vector_margin": 0.0664
+      "top_vector_score": 0.9627,
+      "vector_margin": 0.2106
     },
     {
       "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
@@ -1854,8 +1850,8 @@
       "mode": "hybrid",
       "rank": 1,
       "top": "MAT.5.3",
-      "top_vector_score": 0.7548,
-      "vector_margin": 0.0664
+      "top_vector_score": 0.9627,
+      "vector_margin": 0.2106
     },
     {
       "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
@@ -1884,8 +1880,8 @@
       "mode": "vector",
       "rank": 1,
       "top": "MAT.6.9",
-      "top_vector_score": 0.7779,
-      "vector_margin": 0.0846
+      "top_vector_score": 0.8558,
+      "vector_margin": 0.1351
     },
     {
       "query": "Our Father in heaven, may your name be kept holy",
@@ -1894,8 +1890,8 @@
       "mode": "hybrid",
       "rank": 1,
       "top": "MAT.6.9",
-      "top_vector_score": 0.7779,
-      "vector_margin": 0.0846
+      "top_vector_score": 0.8558,
+      "vector_margin": 0.1351
     },
     {
       "query": "Our Father in heaven, may your name be kept holy",
@@ -1924,8 +1920,8 @@
       "mode": "vector",
       "rank": 1,
       "top": "MAT.6.34",
-      "top_vector_score": 0.7291,
-      "vector_margin": 0.0774
+      "top_vector_score": 0.7599,
+      "vector_margin": 0.1338
     },
     {
       "query": "Should I be anxious about tomorrow?",
@@ -1934,8 +1930,8 @@
       "mode": "hybrid",
       "rank": 1,
       "top": "MAT.6.34",
-      "top_vector_score": 0.7291,
-      "vector_margin": 0.0774
+      "top_vector_score": 0.7599,
+      "vector_margin": 0.1338
     },
     {
       "query": "Should I be anxious about tomorrow?",
@@ -1964,8 +1960,8 @@
       "mode": "vector",
       "rank": 1,
       "top": "MAT.28.19",
-      "top_vector_score": 0.7054,
-      "vector_margin": 0.0133
+      "top_vector_score": 0.8735,
+      "vector_margin": 0.1814
     },
     {
       "query": "Go and make disciples of all nations, baptizing them",
@@ -1974,8 +1970,8 @@
       "mode": "hybrid",
       "rank": 1,
       "top": "MAT.28.19",
-      "top_vector_score": 0.7054,
-      "vector_margin": 0.0133
+      "top_vector_score": 0.8735,
+      "vector_margin": 0.1814
     },
     {
       "query": "Go and make disciples of all nations, baptizing them",
@@ -2045,7 +2041,7 @@
       "rank": 1,
       "top": "ROM.8.39",
       "top_vector_score": 0.7057,
-      "vector_margin": 0.0495
+      "vector_margin": 0.0476
     },
     {
       "query": "Nothing can separate us from the love of God",
@@ -2055,7 +2051,7 @@
       "rank": 1,
       "top": "ROM.8.39",
       "top_vector_score": 0.7057,
-      "vector_margin": 0.0495
+      "vector_margin": 0.0476
     },
     {
       "query": "Nothing can separate us from the love of God",
@@ -2244,8 +2240,8 @@
       "mode": "vector",
       "rank": 1,
       "top": "REV.3.20",
-      "top_vector_score": 0.7352,
-      "vector_margin": 0.0772
+      "top_vector_score": 0.797,
+      "vector_margin": 0.1264
     },
     {
       "query": "I stand at the door and knock",
@@ -2254,8 +2250,8 @@
       "mode": "hybrid",
       "rank": 1,
       "top": "REV.3.20",
-      "top_vector_score": 0.7352,
-      "vector_margin": 0.0772
+      "top_vector_score": 0.797,
+      "vector_margin": 0.1264
     },
     {
       "query": "I stand at the door and knock",
@@ -2523,9 +2519,9 @@
       "corpus": "web",
       "mode": "vector",
       "rank": null,
-      "top": "EZK.13.9",
-      "top_vector_score": 0.5436,
-      "vector_margin": 0.0312
+      "top": "ECC.5.6",
+      "top_vector_score": 0.5519,
+      "vector_margin": 0.0083
     },
     {
       "query": "What does the Bible say about smartphones and social media?",
@@ -2533,9 +2529,9 @@
       "corpus": "web",
       "mode": "hybrid",
       "rank": null,
-      "top": "EZK.13.9",
-      "top_vector_score": 0.5436,
-      "vector_margin": 0.0312
+      "top": "ROM.8.31",
+      "top_vector_score": 0.5519,
+      "vector_margin": 0.0083
     },
     {
       "query": "What does the Bible say about smartphones and social media?",
@@ -2665,7 +2661,7 @@
       "rank": null,
       "top": "HEB.13.3",
       "top_vector_score": 0.4648,
-      "vector_margin": 0.0255
+      "vector_margin": 0.0223
     },
     {
       "query": "Explain quantum entanglement in simple terms",
@@ -2675,7 +2671,7 @@
       "rank": null,
       "top": "HEB.13.3",
       "top_vector_score": 0.4648,
-      "vector_margin": 0.0255
+      "vector_margin": 0.0223
     },
     {
       "query": "What does the Bible teach about cryptocurrency investing?",
@@ -2685,7 +2681,7 @@
       "rank": null,
       "top": "2CO.6.15",
       "top_vector_score": 0.5191,
-      "vector_margin": 0.0086
+      "vector_margin": 0.0115
     },
     {
       "query": "What does the Bible teach about cryptocurrency investing?",
@@ -2695,7 +2691,7 @@
       "rank": null,
       "top": "2CO.6.15",
       "top_vector_score": 0.5191,
-      "vector_margin": 0.0086
+      "vector_margin": 0.0115
     },
     {
       "query": "What does the Bible teach about cryptocurrency investing?",

@@ -1,0 +1,92 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-nt-ot-voice/xref",
+  "corpus": "lxx_swete",
+  "queries": [
+    "Who is the voice crying in the wilderness?"
+  ],
+  "lexical_queries": [
+    "φωνή βοῶντος ἐρήμῳ",
+    "βοῶν ἔρημον"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5619,
+      "vector_margin": 0.0008,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 4,
+      "lists_with_hits": 3,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "ISA.40.3",
+      "verse_uid": "lxx_swete:48.40.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "φωνή βοῶντος ἐρήμῳ",
+          "method": "lexical",
+          "rank": 1,
+          "score": -23.7322
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "The prophetic text of the voice crying in the wilderness; LXX syntax attaches 'in the wilderness' to the crier, as the NT quotations do.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:48.40.2",
+          "verse": 2,
+          "text_display": "ἱερεῖς, λαλήσατε εἷς τὴν καρδίαν Ἰερουσαλήμ, παρακαλέσατε αὑτήν, ὅτι ἐπλήσθη ἡ ταπείνωσις αὐτῆς, λέλυται αὐτῆς ἡ ἁμαρτία, ὅτι ἐδέξατο ἐκ χειρὸς Κυρίου διπλᾶ τὰ ἁμαρτήματα αὐτῆς."
+        },
+        {
+          "verse_uid": "lxx_swete:48.40.3",
+          "verse": 3,
+          "text_display": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν."
+        },
+        {
+          "verse_uid": "lxx_swete:48.40.4",
+          "verse": 4,
+          "text_display": "πᾶσα φάραγξ πληρωθήσεται, καὶ πᾶν ὅρος καὶ βουνὸς ταπεινωθήσεται· καὶ ἔσται τὰ, σκολιὰ εἷς εὐθεῖαν, καὶ ἡ τραχεῖα εἷς ὁδοὺς λείας,"
+        }
+      ],
+      "translation": {
+        "canon_ref": "ISA.40.3",
+        "verse_uid": "lxx_swete:48.40.3",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν.",
+        "translation": "The voice of one crying in the wilderness: Prepare the way of the Lord; make straight the paths of our God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "βοῶντος: present participle, 'of one crying out'",
+          "Κυρίου: divine name rendered 'the Lord'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:ISA.40.3",
+        "differences_from_web": [
+          "LXX places 'in the wilderness' with the crying voice (ἐν τῇ ἐρήμῳ βοῶντος); Hebrew/WEB place 'in the wilderness' with 'prepare the way'",
+          "LXX has 'make straight the paths of our God' where WEB has 'make a level highway in the desert for our God'; 'desert' is not in the LXX verse"
+        ]
+      }
+    }
+  ],
+  "discarded": [],
+  "missing": [],
+  "notes": [
+    "Alignment mapped; Swete Isa 40:3 matches English numbering.",
+    "LXX vs Hebrew: location 'wilderness' modifies the voice, not the road."
+  ]
+}

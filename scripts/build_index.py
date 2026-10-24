@@ -195,7 +195,8 @@ def embed(df):
         done.update(pq.read_table(path, columns=["key"]).column("key").to_pylist())
 
     keys = cache_key(df)
-    todo = df[~keys.isin(done)].assign(key=keys)
+    # assign before filtering: pandas 3 gives an empty frame the index of an assigned Series
+    todo = df.assign(key=keys)[~keys.isin(done)]
     print(f"3. Embedding with {MODEL}: {len(df) - len(todo):,} cached, {len(todo):,} to go")
     if todo.empty:
         return cache

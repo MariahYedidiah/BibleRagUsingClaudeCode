@@ -1,0 +1,93 @@
+{
+  "agent": "cross-reference-agent",
+  "run_id": "golden-nt-ot-voice",
+  "entries": [
+    {
+      "from_ref": "MAT.3.3",
+      "links": [
+        {
+          "to": "ISA.40.3",
+          "votes": 49,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "MAL.3.1",
+          "votes": 23,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "ISA.57.14",
+          "votes": 11,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": "Isa.57.14-Isa.57.15"
+        }
+      ]
+    },
+    {
+      "from_ref": "LUK.3.4",
+      "links": [
+        {
+          "to": "ISA.40.3",
+          "votes": 30,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Isa.40.3-Isa.40.5"
+        },
+        {
+          "to": "ISA.62.10",
+          "votes": 8,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "ISA.57.14",
+          "votes": 7,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "MAL.4.6",
+          "votes": 6,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        }
+      ]
+    },
+    {
+      "from_ref": "JHN.1.23",
+      "links": [
+        {
+          "to": "ISA.40.3",
+          "votes": 56,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Isa.40.3-Isa.40.5"
+        }
+      ]
+    },
+    {
+      "from_ref": "MRK.1.3",
+      "links": [
+        {
+          "to": "ISA.40.3",
+          "votes": 32,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Isa.40.3-Isa.40.5"
+        }
+      ]
+    }
+  ],
+  "verified_targets": [
+    "ISA.40.3"
+  ],
+  "notes": []
+}

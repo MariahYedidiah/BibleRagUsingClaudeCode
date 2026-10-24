@@ -35,7 +35,7 @@
     "n": 48,
     "top_vector_score_median": 0.4679,
     "top_vector_score_min": 0.4117,
-    "top_vector_score_max": 0.5436
+    "top_vector_score_max": 0.5519
   },
   "oshb_wlc/hybrid": {
     "n": 25,
@@ -43,17 +43,14 @@
     "top_vector_score_min": 0.5181,
     "top_vector_score_max": 0.7836,
     "recall@1": 0.16,
-    "recall@5": 0.28,
-    "recall@10": 0.32,
-    "mrr": 0.227,
+    "recall@5": 0.36,
+    "recall@10": 0.44,
+    "mrr": 0.254,
     "misses": [
       "The Spirit of God was hovering over the surface of the waters",
       "Abraham believed God and it was counted to him as righteousness",
-      "God told Moses his name: I am who I am",
       "A pillar of cloud by day and a pillar of fire by night led the people",
       "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
-      "Love your neighbor as yourself",
-      "Love the people around you as much as you love yourself",
       "The Lord is my shepherd, I lack nothing",
       "The fear of the Lord is where wisdom and knowledge begin",
       "They will beat their swords into plowshares",
@@ -72,17 +69,14 @@
     "top_vector_score_min": 0.5181,
     "top_vector_score_max": 0.7836,
     "recall@1": 0.16,
-    "recall@5": 0.28,
-    "recall@10": 0.32,
-    "mrr": 0.227,
+    "recall@5": 0.36,
+    "recall@10": 0.44,
+    "mrr": 0.254,
     "misses": [
       "The Spirit of God was hovering over the surface of the waters",
       "Abraham believed God and it was counted to him as righteousness",
-      "God told Moses his name: I am who I am",
       "A pillar of cloud by day and a pillar of fire by night led the people",
       "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
-      "Love your neighbor as yourself",
-      "Love the people around you as much as you love yourself",
       "The Lord is my shepherd, I lack nothing",
       "The fear of the Lord is where wisdom and knowledge begin",
       "They will beat their swords into plowshares",
@@ -131,24 +125,26 @@
   },
   "web/hybrid": {
     "n": 41,
-    "top_vector_score_median": 0.8115,
+    "top_vector_score_median": 0.8349,
     "top_vector_score_min": 0.6549,
     "top_vector_score_max": 0.9811,
     "recall@1": 0.854,
-    "recall@5": 1.0,
-    "recall@10": 1.0,
-    "mrr": 0.913,
-    "misses": []
+    "recall@5": 0.976,
+    "recall@10": 0.976,
+    "mrr": 0.909,
+    "misses": [
+      "Jesus cried when his friend died"
+    ]
   },
   "web/vector": {
     "n": 41,
-    "top_vector_score_median": 0.8115,
+    "top_vector_score_median": 0.8349,
     "top_vector_score_min": 0.6549,
     "top_vector_score_max": 0.9811,
-    "recall@1": 0.829,
+    "recall@1": 0.854,
     "recall@5": 0.976,
     "recall@10": 0.976,
-    "mrr": 0.88,
+    "mrr": 0.889,
     "misses": [
       "Love the people around you as much as you love yourself"
     ]
