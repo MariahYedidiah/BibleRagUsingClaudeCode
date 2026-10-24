@@ -47,6 +47,9 @@ SHARD = 2048       # verses per cached embedding file (the unit of resume)
 # hold the same vectors as a `where={"language": ...}` filter on this one, at twice the disk.
 # Add entries here (name -> language) only if a language gets its own model.
 COLLECTIONS = {COLLECTION: None}
+# Chroma's defaults (16 neighbors, ef 100) left ~2% of verses unreachable by their own vector:
+# a self-query of 300 random verses found itself only 98% of the time.
+HNSW = {"space": "cosine", "max_neighbors": 32, "ef_construction": 200, "ef_search": 200}
 VERSIFICATION = {"web": "kjv", "sblgnt": "kjv", "oshb_wlc": "wlc", "lxx_swete": "lxx"}
 COLUMNS = ["verse_uid", "source", "language", "testament", "book_id", "book_name", "chapter",
            "verse", "edition", "source_ref", "canon_ref", "alignment", "versification",
@@ -229,7 +232,7 @@ def build_chroma(df, cache):
             client.delete_collection(name)
         collections[name] = (language, client.create_collection(
             name,
-            configuration={"hnsw": {"space": "cosine"}},
+            configuration={"hnsw": HNSW},
             metadata={"embedding_model": MODEL},
             embedding_function=None,
         ))

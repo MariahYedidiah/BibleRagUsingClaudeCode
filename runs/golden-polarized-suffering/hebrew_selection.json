@@ -1,0 +1,15 @@
+{"keep":[
+{"verse_uid":"oshb_wlc:Ps.44.25","relevance":"Communal lament voicing the complaint directly: why do you hide your face and forget our affliction and oppression."},
+{"verse_uid":"oshb_wlc:Ps.13.2","relevance":"Individual lament: how long will you forget me, how long hide your face; the question as the sufferer asks it."},
+{"verse_uid":"oshb_wlc:Ps.88.15","relevance":"Lament: why do you reject my soul and hide your face from me; felt divine absence in suffering."},
+{"verse_uid":"oshb_wlc:Job.13.24","relevance":"Job asks why God hides his face and counts him an enemy; protest of apparent divine indifference."},
+{"verse_uid":"oshb_wlc:Exod.3.7","relevance":"God's response: he has seen the affliction of his people, heard their cry and knows their pain."}
+],
+"discard":[
+{"verse_uid":"oshb_wlc:Ps.107.8","reason":"Refrain of thanksgiving for rescue; relevant but less direct than kept verses, cut by k"},
+{"verse_uid":"oshb_wlc:Eccl.7.13","reason":"About God's work, not suffering care"},
+{"verse_uid":"oshb_wlc:Isa.2.12","reason":"Day of the LORD, unrelated"},
+{"verse_uid":"oshb_wlc:Eccl.12.14","reason":"Judgment of deeds, unrelated"},
+{"verse_uid":"oshb_wlc:Ps.10.9","reason":"Describes the wicked lying in wait for the afflicted; context only"}
+],
+"notes":["Vector search was up; results were weak for compassion passages (e.g. Ps 103, Ex 34:6 not retrieved)."],"missing":[]}

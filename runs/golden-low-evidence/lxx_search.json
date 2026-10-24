@@ -1,0 +1,478 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "configuring a cluster of computer servers to run software containers"
+  ],
+  "lexical_queries": [
+    "συναγωγή κατασκευή οἰκοδομή",
+    "σκεύη σκεῦος"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02874,
+      "verse_uid": "lxx_swete:48.56.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 56,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "48.56.8",
+      "canon_ref": "ISA.56.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "εἶπεν Κύριος ὃ συνάγων τοὺς διεσπαρμένους Ἰσραήλ, ὅτι συνάξω ἐπ’ αὐτὸν συναγωγήν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.488
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.3929
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.025,
+      "verse_uid": "lxx_swete:16.26.15",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 26,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "16.26.15",
+      "canon_ref": "2CH.26.15",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἐποίησεν ἐν Ἰερουσαλὴμ μηχανὰς μεμηχανευμένας λογιστοῦ, τοῦ εἶναι ἐπὶ τῶν πύργων καὶ ἐπὶ τῶν γωνιῶν βάλλειν βέλεσιν καὶ λίθοις μεγάλοις· καὶ ἠκούσθη ἡ κατασκευὴ αὐτῶν ἕως πόρρω, ὅτι ἐθαυμαστώθη τοῦ βοηθῆναι ἕως οὗ κατίσχυσεν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 20,
+          "score": 0.393
+        },
+        {
+          "query": "συναγωγή κατασκευή οἰκοδομή",
+          "method": "lexical",
+          "rank": 20,
+          "score": -7.8695
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:29.12.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 12,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "29.12.5",
+      "canon_ref": "PRO.12.5",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "λογισμοὶ δικαίων κρίματα, κυβερνῶσιν δὲ ἀσεβεῖς δόλους.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.4735
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:02.27.19",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 27,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "02.27.19",
+      "canon_ref": "EXO.27.19",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ πᾶσα ἡ κατασκευὴ καὶ πάντα τὰ ἐργαλεῖα καὶ οἱ πάσσαλοι τῆς αὐλῆς χαλκοῖ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "συναγωγή κατασκευή οἰκοδομή",
+          "method": "lexical",
+          "rank": 1,
+          "score": -11.6695
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:03.15.12",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "LEV",
+      "book_name": "Leviticus",
+      "chapter": 15,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "03.15.12",
+      "canon_ref": "LEV.15.12",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ σκεῦος ὀστράκινον οὗ ἂν ἅψηται ὁ γονορρυὴς συντριβήσεται· κα σκεῦος ξύλινον νιφήσεται ὕδατι, καὶ καθαρὸν ἱστᾶι.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεύη σκεῦος",
+          "method": "lexical",
+          "rank": 1,
+          "score": -10.8499
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.36.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 36,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "49.36.4",
+      "canon_ref": "JER.29.4",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Οὕτως εἶπεν Κύριος ὁ θεὸς Ἰσραὴλ ἐπὶ τὴν ἀποικίαν ἣν ἀπῴκισα ἀπὸ Ἰερουσαλήμ",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4792
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.36.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 36,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "49.36.11",
+      "canon_ref": "JER.29.11",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ λογιοῦμαι ἐφʼ ὑμᾶς λογισμὸν εἰρήνης καὶ οὐ κακά, τοῦ δοῦναι ὑμῖν ταῦτα.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4705
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:05.8.12",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "DEU",
+      "book_name": "Deuteronomy",
+      "chapter": 8,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "05.8.12",
+      "canon_ref": "DEU.8.12",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "μὴ φαγὼν καὶ ἐμπλησθείς, καὶ οἰκίας καλὰς οἰκοδομή. σὰς καὶ κατοικήσας ἐν αὐταῖς,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "συναγωγή κατασκευή οἰκοδομή",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.9019
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:04.31.20",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "NUM",
+      "book_name": "Numbers",
+      "chapter": 31,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "04.31.20",
+      "canon_ref": "NUM.31.20",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ πᾶν περίβλημα καὶ πᾶν σκεῦος δερμάτινον καὶ πᾶσαν ἐργασίαν ἐξ αἰγίας καὶ πᾶν σκεῦος ξύλινον ἀφαγνιεῖτε.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεύη σκεῦος",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.8499
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:16.6.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 6,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "16.6.11",
+      "canon_ref": "2CH.6.11",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἔθηκα ἐκεῖ τὴν κιβωτὸν ἐν ἦ ἐκεῖ διαθήκη Κυρίου ἣν διέθετο τῷ Ἰσραήλ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.4771
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:29.15.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 15,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "29.15.22",
+      "canon_ref": "PRO.15.22",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὑπερτίθενται λογισμοὺς οἱ μὴ τιμῶντες συνέδρια, ἐν δὲ καρδίαις βουλευομένων μένει βουλή.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.46
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:16.3.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 3,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "16.3.2",
+      "canon_ref": "2CH.3.2",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἤρξατο οἰκοδομὴ ἐν τῷ μηνὶ τῷ δευτέρῳ ἐν τῷ ἔτει τῷ τετάρτῳ τῆς βασιλείας αὐτοῦ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "συναγωγή κατασκευή οἰκοδομή",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.1829
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:14.4.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "2KI",
+      "book_name": "2 Kings",
+      "chapter": 4,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "14.4.6",
+      "canon_ref": "2KI.4.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ εἶπεν πρὸς τοὺς υἱοὺς αὐτῆς Ἐγγίσατε ἔτι πρὸς τὸ σκεῦος. καὶ εἶπον αὐτῇ Οὐκ ἔστιν ἔτι σκεῦος· καὶ ἔστη τὸ",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεύη σκεῦος",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.2568
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:06.18.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JOS",
+      "book_name": "Joshua",
+      "chapter": 18,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "06.18.3",
+      "canon_ref": "JOS.18.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ εἶπεν Ἰησοῦς τοῖς υἱοῖς Ἰσραὴλ Ἓως τίνος ἐκλυθήσεσθε κληροἣν ἔδωκεν κύριος ὁ θεὸς ἡμῶν;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4697
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:27.32.10",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 32,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "27.32.10",
+      "canon_ref": "PSA.33.10",
+      "alignment": "partial",
+      "versification": "lxx",
+      "text_display": "Κύριος διασκεδάζει βουλὰς ἐθνῶν, ἀθετεῖ δὲ λογισμοὺς λαῶν, καὶ ἀθετεῖ βουλὰς ἀρχόντων·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4589
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.488,
+    "vector_margin": 0.0088,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 6,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 2
+  }
+}

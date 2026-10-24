@@ -1,0 +1,490 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "configuring a cluster of computer servers to run software containers"
+  ],
+  "lexical_queries": [],
+  "filters": {
+    "source": [
+      "web"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.03252,
+      "verse_uid": "web:2KI.4.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "2KI",
+      "book_name": "2 Kings",
+      "chapter": 4,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "2KI.4.3",
+      "canon_ref": "2KI.4.3",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Then he said, “Go, borrow empty containers from all your neighbors. Don’t borrow just a few containers.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4664
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.0438
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.03227,
+      "verse_uid": "web:JOB.38.31",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 38,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "JOB.38.31",
+      "canon_ref": "JOB.38.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "“Can you bind the cluster of the Pleiades, or loosen the cords of Orion?",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -10.9591
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.9591
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.03009,
+      "verse_uid": "web:SNG.1.14",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "SNG",
+      "book_name": "Song of Solomon",
+      "chapter": 1,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "SNG.1.14",
+      "canon_ref": "SNG.1.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "My beloved is to me a cluster of henna blossoms from the vineyards of En Gedi. Lover",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 8,
+          "score": -10.2519
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.2519
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.02879,
+      "verse_uid": "web:NUM.13.24",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "NUM",
+      "book_name": "Numbers",
+      "chapter": 13,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "NUM.13.24",
+      "canon_ref": "NUM.13.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "That place was called the valley of Eshcol, because of the cluster which the children of Israel cut down from there.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 11,
+          "score": -9.4397
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 8,
+          "score": -9.4397
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02358,
+      "verse_uid": "web:MIC.7.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "MIC",
+      "book_name": "Micah",
+      "chapter": 7,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "MIC.7.1",
+      "canon_ref": "MIC.7.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Misery is mine! Indeed, I am like one who gathers the summer fruits, as gleanings of the vineyard. There is no cluster of grapes to eat. My soul desires to eat the early fig.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 21,
+          "score": -7.5068
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 29,
+          "score": -7.5068
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01639,
+      "verse_uid": "web:LEV.15.31",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "LEV",
+      "book_name": "Leviticus",
+      "chapter": 15,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "LEV.15.31",
+      "canon_ref": "LEV.15.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "“‘Thus you shall separate the children of Israel from their uncleanness, so they will not die in their uncleanness when they defile my tabernacle that is among them.’”",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5025
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01639,
+      "verse_uid": "web:1TI.4.11",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 4,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "1TI.4.11",
+      "canon_ref": "1TI.4.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Command and teach these things.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.493
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "web:GEN.35.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 35,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "GEN.35.3",
+      "canon_ref": "GEN.35.3",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Let’s arise, and go up to Bethel. I will make there an altar to God, who answered me in the day of my distress, and was with me on the way which I went.”",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5019
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01613,
+      "verse_uid": "web:PSA.64.5",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 64,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "PSA.64.5",
+      "canon_ref": "PSA.64.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "They encourage themselves in evil plans. They talk about laying snares secretly. They say, “Who will see them?”",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.8477
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01613,
+      "verse_uid": "web:ISA.3.20",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 3,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "ISA.3.20",
+      "canon_ref": "ISA.3.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "the headdresses, the ankle chains, the sashes, the perfume containers, the charms,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.0308
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01587,
+      "verse_uid": "web:AMO.9.9",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "AMO",
+      "book_name": "Amos",
+      "chapter": 9,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "AMO.9.9",
+      "canon_ref": "AMO.9.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "“For behold, I will command, and I will sift the house of Israel among all the nations as grain is sifted in a sieve, yet not the least kernel will fall on the earth.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.496
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01587,
+      "verse_uid": "web:1CO.14.40",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 14,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "1CO.14.40",
+      "canon_ref": "1CO.14.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Let all things be done decently and in order.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.4519
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01587,
+      "verse_uid": "web:JHN.8.5",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 8,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "JHN.8.5",
+      "canon_ref": "JHN.8.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Now in our law, Moses commanded us to stone such women. What then do you say about her?”",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.8477
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "web:LUK.17.6",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 17,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "LUK.17.6",
+      "canon_ref": "LUK.17.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The Lord said, “ If|strong=\"G1487\" you|strong=\"G5210\" had|strong=\"G2192\" faith|strong=\"G4102\" like|strong=\"G5613\" a|strong=\"G2192\" grain|strong=\"G2848\" of|strong=\"G2532\" mustard|strong=\"G4615\" seed|strong=\"G2848\" , you|strong=\"G5210\" would|strong=\"G2532\" tell|strong=\"G3004\" this|strong=\"G3778\" sycamore tree|strong=\"G4807\" , ‘ Be|strong=\"G2532\" uprooted|strong=\"G1610\" and|strong=\"G2532\" be|strong=\"G2532\" planted|strong=\"G5452\" in|strong=\"G1722\" the|strong=\"G1722\" sea|strong=\"G2281\" ,’ and|strong=\"G2532\" it|strong=\"G2532\" would|strong=\"G2532\" obey|strong=\"G5219\" you|strong=\"G5210\" .",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4896
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01562,
+      "verse_uid": "web:ISA.62.10",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 62,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "ISA.62.10",
+      "canon_ref": "ISA.62.10",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Go through, go through the gates! Prepare the way of the people! Build up, build up the highway! Gather out the stones! Lift up a banner for the peoples.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4462
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5025,
+    "vector_margin": 0.0006,
+    "vector_lexical_overlap_top10": 1,
+    "lists": 4,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 2
+  }
+}

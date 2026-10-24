@@ -1,0 +1,82 @@
+{
+ "keep": [
+  {
+   "verse_uid": "sblgnt:JHN.1.1",
+   "relevance": "Direct match: in the beginning was the Word, with God, was God."
+  },
+  {
+   "verse_uid": "sblgnt:JHN.1.2",
+   "relevance": "Continues the prologue: the Word was in the beginning with God."
+  },
+  {
+   "canon_ref": "JHN.1.14",
+   "relevance": "The Word became flesh; not in the top-15 search hits but the second half of the query and same prologue."
+  },
+  {
+   "verse_uid": "sblgnt:1JN.1.1",
+   "relevance": "'from the beginning' and 'the Word of life'; parallel to the John prologue."
+  },
+  {
+   "canon_ref": "REV.19.13",
+   "relevance": "'The Word of God' as a name of the rider; related title."
+  }
+ ],
+ "discard": [
+  {
+   "reason": "'the word of God' as the gospel message, not the pre-existent Word",
+   "verse_uid": "sblgnt:ACT.12.24"
+  },
+  {
+   "reason": "word of the Lord spreading; message sense",
+   "verse_uid": "sblgnt:ACT.19.20"
+  },
+  {
+   "reason": "'beginning' of birth pains; false hit",
+   "verse_uid": "sblgnt:MAT.24.8"
+  },
+  {
+   "reason": "seed is the word of God; parable",
+   "verse_uid": "sblgnt:LUK.8.11"
+  },
+  {
+   "reason": "'faithful is the saying'; false hit",
+   "verse_uid": "sblgnt:2TI.2.11"
+  },
+  {
+   "reason": "'the beginning and the end'; no Word",
+   "verse_uid": "sblgnt:REV.22.13"
+  },
+  {
+   "reason": "'beginning of the gospel'; no Word",
+   "verse_uid": "sblgnt:MRK.1.1"
+  },
+  {
+   "reason": "oracles of God; false hit",
+   "verse_uid": "sblgnt:ROM.3.2"
+  },
+  {
+   "reason": "eyewitnesses and ministers of the word; message sense",
+   "verse_uid": "sblgnt:LUK.1.2"
+  },
+  {
+   "reason": "word of wisdom/knowledge; false hit",
+   "verse_uid": "sblgnt:1CO.12.8"
+  },
+  {
+   "reason": "'first account'; false hit",
+   "verse_uid": "sblgnt:ACT.1.1"
+  },
+  {
+   "reason": "word of faith; message sense",
+   "verse_uid": "sblgnt:ROM.10.8"
+  }
+ ],
+ "notes": [
+  "REV.19.13 relies on text marked as variant units (βεβαμμένον, κέκληται) in SBLGNT.",
+  "JHN.1.1 and JHN.1.2: 'In the beginning' wording may echo the opening of Hebrew scripture (allusion candidate; cross-reference agent to verify).",
+  "JHN.1.14: ἐσκήνωσεν 'dwelt/tabernacled' may recall tabernacle language (candidate only).",
+  "No explicit quotation formulas in kept verses.",
+  "JHN.1.14 and REV.19.13 were retrieved by a second search (nt_search2.json), not the first."
+ ],
+ "missing": []
+}

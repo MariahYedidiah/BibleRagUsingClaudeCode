@@ -1,0 +1,66 @@
+[
+ {
+  "canon_ref": "GEN.1.1",
+  "verse_uid": "lxx_swete:01.1.1",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+  "translation": "In the beginning God made the heaven and the earth.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ΕΝ ΑΡΧΗ: 'in beginning' (no article); ἐποίησεν 'made' (aorist)"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.1",
+  "differences_from_web": [
+   "LXX has ἐποίησεν 'made' where the Hebrew has בָּרָא 'created' (WEB)",
+   "LXX opening ἐν ἀρχῇ-style phrase 'in the beginning' matches the wording of Jn 1:1, but Genesis has no 'word'"
+  ],
+  "_web_text": "In the beginning, God created the heavens and the earth.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PRO.8.22",
+  "verse_uid": "lxx_swete:29.8.22",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "Κύριος ἔκτισέν με ἀρχὴν ὁδῶν αὐτοῦ εἰς ἔργα αὐτοῦ,",
+  "translation": "The Lord created me as the beginning of his ways, for his works,",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἔκτισέν με: aorist 'created me'",
+   "ἀρχὴν ὁδῶν: 'a beginning of (his) ways'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PRO.8.22",
+  "differences_from_web": [
+   "LXX 'created me' (ἔκτισεν) where Hebrew קָנָנִי is 'possessed/acquired me' (WEB 'possessed')",
+   "LXX 'as the beginning of his ways, for his works' versus WEB 'in the beginning of his work'"
+  ],
+  "_web_text": "“The LORD possessed me in the beginning of his work, before his deeds of old.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "ISA.40.5",
+  "verse_uid": "lxx_swete:48.40.5",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "καὶ ὀφθήσεται ἡ δόξα Κυρίου, καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ, ὅτι Κύριος ἐλάλησεν.",
+  "translation": "And the glory of the Lord will be seen, and all flesh will see the salvation of God, for the Lord has spoken.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "τὸ σωτήριον τοῦ θεοῦ: 'the salvation of God'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:ISA.40.5",
+  "differences_from_web": [
+   "LXX adds 'and all flesh will see the salvation of God' (τὸ σωτήριον τοῦ θεοῦ) where the Hebrew has 'all flesh shall see it together'",
+   "LXX lacks 'together'; 'mouth of the LORD has spoken' becomes 'the Lord has spoken'"
+  ],
+  "_web_text": "The LORD’s glory shall be revealed, and all flesh shall see it together; for the mouth of the LORD has spoken it.”",
+  "_edition": null
+ }
+]

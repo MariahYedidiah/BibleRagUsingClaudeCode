@@ -1,0 +1,20 @@
+{
+  "question": "What does the Bible say about configuring a Kubernetes cluster?",
+  "answer": "The evidence is insufficient to answer this question. Kubernetes is a modern software system, and none of the four corpora searched (WEB English, the Hebrew text (OSHB/WLC), Septuagint Greek (Swete LXX) and New Testament Greek (SBLGNT)) contains a passage that speaks to it. A first search and a broader second round, which looked at organizing complex work and at overseers, both turned up only incidental word overlaps or loose thematic echoes, and the specialists set all of them aside. No passages are shown, because presenting any of them as relevant would stretch the texts beyond what they say.",
+  "passages": [],
+  "confidence": {
+    "level": "insufficient",
+    "basis": "0 passages kept; 0 references found in two or more languages; 0 passages found by both vector and lexical search",
+    "signals": {
+      "passages_kept": 0,
+      "cross_lingual_refs": [],
+      "found_by_both_methods": 0,
+      "above_vector_floor": 0,
+      "found_by_two_or_more_queries": 0,
+      "top_vector_score": null,
+      "vector_search_available": true
+    }
+  },
+  "clarifying_question": "The Bible does not discuss computer systems. Are you asking about a Biblical principle, such as order, stewardship, diligent work or responsibility for what is entrusted to you, that you would like applied to your work with Kubernetes? If so, which principle should I search for?",
+  "run_id": "golden-low-evidence"
+}

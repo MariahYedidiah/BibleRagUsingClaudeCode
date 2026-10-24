@@ -1,0 +1,332 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-ot-creation",
+  "corpus": "web",
+  "queries": [
+    "What does Genesis say about creation?",
+    "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.8299,
+      "vector_margin": 0.0826,
+      "vector_lexical_overlap_top10": 8,
+      "lists": 4,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 3
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "GEN.1.1",
+      "verse_uid": "web:GEN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "In the beginning, God created the heavens and the earth.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5427
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.8299
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "lexical",
+          "rank": 1,
+          "score": -36.371
+        }
+      ],
+      "rrf": 0.04892,
+      "relevance": "States the core creation claim: God created the heavens and the earth. Found by both vector and lexical search, query 1 and 2.",
+      "context": [
+        {
+          "verse_uid": "web:GEN.1.1",
+          "verse": 1,
+          "text_display": "In the beginning, God created the heavens and the earth."
+        },
+        {
+          "verse_uid": "web:GEN.1.2",
+          "verse": 2,
+          "text_display": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "canon_ref": "GEN.1.26",
+      "verse_uid": "web:GEN.1.26",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5326
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.6667
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "lexical",
+          "rank": 16,
+          "score": -15.0159
+        }
+      ],
+      "rrf": 0.04236,
+      "relevance": "God's decision to make humankind in his image and give dominion over creatures. Found by both methods, query 2.",
+      "context": [
+        {
+          "verse_uid": "web:GEN.1.25",
+          "verse": 25,
+          "text_display": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good."
+        },
+        {
+          "verse_uid": "web:GEN.1.26",
+          "verse": 26,
+          "text_display": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”"
+        },
+        {
+          "verse_uid": "web:GEN.1.27",
+          "verse": 27,
+          "text_display": "God created man in his own image. In God’s image he created him; male and female he created them."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "canon_ref": "GEN.1.27",
+      "verse_uid": "web:GEN.1.27",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5302
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.7301
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "lexical",
+          "rank": 3,
+          "score": -26.3179
+        }
+      ],
+      "rrf": 0.04665,
+      "relevance": "Narrates God creating humankind in his image, male and female. Found by both methods, query 1 and 2.",
+      "context": [
+        {
+          "verse_uid": "web:GEN.1.26",
+          "verse": 26,
+          "text_display": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”"
+        },
+        {
+          "verse_uid": "web:GEN.1.27",
+          "verse": 27,
+          "text_display": "God created man in his own image. In God’s image he created him; male and female he created them."
+        },
+        {
+          "verse_uid": "web:GEN.1.28",
+          "verse": 28,
+          "text_display": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "canon_ref": "GEN.1.25",
+      "verse_uid": "web:GEN.1.25",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.4933
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.7382
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "lexical",
+          "rank": 13,
+          "score": -16.1902
+        }
+      ],
+      "rrf": 0.0445,
+      "relevance": "God makes the land animals and livestock after their kind and sees they are good. Found by both methods, query 2.",
+      "context": [
+        {
+          "verse_uid": "web:GEN.1.24",
+          "verse": 24,
+          "text_display": "God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so."
+        },
+        {
+          "verse_uid": "web:GEN.1.25",
+          "verse": 25,
+          "text_display": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good."
+        },
+        {
+          "verse_uid": "web:GEN.1.26",
+          "verse": 26,
+          "text_display": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "canon_ref": "GEN.2.3",
+      "verse_uid": "web:GEN.2.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.709
+        },
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -8.041
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "lexical",
+          "rank": 4,
+          "score": -24.9009
+        }
+      ],
+      "rrf": 0.0463,
+      "relevance": "God blesses and sanctifies the seventh day because he rested from all his work of creation. Found by both methods, query 1 and 2.",
+      "context": [
+        {
+          "verse_uid": "web:GEN.2.2",
+          "verse": 2,
+          "text_display": "On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done."
+        },
+        {
+          "verse_uid": "web:GEN.2.3",
+          "verse": 3,
+          "text_display": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done."
+        },
+        {
+          "verse_uid": "web:GEN.2.4",
+          "verse": 4,
+          "text_display": "This is the history of the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "Genealogical formula ('history of the generations'); mentions creation only as a dating phrase.",
+      "verse_uid": "web:GEN.2.4"
+    },
+    {
+      "reason": "Genealogy opening; mentions creating man only in passing.",
+      "verse_uid": "web:GEN.5.1"
+    },
+    {
+      "reason": "Rest on the seventh day; relevant to creation week but less direct than GEN.2.3, which is kept.",
+      "verse_uid": "web:GEN.2.2"
+    },
+    {
+      "reason": "Naming of animals in the Eden narrative, not a statement about creation itself.",
+      "verse_uid": "web:GEN.2.19"
+    },
+    {
+      "reason": "Creation of sun, moon and stars; relevant but cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.16"
+    },
+    {
+      "reason": "Naming of light and darkness and day one; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.5"
+    },
+    {
+      "reason": "Naming of the sky on day two; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.8"
+    },
+    {
+      "reason": "Creation of sea creatures and birds; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.21"
+    },
+    {
+      "reason": "Creation of land animals; cut in favor of GEN.1.25 which states the same act with the approval.",
+      "verse_uid": "web:GEN.1.24"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Service was up (vector + lexical). Search used both query variants with filters testament=OT, book=GEN.",
+    "The neutral and contrasting variants are not polarized here; query 2 contributed GEN.1.26 and GEN.1.25 mainly.",
+    "GEN.1.2 and GEN.1.31 were not in the top 15 and were not kept, so the creation account is only partly represented."
+  ]
+}

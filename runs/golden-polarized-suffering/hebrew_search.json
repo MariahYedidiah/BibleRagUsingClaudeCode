@@ -1,0 +1,897 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "רחום חנון רחמיו רחמים",
+    "עני עניי ענינו צרה בצר צעקה זעקה",
+    "שכח תשכחני תסתיר דמעתי דמעה",
+    "עד־אנה תשכחני תסתיר",
+    "ראה ראיתי עני עמי צעקתם"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.06248,
+      "verse_uid": "oshb_wlc:Ps.44.25",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 44,
+      "verse": 25,
+      "edition": "",
+      "source_ref": "Ps.44.25",
+      "canon_ref": "PSA.44.24",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5482
+        },
+        {
+          "query": "עני עניי ענינו צרה בצר צעקה זעקה",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.9466
+        },
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 3,
+          "score": -13.6644
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 11,
+          "score": -13.6644
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.04817,
+      "verse_uid": "oshb_wlc:Ps.66.5",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 66,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "Ps.66.5",
+      "canon_ref": "PSA.66.5",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לְכ֣וּ וּ֭/רְאוּ מִפְעֲל֣וֹת אֱלֹהִ֑ים נוֹרָ֥א עֲ֝לִילָ֗ה עַל־בְּנֵ֥י אָדָֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5645
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5828
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5458
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.04534,
+      "verse_uid": "oshb_wlc:Job.13.24",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 13,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "Job.13.24",
+      "canon_ref": "JOB.13.24",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר וְ/תַחְשְׁבֵ֖/נִי לְ/אוֹיֵ֣ב לָֽ/ךְ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5326
+        },
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.6644
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 10,
+          "score": -13.6644
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.03279,
+      "verse_uid": "oshb_wlc:Ps.13.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 13,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Ps.13.2",
+      "canon_ref": "PSA.13.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 1,
+          "score": -25.5554
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 1,
+          "score": -44.5648
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.03175,
+      "verse_uid": "oshb_wlc:Job.31.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 31,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Job.31.2",
+      "canon_ref": "JOB.31.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וּ/מֶ֤ה ׀ חֵ֣לֶק אֱל֣וֹהַּ מִ/מָּ֑עַל וְֽ/נַחֲלַ֥ת שַׁ֝דַּ֗י מִ/מְּרֹמִֽים׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5337
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5337
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.03151,
+      "verse_uid": "oshb_wlc:Eccl.7.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ECC",
+      "book_name": "Ecclesiastes",
+      "chapter": 7,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Eccl.7.13",
+      "canon_ref": "ECC.7.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "רְאֵ֖ה אֶת־מַעֲשֵׂ֣ה הָ/אֱלֹהִ֑ים כִּ֣י מִ֤י יוּכַל֙ לְ/תַקֵּ֔ן אֵ֖ת אֲשֶׁ֥ר עִוְּתֽ/וֹ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5406
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5128
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.03008,
+      "verse_uid": "oshb_wlc:Ps.107.21",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 107,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "Ps.107.21",
+      "canon_ref": "PSA.107.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יוֹד֣וּ לַ/יהוָ֣ה חַסְדּ֑/וֹ וְ֝/נִפְלְאוֹתָ֗י/ו לִ/בְנֵ֥י אָדָֽם׃ ׆",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.5242
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5097
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.02951,
+      "verse_uid": "oshb_wlc:Ps.88.15",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 88,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "Ps.88.15",
+      "canon_ref": "PSA.88.14",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לָ/מָ֣ה יְ֭הוָה תִּזְנַ֣ח נַפְשִׁ֑/י תַּסְתִּ֖יר פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 4,
+          "score": -13.2899
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 12,
+          "score": -13.2899
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.02899,
+      "verse_uid": "oshb_wlc:Ps.107.8",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 107,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "Ps.107.8",
+      "canon_ref": "PSA.107.8",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יוֹד֣וּ לַ/יהוָ֣ה חַסְדּ֑/וֹ וְ֝/נִפְלְאוֹתָ֗י/ו לִ/בְנֵ֥י אָדָֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5219
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5068
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.02899,
+      "verse_uid": "oshb_wlc:Ps.10.9",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 10,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "Ps.10.9",
+      "canon_ref": "PSA.10.9",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יֶאֱרֹ֬ב בַּ/מִּסְתָּ֨ר ׀ כְּ/אַרְיֵ֬ה בְ/סֻכֹּ֗/ה יֶ֭אֱרֹב לַ/חֲט֣וֹף עָנִ֑י יַחְטֹ֥ף עָ֝נִ֗י בְּ/מָשְׁכ֥/וֹ בְ/רִשְׁתּֽ/וֹ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עני עניי ענינו צרה בצר צעקה זעקה",
+          "method": "lexical",
+          "rank": 9,
+          "score": -11.8488
+        },
+        {
+          "query": "ראה ראיתי עני עמי צעקתם",
+          "method": "lexical",
+          "rank": 9,
+          "score": -11.8488
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.02858,
+      "verse_uid": "oshb_wlc:Ps.107.15",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 107,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "Ps.107.15",
+      "canon_ref": "PSA.107.15",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יוֹד֣וּ לַ/יהוָ֣ה חַסְדּ֑/וֹ וְ֝/נִפְלְאוֹתָ֗י/ו לִ/בְנֵ֥י אָדָֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5219
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.5068
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.02817,
+      "verse_uid": "oshb_wlc:Ps.107.31",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 107,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "Ps.107.31",
+      "canon_ref": "PSA.107.31",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יוֹד֣וּ לַ/יהוָ֣ה חַסְדּ֑/וֹ וְ֝/נִפְלְאוֹתָ֗י/ו לִ/בְנֵ֥י אָדָֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5219
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.5068
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.02801,
+      "verse_uid": "oshb_wlc:Ps.104.29",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 104,
+      "verse": 29,
+      "edition": "",
+      "source_ref": "Ps.104.29",
+      "canon_ref": "PSA.104.29",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "תַּסְתִּ֥יר פָּנֶי/ךָ֮ יִֽבָּהֵ֫ל֥וּ/ן תֹּסֵ֣ף ר֭וּחָ/ם יִגְוָע֑וּ/ן וְֽ/אֶל־עֲפָרָ֥/ם יְשׁוּבֽוּ/ן׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 9,
+          "score": -12.5993
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 14,
+          "score": -12.5993
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.02767,
+      "verse_uid": "oshb_wlc:Ps.25.8",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 25,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "Ps.25.8",
+      "canon_ref": "PSA.25.8",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "טוֹב־וְ/יָשָׁ֥ר יְהוָ֑ה עַל־כֵּ֤ן יוֹרֶ֖ה חַטָּאִ֣ים בַּ/דָּֽרֶךְ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 23,
+          "score": 0.5136
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5172
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.0269,
+      "verse_uid": "oshb_wlc:Ps.30.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 30,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Ps.30.13",
+      "canon_ref": "PSA.30.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לְמַ֤עַן ׀ יְזַמֶּרְ/ךָ֣ כָ֭בוֹד וְ/לֹ֣א יִדֹּ֑ם יְהוָ֥ה אֱ֝לֹהַ֗/י לְ/עוֹלָ֥ם אוֹדֶֽ/ךָּ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 22,
+          "score": 0.5335
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5313
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "rrf": 0.02535,
+      "verse_uid": "oshb_wlc:Isa.2.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 2,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "Isa.2.12",
+      "canon_ref": "ISA.2.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֣י י֞וֹם לַ/יהוָ֧ה צְבָא֛וֹת עַ֥ל כָּל־גֵּאֶ֖ה וָ/רָ֑ם וְ/עַ֖ל כָּל־נִשָּׂ֥א וְ/שָׁפֵֽל׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.5155
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 22,
+          "score": 0.4975
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "rrf": 0.02452,
+      "verse_uid": "oshb_wlc:Eccl.5.6",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ECC",
+      "book_name": "Ecclesiastes",
+      "chapter": 5,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "Eccl.5.6",
+      "canon_ref": "ECC.5.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֣י בְ/רֹ֤ב חֲלֹמוֹת֙ וַ/הֲבָלִ֔ים וּ/דְבָרִ֖ים הַרְבֵּ֑ה כִּ֥י אֶת־הָ/אֱלֹהִ֖ים יְרָֽא׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.5099
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.5015
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "rrf": 0.02353,
+      "verse_uid": "oshb_wlc:Ps.66.19",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 66,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "Ps.66.19",
+      "canon_ref": "PSA.66.19",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אָ֭כֵן שָׁמַ֣ע אֱלֹהִ֑ים הִ֝קְשִׁ֗יב בְּ/ק֣וֹל תְּפִלָּתִֽ/י׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 25,
+          "score": 0.5116
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 25,
+          "score": 0.496
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "rrf": 0.02327,
+      "verse_uid": "oshb_wlc:Eccl.12.14",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ECC",
+      "book_name": "Ecclesiastes",
+      "chapter": 12,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "Eccl.12.14",
+      "canon_ref": "ECC.12.14",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֤י אֶת־כָּל־מַֽעֲשֶׂ֔ה הָ/אֱלֹהִ֛ים יָבִ֥א בְ/מִשְׁפָּ֖ט עַ֣ל כָּל־נֶעְלָ֑ם אִם־ט֖וֹב וְ/אִם־רָֽע׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.513
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.4927
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Job.39.17",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 39,
+      "verse": 17,
+      "edition": "",
+      "source_ref": "Job.39.17",
+      "canon_ref": "JOB.39.17",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּֽי־הִשָּׁ֣/הּ אֱל֣וֹהַּ חָכְמָ֑ה וְ/לֹא־חָ֥לַק לָ֝֗/הּ בַּ/בִּינָֽה׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5902
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Deut.13.19",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "DEU",
+      "book_name": "Deuteronomy",
+      "chapter": 13,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "Deut.13.19",
+      "canon_ref": "DEU.13.18",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֣י תִשְׁמַ֗ע בְּ/קוֹל֙ יְהוָ֣ה אֱלֹהֶ֔י/ךָ לִ/שְׁמֹר֙ אֶת־כָּל־מִצְוֺתָ֔י/ו אֲשֶׁ֛ר אָנֹכִ֥י מְצַוְּ/ךָ֖ הַ/יּ֑וֹם לַ/עֲשׂוֹת֙ הַ/יָּשָׁ֔ר בְּ/עֵינֵ֖י יְהוָ֥ה אֱלֹהֶֽי/ךָ׃ ס",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5502
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Neh.10.26",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "NEH",
+      "book_name": "Nehemiah",
+      "chapter": 10,
+      "verse": 26,
+      "edition": "",
+      "source_ref": "Neh.10.26",
+      "canon_ref": "NEH.10.25",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "רְח֥וּם חֲשַׁבְנָ֖ה מַעֲשֵׂיָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "רחום חנון רחמיו רחמים",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.665
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Exod.3.7",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 3,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "Exod.3.7",
+      "canon_ref": "EXO.3.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ראה ראיתי עני עמי צעקתם",
+          "method": "lexical",
+          "rank": 1,
+          "score": -39.4911
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ps.44.22",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 44,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "Ps.44.22",
+      "canon_ref": "PSA.44.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "הֲ/לֹ֣א אֱ֭לֹהִים יַֽחֲקָר־זֹ֑את כִּֽי־ה֥וּא יֹ֝דֵ֗עַ תַּעֲלֻמ֥וֹת לֵֽב׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5791
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ps.7.11",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 7,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "Ps.7.11",
+      "canon_ref": "PSA.7.10",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "מָֽגִנִּ֥/י עַל־אֱלֹהִ֑ים מ֝וֹשִׁ֗יעַ יִשְׁרֵי־לֵֽב׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5345
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5902,
+    "vector_margin": 0.0111,
+    "vector_lexical_overlap_top10": 2,
+    "lists": 13,
+    "lists_with_hits": 9,
+    "lists_containing_top_result": 4
+  }
+}

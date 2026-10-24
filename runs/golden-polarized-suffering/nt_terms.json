@@ -1,0 +1,32 @@
+{
+  "query": "Why doesn't God care about human suffering?",
+  "language": "grc",
+  "corpus": "sblgnt",
+  "terms": [
+    {"term": "σπλαγχνίζομαι", "gloss": "I have compassion", "hits": 2},
+    {"term": "ἐσπλαγχνίσθη", "gloss": "he had compassion (aor.)", "hits": 6},
+    {"term": "σπλάγχνα", "gloss": "compassions, inward parts", "hits": 9},
+    {"term": "ἔλεος", "gloss": "mercy", "hits": 19},
+    {"term": "ἐλέους", "gloss": "of mercy", "hits": 5},
+    {"term": "ἐλέησον", "gloss": "have mercy", "hits": 11},
+    {"term": "οἰκτιρμῶν", "gloss": "of compassions", "hits": 5},
+    {"term": "θλῖψις", "gloss": "affliction", "hits": 7},
+    {"term": "θλίψει", "gloss": "in affliction", "hits": 8},
+    {"term": "θλίψεως", "gloss": "of affliction", "hits": 9},
+    {"term": "θλίψεων", "gloss": "of afflictions", "hits": 3},
+    {"term": "παθήματα", "gloss": "sufferings", "hits": 4},
+    {"term": "παθημάτων", "gloss": "of sufferings", "hits": 7},
+    {"term": "πάσχει", "gloss": "he suffers", "hits": 2},
+    {"term": "μέλει", "gloss": "it is a care", "hits": 7},
+    {"term": "ἐπεσκέψατο", "gloss": "he visited/looked upon", "hits": 3},
+    {"term": "παρακαλῶν", "gloss": "comforting", "hits": 9},
+    {"term": "παρακλήσεως", "gloss": "of comfort", "hits": 11},
+    {"term": "ἐγκατέλιπες", "gloss": "you forsook", "hits": 2},
+    {"term": "πότε", "gloss": "when", "hits": 45}
+  ],
+  "lexical_queries": ["σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν", "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει", "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως", "ἐγκατέλιπες πότε"],
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "display": false,
+  "notes": ["Forms for forget/hide face had 0 hits in SBLGNT and were dropped."]
+}

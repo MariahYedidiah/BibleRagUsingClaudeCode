@@ -1,0 +1,1766 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+    "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+    "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+    "ἐγκατέλιπες πότε",
+    "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+    "μέλει περὶ ὑμῶν"
+  ],
+  "filters": {
+    "source": [
+      "sblgnt"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.04312,
+      "verse_uid": "sblgnt:ROM.2.23",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 2,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "ROM.2.23",
+      "canon_ref": "ROM.2.23",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ὃς ἐν νόμῳ καυχᾶσαι, διὰ τῆς παραβάσεως τοῦ νόμου τὸν θεὸν ἀτιμάζεις;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.5036
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5379
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5364
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.04029,
+      "verse_uid": "sblgnt:1TH.2.19",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1TH",
+      "book_name": "1 Thessalonians",
+      "chapter": 2,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "1TH.2.19",
+      "canon_ref": "1TH.2.19",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τίς γὰρ ἡμῶν ἐλπὶς ἢ χαρὰ ἢ στέφανος καυχήσεως—ἢ οὐχὶ καὶ ὑμεῖς—ἔμπροσθεν τοῦ κυρίου ἡμῶν Ἰησοῦ ἐν τῇ αὐτοῦ παρουσίᾳ;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.4995
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 29,
+          "score": 0.4992
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.541
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.03941,
+      "verse_uid": "sblgnt:ROM.8.35",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 8,
+      "verse": 35,
+      "edition": "",
+      "source_ref": "ROM.8.35",
+      "canon_ref": "ROM.8.35",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τίς ἡμᾶς χωρίσει ἀπὸ τῆς ἀγάπης τοῦ Χριστοῦ; θλῖψις ἢ στενοχωρία ἢ διωγμὸς ἢ λιμὸς ἢ γυμνότης ἢ κίνδυνος ἢ μάχαιρα;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5194
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.507
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 23,
+          "score": -8.3536
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.03802,
+      "verse_uid": "sblgnt:2CO.7.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 7,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "2CO.7.4",
+      "canon_ref": "2CO.7.4",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πολλή μοι παρρησία πρὸς ὑμᾶς, πολλή μοι καύχησις ὑπὲρ ὑμῶν· πεπλήρωμαι τῇ παρακλήσει, ὑπερπερισσεύομαι τῇ χαρᾷ ἐπὶ πάσῃ τῇ θλίψει ἡμῶν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.5176
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5144
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 30,
+          "score": -7.681
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.03252,
+      "verse_uid": "sblgnt:ROM.3.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 3,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "ROM.3.6",
+      "canon_ref": "ROM.3.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "μὴ γένοιτο· ἐπεὶ πῶς κρινεῖ ὁ θεὸς τὸν κόσμον;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5636
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5443
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.03252,
+      "verse_uid": "sblgnt:LUK.10.33",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 10,
+      "verse": 33,
+      "edition": "",
+      "source_ref": "LUK.10.33",
+      "canon_ref": "LUK.10.33",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Σαμαρίτης δέ τις ὁδεύων ἦλθεν κατ᾽ αὐτὸν καὶ ⸂ ἰδὼν ⸃ ἐσπλαγχνίσθη,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.0691
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.0691
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.03226,
+      "verse_uid": "sblgnt:JHN.10.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 10,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "JHN.10.13",
+      "canon_ref": "JHN.10.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "⸂ ὅτι ⸃ μισθωτός ἐστιν καὶ οὐ μέλει αὐτῷ περὶ τῶν προβάτων.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.348
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -17.08
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.03202,
+      "verse_uid": "sblgnt:2TH.1.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2TH",
+      "book_name": "2 Thessalonians",
+      "chapter": 1,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "2TH.1.6",
+      "canon_ref": "2TH.1.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἴπερ δίκαιον παρὰ θεῷ ἀνταποδοῦναι τοῖς θλίβουσιν ὑμᾶς θλῖψιν",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5336
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5624
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.032,
+      "verse_uid": "sblgnt:MRK.8.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 8,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "MRK.8.2",
+      "canon_ref": "MRK.8.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Σπλαγχνίζομαι ἐπὶ τὸν ὄχλον ὅτι ἤδη ἡμέραι τρεῖς προσμένουσίν μοι καὶ οὐκ ἔχουσιν τί φάγωσιν·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.7846
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.7846
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.03178,
+      "verse_uid": "sblgnt:1PE.5.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1PE",
+      "book_name": "1 Peter",
+      "chapter": 5,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "1PE.5.7",
+      "canon_ref": "1PE.5.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.801
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -22.5488
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.03151,
+      "verse_uid": "sblgnt:TIT.2.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "TIT",
+      "book_name": "Titus",
+      "chapter": 2,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "TIT.2.11",
+      "canon_ref": "TIT.2.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἐπεφάνη γὰρ ἡ χάρις τοῦ ⸂ θεοῦ ⸃ σωτήριος πᾶσιν ἀνθρώποις",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5292
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5547
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.03126,
+      "verse_uid": "sblgnt:LUK.7.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 7,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "LUK.7.13",
+      "canon_ref": "LUK.7.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ᾽ αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.217
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.217
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.03089,
+      "verse_uid": "sblgnt:2CO.11.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 11,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "2CO.11.11",
+      "canon_ref": "2CO.11.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "διὰ τί; ὅτι οὐκ ἀγαπῶ ὑμᾶς; ὁ θεὸς οἶδεν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5975
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5224
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.0308,
+      "verse_uid": "sblgnt:ROM.1.18",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 1,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "ROM.1.18",
+      "canon_ref": "ROM.1.18",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἀποκαλύπτεται γὰρ ὀργὴ θεοῦ ἀπ᾽ οὐρανοῦ ἐπὶ πᾶσαν ἀσέβειαν καὶ ἀδικίαν ἀνθρώπων τῶν τὴν ἀλήθειαν ἐν ἀδικίᾳ κατεχόντων,",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5224
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5407
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.03055,
+      "verse_uid": "sblgnt:MAT.14.14",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 14,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "MAT.14.14",
+      "canon_ref": "MAT.14.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ⸂ ἐξελθὼν ⸃ εἶδεν πολὺν ὄχλον, καὶ ἐσπλαγχνίσθη ἐπ᾽ αὐτοῖς καὶ ἐθεράπευσεν τοὺς ἀρρώστους αὐτῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 7,
+          "score": -10.9591
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 4,
+          "score": -10.9591
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "rrf": 0.03048,
+      "verse_uid": "sblgnt:2CO.1.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 1,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "2CO.1.4",
+      "canon_ref": "2CO.1.4",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν, εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 11,
+          "score": -9.9218
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.5326
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "rrf": 0.03008,
+      "verse_uid": "sblgnt:2CO.7.10",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 7,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "2CO.7.10",
+      "canon_ref": "2CO.7.10",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἡ γὰρ κατὰ θεὸν λύπη μετάνοιαν εἰς σωτηρίαν ἀμεταμέλητον ⸂ ἐργάζεται ⸃· ἡ δὲ τοῦ κόσμου λύπη θάνατον κατεργάζεται.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.5262
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5236
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "rrf": 0.02967,
+      "verse_uid": "sblgnt:PHP.2.20",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "PHP",
+      "book_name": "Philippians",
+      "chapter": 2,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "PHP.2.20",
+      "canon_ref": "PHP.2.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὐδένα γὰρ ἔχω ἰσόψυχον ὅστις γνησίως τὰ περὶ ὑμῶν μεριμνήσει,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5293
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.8446
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "rrf": 0.02947,
+      "verse_uid": "sblgnt:MAT.9.36",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 9,
+      "verse": 36,
+      "edition": "",
+      "source_ref": "MAT.9.36",
+      "canon_ref": "MAT.9.36",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἰδὼν δὲ τοὺς ὄχλους ἐσπλαγχνίσθη περὶ αὐτῶν ὅτι ἦσαν ἐσκυλμένοι καὶ ἐρριμμένοι ⸂ ὡσεὶ ⸃ πρόβατα μὴ ἔχοντα ποιμένα.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 11,
+          "score": -10.2519
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.2519
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "rrf": 0.02848,
+      "verse_uid": "sblgnt:MRK.6.34",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 6,
+      "verse": 34,
+      "edition": "",
+      "source_ref": "MRK.6.34",
+      "canon_ref": "MRK.6.34",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ἐξελθὼν ⸂ εἶδεν ⸃ πολὺν ὄχλον, καὶ ἐσπλαγχνίσθη ἐπ᾽ ⸂ αὐτοὺς ⸃ ὅτι ἦσαν ὡς πρόβατα μὴ ἔχοντα ποιμένα, καὶ ἤρξατο διδάσκειν αὐτοὺς πολλά.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 15,
+          "score": -9.4397
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 6,
+          "score": -9.4397
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "rrf": 0.02845,
+      "verse_uid": "sblgnt:LUK.3.18",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 3,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "LUK.3.18",
+      "canon_ref": "LUK.3.18",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Πολλὰ μὲν οὖν καὶ ἕτερα παρακαλῶν εὐηγγελίζετο τὸν λαόν·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5073
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 4,
+          "score": -10.9581
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "rrf": 0.02838,
+      "verse_uid": "sblgnt:MRK.2.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 2,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "MRK.2.7",
+      "canon_ref": "MRK.2.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τί οὗτος οὕτως λαλεῖ; ⸂ βλασφημεῖ ⸃· τίς δύναται ἀφιέναι ἁμαρτίας εἰ μὴ εἷς ὁ θεός;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5187
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.5154
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "rrf": 0.02838,
+      "verse_uid": "sblgnt:1CO.9.9",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 9,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "1CO.9.9",
+      "canon_ref": "1CO.9.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἐν γὰρ τῷ Μωϋσέως νόμῳ γέγραπται· Οὐ ⸂ κημώσεις ⸃ βοῦν ἀλοῶντα. μὴ τῶν βοῶν μέλει τῷ θεῷ,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 9,
+          "score": -9.8512
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 12,
+          "score": -9.8512
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "rrf": 0.02819,
+      "verse_uid": "sblgnt:ROM.12.12",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 12,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "ROM.12.12",
+      "canon_ref": "ROM.12.12",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τῇ ἐλπίδι χαίροντες, τῇ θλίψει ὑπομένοντες, τῇ προσευχῇ προσκαρτεροῦντες,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 13,
+          "score": 0.5147
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 9,
+          "score": -10.0758
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "rrf": 0.02807,
+      "verse_uid": "sblgnt:2CO.1.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 1,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "2CO.1.6",
+      "canon_ref": "2CO.1.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἴτε δὲ θλιβόμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως καὶ σωτηρίας· ⸂ εἴτε παρακαλούμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως ⸃ τῆς ἐνεργουμένης ἐν ὑπομονῇ τῶν αὐτῶν παθημάτων ὧν καὶ ἡμεῖς πάσχομεν,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 22,
+          "score": -8.4604
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.2602
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "rrf": 0.02762,
+      "verse_uid": "sblgnt:ROM.8.31",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 8,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "ROM.8.31",
+      "canon_ref": "ROM.8.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τί οὖν ἐροῦμεν πρὸς ταῦτα; εἰ ὁ θεὸς ὑπὲρ ἡμῶν, τίς καθ᾽ ἡμῶν;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5171
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.514
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "rrf": 0.02753,
+      "verse_uid": "sblgnt:ROM.9.14",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 9,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "ROM.9.14",
+      "canon_ref": "ROM.9.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τί οὖν ἐροῦμεν; μὴ ἀδικία παρὰ τῷ θεῷ; μὴ γένοιτο·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.561
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.489
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "rrf": 0.02739,
+      "verse_uid": "sblgnt:LUK.10.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 10,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "LUK.10.40",
+      "canon_ref": "LUK.10.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἡ δὲ Μάρθα περιεσπᾶτο περὶ πολλὴν διακονίαν· ἐπιστᾶσα δὲ εἶπεν· Κύριε, οὐ μέλει σοι ὅτι ἡ ἀδελφή μου μόνην με ⸂ κατέλειπεν ⸃ διακονεῖν; ⸂ εἰπὲ ⸃ οὖν αὐτῇ ἵνα μοι συναντιλάβηται.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 25,
+          "score": -7.7949
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.7322
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "rrf": 0.02705,
+      "verse_uid": "sblgnt:MAT.25.37",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 25,
+      "verse": 37,
+      "edition": "",
+      "source_ref": "MAT.25.37",
+      "canon_ref": "MAT.25.37",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τότε ἀποκριθήσονται αὐτῷ οἱ δίκαιοι λέγοντες· Κύριε, πότε σε εἴδομεν πεινῶντα καὶ ἐθρέψαμεν, ἢ διψῶντα καὶ ἐποτίσαμεν;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5226
+        },
+        {
+          "query": "ἐγκατέλιπες πότε",
+          "method": "lexical",
+          "rank": 21,
+          "score": -6.5633
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "rrf": 0.02705,
+      "verse_uid": "sblgnt:2CO.1.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 1,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "2CO.1.7",
+      "canon_ref": "2CO.1.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ἡ ἐλπὶς ἡμῶν βεβαία ὑπὲρ ⸂ ὑμῶν ⸃· εἰδότες ὅτι ⸂ ὡς ⸃ κοινωνοί ἐστε τῶν παθημάτων, οὕτως καὶ τῆς παρακλήσεως.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 12,
+          "score": -9.8856
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 16,
+          "score": -9.2678
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "rrf": 0.02692,
+      "verse_uid": "sblgnt:ROM.7.24",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 7,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "ROM.7.24",
+      "canon_ref": "ROM.7.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ταλαίπωρος ἐγὼ ἄνθρωπος· τίς με ῥύσεται ἐκ τοῦ σώματος τοῦ θανάτου τούτου;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 25,
+          "score": 0.4879
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.5282
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "rrf": 0.0265,
+      "verse_uid": "sblgnt:2CO.2.15",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 2,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "2CO.2.15",
+      "canon_ref": "2CO.2.15",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ὅτι Χριστοῦ εὐωδία ἐσμὲν τῷ θεῷ ἐν τοῖς σῳζομένοις καὶ ἐν τοῖς ἀπολλυμένοις,",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 17,
+          "score": 0.5024
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.514
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "rrf": 0.02632,
+      "verse_uid": "sblgnt:2CO.1.3",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2CO",
+      "book_name": "2 Corinthians",
+      "chapter": 1,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "2CO.1.3",
+      "canon_ref": "2CO.1.3",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Εὐλογητὸς ὁ θεὸς καὶ πατὴρ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ὁ πατὴρ τῶν οἰκτιρμῶν καὶ θεὸς πάσης παρακλήσεως,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 17,
+          "score": -9.1226
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 15,
+          "score": -9.2678
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "rrf": 0.02616,
+      "verse_uid": "sblgnt:MAT.15.32",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 15,
+      "verse": 32,
+      "edition": "",
+      "source_ref": "MAT.15.32",
+      "canon_ref": "MAT.15.32",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ὁ δὲ Ἰησοῦς προσκαλεσάμενος τοὺς μαθητὰς αὐτοῦ εἶπεν· Σπλαγχνίζομαι ἐπὶ τὸν ὄχλον, ὅτι ἤδη ἡμέραι τρεῖς προσμένουσίν μοι καὶ οὐκ ἔχουσιν τί φάγωσιν· καὶ ἀπολῦσαι αὐτοὺς νήστεις οὐ θέλω, μήποτε ἐκλυθῶσιν ἐν τῇ ὁδῷ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 29,
+          "score": -8.2579
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 7,
+          "score": -8.2579
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "rrf": 0.02607,
+      "verse_uid": "sblgnt:MAT.22.16",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 22,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "MAT.22.16",
+      "canon_ref": "MAT.22.16",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρῳδιανῶν ⸂ λέγοντες ⸃· Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ τὴν ὁδὸν τοῦ θεοῦ ἐν ἀληθείᾳ διδάσκεις, καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 28,
+          "score": -6.9488
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 8,
+          "score": -10.4588
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "rrf": 0.02591,
+      "verse_uid": "sblgnt:2TH.1.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2TH",
+      "book_name": "2 Thessalonians",
+      "chapter": 1,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "2TH.1.7",
+      "canon_ref": "2TH.1.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ὑμῖν τοῖς θλιβομένοις ἄνεσιν μεθ᾽ ἡμῶν ἐν τῇ ἀποκαλύψει τοῦ κυρίου Ἰησοῦ ἀπ᾽ οὐρανοῦ μετ᾽ ἀγγέλων δυνάμεως αὐτοῦ",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 26,
+          "score": 0.4878
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5193
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "rrf": 0.02545,
+      "verse_uid": "sblgnt:COL.3.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "COL",
+      "book_name": "Colossians",
+      "chapter": 3,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "COL.3.6",
+      "canon_ref": "COL.3.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "δι᾽ ἃ ἔρχεται ἡ ὀργὴ τοῦ θεοῦ ⸂ ἐπὶ τοὺς υἱοὺς τῆς ἀπειθείας ⸃·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.5131
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.4994
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "rrf": 0.02493,
+      "verse_uid": "sblgnt:MRK.12.14",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 12,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "MRK.12.14",
+      "canon_ref": "MRK.12.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "⸂ καὶ ⸃ ἐλθόντες λέγουσιν αὐτῷ· Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων, ἀλλ᾽ ἐπ᾽ ἀληθείας τὴν ὁδὸν τοῦ θεοῦ διδάσκεις· ἔξεστιν ⸂ δοῦναι κῆνσον Καίσαρι ⸃ ἢ οὔ; δῶμεν ἢ μὴ δῶμεν;",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 29,
+          "score": -6.543
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 13,
+          "score": -9.8479
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "rrf": 0.02454,
+      "verse_uid": "sblgnt:2TH.1.5",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2TH",
+      "book_name": "2 Thessalonians",
+      "chapter": 1,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "2TH.1.5",
+      "canon_ref": "2TH.1.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἔνδειγμα τῆς δικαίας κρίσεως τοῦ θεοῦ, εἰς τὸ καταξιωθῆναι ὑμᾶς τῆς βασιλείας τοῦ θεοῦ, ὑπὲρ ἧς καὶ πάσχετε,",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.4941
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 22,
+          "score": 0.5059
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "rrf": 0.02454,
+      "verse_uid": "sblgnt:MRK.4.38",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 4,
+      "verse": 38,
+      "edition": "",
+      "source_ref": "MRK.4.38",
+      "canon_ref": "MRK.4.38",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ⸂ αὐτὸς ἦν ⸃ ⸂ ἐν ⸃ τῇ πρύμνῃ ἐπὶ τὸ προσκεφάλαιον καθεύδων· καὶ ⸂ ἐγείρουσιν ⸃ αὐτὸν καὶ λέγουσιν αὐτῷ· Διδάσκαλε, οὐ μέλει σοι ὅτι ἀπολλύμεθα;",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 21,
+          "score": -8.7033
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 22,
+          "score": -8.7033
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "rrf": 0.02452,
+      "verse_uid": "sblgnt:ACT.5.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 5,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "ACT.5.4",
+      "canon_ref": "ACT.5.4",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὐχὶ μένον σοὶ ἔμενεν καὶ πραθὲν ἐν τῇ σῇ ἐξουσίᾳ ὑπῆρχεν; τί ὅτι ἔθου ἐν τῇ καρδίᾳ σου τὸ πρᾶγμα τοῦτο; οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.5139
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.5081
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "rrf": 0.02286,
+      "verse_uid": "sblgnt:MRK.13.19",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 13,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "MRK.13.19",
+      "canon_ref": "MRK.13.19",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἔσονται γὰρ αἱ ἡμέραι ἐκεῖναι θλῖψις οἵα οὐ γέγονεν τοιαύτη ἀπ᾽ ἀρχῆς κτίσεως ⸂ ἣν ⸃ ἔκτισεν ὁ θεὸς ἕως τοῦ νῦν καὶ οὐ μὴ γένηται.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 26,
+          "score": 0.5049
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 29,
+          "score": -7.8851
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:LUK.1.78",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 1,
+      "verse": 78,
+      "edition": "",
+      "source_ref": "LUK.1.78",
+      "canon_ref": "LUK.1.78",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ⸂ ἐπισκέψεται ⸃ ἡμᾶς ἀνατολὴ ἐξ ὕψους,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -19.3753
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:1CO.12.26",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 12,
+      "verse": 26,
+      "edition": "",
+      "source_ref": "1CO.12.26",
+      "canon_ref": "1CO.12.26",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ⸂ εἴτε ⸃ πάσχει ἓν μέλος, συμπάσχει πάντα τὰ μέλη· εἴτε δοξάζεται ⸂ μέλος ⸃, συγχαίρει πάντα τὰ μέλη.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 1,
+          "score": -11.5255
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:GAL.1.23",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "GAL",
+      "book_name": "Galatians",
+      "chapter": 1,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "GAL.1.23",
+      "canon_ref": "GAL.1.23",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "μόνον δὲ ἀκούοντες ἦσαν ὅτι Ὁ διώκων ἡμᾶς ποτε νῦν εὐαγγελίζεται τὴν πίστιν ἥν ποτε ἐπόρθει,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐγκατέλιπες πότε",
+          "method": "lexical",
+          "rank": 1,
+          "score": -8.9514
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:LUK.6.46",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 6,
+      "verse": 46,
+      "edition": "",
+      "source_ref": "LUK.6.46",
+      "canon_ref": "LUK.6.46",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τί δέ με καλεῖτε· Κύριε κύριε, καὶ οὐ ποιεῖτε ἃ λέγω;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5336
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:HEB.10.32",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "HEB",
+      "book_name": "Hebrews",
+      "chapter": 10,
+      "verse": 32,
+      "edition": "",
+      "source_ref": "HEB.10.32",
+      "canon_ref": "HEB.10.32",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἀναμιμνῄσκεσθε δὲ τὰς πρότερον ἡμέρας, ἐν αἷς φωτισθέντες πολλὴν ἄθλησιν ὑπεμείνατε παθημάτων,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.3152
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:MAT.27.46",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 27,
+      "verse": 46,
+      "edition": "",
+      "source_ref": "MAT.27.46",
+      "canon_ref": "MAT.27.46",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐγκατέλιπες πότε",
+          "method": "lexical",
+          "rank": 2,
+          "score": -8.9102
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:1CO.1.29",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 1,
+      "verse": 29,
+      "edition": "",
+      "source_ref": "1CO.1.29",
+      "canon_ref": "1CO.1.29",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ὅπως μὴ καυχήσηται πᾶσα σὰρξ ἐνώπιον τοῦ θεοῦ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5629
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:MRK.8.37",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 8,
+      "verse": 37,
+      "edition": "",
+      "source_ref": "MRK.8.37",
+      "canon_ref": "MRK.8.37",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "⸂ τί γὰρ ⸃ ⸂ δοῖ ⸃ ἄνθρωπος ἀντάλλαγμα τῆς ψυχῆς αὐτοῦ;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5344
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5975,
+    "vector_margin": 0.0339,
+    "vector_lexical_overlap_top10": 1,
+    "lists": 14,
+    "lists_with_hits": 10,
+    "lists_containing_top_result": 3
+  }
+}

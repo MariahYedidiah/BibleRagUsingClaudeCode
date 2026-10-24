@@ -1,0 +1,10 @@
+{"query":"In the beginning was the Word","language":"grc","corpus":"lxx_swete","terms":[
+{"term":"λόγος","gloss":"word (nom.)","hits":242},
+{"term":"λόγον","gloss":"word (acc.)","hits":224},
+{"term":"λόγῳ","gloss":"by word (dat.)","hits":49},
+{"term":"ῥῆμα","gloss":"word/thing","hits":252},
+{"term":"ἀρχῇ","gloss":"in the beginning (dat.)","hits":77},
+{"term":"ἀρχήν","gloss":"beginning (acc.)","hits":33},
+{"term":"σοφία","gloss":"wisdom","hits":100}],
+"lexical_queries":["λόγος λόγον λόγῳ ῥῆμα","ἀρχῇ ἀρχήν","σοφία"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":[]}

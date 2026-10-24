@@ -1,0 +1,575 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "θλῖψις θλίψει θλίψεως θλίψεις",
+    "ἐλέησον ἠλέησεν ἐλέους οἰκτιρμοί οἰκτίρμων",
+    "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις",
+    "κραυγῆς στεναγμοῦ ἐπήκουσεν εἰσήκουσεν ταπείνωσιν πτωχοῦ"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.04155,
+      "verse_uid": "lxx_swete:27.9.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 9,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "27.9.22",
+      "canon_ref": "PSA.10.1",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἵνα τί, Κύριε, ἀφέστηκας μακρόθεν; ὑπερορᾷς ἐν εὐκαιρίαις ἐν θλίψει;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.5272
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.609
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεις",
+          "method": "lexical",
+          "rank": 9,
+          "score": -9.8207
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.0399,
+      "verse_uid": "lxx_swete:27.93.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 93,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "27.93.3",
+      "canon_ref": "PSA.94.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἕως πότε ἁμαρτωλοί, Κύριε, ἕως πότε ἁμαρτωλοὶ καυχήσοσται;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 27,
+          "score": 0.4949
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 13,
+          "score": 0.5356
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6082
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.03279,
+      "verse_uid": "lxx_swete:27.145.7",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 145,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "27.145.7",
+      "canon_ref": "PSA.146.7",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ποιοῦντα κρίμα τοῖς ἀδικουμένοις, διδόντα τροφὴν τοῖς πεινῶσιν. Κύριος λύει πεπεδημένους·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5551
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6225
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.032,
+      "verse_uid": "lxx_swete:27.87.15",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 87,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "27.87.15",
+      "canon_ref": "PSA.88.14",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἵνα τί, Κύριε, ἀπωθεῖς τὴν προσευχὴν μου. ἀποστρέφεις τὸ πρόσωπόν σου ἀπʼ ἐμοῦ;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6981
+        },
+        {
+          "query": "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.4132
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.0315,
+      "verse_uid": "lxx_swete:27.24.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 24,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "27.24.22",
+      "canon_ref": "PSA.25.22",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "λύτρωσαι, ὁ θεός, τὸν Ἰσραὴλ ἐκ πασῶν τῶν θλίψεων αὐτοῦ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5414
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5629
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.0308,
+      "verse_uid": "lxx_swete:41.3.9",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JON",
+      "book_name": "Jonah",
+      "chapter": 3,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "41.3.9",
+      "canon_ref": "JON.3.9",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Τίς οἶδεν εἰ μετανοήσει ὁ θεὸς καὶ ἀποστρέψει ἐξ ὀργῆς θυμοῦ αὐτοῦ, καὶ οὐ μὴ ἀπολώμεθα;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5792
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5237
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.02991,
+      "verse_uid": "lxx_swete:48.26.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 26,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "48.26.16",
+      "canon_ref": "ISA.26.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Κύριε, ἐν θλίψει ἐμνήσθην σου, ἐν θλίψει μικρᾷ ἡ παιδία σου ἡμῖν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.5822
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεις",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.0863
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.02912,
+      "verse_uid": "lxx_swete:51.3.39",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 3,
+      "verse": 39,
+      "edition": "",
+      "source_ref": "51.3.39",
+      "canon_ref": "LAM.3.39",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Μήμ. Τί γογγύσῃ ἄνθρωπος ζῶν ἀνὴρ περὶ τῆς ἁμαρτίας αὐτοῦ;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5492
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 17,
+          "score": 0.5324
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.02899,
+      "verse_uid": "lxx_swete:49.1.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 1,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "49.1.4",
+      "canon_ref": "JER.1.4",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Καὶ ἐγένετο λόγος Κυρίου πρὸς αὐτόν",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5184
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5481
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.02844,
+      "verse_uid": "lxx_swete:27.43.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 43,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "27.43.22",
+      "canon_ref": "PSA.44.21",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "οὐχὶ ὁ θεὸς ἐκζητήσει ταῦτα; αὐτὸς γὰρ γινώσκει τὰ κρύφια τῆς καρδίας.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6137
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 23,
+          "score": 0.4971
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.02828,
+      "verse_uid": "lxx_swete:27.43.25",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 43,
+      "verse": 25,
+      "edition": "",
+      "source_ref": "27.43.25",
+      "canon_ref": "PSA.44.24",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἵνα τί τὸ πρόσωπόν σου ἀποστρέφεις ἐπιλανθάνῃ τῆς πτωχίας ἡμῶν καὶ τῆς θλίψεως ἡμῶν",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.5757
+        },
+        {
+          "query": "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.1508
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.02804,
+      "verse_uid": "lxx_swete:27.11.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 11,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "27.11.6",
+      "canon_ref": "PSA.12.5",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἀπὸ τῆς ταλαιπωρίας τῶν πτωχῶν καὶ ἀπὸ τοῦ στεναγμοῦ τῶν πενήτων νῦν ἀναστήσομαι, λέγει Κύριος· θήσομαι ἐν σωτηρίᾳ, παρησιάσομαι ἐν αὐτῷ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.5066
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5496
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.02797,
+      "verse_uid": "lxx_swete:48.14.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 14,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "48.14.3",
+      "canon_ref": "ISA.14.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Καὶ ἔσται ἐν τῇ ἑμέρᾳ ἐκείνῃ ἀναπαύσει σε ὁ θεὸς ἐκ τῆς ὀδύνης καὶ τοῦ θυμοῦ σοῦ καὶ τῆς δουλίας τῆς σκληρᾶς ἧς ἐδούλευσας αὐτοῖς.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.5317
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5315
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.0278,
+      "verse_uid": "lxx_swete:27.117.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 117,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "27.117.5",
+      "canon_ref": "PSA.118.5",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐν θλίψει ἐπεκαλεσάμην τὸν κύριον, καὶ ἐπήκουσέν μοι εἰς πλατυσμόν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεις",
+          "method": "lexical",
+          "rank": 10,
+          "score": -9.8207
+        },
+        {
+          "query": "κραυγῆς στεναγμοῦ ἐπήκουσεν εἰσήκουσεν ταπείνωσιν πτωχοῦ",
+          "method": "lexical",
+          "rank": 14,
+          "score": -10.246
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.02765,
+      "verse_uid": "lxx_swete:43.1.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "HAB",
+      "book_name": "Habakkuk",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "43.1.2",
+      "canon_ref": "HAB.1.2",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Ἕως τίνος, Κύριε, κράξομαι, καὶ οὐ μὴ εἰσακούσῃς; βοήσομαι πρὸς σὲ ἀδικούμενος, καὶ οὐ σώσεις;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.5294
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6071
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.7026,
+    "vector_margin": 0.0045,
+    "vector_lexical_overlap_top10": 2,
+    "lists": 12,
+    "lists_with_hits": 8,
+    "lists_containing_top_result": 3
+  }
+}

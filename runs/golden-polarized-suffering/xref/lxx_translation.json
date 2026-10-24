@@ -1,0 +1,152 @@
+[
+ {
+  "canon_ref": "PSA.22.1",
+  "verse_uid": "lxx_swete:27.21.2",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "Ὁ θεὸς ὁ θεός μου, πρόσχες μοι· ἳνα τί ἐγκατέλιπές με; μακρὰν ἀπὸ τῆς σωτηρίας μου οἱ λόγοι τῶν παραπτωμάτων",
+  "translation": "O God, my God, attend to me; why have you forsaken me? Far from my salvation are the words of my transgressions.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "LXX has 'attend to me' (πρόσχες μοι), absent from the Hebrew/WEB"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.22.1",
+  "differences_from_web": [
+   "LXX has 'attend to me' (πρόσχες μοι), absent from the Hebrew/WEB",
+   "LXX 'salvation' and 'transgressions' where WEB has 'helping me' and 'groaning'",
+   "Swete numbers this Ps 21:2 (Greek numbering)"
+  ],
+  "_web_text": "My God, my God, why have you forsaken me? Why are you so far from helping me, and from the words of my groaning?",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.55.22",
+  "verse_uid": "lxx_swete:27.54.23",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "ἐπίριψον ἐπὶ Κύριον τὴν μέριμνάν σου, καὶ αὐτός σε διαθρέψει· οὐ δώσει εἰς τὸν αἰῶνα σάλον τῷ δικαίῳ.",
+  "translation": "Cast your care upon the Lord, and he will nourish you; he will not give the righteous shaking forever.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "LXX 'care' (μέριμνα) and 'nourish' (διαθρέψει) for WEB 'burden' and 'sustain'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.55.22",
+  "differences_from_web": [
+   "LXX 'care' (μέριμνα) and 'nourish' (διαθρέψει) for WEB 'burden' and 'sustain'",
+   "Swete numbers this Ps 54:23"
+  ],
+  "_web_text": "Cast your burden on the LORD and he will sustain you. He will never allow the righteous to be moved.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.37.5",
+  "verse_uid": "lxx_swete:27.36.5",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "ἀποκάλυψον πρὸς Κύριον τὴν ὁδόν σου καὶ ἔλπισον ἐπʼ αὐτόν, καὶ αὐτὸς ποιήσει·",
+  "translation": "Reveal your way to the Lord and hope in him, and he will act.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "LXX 'reveal' (ἀποκάλυψον) where WEB has 'commit'; no 'also'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.37.5",
+  "differences_from_web": [
+   "LXX 'reveal' (ἀποκάλυψον) where WEB has 'commit'; no 'also'",
+   "Swete numbers this Ps 36:5"
+  ],
+  "_web_text": "Commit your way to the LORD. Trust also in him, and he will do this:",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.56.3",
+  "verse_uid": "lxx_swete:27.55.4",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "φοβηθήσονται, ἐγὼ δὲ ἐπὶ σοὶ ἐλπιῶ.",
+  "translation": "They will be afraid, but I will hope in you.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "LXX 'they will be afraid' (3rd person plural) where WEB has 'when I am afraid'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.56.3",
+  "differences_from_web": [
+   "LXX 'they will be afraid' (3rd person plural) where WEB has 'when I am afraid'",
+   "Swete numbers this Ps 55:4"
+  ],
+  "_web_text": "When I am afraid, I will put my trust in you.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.34.15",
+  "verse_uid": "lxx_swete:27.33.16",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "ὅτι ὀφθαλμοὶ Κυρίου ἐπὶ δικαίους. καὶ ὦτα αὐτοῦ εἰς δέησιν αὐτῶν·",
+  "translation": "For the eyes of the Lord are on the righteous, and his ears are open to their supplication.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Sense close to WEB; Swete numbers this Ps 33:16"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.34.15",
+  "differences_from_web": [
+   "Sense close to WEB; Swete numbers this Ps 33:16"
+  ],
+  "_web_text": "The LORD’s eyes are toward the righteous. His ears listen to their cry.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.27.13",
+  "verse_uid": "lxx_swete:27.26.13",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "πιστεύσω τοῦ ἰδεῖν τὰ ἀγαθὰ Κυρίου ἐν γῇ ζώντων.",
+  "translation": "I believe that I shall see the good things of the Lord in the land of the living.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "LXX 'I believe to see' where WEB has 'I am still confident'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:PSA.27.13",
+  "differences_from_web": [
+   "LXX 'I believe to see' where WEB has 'I am still confident'",
+   "Swete numbers this Ps 26:13"
+  ],
+  "_web_text": "I am still confident of this: I will see the goodness of the LORD in the land of the living.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.142.4",
+  "verse_uid": "lxx_swete:27.141.5",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "κατενόουν εἰς τὰ δεξιὰ καὶ ἐπέβλεπον, ὅτι οὐκ ἦν ὁ ἐπιγινώσκων με· ἀπώλετο φυγὴ ἀπʼ ἐμοῦ, καὶ οὐκ ἔστιν ὁ ἐκζητῶν τὴν ψυχήν μοσ.",
+  "translation": "I looked to the right and watched, for there was no one who recognized me; flight has perished from me, and there is no one seeking out my soul.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἐπέβλεπον imperfect: 'was watching'"
+  ],
+  "uncertainties": [
+   "final word of the Greek text appears in the store with a damaged ending (μοσ); read as 'my soul'"
+  ],
+  "web_reference": "web:PSA.142.4",
+  "differences_from_web": [
+   "ἐπέβλεπον imperfect: 'was watching'",
+   "LXX 'no one who recognized me' where WEB has 'no one who is concerned for me'",
+   "Swete numbers this Ps 141:5"
+  ],
+  "_web_text": "Look on my right, and see; for there is no one who is concerned for me. Refuge has fled from me. No one cares for my soul.",
+  "_edition": null
+ }
+]

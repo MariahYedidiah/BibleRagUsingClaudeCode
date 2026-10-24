@@ -365,3 +365,27 @@ Provide:
 - `runs/` in `.gitignore`, except one committed example run per golden query.
 
 Clearly separate what works offline from what needs Claude Code access. Offline: data, indexes, the CLI, the validator, pytest. Needs Claude Code: the agents, the skills, the evaluations.
+
+---
+
+## 15. Hooks: enforcing the source checks
+
+The checks against the sources (`bible-rag check ...`, `pack`, `run answer`, `check answer --run`) are only as strong as the agents' willingness to run them and act on the result. Use Claude Code hooks (`.claude/settings.json`, scripts in `scripts/hooks/`) where a hook **blocks** something the instructions forbid but nothing currently prevents. Don't add hooks that repeat a check a deterministic command already runs in the same step (e.g. re-validating right after `pack`, which validates itself): those are vestigial.
+
+Every hook calls the same Python functions as the CLI (no second implementation), reads its input as JSON on stdin, and blocks with exit code 2 plus the errors on stderr, so the agent sees why and can fix it.
+
+| Hook | Event / matcher | Blocks | Why it isn't vestigial |
+|---|---|---|---|
+| **Results come from the store** | `PreToolUse` on `Write\|Edit` | writing `runs/**/<agent>.json`, `cross-reference-agent.json`, `answer.json`, `answer.md` or `confidence.json` directly | These files must be produced by `pack`, `run answer` and `run confidence`, which copy scripture from the store. Today an agent could hand-write one and bypass every check. |
+| **No scripture in agent-written files** | `PreToolUse` on `Write\|Edit` of `runs/**/*_selection.json`, `xref_adjust.json`, `synthesis.json` | content containing a stored verse's text (≥ 8 consecutive words of any verse in the target corpus, Hebrew/Greek compared after `fold()`) | The selection and synthesis files are specified to contain no scripture; the only thing stopping an agent from quoting from memory today is its instructions. |
+| **Specialist can't stop on a failed check** | `SubagentStop` for the four retrieval specialists and the cross-reference agent | stopping while its result file is missing or `check specialist` / `check xrefs` fails | The leader trusts the two-line reply. The hook makes "check passed" a fact, and the agent gets the errors back instead of the leader finding out later. |
+| **Kept verses were retrieved** | inside the same `SubagentStop` check | a kept passage that is in no saved search and not one of the delegation's `references` | Picking a verse from memory and packing it is not retrieval. (`pack specialist --references` already enforces this; the hook makes sure the flag can't be skipped by packing without it.) |
+| **The leader can't finish without validation** | `Stop` for the leader session | ending a turn after `answer.md` was written but `check answer runs/<id>/answer.json --run <id>` was not run, or failed | §9 says never skip the final check; nothing enforces it today. |
+| **The trace records itself** | `SubagentStart` / `SubagentStop` (and `PostToolUse` on `Skill`) | nothing; appends to `runs/<id>/trace.json` | §12 asks for start and end times and skill invocations. The leader logs delegations by hand, which it can forget or get wrong, and skill calls aren't logged at all. |
+
+Rules for the hooks themselves:
+
+- They find the run from the file path or the delegation message (`run_id: ...`). With no run in scope, they allow the action.
+- They must be fast (no model loading, no service calls) and deterministic; they read `data/verses.db` only.
+- Test each with pytest by feeding it the JSON a hook receives: an allowed case and a blocked case.
+- Document them in `CLAUDE.md` next to the agents they constrain.

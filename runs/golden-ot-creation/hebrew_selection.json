@@ -1,0 +1,68 @@
+{
+ "keep": [
+  {
+   "verse_uid": "oshb_wlc:Gen.1.1",
+   "relevance": "Opening statement: God created the heavens and the earth."
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.1.3",
+   "relevance": "God creates light by speaking."
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.1.26",
+   "relevance": "God decides to make humankind in his image with dominion."
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.1.27",
+   "relevance": "God creates humankind in his image, male and female."
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.2.3",
+   "relevance": "God rests on the seventh day, blessing it, after finishing his creative work."
+  }
+ ],
+ "discard": [
+  {
+   "verse_uid": "oshb_wlc:Gen.2.4",
+   "reason": "Relevant summary but beyond k=5; lower priority"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.1.6",
+   "reason": "Creation of the firmament; beyond k"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.5.1",
+   "reason": "Recaps the image of God; beyond k"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.2.19",
+   "reason": "Forming animals; beyond k"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.5.7",
+   "reason": "Genealogy, not creation"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.5.9",
+   "reason": "Genealogy"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.3.21",
+   "reason": "Garments, not creation"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.43.11",
+   "reason": "Unrelated use of a matched word"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.46.24",
+   "reason": "Genealogy"
+  },
+  {
+   "verse_uid": "oshb_wlc:Gen.1.25",
+   "reason": "Animals made; beyond k"
+  }
+ ],
+ "notes": [],
+ "missing": []
+}

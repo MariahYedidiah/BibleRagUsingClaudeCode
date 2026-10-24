@@ -1,0 +1,19 @@
+{"keep":[
+{"verse_uid":"lxx_swete:27.43.25","relevance":"Lament voicing the complaint: God turns his face away and forgets our poverty and affliction."},
+{"verse_uid":"lxx_swete:27.9.22","relevance":"Lament asking why God stands far off and overlooks people in affliction."},
+{"verse_uid":"lxx_swete:43.1.2","relevance":"Prophet's 'how long' complaint that God does not listen or save."},
+{"verse_uid":"lxx_swete:27.11.6","relevance":"God's response: he rises because of the misery of the poor and the groaning of the needy."},
+{"verse_uid":"lxx_swete:27.117.5","relevance":"God's response: he listened when called upon in affliction."}],
+"discard":[
+{"verse_uid":"lxx_swete:27.87.15","reason":"Lament (turns away face) but k=5 limit; weaker than Ps 44:24 and Ps 10:1"},
+{"verse_uid":"lxx_swete:27.145.7","reason":"General praise of God's justice; less direct than kept responses"},
+{"verse_uid":"lxx_swete:27.93.3","reason":"Lexical false hit on 'how long'; concerns sinners"},
+{"verse_uid":"lxx_swete:49.1.4","reason":"False hit; prophetic call formula"},
+{"verse_uid":"lxx_swete:41.3.9","reason":"Repentance and divine relenting, not about suffering"},
+{"verse_uid":"lxx_swete:48.14.3","reason":"Relief from servitude; tangential"},
+{"verse_uid":"lxx_swete:51.3.39","reason":"Man complaining over his sin; tangential"},
+{"verse_uid":"lxx_swete:27.43.22","reason":"About God knowing hidden things; not directly relevant"},
+{"verse_uid":"lxx_swete:48.26.16","reason":"Remembering God in affliction; tangential"},
+{"verse_uid":"lxx_swete:27.24.22","reason":"Plea for redemption; less direct"}],
+"notes":["Polarized question: the LXX Psalms voice the complaint (Pss 10:1, 44:24 in English numbering) and also God's response (Pss 12:5, 118:5).","All kept Psalms use Greek numbering natively (e.g. Ps 43:25 = English 44:24); alignment is mapped.","Ps 44:24 LXX says 'poverty' (πτωχία) rather than WEB's 'affliction' for the first noun; Ps 10:1 LXX 'overlook' vs Hebrew 'hide'; Ps 12:5 final clause differs from the Hebrew."],
+"missing":[]}

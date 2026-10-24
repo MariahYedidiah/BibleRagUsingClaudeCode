@@ -1,0 +1,389 @@
+{
+  "agent": "hebrew-specialist-agent",
+  "run_id": "golden-ot-creation",
+  "corpus": "oshb_wlc",
+  "queries": [
+    "What does Genesis say about creation?",
+    "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day"
+  ],
+  "lexical_queries": [
+    "בראשית ברא ויברא",
+    "בצלמנו צלם רקיע וישבת ויצר אור"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6097,
+      "vector_margin": 0.0009,
+      "vector_lexical_overlap_top10": 1,
+      "lists": 6,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 3
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "GEN.1.1",
+      "verse_uid": "oshb_wlc:Gen.1.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 2,
+          "score": -24.9966
+        }
+      ],
+      "rrf": 0.01613,
+      "relevance": "Opening statement: God created the heavens and the earth.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Gen.1.1",
+          "verse": 1,
+          "text_display": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.2",
+          "verse": 2,
+          "text_display": "וְ/הָ/אָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָ/בֹ֔הוּ וְ/חֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְ/ר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַ/מָּֽיִם׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.1",
+        "verse_uid": "oshb_wlc:Gen.1.1",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+        "translation": "In the beginning God created the heavens and the earth.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "Hebrew has the verb ברא (created) with God as sole subject"
+        ],
+        "uncertainties": [
+          "Could be read 'When God began to create...' (construct reading of בראשית)"
+        ],
+        "web_reference": "web:GEN.1.1",
+        "differences_from_web": [
+          "WEB adds a comma after 'In the beginning'; no sense difference"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "GEN.1.3",
+      "verse_uid": "oshb_wlc:Gen.1.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.7051
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "God creates light by speaking.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Gen.1.2",
+          "verse": 2,
+          "text_display": "וְ/הָ/אָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָ/בֹ֔הוּ וְ/חֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְ/ר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַ/מָּֽיִם׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.3",
+          "verse": 3,
+          "text_display": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.4",
+          "verse": 4,
+          "text_display": "וַ/יַּ֧רְא אֱלֹהִ֛ים אֶת־הָ/א֖וֹר כִּי־ט֑וֹב וַ/יַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָ/א֖וֹר וּ/בֵ֥ין הַ/חֹֽשֶׁךְ׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.3",
+        "verse_uid": "oshb_wlc:Gen.1.3",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃",
+        "translation": "And God said, \"Let there be light,\" and there was light.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "אלהים rendered 'God'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.3",
+        "differences_from_web": [
+          "Hebrew begins with 'And'; WEB omits it"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "GEN.1.26",
+      "verse_uid": "oshb_wlc:Gen.1.26",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.479
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5564
+        },
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.3382
+        }
+      ],
+      "rrf": 0.04408,
+      "relevance": "God decides to make humankind in his image with dominion.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Gen.1.25",
+          "verse": 25,
+          "text_display": "וַ/יַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָ/אָ֜רֶץ לְ/מִינָ֗/הּ וְ/אֶת־הַ/בְּהֵמָה֙ לְ/מִינָ֔/הּ וְ/אֵ֛ת כָּל־רֶ֥מֶשׂ הָֽ/אֲדָמָ֖ה לְ/מִינֵ֑/הוּ וַ/יַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.26",
+          "verse": 26,
+          "text_display": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.27",
+          "verse": 27,
+          "text_display": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.26",
+        "verse_uid": "oshb_wlc:Gen.1.26",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃",
+        "translation": "And God said, \"Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the birds of the heavens, the livestock, all the earth, and every creeping thing that creeps on the earth.\"",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "אדם rendered 'humankind'",
+          "נעשה 'let us make': plural cohortive"
+        ],
+        "uncertainties": [
+          "The plural 'us' is variously explained (divine council, plural of majesty, deliberation)"
+        ],
+        "web_reference": "web:GEN.1.26",
+        "differences_from_web": [
+          "WEB has 'man' where I have 'humankind'",
+          "WEB 'sky' vs my 'heavens'"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "GEN.1.27",
+      "verse_uid": "oshb_wlc:Gen.1.27",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 1,
+          "score": -25.4481
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "God creates humankind in his image, male and female.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Gen.1.26",
+          "verse": 26,
+          "text_display": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.27",
+          "verse": 27,
+          "text_display": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.1.28",
+          "verse": 28,
+          "text_display": "וַ/יְבָ֣רֶךְ אֹתָ/ם֮ אֱלֹהִים֒ וַ/יֹּ֨אמֶר לָ/הֶ֜ם אֱלֹהִ֗ים פְּר֥וּ וּ/רְב֛וּ וּ/מִלְא֥וּ אֶת־הָ/אָ֖רֶץ וְ/כִבְשֻׁ֑/הָ וּ/רְד֞וּ בִּ/דְגַ֤ת הַ/יָּם֙ וּ/בְ/ע֣וֹף הַ/שָּׁמַ֔יִם וּ/בְ/כָל־חַיָּ֖ה הָֽ/רֹמֶ֥שֶׂת עַל־הָ/אָֽרֶץ׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.27",
+        "verse_uid": "oshb_wlc:Gen.1.27",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+        "translation": "And God created humankind in his image; in the image of God he created him; male and female he created them.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ברא 'created' repeated three times"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.27",
+        "differences_from_web": [
+          "WEB 'man' vs my 'humankind'",
+          "WEB omits initial 'And'"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "GEN.2.3",
+      "verse_uid": "oshb_wlc:Gen.2.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 20,
+          "score": 0.5521
+        },
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 5,
+          "score": -9.3906
+        }
+      ],
+      "rrf": 0.02788,
+      "relevance": "God rests on the seventh day, blessing it, after finishing his creative work.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Gen.2.2",
+          "verse": 2,
+          "text_display": "וַ/יְכַ֤ל אֱלֹהִים֙ בַּ/יּ֣וֹם הַ/שְּׁבִיעִ֔י מְלַאכְתּ֖/וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַ/יִּשְׁבֹּת֙ בַּ/יּ֣וֹם הַ/שְּׁבִיעִ֔י מִ/כָּל־מְלַאכְתּ֖/וֹ אֲשֶׁ֥ר עָשָֽׂה׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.2.3",
+          "verse": 3,
+          "text_display": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ"
+        },
+        {
+          "verse_uid": "oshb_wlc:Gen.2.4",
+          "verse": 4,
+          "text_display": "אֵ֣לֶּה תוֹלְד֧וֹת הַ/שָּׁמַ֛יִם וְ/הָ/אָ֖רֶץ בְּ/הִבָּֽרְאָ֑/ם בְּ/י֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְ/שָׁמָֽיִם׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.2.3",
+        "verse_uid": "oshb_wlc:Gen.2.3",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ",
+        "translation": "And God blessed the seventh day and made it holy, because on it he rested from all his work that God had created to make.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "אשר ברא אלהים לעשות: 'that God created, to make' (literally)"
+        ],
+        "uncertainties": [
+          "The final phrase is idiomatic: 'which God had created and made' or 'in creating'"
+        ],
+        "web_reference": "web:GEN.2.3",
+        "differences_from_web": [
+          "WEB 'work of creation which he had done' smooths the Hebrew 'created to make'"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "oshb_wlc:Gen.2.4",
+      "reason": "Relevant summary but beyond k=5; lower priority"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.1.6",
+      "reason": "Creation of the firmament; beyond k"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.5.1",
+      "reason": "Recaps the image of God; beyond k"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.2.19",
+      "reason": "Forming animals; beyond k"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.5.7",
+      "reason": "Genealogy, not creation"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.5.9",
+      "reason": "Genealogy"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.3.21",
+      "reason": "Garments, not creation"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.43.11",
+      "reason": "Unrelated use of a matched word"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.46.24",
+      "reason": "Genealogy"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.1.25",
+      "reason": "Animals made; beyond k"
+    }
+  ],
+  "missing": [],
+  "notes": []
+}

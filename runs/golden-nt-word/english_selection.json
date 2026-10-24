@@ -1,0 +1,28 @@
+{
+  "keep": [
+    {"verse_uid": "web:JHN.1.1", "relevance": "Direct match: the opening of the question. Found by both query variants (vector and lexical)."},
+    {"verse_uid": "web:JHN.1.14", "relevance": "The Word becoming flesh, the second half of the contrasting variant. Found by the expanded variant (vector rank 3, lexical rank 2)."},
+    {"verse_uid": "web:1JN.1.1", "relevance": "Describes the Word of life as from the beginning. Found by both variants, lexical rank 4 for the short query."},
+    {"verse_uid": "web:JHN.1.2", "relevance": "Restates the beginning and the Word's relation to God. Found by both variants at vector ranks 2 and 2; supporting context for JHN.1.1."}
+  ],
+  "discard": [
+    {"verse_uid": "web:ACT.12.24", "reason": "'word of God grew' is a narrative use of 'word' for the message, not the beginning or the Word as a person."},
+    {"verse_uid": "web:LUK.1.2", "reason": "'eyewitnesses and ministers of the word' refers to the gospel message, not the Word of John 1."},
+    {"verse_uid": "web:ACT.11.15", "reason": "Narrative about the Holy Spirit falling on people at the beginning of the Gentile mission; 'beginning' is temporal only."},
+    {"verse_uid": "web:ROM.10.17", "reason": "Faith comes from hearing the word of Christ; about preaching, not the Word as God."},
+    {"verse_uid": "web:ROM.10.8", "reason": "'The word is near you' is a quotation about the message of faith, not the eternal Word."},
+    {"verse_uid": "web:MRK.1.1", "reason": "'Beginning of the gospel' is an opening phrase about the good news, not the Word."},
+    {"verse_uid": "web:HEB.1.10", "reason": "Quotes Psalm 102 about the Lord laying the earth's foundations in the beginning; shares 'beginning' and creation theme but not the Word."},
+    {"verse_uid": "web:COL.1.18", "reason": "Christ as beginning of the church and firstborn from the dead; the word 'beginning' is used in a different sense."},
+    {"verse_uid": "web:1JN.2.7", "reason": "'From the beginning' refers to the old commandment, not the Word; lexical match only."},
+    {"verse_uid": "web:ACT.19.20", "reason": "'The word of the Lord grew and prevailed' is about the spread of the gospel; a generic 'word' match."},
+    {"verse_uid": "web:1JN.2.14", "reason": "'The word of God abides in you' is a moral exhortation; shares only the word 'word' and the 'beginning' idea of 1 John 2:13."}
+  ],
+  "notes": [
+    "Service was up (bge-m3 loaded); results are hybrid (vector + lexical) with reciprocal rank fusion.",
+    "Search used both query variants with --testament NT and --source web, k=15 per query. Only four passages were relevant, so fewer than k=5 were kept.",
+    "Search result text was empty in the search output; judgments used bible-rag verse lookups for the candidates.",
+    "No Hebrew or Greek retrieval was requested in this run."
+  ],
+  "missing": []
+}

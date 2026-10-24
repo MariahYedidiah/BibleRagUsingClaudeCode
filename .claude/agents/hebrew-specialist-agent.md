@@ -38,6 +38,7 @@ The delegation message gives you:
    - discard false hits with a reason (homographs such as בצרה "in distress" vs. Bozrah, names, unrelated uses of a word);
    - read neighbouring verses when the meaning depends on them: `uv run bible-rag verse <canon_ref> --source oshb_wlc --context 2`;
    - always keep the requested `references` (as `{"canon_ref": ...}` items);
+   - keep only verses from your saved searches and the requested references: if you know a relevant verse the search missed, search for it (e.g. `--lexical` with its key words) into another file and pass that file with a second `--search`; `pack` rejects anything else;
    - prefer verses found by both vector and lexical search, but relevance is your judgment, not the score.
 5. **Translate the kept verses** with the preloaded `hebrew-to-english` skill:
    ```bash
@@ -54,7 +55,7 @@ The delegation message gives you:
    If nothing relevant was found, keep nothing and explain in `missing`: `[{"field": "passages", "reason": "..."}]`.
 7. **Pack and check:**
    ```bash
-   uv run bible-rag pack specialist --agent hebrew-specialist-agent --run <run_id> --search runs/<run_id>/hebrew_search.json --selection runs/<run_id>/hebrew_selection.json --translations runs/<run_id>/hebrew_translation.json --context 1 --out runs/<run_id>/hebrew-specialist-agent.json
+   uv run bible-rag pack specialist --agent hebrew-specialist-agent --run <run_id> --search runs/<run_id>/hebrew_search.json --selection runs/<run_id>/hebrew_selection.json --translations runs/<run_id>/hebrew_translation.json --context 1 --references "<the requested references, comma-separated; omit the flag if there are none>" --out runs/<run_id>/hebrew-specialist-agent.json
    ```
    Exit code 0 means valid. On exit 1, fix what the errors name (usually the selection or a translation) and pack again **once**.
 

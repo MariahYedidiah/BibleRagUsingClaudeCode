@@ -1,0 +1,30 @@
+{
+  "query": "Why doesn't God care about human suffering?",
+  "language": "grc",
+  "corpus": "lxx_swete",
+  "terms": [
+    {"term": "θλῖψις", "gloss": "affliction (nom.)", "hits": 12},
+    {"term": "θλίψει", "gloss": "in affliction (dat.)", "hits": 30},
+    {"term": "θλίψεως", "gloss": "of affliction (gen.)", "hits": 56},
+    {"term": "θλίψεις", "gloss": "afflictions (pl.)", "hits": 9},
+    {"term": "ἐλέησον", "gloss": "have mercy (imp.)", "hits": 25},
+    {"term": "ἠλέησεν", "gloss": "he had mercy", "hits": 10},
+    {"term": "ἐλέους", "gloss": "of mercy (gen.)", "hits": 40},
+    {"term": "οἰκτιρμοί", "gloss": "compassions", "hits": 3},
+    {"term": "οἰκτίρμων", "gloss": "compassionate", "hits": 10},
+    {"term": "πτωχοῦ", "gloss": "of the poor", "hits": 19},
+    {"term": "ταπείνωσιν", "gloss": "humiliation (acc.)", "hits": 16},
+    {"term": "ἐπιλάθῃ", "gloss": "you forget (subj.)", "hits": 18},
+    {"term": "ἐπελάθου", "gloss": "you forgot", "hits": 8},
+    {"term": "ἀποστρέφεις", "gloss": "you turn away", "hits": 5},
+    {"term": "κραυγῆς", "gloss": "of a cry", "hits": 26},
+    {"term": "στεναγμοῦ", "gloss": "of groaning", "hits": 6},
+    {"term": "ἐπήκουσεν", "gloss": "he heard/answered", "hits": 27},
+    {"term": "εἰσήκουσεν", "gloss": "he listened", "hits": 39}
+  ],
+  "lexical_queries": ["θλῖψις θλίψει θλίψεως θλίψεις", "ἐλέησον ἠλέησεν ἐλέους οἰκτιρμοί οἰκτίρμων", "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις", "κραυγῆς στεναγμοῦ ἐπήκουσεν εἰσήκουσεν ταπείνωσιν πτωχοῦ"],
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "display": false,
+  "notes": []
+}

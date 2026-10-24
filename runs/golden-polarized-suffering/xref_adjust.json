@@ -1,0 +1,7 @@
+{"downgrade":[
+{"from":"MAT.27.46","to":"ISA.53.10","relation":"thematic","note":"votes reflect the suffering-servant theme; the cry itself quotes PSA.22.1, no shared wording"},
+{"from":"MAT.27.46","to":"PSA.71.11","relation":"thematic","note":"shares the idea of being forsaken only; not the source of the cry"},
+{"from":"1PE.5.7","to":"1SA.30.6","relation":"thematic","note":"narrative of David strengthening himself in God; similar theme, not a quotation of 1PE.5.7"},
+{"from":"1PE.5.7","to":"1SA.1.10","relation":"thematic","note":"Hannah's distress in prayer; thematic similarity only"}
+],
+"notes":["MAT.27.46 quotes PSA.22.1 (Aramaic transliteration of the opening cry)","1PE.5.7 echoes PSA.55.22 (casting burden on the Lord)"]}

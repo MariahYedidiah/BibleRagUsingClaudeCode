@@ -1,0 +1,3 @@
+{"keep":[],"discard":[{"verse_uid":"oshb_wlc:1Kgs.7.37","reason":"incidental word match (making/arranging bronze stands); unrelated to computing"},{"verse_uid":"oshb_wlc:Exod.14.24","reason":"camp/army match only; unrelated"},{"verse_uid":"oshb_wlc:Lev.24.4","reason":"arranging lamps in the sanctuary; only a surface word overlap"}],
+"notes":["Vector and lexical results are incidental word overlaps; the Hebrew Bible has no concept of computer clusters or software containers."],
+"missing":[{"field":"passages","reason":"No Old Testament verse speaks to configuring a Kubernetes cluster; the topic is absent from the text."}]}

@@ -1,0 +1,519 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [],
+  "filters": {
+    "source": [
+      "web"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.04226,
+      "verse_uid": "web:JOB.23.14",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 23,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "JOB.23.14",
+      "canon_ref": "JOB.23.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "For he performs that which is appointed for me. Many such things are with him.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.583
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.6292
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "lexical",
+          "rank": 4,
+          "score": -12.9741
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.03279,
+      "verse_uid": "web:1CO.14.40",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 14,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "1CO.14.40",
+      "canon_ref": "1CO.14.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Let all things be done decently and in order.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.7234
+        },
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "lexical",
+          "rank": 1,
+          "score": -16.3074
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.032,
+      "verse_uid": "web:1KI.5.16",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "1KI",
+      "book_name": "1 Kings",
+      "chapter": 5,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "1KI.5.16",
+      "canon_ref": "1KI.5.16",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "besides Solomon’s chief officers who were over the work: three thousand three hundred who ruled over the people who labored in the work.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6532
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.083
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.03126,
+      "verse_uid": "web:1KI.9.23",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "1KI",
+      "book_name": "1 Kings",
+      "chapter": 9,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "1KI.9.23",
+      "canon_ref": "1KI.9.23",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "These were the five hundred fifty chief officers who were over Solomon’s work, who ruled over the people who labored in the work.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.6377
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "lexical",
+          "rank": 3,
+          "score": -13.083
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02988,
+      "verse_uid": "web:EXO.36.7",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 36,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "EXO.36.7",
+      "canon_ref": "EXO.36.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "For the stuff they had was sufficient to do all the work, and too much.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.6089
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6298
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.02963,
+      "verse_uid": "web:2CH.2.18",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 2,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "2CH.2.18",
+      "canon_ref": "2CH.2.18",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "He set seventy thousand of them to bear burdens, eighty thousand who were stone cutters in the mountains, and three thousand six hundred overseers to assign the people their work.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6314
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "lexical",
+          "rank": 7,
+          "score": -12.3044
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.02847,
+      "verse_uid": "web:1TI.4.11",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 4,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "1TI.4.11",
+      "canon_ref": "1TI.4.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Command and teach these things.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6815
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.6139
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.02538,
+      "verse_uid": "web:1TI.3.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 3,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "1TI.3.1",
+      "canon_ref": "1TI.3.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "This is a faithful saying: someone who seeks to be an overseer desires a good work.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 27,
+          "score": 0.5731
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.6267
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01639,
+      "verse_uid": "web:LEV.15.31",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "LEV",
+      "book_name": "Leviticus",
+      "chapter": 15,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "LEV.15.31",
+      "canon_ref": "LEV.15.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "“‘Thus you shall separate the children of Israel from their uncleanness, so they will not die in their uncleanness when they defile my tabernacle that is among them.’”",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5025
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01639,
+      "verse_uid": "web:1TI.3.12",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 3,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "1TI.3.12",
+      "canon_ref": "1TI.3.12",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Let servants be husbands of one wife, ruling their children and their own houses well.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6973
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01639,
+      "verse_uid": "web:JOB.38.31",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 38,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "JOB.38.31",
+      "canon_ref": "JOB.38.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "“Can you bind the cluster of the Pleiades, or loosen the cords of Orion?",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -10.9591
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01639,
+      "verse_uid": "web:PHP.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "PHP",
+      "book_name": "Philippians",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "PHP.1.1",
+      "canon_ref": "PHP.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Paul and Timothy, servants of Jesus Christ, to all the saints in Christ Jesus who are at Philippi, with the overseers and servants:",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.8214
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01613,
+      "verse_uid": "web:GEN.35.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 35,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "GEN.35.3",
+      "canon_ref": "GEN.35.3",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Let’s arise, and go up to Bethel. I will make there an altar to God, who answered me in the day of my distress, and was with me on the way which I went.”",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5019
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01613,
+      "verse_uid": "web:2CH.34.13",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 34,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "2CH.34.13",
+      "canon_ref": "2CH.34.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Also they were over the bearers of burdens, and directed all who did the work in every kind of service. Of the Levites, there were scribes, officials, and gatekeepers.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6612
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01613,
+      "verse_uid": "web:PSA.64.5",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 64,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "PSA.64.5",
+      "canon_ref": "PSA.64.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "They encourage themselves in evil plans. They talk about laying snares secretly. They say, “Who will see them?”",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.8477
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.7234,
+    "vector_margin": 0.0419,
+    "vector_lexical_overlap_top10": 5,
+    "lists": 6,
+    "lists_with_hits": 6,
+    "lists_containing_top_result": 3
+  }
+}

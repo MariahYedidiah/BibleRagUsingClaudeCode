@@ -56,6 +56,13 @@ def test_hebrew_text_norm_is_clean(verses):
     assert not he.str.contains("[֑-֯]").any()
 
 
+def test_no_usfm_markup_left_in_text(verses):
+    # WEB words nested in character styles (\bk \+w The|strong="H5921"\+w*) once leaked into 2,079 verses
+    leaked = verses[verses["text_display"].str.contains(r'strong="|\\[a-z+]', regex=True)]
+    assert leaked.empty, leaked["verse_uid"].head().tolist()
+    assert not verses["text_display"].str.contains(r" [,;:.!?]", regex=True).any()
+
+
 def test_sqlite_matches_parquet(db, verses):
     assert db.execute("select count(*) from verses").fetchone()[0] == len(verses)
     assert db.execute("select count(distinct verse_uid) from verses").fetchone()[0] == len(verses)

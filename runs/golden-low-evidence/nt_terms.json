@@ -1,0 +1,7 @@
+{"query":"configuring a Kubernetes cluster","language":"grc","corpus":"sblgnt","terms":[
+{"term":"οἰκοδομή","gloss":"building/construction","hits":2},
+{"term":"σκεῦος","gloss":"vessel/container","hits":11},
+{"term":"σκεύη","gloss":"vessels/containers","hits":8},
+{"term":"τάξιν","gloss":"order (acc.)","hits":7}],
+"lexical_queries":["σκεῦος σκεύη","τάξιν οἰκοδομή"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":["Modern technical concept has no Greek equivalent; terms are loose analogies."]}

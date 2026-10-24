@@ -1,0 +1,419 @@
+{
+  "agent": "greek-new-testament-agent",
+  "run_id": "golden-polarized-suffering",
+  "corpus": "sblgnt",
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+    "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+    "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+    "ἐγκατέλιπες πότε",
+    "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+    "μέλει περὶ ὑμῶν"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5975,
+      "vector_margin": 0.0339,
+      "vector_lexical_overlap_top10": 1,
+      "lists": 14,
+      "lists_with_hits": 10,
+      "lists_containing_top_result": 3
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "MAT.27.46",
+      "verse_uid": "sblgnt:MAT.27.46",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐγκατέλιπες πότε",
+          "method": "lexical",
+          "rank": 2,
+          "score": -8.9102
+        }
+      ],
+      "rrf": 0.01613,
+      "relevance": "Voices the complaint of abandonment in suffering (cry of dereliction).",
+      "context": [
+        {
+          "verse_uid": "sblgnt:MAT.27.45",
+          "verse": 45,
+          "text_display": "Ἀπὸ δὲ ἕκτης ὥρας σκότος ἐγένετο ἐπὶ πᾶσαν τὴν γῆν ἕως ὥρας ἐνάτης."
+        },
+        {
+          "verse_uid": "sblgnt:MAT.27.46",
+          "verse": 46,
+          "text_display": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;"
+        },
+        {
+          "verse_uid": "sblgnt:MAT.27.47",
+          "verse": 47,
+          "text_display": "τινὲς δὲ τῶν ἐκεῖ ⸂ ἑστηκότων ⸃ ἀκούσαντες ἔλεγον ὅτι Ἠλίαν φωνεῖ οὗτος."
+        }
+      ],
+      "translation": {
+        "canon_ref": "MAT.27.46",
+        "verse_uid": "sblgnt:MAT.27.46",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+        "translation": "About the ninth hour Jesus cried out with a loud voice, saying, \"Eli, Eli, lema sabachthani?\" that is, \"My God, my God, why have you forsaken me?\"",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐγκατέλιπες: aorist, 'you forsook'"
+        ],
+        "uncertainties": [
+          "variant unit: ἀνεβόησεν (cried out)",
+          "variant unit: Ἠλὶ ἠλὶ (Eli, Eli)"
+        ],
+        "web_reference": "web:MAT.27.46",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "1PE.5.7",
+      "verse_uid": "sblgnt:1PE.5.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.801
+        },
+        {
+          "query": "μέλει περὶ ὑμῶν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -22.5488
+        }
+      ],
+      "rrf": 0.03178,
+      "relevance": "Direct statement that God cares (μέλει) about the suffering/anxious; answers the premise.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:1PE.5.6",
+          "verse": 6,
+          "text_display": "Ταπεινώθητε οὖν ὑπὸ τὴν κραταιὰν χεῖρα τοῦ θεοῦ, ἵνα ὑμᾶς ὑψώσῃ ἐν καιρῷ,"
+        },
+        {
+          "verse_uid": "sblgnt:1PE.5.7",
+          "verse": 7,
+          "text_display": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν."
+        },
+        {
+          "verse_uid": "sblgnt:1PE.5.8",
+          "verse": 8,
+          "text_display": "νήψατε, γρηγορήσατε. ὁ ἀντίδικος ὑμῶν διάβολος ὡς λέων ὠρυόμενος περιπατεῖ ζητῶν ⸂ τινα ⸃ ⸂ καταπιεῖν ⸃·"
+        }
+      ],
+      "translation": {
+        "canon_ref": "1PE.5.7",
+        "verse_uid": "sblgnt:1PE.5.7",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν.",
+        "translation": "casting all your anxiety on him, because he cares about you.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐπιρίψαντες: aorist participle, 'having cast'",
+          "μέλει: impersonal, 'it is a concern to him'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:1PE.5.7",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "2CO.1.4",
+      "verse_uid": "sblgnt:2CO.1.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν, εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 11,
+          "score": -9.9218
+        },
+        {
+          "query": "μέλει ἐπεσκέψατο παρακαλῶν παρακλήσεως",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.5326
+        }
+      ],
+      "rrf": 0.03048,
+      "relevance": "God as the one who comforts people in all affliction.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:2CO.1.3",
+          "verse": 3,
+          "text_display": "Εὐλογητὸς ὁ θεὸς καὶ πατὴρ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ὁ πατὴρ τῶν οἰκτιρμῶν καὶ θεὸς πάσης παρακλήσεως,"
+        },
+        {
+          "verse_uid": "sblgnt:2CO.1.4",
+          "verse": 4,
+          "text_display": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν, εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ."
+        },
+        {
+          "verse_uid": "sblgnt:2CO.1.5",
+          "verse": 5,
+          "text_display": "ὅτι καθὼς περισσεύει τὰ παθήματα τοῦ Χριστοῦ εἰς ἡμᾶς, οὕτως διὰ τοῦ Χριστοῦ περισσεύει καὶ ἡ παράκλησις ἡμῶν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "2CO.1.4",
+        "verse_uid": "sblgnt:2CO.1.4",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν, εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ.",
+        "translation": "who comforts us in all our affliction, so that we may be able to comfort those in any affliction through the comfort with which we ourselves are comforted by God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "παρακαλέω/παράκλησις: comfort/encourage word group"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:2CO.1.4",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "LUK.7.13",
+      "verse_uid": "sblgnt:LUK.7.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ᾽ αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σπλαγχνίζομαι ἐσπλαγχνίσθη σπλάγχνα ἔλεος ἐλέους ἐλέησον οἰκτιρμῶν",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.217
+        },
+        {
+          "query": "ἐσπλαγχνίσθη σπλαγχνίζομαι",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.217
+        }
+      ],
+      "rrf": 0.03126,
+      "relevance": "The Lord's compassion toward a grieving widow, shown in action.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:LUK.7.12",
+          "verse": 12,
+          "text_display": "ὡς δὲ ἤγγισεν τῇ πύλῃ τῆς πόλεως, καὶ ἰδοὺ ἐξεκομίζετο τεθνηκὼς ⸂ μονογενὴς υἱὸς ⸃ τῇ μητρὶ αὐτοῦ, καὶ αὐτὴ ⸂ ἦν ⸃ χήρα, καὶ ὄχλος τῆς πόλεως ἱκανὸς ⸂ ἦν ⸃ σὺν αὐτῇ."
+        },
+        {
+          "verse_uid": "sblgnt:LUK.7.13",
+          "verse": 13,
+          "text_display": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ᾽ αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε."
+        },
+        {
+          "verse_uid": "sblgnt:LUK.7.14",
+          "verse": 14,
+          "text_display": "καὶ προσελθὼν ἥψατο τῆς σοροῦ, οἱ δὲ βαστάζοντες ἔστησαν, καὶ εἶπεν· Νεανίσκε, σοὶ λέγω, ἐγέρθητι."
+        }
+      ],
+      "translation": {
+        "canon_ref": "LUK.7.13",
+        "verse_uid": "sblgnt:LUK.7.13",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ᾽ αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε.",
+        "translation": "And when the Lord saw her, he had compassion on her and said to her, \"Do not weep.\"",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐσπλαγχνίσθη: aorist passive deponent, 'was moved with compassion'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:LUK.7.13",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "ROM.8.35",
+      "verse_uid": "sblgnt:ROM.8.35",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "τίς ἡμᾶς χωρίσει ἀπὸ τῆς ἀγάπης τοῦ Χριστοῦ; θλῖψις ἢ στενοχωρία ἢ διωγμὸς ἢ λιμὸς ἢ γυμνότης ἢ κίνδυνος ἢ μάχαιρα;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5194
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.507
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεων παθήματα παθημάτων πάσχει",
+          "method": "lexical",
+          "rank": 23,
+          "score": -8.3536
+        }
+      ],
+      "rrf": 0.03941,
+      "relevance": "Lists afflictions and asks whether any can separate believers from Christ's love; answers the doubt of abandonment.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:ROM.8.34",
+          "verse": 34,
+          "text_display": "τίς ὁ ⸂ κατακρινῶν ⸃. ⸂ Χριστὸς ⸃ ὁ ἀποθανών, μᾶλλον ⸂ δὲ ⸃ ⸂ ἐγερθείς ⸃, ὅς ⸂ καί ⸃ ἐστιν ἐν δεξιᾷ τοῦ θεοῦ, ὃς καὶ ἐντυγχάνει ὑπὲρ ἡμῶν·"
+        },
+        {
+          "verse_uid": "sblgnt:ROM.8.35",
+          "verse": 35,
+          "text_display": "τίς ἡμᾶς χωρίσει ἀπὸ τῆς ἀγάπης τοῦ Χριστοῦ; θλῖψις ἢ στενοχωρία ἢ διωγμὸς ἢ λιμὸς ἢ γυμνότης ἢ κίνδυνος ἢ μάχαιρα;"
+        },
+        {
+          "verse_uid": "sblgnt:ROM.8.36",
+          "verse": 36,
+          "text_display": "καθὼς γέγραπται ὅτι Ἕνεκεν σοῦ θανατούμεθα ὅλην τὴν ἡμέραν, ἐλογίσθημεν ὡς πρόβατα σφαγῆς."
+        }
+      ],
+      "translation": {
+        "canon_ref": "ROM.8.35",
+        "verse_uid": "sblgnt:ROM.8.35",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "τίς ἡμᾶς χωρίσει ἀπὸ τῆς ἀγάπης τοῦ Χριστοῦ; θλῖψις ἢ στενοχωρία ἢ διωγμὸς ἢ λιμὸς ἢ γυμνότης ἢ κίνδυνος ἢ μάχαιρα;",
+        "translation": "Who will separate us from the love of Christ? Affliction, or distress, or persecution, or famine, or nakedness, or danger, or sword?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "θλῖψις: affliction/tribulation"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:ROM.8.35",
+        "differences_from_web": []
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "sblgnt:ROM.2.23",
+      "reason": "Lexical false hit; about dishonoring God through law-breaking."
+    },
+    {
+      "verse_uid": "sblgnt:1TH.2.19",
+      "reason": "Hope/joy of boasting; not about suffering."
+    },
+    {
+      "verse_uid": "sblgnt:ROM.3.6",
+      "reason": "God's judging the world; not about suffering."
+    },
+    {
+      "verse_uid": "sblgnt:TIT.2.11",
+      "reason": "Grace for all people; too general."
+    },
+    {
+      "verse_uid": "sblgnt:2CO.11.11",
+      "reason": "Paul's love for Corinthians; false hit."
+    },
+    {
+      "verse_uid": "sblgnt:ROM.1.18",
+      "reason": "Wrath of God; off-topic."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.2.7",
+      "reason": "Forgiveness dispute; false hit."
+    },
+    {
+      "verse_uid": "sblgnt:LUK.3.18",
+      "reason": "παρακαλῶν meaning exhorting; not comfort."
+    },
+    {
+      "verse_uid": "sblgnt:JHN.10.13",
+      "reason": "Hired hand does not care; about shepherd contrast, not God's care for sufferers."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.15.34",
+      "reason": "Parallel to Matt 27:46; omitted to stay within k."
+    },
+    {
+      "verse_uid": "sblgnt:MAT.14.14",
+      "reason": "Compassion passage; duplicate theme, omitted within k."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.8.2",
+      "reason": "Compassion passage; omitted within k."
+    },
+    {
+      "verse_uid": "sblgnt:2CO.7.4",
+      "reason": "Paul's own comfort/joy; less direct."
+    }
+  ],
+  "missing": [
+    {
+      "field": "Direct NT statements that God forgets sufferers",
+      "reason": "None found in SBLGNT; the lament motif is mainly OT."
+    }
+  ],
+  "notes": [
+    "MAT.27.46 appears to be a quotation of an OT cry (Aramaic/Greek rendering of a lament), explicit citation not marked by a formula; cross-reference agent should verify.",
+    "1PE.5.7 may allude to OT wording about casting cares on God; verify.",
+    "MAT.27.46 contains SBLGNT variant-unit markers (ἀνεβόησεν; Ἠλὶ ἠλὶ).",
+    "The NT contains no verse that voices the complaint 'God does not care' directly except the cry of dereliction; NT retrieval was weak and results mostly lexical.",
+    "ROM.8.35 is followed by an OT quotation in v.36 (not kept); verse 35 itself has no formula."
+  ]
+}

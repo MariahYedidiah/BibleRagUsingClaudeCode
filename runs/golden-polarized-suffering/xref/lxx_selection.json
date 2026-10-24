@@ -1,0 +1,100 @@
+{
+ "keep": [
+  {
+   "canon_ref": "PSA.22.1",
+   "relevance": "Cry of abandonment, 'why have you forsaken me': the voice of the sufferer who feels God does not care"
+  },
+  {
+   "canon_ref": "PSA.55.22",
+   "relevance": "Counter-evidence: cast your care on the Lord, he will nourish"
+  },
+  {
+   "canon_ref": "PSA.37.5",
+   "relevance": "Counter-evidence: entrust your way to the Lord, he will act"
+  },
+  {
+   "canon_ref": "PSA.56.3",
+   "relevance": "Trust amid fear (LXX: third-person 'they will be afraid')"
+  },
+  {
+   "canon_ref": "PSA.34.15",
+   "relevance": "God's eyes and ears attend the righteous and their supplication"
+  },
+  {
+   "canon_ref": "PSA.27.13",
+   "relevance": "Hope of seeing the Lord's goodness in the land of the living"
+  },
+  {
+   "canon_ref": "PSA.142.4",
+   "relevance": "Complaint that no one cares for the psalmist's soul"
+  }
+ ],
+ "discard": [
+  {
+   "verse_uid": "lxx_swete:27.93.14",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.43.22",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:48.28.13",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.24.16",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:51.3.36",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:48.28.10",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.118.132",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:41.3.9",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:11.1.6",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.85.16",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.76.8",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:48.26.16",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.122.3",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:29.15.11",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  },
+  {
+   "verse_uid": "lxx_swete:27.7.15",
+   "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+  }
+ ],
+ "notes": [
+  "Search was hybrid (service up). All kept verses are Psalms; Swete uses Greek psalm numbering (e.g. Swete Ps 21:2 = English Ps 22:1), all mapped to the requested canon_refs.",
+  "Kept verses are the leader's requested references; search results beyond them were weaker.",
+  "Ps 22:1 LXX differs from the Hebrew in the second half (transgressions/salvation vs groaning/helping); Ps 56:3 LXX is third person plural."
+ ],
+ "missing": []
+}

@@ -1,0 +1,21 @@
+{
+  "query": "In the beginning was the Word",
+  "language": "grc",
+  "corpus": "sblgnt",
+  "terms": [
+    {"term": "λόγος", "gloss": "word (nom.)", "hits": 65},
+    {"term": "λόγον", "gloss": "word (acc.)", "hits": 127},
+    {"term": "λόγου", "gloss": "word (gen.)", "hits": 28},
+    {"term": "λόγῳ", "gloss": "word (dat.)", "hits": 45},
+    {"term": "σάρξ", "gloss": "flesh (nom.)", "hits": 23},
+    {"term": "σάρκα", "gloss": "flesh (acc.)", "hits": 36},
+    {"term": "ἐγένετο", "gloss": "became/was", "hits": 195},
+    {"term": "ἀρχῇ", "gloss": "beginning (dat.)", "hits": 12},
+    {"term": "ἀρχή", "gloss": "beginning (nom.)", "hits": 12}
+  ],
+  "lexical_queries": ["ἀρχῇ λόγος ἦν", "λόγος σάρξ ἐγένετο", "λόγον λόγῳ ἀρχή"],
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "display": false,
+  "notes": []
+}

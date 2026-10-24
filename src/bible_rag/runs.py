@@ -27,6 +27,11 @@ CORPUS_NAME = {"web": "English: WEB", "oshb_wlc": "Hebrew: OSHB/WLC",
 ORDER = {"OT": ["web", "oshb_wlc", "lxx_swete"], "DC": ["lxx_swete", "web"],
          "NT": ["sblgnt", "web"]}
 AGENT_FOR = {corpus: agent for agent, corpus in SPECIALIST_CORPUS.items()}
+# Top cosine that off-topic questions reach in each corpus, rounded up (`bible-rag eval retrieval`,
+# 2026-10-24: off-topic max web 0.544, oshb 0.514, lxx 0.512, sblgnt 0.492; the lowest correct
+# top hit was 0.655, 0.518, 0.538 and 0.642). A kept passage whose best vector score is below
+# its corpus's floor looks no better than what an off-topic question retrieves.
+VECTOR_FLOOR = {"web": 0.60, "oshb_wlc": 0.53, "lxx_swete": 0.53, "sblgnt": 0.55}
 
 
 def run_dir(run_id):
@@ -117,25 +122,33 @@ def confidence(run_id):
     high          >= 2 references kept in two or more languages, and >= 1 passage found by
                   both vector and lexical search
     medium        >= 1 reference kept in two or more languages, or >= 2 passages found by both
-    low           anything else
-    Thresholds are provisional until calibrated on the golden queries.
+    low           anything else, or (with vector search up) no kept passage reaches its
+                  corpus's VECTOR_FLOOR and none is a requested reference
+    Calibrated on the golden queries and `bible-rag eval retrieval` (docs/evaluation.md).
     """
-    langs, both, kept, down, top = {}, 0, 0, False, None
+    langs, both, kept, down, top, strong, variants = {}, 0, 0, False, None, 0, {}
     for _, r in specialist_results(run_id):
         down |= r["service"] == "down"
         for p in r["passages"]:
             kept += 1
+            vector = [h["score"] for h in p.get("hits", []) if h["method"] == "vector"]
+            if p["found_by"] == ["reference"] or max(vector, default=0.0) >= VECTOR_FLOOR[p["source"]]:
+                strong += 1
+            if vector:
+                top = max(top or 0.0, *vector)
+            for h in p.get("hits", []):
+                variants.setdefault(p["verse_uid"], set()).add(h["query"])
             if p["canon_ref"].endswith(".0"):
                 continue
             langs.setdefault(p["canon_ref"], set()).add(LANG[p["source"]])
             if {"vector", "lexical"} <= set(p["found_by"]):
                 both += 1
-            for h in p.get("hits", []):
-                if h["method"] == "vector":
-                    top = max(top or 0.0, h["score"])
     cross = sorted(ref for ref, ls in langs.items() if len(ls) >= 2)
+    weak = not down and kept and not strong
     if kept == 0:
         level = "insufficient"
+    elif weak:
+        level = "low"
     elif len(cross) >= 2 and both >= 1:
         level = "high"
     elif cross or both >= 2:
@@ -143,9 +156,12 @@ def confidence(run_id):
     else:
         level = "low"
     signals = {"passages_kept": kept, "cross_lingual_refs": cross, "found_by_both_methods": both,
+               "above_vector_floor": strong, "found_by_two_or_more_queries":
+               sum(1 for qs in variants.values() if len(qs) >= 2),
                "top_vector_score": top, "vector_search_available": not down}
     basis = (f"{kept} passages kept; {len(cross)} references found in two or more languages; "
              f"{both} passages found by both vector and lexical search"
+             + ("; no kept passage scores above what off-topic questions retrieve" if weak else "")
              + ("; vector search was unavailable (lexical only)" if down else ""))
     return {"level": level, "basis": basis, "signals": signals}
 

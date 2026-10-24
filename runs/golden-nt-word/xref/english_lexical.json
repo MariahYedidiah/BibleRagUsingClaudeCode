@@ -1,0 +1,458 @@
+{
+  "queries": [],
+  "lexical_queries": [
+    "beginning Word"
+  ],
+  "filters": {
+    "source": [
+      "web"
+    ]
+  },
+  "mode": "lexical",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.01639,
+      "verse_uid": "web:JHN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "JHN.1.1",
+      "canon_ref": "JHN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.3105
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.01613,
+      "verse_uid": "web:1JN.2.7",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 2,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "1JN.2.7",
+      "canon_ref": "1JN.2.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.4032
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01587,
+      "verse_uid": "web:LUK.1.2",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "LUK.1.2",
+      "canon_ref": "LUK.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "even as those who from the beginning were eyewitnesses and servants of the word delivered them to us,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.3221
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01562,
+      "verse_uid": "web:JER.26.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 26,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "JER.26.1",
+      "canon_ref": "JER.26.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came from the LORD:",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.5899
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01538,
+      "verse_uid": "web:JER.27.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 27,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "JER.27.1",
+      "canon_ref": "JER.27.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from the LORD, saying,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.9399
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01515,
+      "verse_uid": "web:JER.49.34",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 49,
+      "verse": 34,
+      "edition": "",
+      "source_ref": "JER.49.34",
+      "canon_ref": "JER.49.34",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The LORD’s word that came to Jeremiah the prophet concerning Elam, in the beginning of the reign of Zedekiah king of Judah, saying,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 6,
+          "score": -10.9399
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01493,
+      "verse_uid": "web:1JN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "1JN.1.1",
+      "canon_ref": "1JN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 7,
+          "score": -9.5166
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01471,
+      "verse_uid": "web:JHN.1.2",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "JHN.1.2",
+      "canon_ref": "JHN.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The same was in the beginning with God.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 8,
+          "score": -9.0932
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01449,
+      "verse_uid": "web:GEN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "GEN.1.1",
+      "canon_ref": "GEN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "In the beginning, God created the heavens and the earth.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 9,
+          "score": -8.6327
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01429,
+      "verse_uid": "web:1JN.2.14",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 2,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "1JN.2.14",
+      "canon_ref": "1JN.2.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "I have written to you, fathers, because you know him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 10,
+          "score": -8.3015
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01408,
+      "verse_uid": "web:JOB.8.7",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 8,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "JOB.8.7",
+      "canon_ref": "JOB.8.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Though your beginning was small, yet your latter end would greatly increase.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 11,
+          "score": -8.2165
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01389,
+      "verse_uid": "web:PRO.8.23",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 8,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "PRO.8.23",
+      "canon_ref": "PRO.8.23",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "I was set up from everlasting, from the beginning, before the earth existed.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 12,
+          "score": -8.0231
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.0137,
+      "verse_uid": "web:MRK.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "MRK.1.1",
+      "canon_ref": "MRK.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The beginning of the Good News of Jesus Christ, the Son of God.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 13,
+          "score": -8.0231
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01351,
+      "verse_uid": "web:PRO.20.21",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 20,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "PRO.20.21",
+      "canon_ref": "PRO.20.21",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "An inheritance quickly gained at the beginning won’t be blessed in the end.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 14,
+          "score": -7.8386
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01333,
+      "verse_uid": "web:ACT.8.35",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 8,
+      "verse": 35,
+      "edition": "",
+      "source_ref": "ACT.8.35",
+      "canon_ref": "ACT.8.35",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Philip opened his mouth, and beginning from this Scripture, preached to him about Jesus.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "beginning Word",
+          "method": "lexical",
+          "rank": 15,
+          "score": -7.8386
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": null,
+    "vector_margin": null,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 1,
+    "lists_with_hits": 1,
+    "lists_containing_top_result": 1
+  }
+}

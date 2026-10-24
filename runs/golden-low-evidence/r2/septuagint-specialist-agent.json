@@ -1,0 +1,69 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-low-evidence/r2",
+  "corpus": "lxx_swete",
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "τάξει οἰκονόμος",
+    "ἐπιστάται ἐπιστάτης ἔργων"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6114,
+      "vector_margin": 0.0136,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 8,
+      "lists_with_hits": 5,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:13.4.6",
+      "reason": "1 Kgdms/1 Kings 4:6 lists Solomon's officials (steward, etc.); a historical administrative roster, not teaching on configuring a technical system"
+    },
+    {
+      "verse_uid": "lxx_swete:13.5.16",
+      "reason": "Solomon's appointed overseers of the building works; a loose thematic echo of managing labour, not about system configuration"
+    },
+    {
+      "verse_uid": "lxx_swete:48.36.3",
+      "reason": "Lists court officials (steward, scribe) in a narrative; no relevance to the question"
+    },
+    {
+      "verse_uid": "lxx_swete:15.9.28",
+      "reason": "Temple vessel counting; incidental lexical match"
+    },
+    {
+      "verse_uid": "lxx_swete:15.29.6",
+      "reason": "Leaders' freewill offerings; matches only on rulers (ἄρχοντες)"
+    },
+    {
+      "verse_uid": "lxx_swete:29.8.18",
+      "reason": "Wisdom's riches; semantic noise"
+    },
+    {
+      "verse_uid": "lxx_swete:27.24.9",
+      "reason": "God guiding the meek; not about managing systems"
+    },
+    {
+      "verse_uid": "lxx_swete:32.37.16",
+      "reason": "Lexical false hit (ἐπίσταται, 'knows')"
+    }
+  ],
+  "missing": [
+    {
+      "field": "Any LXX verse addressing configuring a Kubernetes cluster or technical system administration",
+      "reason": "Topic is anachronistic; no relevant passage exists in the corpus"
+    }
+  ],
+  "notes": [
+    "The Septuagint contains nothing about Kubernetes or computing infrastructure. Broader reformulations (ordering, stewards, overseers of works) surface only royal administration rosters and unrelated verses; these are thematic echoes, not evidence, so nothing is kept."
+  ]
+}

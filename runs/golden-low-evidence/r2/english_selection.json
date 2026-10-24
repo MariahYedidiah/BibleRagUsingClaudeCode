@@ -1,0 +1,74 @@
+{
+  "keep": [],
+  "discard": [
+    {
+      "verse_uid": "web:JOB.23.14",
+      "reason": "Job's words about what is appointed for him; 'appointed' is used of fate, not of organizing a system."
+    },
+    {
+      "verse_uid": "web:1CO.14.40",
+      "reason": "Exhortation that worship be done decently and in order; addresses church gatherings, not configuring a cluster or software system. Loose thematic echo only."
+    },
+    {
+      "verse_uid": "web:1KI.5.16",
+      "reason": "Solomon's chief officers over the labor force for building the temple; administration of people, not configuration of a system. Loose thematic echo only."
+    },
+    {
+      "verse_uid": "web:1KI.9.23",
+      "reason": "Same narrative as 1KI.5.16 (officers over Solomon's work); loose thematic echo only."
+    },
+    {
+      "verse_uid": "web:EXO.36.7",
+      "reason": "Narrative about sufficient materials for the tabernacle work; does not address planning or configuring a system."
+    },
+    {
+      "verse_uid": "web:2CH.2.18",
+      "reason": "Solomon's labor assignments and overseers for the temple; loose thematic echo of managing workers, not of configuration."
+    },
+    {
+      "verse_uid": "web:1TI.4.11",
+      "reason": "Instruction to command and teach; no bearing on system configuration."
+    },
+    {
+      "verse_uid": "web:1TI.3.1",
+      "reason": "Qualifications of an overseer (church office); about a person's desire for office, not about configuring a cluster. Loose thematic echo only."
+    },
+    {
+      "verse_uid": "web:LEV.15.31",
+      "reason": "Ritual purity law; word 'tabernacle' only, no bearing on the question."
+    },
+    {
+      "verse_uid": "web:1TI.3.12",
+      "reason": "Qualifications of deacons (servants) for their households; not about configuring a system."
+    },
+    {
+      "verse_uid": "web:JOB.38.31",
+      "reason": "God's question about the Pleiades and Orion; 'cluster' is used of stars, an unrelated sense."
+    },
+    {
+      "verse_uid": "web:PHP.1.1",
+      "reason": "Greeting to overseers and servants at Philippi; church office, not system configuration."
+    },
+    {
+      "verse_uid": "web:GEN.35.3",
+      "reason": "Jacob's altar at Bethel; 'configuring' not addressed, unrelated."
+    },
+    {
+      "verse_uid": "web:2CH.34.13",
+      "reason": "Officers directing the temple workers and gatekeepers; loose thematic echo of supervising labor, not configuration."
+    },
+    {
+      "verse_uid": "web:PSA.64.5",
+      "reason": "Enemies planning snares; 'plans' used in an unrelated, hostile sense."
+    }
+  ],
+  "notes": [
+    "Retry round (golden-low-evidence/r2). Hybrid search, service up, three query variants, k=15 pool. No passage addresses configuring a Kubernetes cluster or any technical system; the question is anachronistic and the Bible has no direct teaching on it. The nearest thematic echoes (1KI.5.16, 1KI.9.23, 2CH.2.18, 2CH.34.13 on supervising labor; 1CO.14.40 on doing things decently and in order; 1TI.3.1 and PHP.1.1 on overseers) are loose echoes, which the leader's instruction says are not evidence. Keeping nothing is the honest result. Passages found via the 'planning, organizing' variant were mostly unrelated; the 'overseers' variant produced the church-office and labor-supervision echoes."
+  ],
+  "missing": [
+    {
+      "field": "WEB passage on configuring a Kubernetes cluster",
+      "reason": "No verse in the WEB corpus speaks to Kubernetes or to configuring a technical cluster; the question is outside the scope of scripture."
+    }
+  ]
+}

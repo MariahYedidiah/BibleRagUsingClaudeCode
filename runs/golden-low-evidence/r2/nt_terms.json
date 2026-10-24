@@ -1,0 +1,17 @@
+{"query":"planning, organizing and managing a large and complex system so that everything is done in order","language":"grc","corpus":"sblgnt","terms":[
+{"term":"οἰκονόμος","gloss":"steward","hits":3},
+{"term":"οἰκονόμον","gloss":"steward (acc.)","hits":3},
+{"term":"οἰκονόμοι","gloss":"stewards","hits":1},
+{"term":"οἰκονομίαν","gloss":"management/stewardship","hits":6},
+{"term":"ἐπισκόπους","gloss":"overseers","hits":1},
+{"term":"ἐπίσκοπον","gloss":"overseer","hits":3},
+{"term":"τάξει","gloss":"in order","hits":1},
+{"term":"τάξιν","gloss":"order","hits":7},
+{"term":"κατέστησεν","gloss":"appointed","hits":5},
+{"term":"καταστήσει","gloss":"will appoint","hits":3},
+{"term":"εὐσχημόνως","gloss":"decently","hits":3},
+{"term":"προϊστάμενος","gloss":"managing/leading","hits":1},
+{"term":"κυβερνήσεις","gloss":"administrations","hits":1},
+{"term":"δούλους","gloss":"servants (acc.)","hits":19}],
+"lexical_queries":["οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν","ἐπισκόπους ἐπίσκοπον προϊστάμενος κυβερνήσεις","τάξει τάξιν εὐσχημόνως","κατέστησεν καταστήσει δούλους"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":[]}

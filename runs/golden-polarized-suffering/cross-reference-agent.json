@@ -1,0 +1,117 @@
+{
+  "agent": "cross-reference-agent",
+  "run_id": "golden-polarized-suffering",
+  "entries": [
+    {
+      "from_ref": "MAT.27.46",
+      "links": [
+        {
+          "to": "PSA.22.1",
+          "votes": 83,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "ISA.53.10",
+          "votes": 44,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "votes reflect the suffering-servant theme; the cry itself quotes PSA.22.1, no shared wording"
+        },
+        {
+          "to": "PSA.71.11",
+          "votes": 25,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "shares the idea of being forsaken only; not the source of the cry"
+        },
+        {
+          "to": "LAM.1.12",
+          "votes": 20,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        }
+      ]
+    },
+    {
+      "from_ref": "1PE.5.7",
+      "links": [
+        {
+          "to": "PSA.55.22",
+          "votes": 372,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "PSA.37.5",
+          "votes": 256,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "PSA.56.3",
+          "votes": 191,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Ps.56.3-Ps.56.4"
+        },
+        {
+          "to": "PSA.34.15",
+          "votes": 141,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "PSA.27.13",
+          "votes": 117,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Ps.27.13-Ps.27.14"
+        },
+        {
+          "to": "1SA.30.6",
+          "votes": 113,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "narrative of David strengthening himself in God; similar theme, not a quotation of 1PE.5.7"
+        },
+        {
+          "to": "PSA.142.4",
+          "votes": 93,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Ps.142.4-Ps.142.5"
+        },
+        {
+          "to": "1SA.1.10",
+          "votes": 59,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": "1Sam.1.10-1Sam.1.18",
+          "note": "Hannah's distress in prayer; thematic similarity only"
+        }
+      ]
+    }
+  ],
+  "verified_targets": [
+    "PSA.22.1",
+    "PSA.55.22",
+    "PSA.37.5",
+    "PSA.56.3",
+    "PSA.34.15",
+    "PSA.27.13",
+    "PSA.142.4"
+  ],
+  "notes": [
+    "MAT.27.46 quotes PSA.22.1 (Aramaic transliteration of the opening cry)",
+    "1PE.5.7 echoes PSA.55.22 (casting burden on the Lord)"
+  ]
+}

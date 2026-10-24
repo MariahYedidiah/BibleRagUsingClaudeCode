@@ -1,0 +1,358 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-polarized-suffering",
+  "corpus": "web",
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.8504,
+      "vector_margin": 0.0582,
+      "vector_lexical_overlap_top10": 10,
+      "lists": 8,
+      "lists_with_hits": 8,
+      "lists_containing_top_result": 3
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.13.1",
+      "verse_uid": "web:PSA.13.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "How long, LORD? Will you forget me forever? How long will you hide your face from me?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.8504
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -32.6591
+        }
+      ],
+      "rrf": 0.03279,
+      "relevance": "Lament: 'How long, LORD? Will you forget me forever? How long will you hide your face from me?' Voices the complaint that God seems absent from suffering. Found by vector and lexical search (polarized-variant 'hide your face / forget our affliction').",
+      "context": [
+        {
+          "verse_uid": "web:PSA.13.1",
+          "verse": 1,
+          "text_display": "How long, LORD? Will you forget me forever? How long will you hide your face from me?"
+        },
+        {
+          "verse_uid": "web:PSA.13.2",
+          "verse": 2,
+          "text_display": "How long shall I take counsel in my soul, having sorrow in my heart every day? How long shall my enemy triumph over me?"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.44.24",
+      "verse_uid": "web:PSA.44.24",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Why do you hide your face, and forget our affliction and our oppression?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.7894
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 2,
+          "score": -31.8707
+        }
+      ],
+      "rrf": 0.032,
+      "relevance": "Lament: 'Why do you hide your face, and forget our affliction and our oppression?' Direct complaint about God's apparent indifference to suffering. Found by vector and lexical search (variant 4).",
+      "context": [
+        {
+          "verse_uid": "web:PSA.44.23",
+          "verse": 23,
+          "text_display": "Wake up! Why do you sleep, Lord? Arise! Don’t reject us forever."
+        },
+        {
+          "verse_uid": "web:PSA.44.24",
+          "verse": 24,
+          "text_display": "Why do you hide your face, and forget our affliction and our oppression?"
+        },
+        {
+          "verse_uid": "web:PSA.44.25",
+          "verse": 25,
+          "text_display": "For our soul is bowed down to the dust. Our body clings to the earth."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "canon_ref": "LAM.5.20",
+      "verse_uid": "web:LAM.5.20",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Why do you forget us forever, and forsake us for so long a time?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.7265
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 7,
+          "score": -15.2363
+        }
+      ],
+      "rrf": 0.03055,
+      "relevance": "Lament: 'Why do you forget us forever, and forsake us for so long a time?' Complaint about prolonged divine neglect of a suffering people. Found by vector and lexical search (variant 4).",
+      "context": [
+        {
+          "verse_uid": "web:LAM.5.19",
+          "verse": 19,
+          "text_display": "You, LORD, remain forever. Your throne is from generation to generation."
+        },
+        {
+          "verse_uid": "web:LAM.5.20",
+          "verse": 20,
+          "text_display": "Why do you forget us forever, and forsake us for so long a time?"
+        },
+        {
+          "verse_uid": "web:LAM.5.21",
+          "verse": 21,
+          "text_display": "Turn us to yourself, LORD, and we will be turned. Renew our days as of old."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "canon_ref": "PSA.135.14",
+      "verse_uid": "web:PSA.135.14",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "For the LORD will judge his people and have compassion on his servants.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5977
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.3853
+        }
+      ],
+      "rrf": 0.03068,
+      "relevance": "Response: 'the LORD will judge his people and have compassion on his servants.' Direct statement of God's compassion toward his servants, answering the 'does God care' side. Found by vector and lexical search (variant 3).",
+      "context": [
+        {
+          "verse_uid": "web:PSA.135.13",
+          "verse": 13,
+          "text_display": "Your name, LORD, endures forever; your renown, LORD, throughout all generations."
+        },
+        {
+          "verse_uid": "web:PSA.135.14",
+          "verse": 14,
+          "text_display": "For the LORD will judge his people and have compassion on his servants."
+        },
+        {
+          "verse_uid": "web:PSA.135.15",
+          "verse": 15,
+          "text_display": "The idols of the nations are silver and gold, the work of men’s hands."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "canon_ref": "LUK.18.7",
+      "verse_uid": "web:LUK.18.7",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Won’ t|strong=\"G3588\" God|strong=\"G2316\" avenge|strong=\"G1557\" his|strong=\"G1909\" chosen|strong=\"G1588\" ones who|strong=\"G3588\" are|strong=\"G3588\" crying out|strong=\"G2532\" to|strong=\"G2532\" him|strong=\"G3588\" day|strong=\"G2250\" and|strong=\"G2532\" night|strong=\"G3571\" , and|strong=\"G2532\" yet|strong=\"G2532\" he|strong=\"G2532\" exercises|strong=\"G4160\" patience|strong=\"G3114\" with|strong=\"G2532\" them|strong=\"G3588\" ?",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5788
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.607
+        }
+      ],
+      "rrf": 0.03031,
+      "relevance": "Response: God will avenge his chosen ones who cry out to him day and night, and exercises patience with them. Describes God's response to the suffering of those who cry out. Found by vector and lexical search (variants 2 and 3). Store text_display carries strong-number markup; the validator should check the text as stored.",
+      "context": [
+        {
+          "verse_uid": "web:LUK.18.6",
+          "verse": 6,
+          "text_display": "The Lord said, “Listen to|strong=\"G3004\" what|strong=\"G5101\" the|strong=\"G1161\" unrighteous judge|strong=\"G2923\" says|strong=\"G3004\" ."
+        },
+        {
+          "verse_uid": "web:LUK.18.7",
+          "verse": 7,
+          "text_display": "Won’ t|strong=\"G3588\" God|strong=\"G2316\" avenge|strong=\"G1557\" his|strong=\"G1909\" chosen|strong=\"G1588\" ones who|strong=\"G3588\" are|strong=\"G3588\" crying out|strong=\"G2532\" to|strong=\"G2532\" him|strong=\"G3588\" day|strong=\"G2250\" and|strong=\"G2532\" night|strong=\"G3571\" , and|strong=\"G2532\" yet|strong=\"G2532\" he|strong=\"G2532\" exercises|strong=\"G4160\" patience|strong=\"G3114\" with|strong=\"G2532\" them|strong=\"G3588\" ?"
+        },
+        {
+          "verse_uid": "web:LUK.18.8",
+          "verse": 8,
+          "text_display": "I|strong=\"G3754\" tell|strong=\"G3004\" you|strong=\"G5210\" that|strong=\"G3754\" he|strong=\"G3754\" will|strong=\"G1093\" avenge|strong=\"G1557\" them|strong=\"G3588\" quickly|strong=\"G5034\" . Nevertheless|strong=\"G4133\" , when|strong=\"G1722\" the|strong=\"G1722\" Son|strong=\"G5207\" of|strong=\"G5207\" Man|strong=\"G5207\" comes|strong=\"G2064\" , will|strong=\"G1093\" he|strong=\"G3754\" find|strong=\"G2147\" faith|strong=\"G4102\" on|strong=\"G1909\" the|strong=\"G1722\" earth|strong=\"G1093\" ?”"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "canon_ref": "PSA.90.13",
+      "verse_uid": "web:PSA.90.13",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Relent, LORD! How long? Have compassion on your servants!",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6111
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.6391
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 28,
+          "score": -10.9379
+        }
+      ],
+      "rrf": 0.03934,
+      "relevance": "Plea and response: 'Relent, LORD! How long? Have compassion on your servants!' Shows the people's appeal for God's compassion after suffering, paired with the lament side. Found by vector (variants 3 and 4) and lexical (variant 4).",
+      "context": [
+        {
+          "verse_uid": "web:PSA.90.12",
+          "verse": 12,
+          "text_display": "So teach us to count our days, that we may gain a heart of wisdom."
+        },
+        {
+          "verse_uid": "web:PSA.90.13",
+          "verse": 13,
+          "text_display": "Relent, LORD! How long? Have compassion on your servants!"
+        },
+        {
+          "verse_uid": "web:PSA.90.14",
+          "verse": 14,
+          "text_display": "Satisfy us in the morning with your loving kindness, that we may rejoice and be glad all our days."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "web:PSA.88.14",
+      "reason": "Lament that duplicates PSA.13.1 and PSA.44.24 on the same complaint; dropped to keep the set within k=6 while keeping both sides of the polarized question."
+    },
+    {
+      "verse_uid": "web:PSA.77.9",
+      "reason": "Relevant lament ('has he withheld his compassion?') but ranked below the kept set; dropped for k=6 and to avoid over-representing one psalm."
+    },
+    {
+      "verse_uid": "web:PSA.89.46",
+      "reason": "Lament on the same theme as PSA.13.1; dropped for k=6."
+    },
+    {
+      "verse_uid": "web:JOB.13.24",
+      "reason": "Job's complaint ('why do you hide your face and consider me your enemy') is on-topic but duplicates the psalm laments; dropped for k=6."
+    },
+    {
+      "verse_uid": "web:JOB.27.9",
+      "reason": "Job's statement about the fate of the wicked in trouble; does not address God's response to suffering in a way that answers the question."
+    },
+    {
+      "verse_uid": "web:JOB.15.11",
+      "reason": "Eliphaz's rhetorical question about God's consolations; addresses comfort in a speech about Job's guilt, not God's response to suffering in general."
+    },
+    {
+      "verse_uid": "web:1PE.2.19",
+      "reason": "Lexical hit on 'suffering'; about enduring unjust suffering for conscience toward God, not about God's care for those who suffer."
+    },
+    {
+      "verse_uid": "web:PRO.29.7",
+      "reason": "Contrasts righteous care for the poor with the wicked; does not speak of God's care for suffering people."
+    },
+    {
+      "verse_uid": "web:JAS.1.20",
+      "reason": "Lexical hit on 'anger'; about human anger and God's righteousness, not suffering or God's response to it."
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Service up (vector + BM25). Four English query variants searched with --source web --k 15; one extra lexical term list was not used.",
+    "Polarized question handled as requested: the complaint side (laments: PSA.13.1, PSA.44.24, LAM.5.20) and the response side (PSA.135.14, LUK.18.7, PSA.90.13) are both kept, 3 and 3.",
+    "Variant 4 (the lament phrasing) found the laments; variants 2 and 3 found the compassion/response passages; variant 1 mostly returned loosely related wisdom and Job passages.",
+    "Data flag: LUK.18.7 text_display contains strong-number markup (|strong=\"G...\") in the stored WEB text. Not corrected here; the packer copies the stored text, so this may need a data fix."
+  ]
+}

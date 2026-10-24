@@ -1,0 +1,639 @@
+{
+  "queries": [
+    "In the beginning was the Word",
+    "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh"
+  ],
+  "lexical_queries": [
+    "ἀρχῇ λόγος ἦν",
+    "λόγος σάρξ ἐγένετο",
+    "λόγον λόγῳ ἀρχή"
+  ],
+  "filters": {
+    "source": [
+      "sblgnt"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.07538,
+      "verse_uid": "sblgnt:JHN.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "JHN.1.1",
+      "canon_ref": "JHN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.671
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.7681
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -23.308
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 8,
+          "score": -9.2743
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 27,
+          "score": -7.4358
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.06281,
+      "verse_uid": "sblgnt:JHN.1.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "JHN.1.2",
+      "canon_ref": "JHN.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6254
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.6082
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -15.0101
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.4736
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.05633,
+      "verse_uid": "sblgnt:ACT.12.24",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 12,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "ACT.12.24",
+      "canon_ref": "ACT.12.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ὁ δὲ λόγος τοῦ ⸂ θεοῦ ⸃ ηὔξανεν καὶ ἐπληθύνετο.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.5641
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6213
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 10,
+          "score": -7.5747
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 19,
+          "score": -7.5747
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.05339,
+      "verse_uid": "sblgnt:ACT.19.20",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 19,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "ACT.19.20",
+      "canon_ref": "ACT.19.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὕτως κατὰ κράτος ⸂ τοῦ κυρίου ὁ λόγος ⸃ ηὔξανεν καὶ ἴσχυεν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5872
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.6033
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 14,
+          "score": -7.1911
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 27,
+          "score": -7.1911
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.04646,
+      "verse_uid": "sblgnt:MAT.24.8",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 24,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "MAT.24.8",
+      "canon_ref": "MAT.24.8",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πάντα δὲ ταῦτα ἀρχὴ ὠδίνων.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5886
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 4,
+          "score": -10.0229
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.0229
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.04065,
+      "verse_uid": "sblgnt:LUK.8.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 8,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "LUK.8.11",
+      "canon_ref": "LUK.8.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἔστιν δὲ αὕτη ἡ παραβολή· Ὁ σπόρος ἐστὶν ὁ λόγος τοῦ θεοῦ.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.5615
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6069
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 18,
+          "score": -6.8444
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.03941,
+      "verse_uid": "sblgnt:2TI.2.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2TI",
+      "book_name": "2 Timothy",
+      "chapter": 2,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "2TI.2.11",
+      "canon_ref": "2TI.2.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πιστὸς ὁ λόγος· εἰ γὰρ συναπεθάνομεν, καὶ συζήσομεν·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.56
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 11,
+          "score": -7.5747
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 20,
+          "score": -7.5747
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.03776,
+      "verse_uid": "sblgnt:REV.22.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "REV",
+      "book_name": "Revelation",
+      "chapter": 22,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "REV.22.13",
+      "canon_ref": "REV.22.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἐγὼ τὸ Ἄλφα καὶ τὸ Ὦ, ὁ πρῶτος καὶ ὁ ἔσχατος, ⸂ ἡ ⸃ ἀρχὴ καὶ ⸂ τὸ ⸃ τέλος.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.5469
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 9,
+          "score": -7.5992
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 24,
+          "score": -7.5992
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.03126,
+      "verse_uid": "sblgnt:MRK.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "MRK.1.1",
+      "canon_ref": "MRK.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ ⸂ χριστοῦ ⸃.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 5,
+          "score": -10.0229
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.0229
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.03105,
+      "verse_uid": "sblgnt:1JN.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "1JN.1.1",
+      "canon_ref": "1JN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5913
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6349
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.03078,
+      "verse_uid": "sblgnt:ROM.3.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 3,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "ROM.3.2",
+      "canon_ref": "ROM.3.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πολὺ κατὰ πάντα τρόπον. πρῶτον μὲν ⸂ γὰρ ⸃ ὅτι ἐπιστεύθησαν τὰ λόγια τοῦ θεοῦ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.5913
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.62
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.02971,
+      "verse_uid": "sblgnt:LUK.1.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "LUK.1.2",
+      "canon_ref": "LUK.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καθὼς παρέδοσαν ἡμῖν οἱ ἀπ᾽ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου,",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.6026
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.6047
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.02901,
+      "verse_uid": "sblgnt:1CO.12.8",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 12,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "1CO.12.8",
+      "canon_ref": "1CO.12.8",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ᾧ μὲν γὰρ διὰ τοῦ πνεύματος δίδοται λόγος σοφίας, ἄλλῳ δὲ λόγος γνώσεως κατὰ τὸ αὐτὸ πνεῦμα,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 7,
+          "score": -8.2104
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 11,
+          "score": -8.2104
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.02837,
+      "verse_uid": "sblgnt:ACT.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "ACT.1.1",
+      "canon_ref": "ACT.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τὸν μὲν πρῶτον λόγον ἐποιησάμην περὶ πάντων, ὦ Θεόφιλε, ὧν ἤρξατο ⸂ ὁ ⸃ Ἰησοῦς ποιεῖν τε καὶ διδάσκειν",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5937
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 17,
+          "score": 0.5957
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.02773,
+      "verse_uid": "sblgnt:ROM.10.8",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 10,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "ROM.10.8",
+      "canon_ref": "ROM.10.8",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἀλλὰ τί λέγει; Ἐγγύς σου τὸ ῥῆμά ἐστιν, ἐν τῷ στόματί σου καὶ ἐν τῇ καρδίᾳ σου, τοῦτ᾽ ἔστιν τὸ ῥῆμα τῆς πίστεως ὃ κηρύσσομεν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.5515
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.6118
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.7681,
+    "vector_margin": 0.1332,
+    "vector_lexical_overlap_top10": 4,
+    "lists": 7,
+    "lists_with_hits": 5,
+    "lists_containing_top_result": 5
+  }
+}

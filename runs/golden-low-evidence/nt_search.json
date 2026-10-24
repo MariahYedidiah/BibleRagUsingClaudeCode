@@ -1,0 +1,481 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "configuring a cluster of computer servers to run software containers"
+  ],
+  "lexical_queries": [
+    "σκεῦος σκεύη",
+    "τάξιν οἰκοδομή"
+  ],
+  "filters": {
+    "source": [
+      "sblgnt"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02924,
+      "verse_uid": "sblgnt:PHP.3.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "PHP",
+      "book_name": "Philippians",
+      "chapter": 3,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "PHP.3.11",
+      "canon_ref": "PHP.3.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἴ πως καταντήσω εἰς τὴν ἐξανάστασιν ⸂ τὴν ἐκ ⸃ νεκρῶν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.4342
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.3828
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02837,
+      "verse_uid": "sblgnt:LUK.22.9",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 22,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "LUK.22.9",
+      "canon_ref": "LUK.22.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οἱ δὲ εἶπαν αὐτῷ· Ποῦ θέλεις ⸂ ἑτοιμάσωμεν ⸃.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 20,
+          "score": 0.4268
+        },
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.3921
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.02837,
+      "verse_uid": "sblgnt:EPH.2.21",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "EPH",
+      "book_name": "Ephesians",
+      "chapter": 2,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "EPH.2.21",
+      "canon_ref": "EPH.2.21",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἐν ᾧ ⸂ πᾶσα ⸃ οἰκοδομὴ συναρμολογουμένη αὔξει εἰς ναὸν ἅγιον ἐν κυρίῳ,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 20,
+          "score": 0.3728
+        },
+        {
+          "query": "τάξιν οἰκοδομή",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.4404
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:ROM.3.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 3,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "ROM.3.6",
+      "canon_ref": "ROM.3.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "μὴ γένοιτο· ἐπεὶ πῶς κρινεῖ ὁ θεὸς τὸν κόσμον;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.4746
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:ROM.11.19",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 11,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "ROM.11.19",
+      "canon_ref": "ROM.11.19",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἐρεῖς οὖν· Ἐξεκλάσθησαν κλάδοι ἵνα ἐγὼ ἐγκεντρισθῶ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.4231
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:MRK.11.16",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 11,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "MRK.11.16",
+      "canon_ref": "MRK.11.16",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ οὐκ ἤφιεν ἵνα τις διενέγκῃ σκεῦος διὰ τοῦ ἱεροῦ,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεῦος σκεύη",
+          "method": "lexical",
+          "rank": 1,
+          "score": -9.5029
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:1CO.3.9",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 3,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "1CO.3.9",
+      "canon_ref": "1CO.3.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "θεοῦ γάρ ἐσμεν συνεργοί· θεοῦ γεώργιον, θεοῦ οἰκοδομή ἐστε.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "τάξιν οἰκοδομή",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.0349
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:HEB.11.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "HEB",
+      "book_name": "Hebrews",
+      "chapter": 11,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "HEB.11.40",
+      "canon_ref": "HEB.11.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τοῦ θεοῦ περὶ ἡμῶν κρεῖττόν τι προβλεψαμένου, ἵνα μὴ χωρὶς ἡμῶν τελειωθῶσιν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4682
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:GAL.6.5",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "GAL",
+      "book_name": "Galatians",
+      "chapter": 6,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "GAL.6.5",
+      "canon_ref": "GAL.6.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4042
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:1TH.4.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1TH",
+      "book_name": "1 Thessalonians",
+      "chapter": 4,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "1TH.4.4",
+      "canon_ref": "1TH.4.4",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἰδέναι ἕκαστον ὑμῶν τὸ ἑαυτοῦ σκεῦος κτᾶσθαι ἐν ἁγιασμῷ καὶ τιμῇ,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεῦος σκεύη",
+          "method": "lexical",
+          "rank": 2,
+          "score": -9.2682
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:1CO.14.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 14,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "1CO.14.40",
+      "canon_ref": "1CO.14.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πάντα ⸂ δὲ ⸃ εὐσχημόνως καὶ κατὰ τάξιν γινέσθω.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "τάξιν οἰκοδομή",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.7872
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:ROM.8.31",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 8,
+      "verse": 31,
+      "edition": "",
+      "source_ref": "ROM.8.31",
+      "canon_ref": "ROM.8.31",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Τί οὖν ἐροῦμεν πρὸς ταῦτα; εἰ ὁ θεὸς ὑπὲρ ἡμῶν, τίς καθ᾽ ἡμῶν;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.4606
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:ACT.10.16",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 10,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "ACT.10.16",
+      "canon_ref": "ACT.10.16",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τοῦτο δὲ ἐγένετο ἐπὶ τρίς, καὶ ⸂ εὐθὺς ⸃ ἀνελήμφθη τὸ σκεῦος εἰς τὸν οὐρανόν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σκεῦος σκεύη",
+          "method": "lexical",
+          "rank": 3,
+          "score": -8.8319
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "sblgnt:GAL.6.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "GAL",
+      "book_name": "Galatians",
+      "chapter": 6,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "GAL.6.7",
+      "canon_ref": "GAL.6.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "μὴ πλανᾶσθε, θεὸς οὐ μυκτηρίζεται· ὃ γὰρ ⸂ ἐὰν ⸃ σπείρῃ ἄνθρωπος, τοῦτο καὶ θερίσει·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.4511
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01562,
+      "verse_uid": "sblgnt:EPH.4.5",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "EPH",
+      "book_name": "Ephesians",
+      "chapter": 4,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "EPH.4.5",
+      "canon_ref": "EPH.4.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἷς κύριος, μία πίστις, ἓν βάπτισμα·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "configuring a cluster of computer servers to run software containers",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.386
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.4746,
+    "vector_margin": 0.0064,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 6,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 2
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?"
+  ],
+  "lexical_queries": [
+    "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+    "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02688,
+      "verse_uid": "lxx_swete:27.93.14",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 93,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "27.93.14",
+      "canon_ref": "PSA.94.14",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "τι οὐκ ἀπώσεται Κύριος τὸν λαὸν αὐτοῦ, καὶ τὴν κληρονομίαν αὐτοῦ οὐκ ἐγκαταλείψει,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 27,
+          "score": 0.515
+        },
+        {
+          "query": "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.217
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:27.43.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 43,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "27.43.22",
+      "canon_ref": "PSA.44.21",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "οὐχὶ ὁ θεὸς ἐκζητήσει ταῦτα; αὐτὸς γὰρ γινώσκει τὰ κρύφια τῆς καρδίας.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6137
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:48.28.13",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 28,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "48.28.13",
+      "canon_ref": "ISA.28.13",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἔσται αὐτοῖς τὸ λόγιον Κυρίου τοῦ θεοῦ θλίψις ἐπὶ θλίψιν, ἐλπὶς ἐπ’ ἐλπίδι, ἔτι μικρὸν ἔτι μικρόν, ἵνα πορευθῶσιν καὶ πέσωσιν εἷς τὰ. ὀπίσω, καὶ κινδυνεύσουσι καὶ συντριβήσονται καὶ ἁλώσονται.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.904
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:27.24.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 24,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "27.24.16",
+      "canon_ref": "PSA.25.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐπίβλεψον ἐπʼ ἐμὲ καὶ ἐλέησόν με, ὅτι μονογενὴς καὶ πτωχός εἰμι ἐγώ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον",
+          "method": "lexical",
+          "rank": 1,
+          "score": -19.7074
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:51.3.36",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 3,
+      "verse": 36,
+      "edition": "",
+      "source_ref": "51.3.36",
+      "canon_ref": "LAM.3.36",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καταδικάσαι ἄνθρωπον ἐν τῷ κρίνεσθαι αὐτόν, Κύριος οὐκ εἶπεν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6006
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:48.28.10",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 28,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "48.28.10",
+      "canon_ref": "ISA.28.10",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "θλίψιν ἐπὶ θλίψιν προσδέχου, ἐλπίδα ἐπ’ ἐλπίδι, ἔτι μικρὸν ἔτι μικρόν,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.2737
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:27.118.132",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 118,
+      "verse": 132,
+      "edition": "",
+      "source_ref": "27.118.132",
+      "canon_ref": "PSA.119.132",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐπίβλεψον ἐπʼ ἐμὲ καὶ ἐλέησόν με κατὰ τὸ κρίμα τῶν ἀγαπώντων τὸ ὄνομά σου.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον",
+          "method": "lexical",
+          "rank": 2,
+          "score": -18.801
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:41.3.9",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JON",
+      "book_name": "Jonah",
+      "chapter": 3,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "41.3.9",
+      "canon_ref": "JON.3.9",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Τίς οἶδεν εἰ μετανοήσει ὁ θεὸς καὶ ἀποστρέψει ἐξ ὀργῆς θυμοῦ αὐτοῦ, καὶ οὐ μὴ ἀπολώμεθα;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5793
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:11.1.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1SA",
+      "book_name": "1 Samuel",
+      "chapter": 1,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "11.1.6",
+      "canon_ref": "1SA.1.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὅτι οὐκ ἔδωκεν αὐτῇ Κύριος παιδίον, κατὰ τὴν θλῖψιν αὐτῆς καὶ κατὰ τὴν ἀθυμίαν τῆς θλίψεως αὐτῆς· καὶ ἠθύμει διὰ τοῦτο, ὅτι συνέκλεισεν Κύριος τὰ περὶ τὴν μήτραν αὐτῆς, τοῦ μὴ δοῦναι αὐτῇ παιδίον.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.2942
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:27.85.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 85,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "27.85.16",
+      "canon_ref": "PSA.86.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐπίβλεψον ἐπʼ ἐμὲ καὶ ἐλέησόν με, δὸς τὸ κράτος σου τῷ παιδί σου, καὶ σῶσον τὸν υἱὸν τῆς παιδίσκης σου.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον",
+          "method": "lexical",
+          "rank": 3,
+          "score": -16.5216
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:27.76.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 76,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "27.76.8",
+      "canon_ref": "PSA.77.7",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "μὴ εἰς τοὺς αἰῶνας ἀπώσεται Κύριος. καὶ οὐ προσθήσει τοῦ εὐδοκῆσαι ἔτι;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5713
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:48.26.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 26,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "48.26.16",
+      "canon_ref": "ISA.26.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Κύριε, ἐν θλίψει ἐμνήσθην σου, ἐν θλίψει μικρᾷ ἡ παιδία σου ἡμῖν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+          "method": "lexical",
+          "rank": 4,
+          "score": -12.0863
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:27.122.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 122,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "27.122.3",
+      "canon_ref": "PSA.123.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐλέησον ἡμᾶς, Κύριε, ἐλέησον ἡμᾶς. ὅτι ἐπὶ πολὺ ἐπληθύνθημεν ἐξουδενώσεως·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον",
+          "method": "lexical",
+          "rank": 4,
+          "score": -12.5608
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01538,
+      "verse_uid": "lxx_swete:29.15.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 15,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "29.15.11",
+      "canon_ref": "PRO.15.11",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ᾅδης καὶ ἀπώλεια φανερὰ παρὰ τῷ κυρίῳ, πῶς οὐχὶ καὶ αἱ καρδίαι τῶν ἀνθρώπων;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5666
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01538,
+      "verse_uid": "lxx_swete:27.7.15",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 7,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "27.7.15",
+      "canon_ref": "PSA.7.14",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἰδοὺ ὠδίνησεν ἀνομίαν, συνέλαβεν πόνον καὶ ἔτεκεν ἀδικίαν·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.0598
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6137,
+    "vector_margin": 0.0131,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 4,
+    "lists_with_hits": 3,
+    "lists_containing_top_result": 2
+  }
+}

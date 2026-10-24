@@ -1,0 +1,16 @@
+{"query":"Why doesn't God care about human suffering?","language":"he","corpus":"oshb_wlc",
+"terms":[
+{"term":"עני","gloss":"affliction, poor","hits":50},
+{"term":"עניי","gloss":"my affliction","hits":15},
+{"term":"צרה","gloss":"distress (homograph: other uses)","hits":38},
+{"term":"צרתי","gloss":"my distress","hits":4},
+{"term":"בצר","gloss":"in distress","hits":22},
+{"term":"צעקה","gloss":"outcry","hits":11},
+{"term":"שועת","gloss":"cry for help of","hits":2},
+{"term":"רחמים","gloss":"compassion","hits":4},
+{"term":"רחמיו","gloss":"his compassion","hits":5},
+{"term":"חסדו","gloss":"his steadfast love","hits":61},
+{"term":"עזבתני","gloss":"you have forsaken me","hits":2},
+{"term":"תסתר","gloss":"you hide","hits":6}],
+"lexical_queries":["עני עניי צרה צרתי בצר צעקה שועת","רחמים רחמיו חסדו","עזבתני תסתר"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":["צרה may be homograph (rival wife / narrow)"]}

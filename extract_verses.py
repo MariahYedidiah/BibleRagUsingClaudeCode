@@ -82,10 +82,12 @@ def parse_osis(path):
 def clean_usfm(text):
     text = re.sub(r"\\f\b.*?\\f\*", " ", text)
     text = re.sub(r"\\x\b.*?\\x\*", " ", text)
-    text = re.sub(r"\\w\s+([^|\\]+)\|.*?\\w\*", r"\1", text)
+    # \w word|strong="..."\w*, and \+w ...\+w* nested inside character styles such as \bk or \qs
+    text = re.sub(r"\\\+?w\s+([^|\\]+)\|[^\\]*\\\+?w\*", r"\1", text)
     text = re.sub(r"\\\+?[A-Za-z][A-Za-z0-9-]*\*?", " ", text)
     text = re.sub(r"[{}~]", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    return re.sub(r" ([,;:.!?’”])", r"\1", text)  # space left where a closing marker stood
 
 def parse_usfm(path, source, language):
     records = []

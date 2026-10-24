@@ -1,0 +1,660 @@
+{
+  "queries": [
+    "In the beginning was the Word",
+    "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh"
+  ],
+  "lexical_queries": [],
+  "filters": {
+    "source": [
+      "web"
+    ],
+    "testament": [
+      "NT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.06557,
+      "verse_uid": "web:JHN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "JHN.1.1",
+      "canon_ref": "JHN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.8383
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.9441
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.3105
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 1,
+          "score": -19.8124
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.06352,
+      "verse_uid": "web:JHN.1.2",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "JHN.1.2",
+      "canon_ref": "JHN.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The same was in the beginning with God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.7457
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.7675
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 5,
+          "score": -9.0932
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 3,
+          "score": -13.2465
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.05954,
+      "verse_uid": "web:1JN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "1JN.1.1",
+      "canon_ref": "1JN.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.665
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.6839
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.5166
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 19,
+          "score": -9.5166
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.05773,
+      "verse_uid": "web:ACT.12.24",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 12,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "ACT.12.24",
+      "canon_ref": "ACT.12.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "But the word of God grew and multiplied.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.6615
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.6985
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 22,
+          "score": -6.5158
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 10,
+          "score": -10.6691
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.04671,
+      "verse_uid": "web:JHN.1.14",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "JHN.1.14",
+      "canon_ref": "JHN.1.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6242
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.7002
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 2,
+          "score": -14.3195
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.04618,
+      "verse_uid": "web:LUK.1.2",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 1,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "LUK.1.2",
+      "canon_ref": "LUK.1.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "even as those who from the beginning were eyewitnesses and servants of the word delivered them to us,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.629
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.3221
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 5,
+          "score": -12.3221
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.04355,
+      "verse_uid": "web:ACT.11.15",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 11,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "ACT.11.15",
+      "canon_ref": "ACT.11.15",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "As I began to speak, the Holy Spirit fell on them, even as on us at the beginning.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.6583
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.657
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 11,
+          "score": -7.1784
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.04131,
+      "verse_uid": "web:ROM.10.17",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 10,
+      "verse": 17,
+      "edition": "",
+      "source_ref": "ROM.10.17",
+      "canon_ref": "ROM.10.17",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "So faith comes by hearing, and hearing by the word of God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.5992
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6746
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 18,
+          "score": -9.6405
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.04105,
+      "verse_uid": "web:ROM.10.8",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 10,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "ROM.10.8",
+      "canon_ref": "ROM.10.8",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "But what does it say? “The word is near you, in your mouth and in your heart;” that is, the word of faith which we preach:",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6171
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.6716
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 26,
+          "score": -6.2495
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.04087,
+      "verse_uid": "web:MRK.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "MRK",
+      "book_name": "Mark",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "MRK.1.1",
+      "canon_ref": "MRK.1.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The beginning of the Good News of Jesus Christ, the Son of God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 29,
+          "score": 0.5797
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 7,
+          "score": -8.0231
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 8,
+          "score": -11.6877
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.04006,
+      "verse_uid": "web:HEB.1.10",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "HEB",
+      "book_name": "Hebrews",
+      "chapter": 1,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "HEB.1.10",
+      "canon_ref": "HEB.1.10",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "And, “You, Lord, in the beginning, laid the foundation of the earth. The heavens are the works of your hands.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.6076
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.6361
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 16,
+          "score": -6.8883
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.03478,
+      "verse_uid": "web:COL.1.18",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "COL",
+      "book_name": "Colossians",
+      "chapter": 1,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "COL.1.18",
+      "canon_ref": "COL.1.18",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "He is the head of the body, the assembly, who is the beginning, the firstborn from the dead, that in all things he might have the preeminence.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 23,
+          "score": 0.5899
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.6266
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 28,
+          "score": -6.0347
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.03175,
+      "verse_uid": "web:1JN.2.7",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 2,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "1JN.2.7",
+      "canon_ref": "1JN.2.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.4032
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 4,
+          "score": -12.4032
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.02986,
+      "verse_uid": "web:ACT.19.20",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 19,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "ACT.19.20",
+      "canon_ref": "ACT.19.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "So the word of the Lord was growing and becoming mighty.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6379
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6689
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.02924,
+      "verse_uid": "web:1JN.2.14",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1JN",
+      "book_name": "1 John",
+      "chapter": 2,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "1JN.2.14",
+      "canon_ref": "1JN.2.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "I have written to you, fathers, because you know him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 6,
+          "score": -8.3015
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "lexical",
+          "rank": 11,
+          "score": -10.5104
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.9441,
+    "vector_margin": 0.1766,
+    "vector_lexical_overlap_top10": 6,
+    "lists": 4,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 4
+  }
+}

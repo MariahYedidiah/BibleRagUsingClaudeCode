@@ -1,0 +1,156 @@
+{
+  "lxx_swete/hybrid": {
+    "n": 24,
+    "top_vector_score_median": 0.674,
+    "top_vector_score_min": 0.5376,
+    "top_vector_score_max": 0.8452,
+    "recall@1": 0.5,
+    "recall@5": 0.667,
+    "recall@10": 0.833,
+    "mrr": 0.585,
+    "misses": [
+      "May the Lord bless you and keep you",
+      "Hear, Israel: the Lord our God is one",
+      "My God, my God, why have you abandoned me?",
+      "They will beat their swords into plowshares"
+    ]
+  },
+  "lxx_swete/vector": {
+    "n": 24,
+    "top_vector_score_median": 0.674,
+    "top_vector_score_min": 0.5376,
+    "top_vector_score_max": 0.8452,
+    "recall@1": 0.5,
+    "recall@5": 0.667,
+    "recall@10": 0.833,
+    "mrr": 0.585,
+    "misses": [
+      "May the Lord bless you and keep you",
+      "Hear, Israel: the Lord our God is one",
+      "My God, my God, why have you abandoned me?",
+      "They will beat their swords into plowshares"
+    ]
+  },
+  "off_topic": {
+    "n": 48,
+    "top_vector_score_median": 0.4679,
+    "top_vector_score_min": 0.4117,
+    "top_vector_score_max": 0.5436
+  },
+  "oshb_wlc/hybrid": {
+    "n": 25,
+    "top_vector_score_median": 0.6416,
+    "top_vector_score_min": 0.5181,
+    "top_vector_score_max": 0.7836,
+    "recall@1": 0.16,
+    "recall@5": 0.28,
+    "recall@10": 0.32,
+    "mrr": 0.227,
+    "misses": [
+      "The Spirit of God was hovering over the surface of the waters",
+      "Abraham believed God and it was counted to him as righteousness",
+      "God told Moses his name: I am who I am",
+      "A pillar of cloud by day and a pillar of fire by night led the people",
+      "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "Love your neighbor as yourself",
+      "Love the people around you as much as you love yourself",
+      "The Lord is my shepherd, I lack nothing",
+      "The fear of the Lord is where wisdom and knowledge begin",
+      "They will beat their swords into plowshares",
+      "A virgin will conceive and bear a son, Immanuel",
+      "Comfort, comfort my people, says your God",
+      "Do not be afraid, for I am with you and will strengthen you",
+      "He was led like a lamb to the slaughter and did not open his mouth",
+      "I will give you a new heart and put a new spirit within you",
+      "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "The righteous will live by his faith"
+    ]
+  },
+  "oshb_wlc/vector": {
+    "n": 25,
+    "top_vector_score_median": 0.6416,
+    "top_vector_score_min": 0.5181,
+    "top_vector_score_max": 0.7836,
+    "recall@1": 0.16,
+    "recall@5": 0.28,
+    "recall@10": 0.32,
+    "mrr": 0.227,
+    "misses": [
+      "The Spirit of God was hovering over the surface of the waters",
+      "Abraham believed God and it was counted to him as righteousness",
+      "God told Moses his name: I am who I am",
+      "A pillar of cloud by day and a pillar of fire by night led the people",
+      "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "Love your neighbor as yourself",
+      "Love the people around you as much as you love yourself",
+      "The Lord is my shepherd, I lack nothing",
+      "The fear of the Lord is where wisdom and knowledge begin",
+      "They will beat their swords into plowshares",
+      "A virgin will conceive and bear a son, Immanuel",
+      "Comfort, comfort my people, says your God",
+      "Do not be afraid, for I am with you and will strengthen you",
+      "He was led like a lamb to the slaughter and did not open his mouth",
+      "I will give you a new heart and put a new spirit within you",
+      "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "The righteous will live by his faith"
+    ]
+  },
+  "sblgnt/hybrid": {
+    "n": 16,
+    "top_vector_score_median": 0.6526,
+    "top_vector_score_min": 0.5775,
+    "top_vector_score_max": 0.8058,
+    "recall@1": 0.375,
+    "recall@5": 0.688,
+    "recall@10": 0.688,
+    "mrr": 0.497,
+    "misses": [
+      "The Word became flesh and lived among us",
+      "Should I be anxious about tomorrow?",
+      "Nothing can separate us from the love of God",
+      "I can do everything through Christ who gives me strength",
+      "Faith is being sure of what we hope for"
+    ]
+  },
+  "sblgnt/vector": {
+    "n": 16,
+    "top_vector_score_median": 0.6526,
+    "top_vector_score_min": 0.5775,
+    "top_vector_score_max": 0.8058,
+    "recall@1": 0.375,
+    "recall@5": 0.688,
+    "recall@10": 0.688,
+    "mrr": 0.497,
+    "misses": [
+      "The Word became flesh and lived among us",
+      "Should I be anxious about tomorrow?",
+      "Nothing can separate us from the love of God",
+      "I can do everything through Christ who gives me strength",
+      "Faith is being sure of what we hope for"
+    ]
+  },
+  "web/hybrid": {
+    "n": 41,
+    "top_vector_score_median": 0.8115,
+    "top_vector_score_min": 0.6549,
+    "top_vector_score_max": 0.9811,
+    "recall@1": 0.854,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "mrr": 0.913,
+    "misses": []
+  },
+  "web/vector": {
+    "n": 41,
+    "top_vector_score_median": 0.8115,
+    "top_vector_score_min": 0.6549,
+    "top_vector_score_max": 0.9811,
+    "recall@1": 0.829,
+    "recall@5": 0.976,
+    "recall@10": 0.976,
+    "mrr": 0.88,
+    "misses": [
+      "Love the people around you as much as you love yourself"
+    ]
+  }
+}

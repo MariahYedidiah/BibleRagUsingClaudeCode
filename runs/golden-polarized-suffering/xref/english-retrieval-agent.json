@@ -1,0 +1,324 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-polarized-suffering/xref",
+  "corpus": "web",
+  "queries": [
+    "Why doesn't God care about human suffering?"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6558,
+      "vector_margin": 0.0078,
+      "vector_lexical_overlap_top10": 2,
+      "lists": 2,
+      "lists_with_hits": 2,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.22.1",
+      "verse_uid": "web:PSA.22.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "My God, my God, why have you forsaken me? Why are you so far from helping me, and from the words of my groaning?",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.6076
+        }
+      ],
+      "rrf": 0.01493,
+      "relevance": "Lament of felt abandonment by God while suffering; the core of the 'why does God seem absent' question. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.22.1",
+          "verse": 1,
+          "text_display": "My God, my God, why have you forsaken me? Why are you so far from helping me, and from the words of my groaning?"
+        },
+        {
+          "verse_uid": "web:PSA.22.2",
+          "verse": 2,
+          "text_display": "My God, I cry in the daytime, but you don’t answer; in the night season, and am not silent."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.142.4",
+      "verse_uid": "web:PSA.142.4",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Look on my right, and see; for there is no one who is concerned for me. Refuge has fled from me. No one cares for my soul.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Complaint that no one cares for the speaker's soul while in distress; voices the sense of unanswered suffering. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.142.3",
+          "verse": 3,
+          "text_display": "When my spirit was overwhelmed within me, you knew my route. On the path in which I walk, they have hidden a snare for me."
+        },
+        {
+          "verse_uid": "web:PSA.142.4",
+          "verse": 4,
+          "text_display": "Look on my right, and see; for there is no one who is concerned for me. Refuge has fled from me. No one cares for my soul."
+        },
+        {
+          "verse_uid": "web:PSA.142.5",
+          "verse": 5,
+          "text_display": "I cried to you, LORD. I said, “You are my refuge, my portion in the land of the living.”"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "canon_ref": "PSA.55.22",
+      "verse_uid": "web:PSA.55.22",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Cast your burden on the LORD and he will sustain you. He will never allow the righteous to be moved.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Contrasting answer: the LORD sustains and does not let the righteous be moved. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.55.21",
+          "verse": 21,
+          "text_display": "His mouth was smooth as butter, but his heart was war. His words were softer than oil, yet they were drawn swords."
+        },
+        {
+          "verse_uid": "web:PSA.55.22",
+          "verse": 22,
+          "text_display": "Cast your burden on the LORD and he will sustain you. He will never allow the righteous to be moved."
+        },
+        {
+          "verse_uid": "web:PSA.55.23",
+          "verse": 23,
+          "text_display": "But you, God, will bring them down into the pit of destruction. Bloodthirsty and deceitful men shall not live out half their days, but I will trust in you."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "canon_ref": "PSA.34.15",
+      "verse_uid": "web:PSA.34.15",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "The LORD’s eyes are toward the righteous. His ears listen to their cry.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Contrasting answer: God's eyes and ears are toward the righteous and their cry. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.34.14",
+          "verse": 14,
+          "text_display": "Depart from evil, and do good. Seek peace, and pursue it."
+        },
+        {
+          "verse_uid": "web:PSA.34.15",
+          "verse": 15,
+          "text_display": "The LORD’s eyes are toward the righteous. His ears listen to their cry."
+        },
+        {
+          "verse_uid": "web:PSA.34.16",
+          "verse": 16,
+          "text_display": "The LORD’s face is against those who do evil, to cut off their memory from the earth."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "canon_ref": "PSA.37.5",
+      "verse_uid": "web:PSA.37.5",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Commit your way to the LORD. Trust also in him, and he will do this:",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Trust-based answer: commit one's way to the LORD and he acts. Requested reference; addresses the question indirectly.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.37.4",
+          "verse": 4,
+          "text_display": "Also delight yourself in the LORD, and he will give you the desires of your heart."
+        },
+        {
+          "verse_uid": "web:PSA.37.5",
+          "verse": 5,
+          "text_display": "Commit your way to the LORD. Trust also in him, and he will do this:"
+        },
+        {
+          "verse_uid": "web:PSA.37.6",
+          "verse": 6,
+          "text_display": "he will make your righteousness shine out like light, and your justice as the noon day sun."
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "canon_ref": "PSA.56.3",
+      "verse_uid": "web:PSA.56.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "When I am afraid, I will put my trust in you.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Trust in God while afraid; a response to fear rather than a direct answer to why God seems indifferent. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.56.2",
+          "verse": 2,
+          "text_display": "My enemies want to swallow me up all day long, for they are many who fight proudly against me."
+        },
+        {
+          "verse_uid": "web:PSA.56.3",
+          "verse": 3,
+          "text_display": "When I am afraid, I will put my trust in you."
+        },
+        {
+          "verse_uid": "web:PSA.56.4",
+          "verse": 4,
+          "text_display": "In God, I praise his word. In God, I put my trust. I will not be afraid. What can flesh do to me?"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "canon_ref": "PSA.27.13",
+      "verse_uid": "web:PSA.27.13",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "I am still confident of this: I will see the goodness of the LORD in the land of the living.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Confidence in seeing the LORD's goodness in the land of the living; hope against despair. Requested reference.",
+      "context": [
+        {
+          "verse_uid": "web:PSA.27.12",
+          "verse": 12,
+          "text_display": "Don’t deliver me over to the desire of my adversaries, for false witnesses have risen up against me, such as breathe out cruelty."
+        },
+        {
+          "verse_uid": "web:PSA.27.13",
+          "verse": 13,
+          "text_display": "I am still confident of this: I will see the goodness of the LORD in the land of the living."
+        },
+        {
+          "verse_uid": "web:PSA.27.14",
+          "verse": 14,
+          "text_display": "Wait for the LORD. Be strong, and let your heart take courage. Yes, wait for the LORD."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "Topical (wicked man says God will not hold him to account), but excluded by k=7 because the leader's requested references fill all seven slots. Strong candidate if k is raised.",
+      "verse_uid": "web:PSA.10.13"
+    },
+    {
+      "reason": "Topical (God hearing cry in trouble), but excluded by k=7 after the requested references. Strong candidate if k is raised.",
+      "verse_uid": "web:JOB.27.9"
+    },
+    {
+      "reason": "Topical (cry of the wounded, God seemingly not regarding folly), but excluded by k=7.",
+      "verse_uid": "web:JOB.24.12"
+    },
+    {
+      "reason": "Speaks of God not needing to examine a man before judgment; only loosely related and outranked by k cap.",
+      "verse_uid": "web:JOB.34.23"
+    },
+    {
+      "reason": "Care for the poor and knowledge; 'care' is used in a different sense, not God's care in suffering.",
+      "verse_uid": "web:PRO.29.7"
+    },
+    {
+      "reason": "Human anger does not produce God's righteousness; no bearing on God's care for suffering.",
+      "verse_uid": "web:JAS.1.20"
+    },
+    {
+      "reason": "General statement that no one seeks God; about human sin, not God's care for suffering.",
+      "verse_uid": "web:ROM.3.11"
+    },
+    {
+      "reason": "Those in the flesh cannot please God; about human nature, not divine care for suffering.",
+      "verse_uid": "web:ROM.8.8"
+    },
+    {
+      "reason": "'doesn't know how to' is a word match in an unrelated church-leadership context.",
+      "verse_uid": "web:1TI.3.5"
+    },
+    {
+      "reason": "'doesn't love / God is love' is a doctrinal statement; does not address suffering.",
+      "verse_uid": "web:1JN.4.8"
+    },
+    {
+      "reason": "Life through the Son; word match on 'doesn't have' with no bearing on suffering.",
+      "verse_uid": "web:1JN.5.12"
+    },
+    {
+      "reason": "Born of God does not sin; unrelated to divine care in suffering.",
+      "verse_uid": "web:1JN.5.18"
+    },
+    {
+      "reason": "Timothy's care for the Philippians; 'care' in an unrelated human sense.",
+      "verse_uid": "web:PHP.2.20"
+    },
+    {
+      "reason": "Judging fellow believers over food; unrelated.",
+      "verse_uid": "web:ROM.14.3"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Service up (vector + lexical hybrid). Only one query variant was supplied (the original question); no neutral or contrasting variant was run. The seven kept passages are the leader's requested references, which together fill k=7; the requested references were kept as instructed. Several topical hits (PSA.10.13, JOB.27.9, JOB.24.12) were excluded only by the k cap and are the first candidates if k is raised. The lexical hits were mostly word matches on 'doesn't' and 'care' in unrelated senses. No polarized-variant check was done."
+  ]
+}

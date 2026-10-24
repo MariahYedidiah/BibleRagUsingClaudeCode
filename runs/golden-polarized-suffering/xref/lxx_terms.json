@@ -1,0 +1,12 @@
+{"query":"Why doesn't God care about human suffering?","language":"grc","corpus":"lxx_swete","terms":[
+{"term":"θλῖψις","gloss":"affliction (nom.)","hits":12},
+{"term":"θλίψει","gloss":"in affliction (dat.)","hits":30},
+{"term":"θλίψεως","gloss":"of affliction (gen.)","hits":56},
+{"term":"θλίψιν","gloss":"affliction (acc.)","hits":10},
+{"term":"ἐπίβλεψον","gloss":"look upon (imv.)","hits":17},
+{"term":"ταπείνωσιν","gloss":"humiliation (acc.)","hits":16},
+{"term":"ἐγκατέλιπεσ","gloss":"you forsook","hits":4},
+{"term":"ἐγκαταλείψει","gloss":"will forsake","hits":6},
+{"term":"ἐλέησον","gloss":"have mercy (imv.)","hits":25},
+{"term":"πόνον","gloss":"toil/pain (acc.)","hits":21}
+],"lexical_queries":["θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον","ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον"],"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":[]}
