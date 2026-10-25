@@ -1,0 +1,415 @@
+{
+  "agent": "hebrew-specialist-agent",
+  "run_id": "golden-polarized-suffering/xref",
+  "corpus": "oshb_wlc",
+  "queries": [
+    "Why doesn't God care about human suffering?"
+  ],
+  "lexical_queries": [
+    "עני עניי צרה צרתי בצר צעקה שועת",
+    "רחמים רחמיו חסדו",
+    "עזבתני תסתר"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5903,
+      "vector_margin": 0.0112,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 5,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 1
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.22.1",
+      "verse_uid": "oshb_wlc:Ps.22.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "אֵלִ֣/י אֵ֭לִ/י לָ/מָ֣ה עֲזַבְתָּ֑/נִי רָח֥וֹק מִֽ֝/ישׁוּעָתִ֗/י דִּבְרֵ֥י שַׁאֲגָתִֽ/י׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עזבתני תסתר",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.985
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "Lament: why has God forsaken me, far from my cry; voices the felt absence of care",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.22.1",
+          "verse": 1,
+          "text_display": "לַ֭/מְנַצֵּחַ עַל־אַיֶּ֥לֶת הַ/שַּׁ֗חַר מִזְמ֥וֹר לְ/דָוִֽד׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.22.2",
+          "verse": 2,
+          "text_display": "אֵלִ֣/י אֵ֭לִ/י לָ/מָ֣ה עֲזַבְתָּ֑/נִי רָח֥וֹק מִֽ֝/ישׁוּעָתִ֗/י דִּבְרֵ֥י שַׁאֲגָתִֽ/י׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.22.3",
+          "verse": 3,
+          "text_display": "אֱֽלֹהַ֗/י אֶקְרָ֣א י֭וֹמָם וְ/לֹ֣א תַעֲנֶ֑ה וְ֝/לַ֗יְלָה וְֽ/לֹא־דֽוּמִיָּ֥ה לִֽ/י׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.22.1",
+        "verse_uid": "oshb_wlc:Ps.22.2",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "אֵלִ֣/י אֵ֭לִ/י לָ/מָ֣ה עֲזַבְתָּ֑/נִי רָח֥וֹק מִֽ֝/ישׁוּעָתִ֗/י דִּבְרֵ֥י שַׁאֲגָתִֽ/י׃",
+        "translation": "My God, my God, why have you forsaken me? Far from my salvation are the words of my roaring.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "אֵלִי: 'my God'",
+          "שַׁאֲגָתִי: 'my roaring' (lion-like groaning)"
+        ],
+        "uncertainties": [
+          "Second clause is difficult; 'far from my salvation' may be read as 'why are you far from my salvation'"
+        ],
+        "web_reference": "web:PSA.22.1",
+        "differences_from_web": [
+          "WEB reads 'far from helping me' for 'far from my salvation'",
+          "WEB supplies 'Why are you so' before 'far'"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.55.22",
+      "verse_uid": "oshb_wlc:Ps.55.23",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "הַשְׁלֵ֤ךְ עַל־יְהוָ֨ה ׀ יְהָבְ/ךָ֮ וְ/ה֪וּא יְכַ֫לְכְּלֶ֥/ךָ לֹא־יִתֵּ֖ן לְ/עוֹלָ֥ם מ֗וֹט לַ/צַּדִּֽיק׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Invitation to cast burdens on God, who sustains the righteous; answers the premise of divine indifference",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.55.22",
+          "verse": 22,
+          "text_display": "חָלְק֤וּ ׀ מַחְמָאֹ֣ת פִּי/ו֮ וּֽ/קֲרָב־לִ֫בּ֥/וֹ רַכּ֖וּ דְבָרָ֥י/ו מִ/שֶּׁ֗מֶן וְ/הֵ֣מָּה פְתִחֽוֹת׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.55.23",
+          "verse": 23,
+          "text_display": "הַשְׁלֵ֤ךְ עַל־יְהוָ֨ה ׀ יְהָבְ/ךָ֮ וְ/ה֪וּא יְכַ֫לְכְּלֶ֥/ךָ לֹא־יִתֵּ֖ן לְ/עוֹלָ֥ם מ֗וֹט לַ/צַּדִּֽיק׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.55.24",
+          "verse": 24,
+          "text_display": "וְ/אַתָּ֤ה אֱלֹהִ֨ים ׀ תּוֹרִדֵ֬/ם ׀ לִ/בְאֵ֬ר שַׁ֗חַת אַנְשֵׁ֤י דָמִ֣ים וּ֭/מִרְמָה לֹא־יֶחֱצ֣וּ יְמֵי/הֶ֑ם וַ֝/אֲנִ֗י אֶבְטַח־בָּֽ/ךְ׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.55.22",
+        "verse_uid": "oshb_wlc:Ps.55.23",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "הַשְׁלֵ֤ךְ עַל־יְהוָ֨ה ׀ יְהָבְ/ךָ֮ וְ/ה֪וּא יְכַ֫לְכְּלֶ֥/ךָ לֹא־יִתֵּ֖ן לְ/עוֹלָ֥ם מ֗וֹט לַ/צַּדִּֽיק׃",
+        "translation": "Cast your burden upon the LORD, and he will sustain you; he will never let the righteous be shaken.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "יְהָבְךָ: 'your burden' (rare word, sense uncertain)"
+        ],
+        "uncertainties": [
+          "יְהָב is rare; 'burden' or 'lot/gift'"
+        ],
+        "web_reference": "web:PSA.55.22",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "PSA.37.5",
+      "verse_uid": "oshb_wlc:Ps.37.5",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "גּ֣וֹל עַל־יְהוָ֣ה דַּרְכֶּ֑/ךָ וּ/בְטַ֥ח עָ֝לָ֗י/ו וְ/ה֣וּא יַעֲשֶֽׂה׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Commit your way to God and trust; he will act",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.37.4",
+          "verse": 4,
+          "text_display": "וְ/הִתְעַנַּ֥ג עַל־יְהוָ֑ה וְ/יִֽתֶּן־לְ֝/ךָ֗ מִשְׁאֲלֹ֥ת לִבֶּֽ/ךָ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.37.5",
+          "verse": 5,
+          "text_display": "גּ֣וֹל עַל־יְהוָ֣ה דַּרְכֶּ֑/ךָ וּ/בְטַ֥ח עָ֝לָ֗י/ו וְ/ה֣וּא יַעֲשֶֽׂה׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.37.6",
+          "verse": 6,
+          "text_display": "וְ/הוֹצִ֣יא כָ/א֣וֹר צִדְקֶ֑/ךָ וּ֝/מִשְׁפָּטֶ֗/ךָ כַּֽ/צָּהֳרָֽיִם׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.37.5",
+        "verse_uid": "oshb_wlc:Ps.37.5",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "גּ֣וֹל עַל־יְהוָ֣ה דַּרְכֶּ֑/ךָ וּ/בְטַ֥ח עָ֝לָ֗י/ו וְ/ה֣וּא יַעֲשֶֽׂה׃",
+        "translation": "Roll your way upon the LORD, and trust in him, and he will act.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "גּוֹל: 'roll' (commit)",
+          "יְהוָה rendered 'the LORD'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.37.5",
+        "differences_from_web": [
+          "WEB 'Commit your way' renders the idiom 'roll'",
+          "WEB adds 'he will do this'; Hebrew has just 'he will act'"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "PSA.56.3",
+      "verse_uid": "oshb_wlc:Ps.56.4",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "י֥וֹם אִירָ֑א אֲ֝נִ֗י אֵלֶ֥י/ךָ אֶבְטָֽח׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Trust in God in fear",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.56.3",
+          "verse": 3,
+          "text_display": "שָׁאֲפ֣וּ שׁ֭וֹרְרַ/י כָּל־הַ/יּ֑וֹם כִּֽי־רַבִּ֨ים לֹחֲמִ֖ים לִ֣/י מָרֽוֹם׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.56.4",
+          "verse": 4,
+          "text_display": "י֥וֹם אִירָ֑א אֲ֝נִ֗י אֵלֶ֥י/ךָ אֶבְטָֽח׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.56.5",
+          "verse": 5,
+          "text_display": "בֵּ/אלֹהִים֮ אֲהַלֵּ֪ל דְּבָ֫ר֥/וֹ בֵּ/אלֹהִ֣ים בָּ֭טַחְתִּי לֹ֣א אִירָ֑א מַה־יַּעֲשֶׂ֖ה בָשָׂ֣ר לִֽ/י׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.56.3",
+        "verse_uid": "oshb_wlc:Ps.56.4",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "י֥וֹם אִירָ֑א אֲ֝נִ֗י אֵלֶ֥י/ךָ אֶבְטָֽח׃",
+        "translation": "The day I am afraid, I will trust in you.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יוֹם אִירָא: 'a day I fear' (idiomatic 'when')"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.56.3",
+        "differences_from_web": [
+          "WEB 'When I am afraid' smooths the Hebrew 'on the day I fear'"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "PSA.34.15",
+      "verse_uid": "oshb_wlc:Ps.34.16",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "עֵינֵ֣י יְ֭הוָה אֶל־צַדִּיקִ֑ים וְ֝/אָזְנָ֗י/ו אֶל־שַׁוְעָתָֽ/ם׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "God's eyes and ears are toward the righteous and their cry; direct counter to indifference",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.34.15",
+          "verse": 15,
+          "text_display": "ס֣וּר מֵ֭/רָע וַ/עֲשֵׂה־ט֑וֹב בַּקֵּ֖שׁ שָׁל֣וֹם וְ/רָדְפֵֽ/הוּ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.34.16",
+          "verse": 16,
+          "text_display": "עֵינֵ֣י יְ֭הוָה אֶל־צַדִּיקִ֑ים וְ֝/אָזְנָ֗י/ו אֶל־שַׁוְעָתָֽ/ם׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.34.17",
+          "verse": 17,
+          "text_display": "פְּנֵ֣י יְ֭הוָה בְּ/עֹ֣שֵׂי רָ֑ע לְ/הַכְרִ֖ית מֵ/אֶ֣רֶץ זִכְרָֽ/ם׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.34.15",
+        "verse_uid": "oshb_wlc:Ps.34.16",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "עֵינֵ֣י יְ֭הוָה אֶל־צַדִּיקִ֑ים וְ֝/אָזְנָ֗י/ו אֶל־שַׁוְעָתָֽ/ם׃",
+        "translation": "The eyes of the LORD are toward the righteous, and his ears toward their cry for help.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "שַׁוְעָתָם: 'their cry for help'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.34.15",
+        "differences_from_web": [
+          "WEB 'listen' is added as a verb"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "canon_ref": "PSA.27.13",
+      "verse_uid": "oshb_wlc:Ps.27.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "לׅׄוּלֵׅׄ֗אׅׄ הֶ֭אֱמַנְתִּי לִ/רְא֥וֹת בְּֽ/טוּב־יְהוָ֗ה בְּ/אֶ֣רֶץ חַיִּֽים׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Confidence in seeing the LORD's goodness amid distress",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.27.12",
+          "verse": 12,
+          "text_display": "אַֽל־תִּ֭תְּנֵ/נִי בְּ/נֶ֣פֶשׁ צָרָ֑/י כִּ֥י קָֽמוּ־בִ֥/י עֵֽדֵי־שֶׁ֝֗קֶר וִ/יפֵ֥חַ חָמָֽס׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.27.13",
+          "verse": 13,
+          "text_display": "לׅׄוּלֵׅׄ֗אׅׄ הֶ֭אֱמַנְתִּי לִ/רְא֥וֹת בְּֽ/טוּב־יְהוָ֗ה בְּ/אֶ֣רֶץ חַיִּֽים׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.27.14",
+          "verse": 14,
+          "text_display": "קַוֵּ֗ה אֶל־יְה֫וָ֥ה חֲ֭זַק וְ/יַאֲמֵ֣ץ לִבֶּ֑/ךָ וְ֝/קַוֵּ֗ה אֶל־יְהוָֽה׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.27.13",
+        "verse_uid": "oshb_wlc:Ps.27.13",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "לׅׄוּלֵׅׄ֗אׅׄ הֶ֭אֱמַנְתִּי לִ/רְא֥וֹת בְּֽ/טוּב־יְהוָ֗ה בְּ/אֶ֣רֶץ חַיִּֽים׃",
+        "translation": "If I had not believed that I would see the goodness of the LORD in the land of the living...",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "לוּלֵא is marked with extraordinary points in the text"
+        ],
+        "uncertainties": [
+          "The apodosis is left unspoken (aposiopesis); English versions often supply 'I would have despaired'"
+        ],
+        "web_reference": "web:PSA.27.13",
+        "differences_from_web": [
+          "WEB renders 'I am still confident' rather than the broken-off conditional 'if I had not believed'"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "canon_ref": "PSA.142.4",
+      "verse_uid": "oshb_wlc:Ps.142.5",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "הַבֵּ֤יט יָמִ֨ין ׀ וּ/רְאֵה֮ וְ/אֵֽין־לִ֪/י מַ֫כִּ֥יר אָבַ֣ד מָנ֣וֹס מִמֶּ֑/נִּי אֵ֖ין דּוֹרֵ֣שׁ לְ/נַפְשִֽׁ/י׃",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Lament of one with no one who cares, turning to God as refuge",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.142.4",
+          "verse": 4,
+          "text_display": "בְּ/הִתְעַטֵּ֬ף עָלַ֨/י ׀ רוּחִ֗/י וְ/אַתָּה֮ יָדַ֪עְתָּ נְֽתִיבָ֫תִ֥/י בְּ/אֹֽרַח־ז֥וּ אֲהַלֵּ֑ךְ טָמְנ֖וּ פַ֣ח לִֽ/י׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.142.5",
+          "verse": 5,
+          "text_display": "הַבֵּ֤יט יָמִ֨ין ׀ וּ/רְאֵה֮ וְ/אֵֽין־לִ֪/י מַ֫כִּ֥יר אָבַ֣ד מָנ֣וֹס מִמֶּ֑/נִּי אֵ֖ין דּוֹרֵ֣שׁ לְ/נַפְשִֽׁ/י׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.142.6",
+          "verse": 6,
+          "text_display": "זָעַ֥קְתִּי אֵלֶ֗י/ךָ יְה֫וָ֥ה אָ֭מַרְתִּי אַתָּ֣ה מַחְסִ֑/י חֶ֝לְקִ֗/י בְּ/אֶ֣רֶץ הַֽ/חַיִּים׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.142.4",
+        "verse_uid": "oshb_wlc:Ps.142.5",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "הַבֵּ֤יט יָמִ֨ין ׀ וּ/רְאֵה֮ וְ/אֵֽין־לִ֪/י מַ֫כִּ֥יר אָבַ֣ד מָנ֣וֹס מִמֶּ֑/נִּי אֵ֖ין דּוֹרֵ֣שׁ לְ/נַפְשִֽׁ/י׃",
+        "translation": "Look to the right and see: there is no one who knows me. Refuge has perished from me; no one seeks after my soul.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "מַכִּיר: 'one who recognizes/acknowledges'",
+          "דּוֹרֵשׁ לְנַפְשִׁי: 'seeks for my life'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.142.4",
+        "differences_from_web": [
+          "WEB 'is concerned for me' for 'recognizes me'",
+          "WEB 'Refuge has fled' vs 'perished'"
+        ]
+      }
+    }
+  ],
+  "discarded": [],
+  "missing": [],
+  "notes": [
+    "Requested references (verified OT targets) kept; k=7 filled by them. Search also found PSA.86.7, PSA.44.21, PSA.69.17, LAM.3.22, JOB.39.17 (not kept due to k limit; JOB.39.17 unrelated ostrich verse)."
+  ]
+}

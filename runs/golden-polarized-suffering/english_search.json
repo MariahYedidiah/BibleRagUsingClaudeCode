@@ -1,0 +1,592 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [],
+  "filters": {
+    "source": [
+      "web"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.04918,
+      "verse_uid": "web:JOB.27.9",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 27,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "JOB.27.9",
+      "canon_ref": "JOB.27.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Will God hear his cry when trouble comes on him?",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.656
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.654
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6441
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.04379,
+      "verse_uid": "web:PSA.77.9",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 77,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "PSA.77.9",
+      "canon_ref": "PSA.77.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Has God forgotten to be gracious? Has he, in anger, withheld his compassion?” Selah.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 23,
+          "score": 0.5504
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6185
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.1416
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.0424,
+      "verse_uid": "web:JOB.15.11",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 15,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "JOB.15.11",
+      "canon_ref": "JOB.15.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Are the consolations of God too small for you, even the word that is gentle toward you?",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 17,
+          "score": 0.5898
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5748
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6033
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.04115,
+      "verse_uid": "web:1PE.2.19",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "1PE",
+      "book_name": "1 Peter",
+      "chapter": 2,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "1PE.2.19",
+      "canon_ref": "1PE.2.19",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "For it is commendable if someone endures pain, suffering unjustly, because of conscience toward God.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "lexical",
+          "rank": 17,
+          "score": -13.3125
+        },
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.3125
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "lexical",
+          "rank": 25,
+          "score": -9.9012
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.03934,
+      "verse_uid": "web:PSA.90.13",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 90,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "PSA.90.13",
+      "canon_ref": "PSA.90.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Relent, LORD! How long? Have compassion on your servants!",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6111
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.6391
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 28,
+          "score": -10.9379
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.03279,
+      "verse_uid": "web:PSA.13.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 13,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "PSA.13.1",
+      "canon_ref": "PSA.13.1",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "How long, LORD? Will you forget me forever? How long will you hide your face from me?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.8504
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -32.6591
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.032,
+      "verse_uid": "web:PSA.44.24",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 44,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "PSA.44.24",
+      "canon_ref": "PSA.44.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Why do you hide your face, and forget our affliction and our oppression?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.7894
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 2,
+          "score": -31.8707
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.03154,
+      "verse_uid": "web:PRO.29.7",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 29,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "PRO.29.7",
+      "canon_ref": "PRO.29.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "The righteous care about justice for the poor. The wicked aren’t concerned about knowledge.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6115
+        },
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -20.6611
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.03151,
+      "verse_uid": "web:PSA.88.14",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 88,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "PSA.88.14",
+      "canon_ref": "PSA.88.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "LORD, why do you reject my soul? Why do you hide your face from me?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.7922
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 5,
+          "score": -16.9528
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.03102,
+      "verse_uid": "web:PSA.89.46",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 89,
+      "verse": 46,
+      "edition": "",
+      "source_ref": "PSA.89.46",
+      "canon_ref": "PSA.89.46",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "How long, LORD? Will you hide yourself forever? Will your wrath burn like fire?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.7152
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 3,
+          "score": -17.7366
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.03068,
+      "verse_uid": "web:PSA.135.14",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 135,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "PSA.135.14",
+      "canon_ref": "PSA.135.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "For the LORD will judge his people and have compassion on his servants.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5977
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.3853
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.03055,
+      "verse_uid": "web:LAM.5.20",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 5,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "LAM.5.20",
+      "canon_ref": "LAM.5.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Why do you forget us forever, and forsake us for so long a time?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.7265
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 7,
+          "score": -15.2363
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.03037,
+      "verse_uid": "web:JAS.1.20",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "JAS",
+      "book_name": "James",
+      "chapter": 1,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "JAS.1.20",
+      "canon_ref": "JAS.1.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "for the anger of man doesn’t produce the righteousness of God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6383
+        },
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "lexical",
+          "rank": 9,
+          "score": -14.6048
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.03031,
+      "verse_uid": "web:LUK.18.7",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 18,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "LUK.18.7",
+      "canon_ref": "LUK.18.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Won’ t|strong=\"G3588\" God|strong=\"G2316\" avenge|strong=\"G1557\" his|strong=\"G1909\" chosen|strong=\"G1588\" ones who|strong=\"G3588\" are|strong=\"G3588\" crying out|strong=\"G2532\" to|strong=\"G2532\" him|strong=\"G3588\" day|strong=\"G2250\" and|strong=\"G2532\" night|strong=\"G3571\" , and|strong=\"G2532\" yet|strong=\"G2532\" he|strong=\"G2532\" exercises|strong=\"G4160\" patience|strong=\"G3114\" with|strong=\"G2532\" them|strong=\"G3588\" ?",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5788
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.607
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.03008,
+      "verse_uid": "web:JOB.13.24",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 13,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "JOB.13.24",
+      "canon_ref": "JOB.13.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Why do you hide your face, and consider me your enemy?",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.7059
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "lexical",
+          "rank": 6,
+          "score": -15.5118
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.8504,
+    "vector_margin": 0.0582,
+    "vector_lexical_overlap_top10": 10,
+    "lists": 8,
+    "lists_with_hits": 8,
+    "lists_containing_top_result": 3
+  }
+}

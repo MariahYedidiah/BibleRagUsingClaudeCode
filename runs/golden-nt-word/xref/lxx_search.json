@@ -1,0 +1,471 @@
+{
+  "queries": [
+    "In the beginning was the Word"
+  ],
+  "lexical_queries": [
+    "λόγος λόγον λόγῳ ῥῆμα",
+    "ἀρχῇ ἀρχήν",
+    "σοφία"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02817,
+      "verse_uid": "lxx_swete:29.16.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 16,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "29.16.4",
+      "canon_ref": "PRO.16.4",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "φόβος θεοῦ παιδεία καὶ σοφία, καὶ ἀρχὴ δόξης ἀποκριθήσεται αὐτῇ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ ἀρχήν",
+          "method": "lexical",
+          "rank": 10,
+          "score": -8.7539
+        },
+        {
+          "query": "σοφία",
+          "method": "lexical",
+          "rank": 12,
+          "score": -8.3261
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:53.14.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 14,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "53.14.2",
+      "canon_ref": "EZK.14.2",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἐγένετο λόγος Κυρίου πρὸς μὲ λέγων",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6712
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:27.55.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 55,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "27.55.11",
+      "canon_ref": "PSA.56.10",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐπὶ τῷ θεῷ αἰνέσω ῥῆμα, ἐπὶ τῷ θεῷ αἰνέσω λόγον.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "λόγος λόγον λόγῳ ῥῆμα",
+          "method": "lexical",
+          "rank": 1,
+          "score": -14.3657
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:02.34.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 34,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "02.34.22",
+      "canon_ref": "EXO.34.22",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἑορτὴν ἑβδομάδων ποιήσεις μοι, ἀρχὴν θερισμοῦ πυροῦ, καὶ ἀρχὴν συναγωγῆς μεσοῦντος τοῦ ἐνιαυτοῦ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ ἀρχήν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -11.6446
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:29.8.12",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 8,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "29.8.12",
+      "canon_ref": "PRO.8.12",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐγὼ ἡ σοφία κατεσκήνωσα βουλήν, καὶ γνῶσιν καὶ ἔννοιαν ἐγὼ ἐπεκαλεσάμην· κρείσσων γὰρ σοφία λίθων πολυτελῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σοφία",
+          "method": "lexical",
+          "rank": 1,
+          "score": -9.6458
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:53.33.23",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 33,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "53.33.23",
+      "canon_ref": "EZK.33.23",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἐγενήθη λόγος Κυρίου πρὸς μὲ λέγων",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6633
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.20.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 20,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "49.20.8",
+      "canon_ref": "JER.20.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὅτι πικρῷ λόγῳ μου γελάσομαι, ἀθεσίαν καὶ ταλαιπωρίαν ἐπικαλέσομαι, ὅτι ἐγενήθη λόγος Κυρίου εἰς ὀνειδισμὸν ἐμοὶ καὶ χλευασμὸν πᾶσαν ἡμέραν μου.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "λόγος λόγον λόγῳ ῥῆμα",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.4173
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:01.43.20",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 43,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "01.43.20",
+      "canon_ref": "GEN.43.20",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "λἐγοντες Δεόμεθα, κύριε· κατέβημεν τὴν ἀρχὴν πρίασθαι βρώματα·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ ἀρχήν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.2771
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.29.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 29,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "49.29.8",
+      "canon_ref": "JER.49.7",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Τῇ Ἰδουμαίᾳ. Τάδε λέγει Κύριος Οὐκ ἔστιν ἔτι σοφία ἐν Θαιμάν, ἀπώλετο βουλὴ ἐκ συνετῶν, ὤχετο σοφία αὐτῶν,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σοφία",
+          "method": "lexical",
+          "rank": 2,
+          "score": -9.3709
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:46.6.9",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ZEC",
+      "book_name": "Zechariah",
+      "chapter": 6,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "46.6.9",
+      "canon_ref": "ZEC.6.9",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Καὶ ἐγένετο λόγος Κυρίου πρὸς μὲ λέγων",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6598
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:13.13.32",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1KI",
+      "book_name": "1 Kings",
+      "chapter": 13,
+      "verse": 32,
+      "edition": "",
+      "source_ref": "13.13.32",
+      "canon_ref": "1KI.13.32",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὅτι γινόμενον ἔσται τὸ ῥῆμα ὃ ἐλάλησεν ἐν λόγῳ Κυρίου ἐπὶ τοῦ θυσιαστηρίου ἐν Βαιθὴλ καὶ ἐπὶ τοὺς οἴκους τοὺς ὐψηλοὺς τοὺς ἐν Σαμαρείᾳ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "λόγος λόγον λόγῳ ῥῆμα",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.8339
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:48.41.27",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 41,
+      "verse": 27,
+      "edition": "",
+      "source_ref": "48.41.27",
+      "canon_ref": "ISA.41.27",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἀρχὴν Σιὼν δώσω, καὶ Ἰερουσαλὴμ παρακαλέσω ἐν ὁδῷ.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἀρχῇ ἀρχήν",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.2771
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01587,
+      "verse_uid": "lxx_swete:29.20.23",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 20,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "29.20.23",
+      "canon_ref": "PRO.20.23",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "κόσμος νεανίαις σοφία, δόξα δὲ πρεσβυτέρων πολιαί.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σοφία",
+          "method": "lexical",
+          "rank": 3,
+          "score": -9.0107
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:53.7.1",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 7,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "53.7.1",
+      "canon_ref": "EZK.7.1",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Καὶ ἐγένετο λόγος Κυρίου πρὸς μὲ λέγων",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.6595
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01562,
+      "verse_uid": "lxx_swete:11.15.24",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1SA",
+      "book_name": "1 Samuel",
+      "chapter": 15,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "11.15.24",
+      "canon_ref": "1SA.15.24",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ εἶπεν Σαοὺλ πρὸς Σαμουὴλ Ἡμάρτηκα· ὅτι παρέβην τὸν λόγον Κυρίου καὶ τὸ ῥῆμά σου, ὅτι ἐφοβήθην τὸν λαὸν καὶ ἤκουσα τῆς φωνῆς αὐτῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "λόγος λόγον λόγῳ ῥῆμα",
+          "method": "lexical",
+          "rank": 4,
+          "score": -10.6057
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6712,
+    "vector_margin": 0.0079,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 5,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 2
+  }
+}

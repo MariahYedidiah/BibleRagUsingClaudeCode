@@ -1,0 +1,94 @@
+{
+  "keep": [
+    {
+      "canon_ref": "PSA.22.1",
+      "relevance": "Lament of felt abandonment by God while suffering; the core of the 'why does God seem absent' question. Requested reference."
+    },
+    {
+      "canon_ref": "PSA.142.4",
+      "relevance": "Complaint that no one cares for the speaker's soul while in distress; voices the sense of unanswered suffering. Requested reference."
+    },
+    {
+      "canon_ref": "PSA.55.22",
+      "relevance": "Contrasting answer: the LORD sustains and does not let the righteous be moved. Requested reference."
+    },
+    {
+      "canon_ref": "PSA.34.15",
+      "relevance": "Contrasting answer: God's eyes and ears are toward the righteous and their cry. Requested reference."
+    },
+    {
+      "canon_ref": "PSA.37.5",
+      "relevance": "Trust-based answer: commit one's way to the LORD and he acts. Requested reference; addresses the question indirectly."
+    },
+    {
+      "canon_ref": "PSA.56.3",
+      "relevance": "Trust in God while afraid; a response to fear rather than a direct answer to why God seems indifferent. Requested reference."
+    },
+    {
+      "canon_ref": "PSA.27.13",
+      "relevance": "Confidence in seeing the LORD's goodness in the land of the living; hope against despair. Requested reference."
+    }
+  ],
+  "discard": [
+    {
+      "reason": "Topical (wicked man says God will not hold him to account), but excluded by k=7 because the leader's requested references fill all seven slots. Strong candidate if k is raised.",
+      "verse_uid": "web:PSA.10.13"
+    },
+    {
+      "reason": "Topical (God hearing cry in trouble), but excluded by k=7 after the requested references. Strong candidate if k is raised.",
+      "verse_uid": "web:JOB.27.9"
+    },
+    {
+      "reason": "Topical (cry of the wounded, God seemingly not regarding folly), but excluded by k=7.",
+      "verse_uid": "web:JOB.24.12"
+    },
+    {
+      "reason": "Speaks of God not needing to examine a man before judgment; only loosely related and outranked by k cap.",
+      "verse_uid": "web:JOB.34.23"
+    },
+    {
+      "reason": "Care for the poor and knowledge; 'care' is used in a different sense, not God's care in suffering.",
+      "verse_uid": "web:PRO.29.7"
+    },
+    {
+      "reason": "Human anger does not produce God's righteousness; no bearing on God's care for suffering.",
+      "verse_uid": "web:JAS.1.20"
+    },
+    {
+      "reason": "General statement that no one seeks God; about human sin, not God's care for suffering.",
+      "verse_uid": "web:ROM.3.11"
+    },
+    {
+      "reason": "Those in the flesh cannot please God; about human nature, not divine care for suffering.",
+      "verse_uid": "web:ROM.8.8"
+    },
+    {
+      "reason": "'doesn't know how to' is a word match in an unrelated church-leadership context.",
+      "verse_uid": "web:1TI.3.5"
+    },
+    {
+      "reason": "'doesn't love / God is love' is a doctrinal statement; does not address suffering.",
+      "verse_uid": "web:1JN.4.8"
+    },
+    {
+      "reason": "Life through the Son; word match on 'doesn't have' with no bearing on suffering.",
+      "verse_uid": "web:1JN.5.12"
+    },
+    {
+      "reason": "Born of God does not sin; unrelated to divine care in suffering.",
+      "verse_uid": "web:1JN.5.18"
+    },
+    {
+      "reason": "Timothy's care for the Philippians; 'care' in an unrelated human sense.",
+      "verse_uid": "web:PHP.2.20"
+    },
+    {
+      "reason": "Judging fellow believers over food; unrelated.",
+      "verse_uid": "web:ROM.14.3"
+    }
+  ],
+  "notes": [
+    "Service up (vector + lexical hybrid). Only one query variant was supplied (the original question); no neutral or contrasting variant was run. The seven kept passages are the leader's requested references, which together fill k=7; the requested references were kept as instructed. Several topical hits (PSA.10.13, JOB.27.9, JOB.24.12) were excluded only by the k cap and are the first candidates if k is raised. The lexical hits were mostly word matches on 'doesn't' and 'care' in unrelated senses. No polarized-variant check was done."
+  ],
+  "missing": []
+}

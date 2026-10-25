@@ -1,0 +1,503 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "τάξει οἰκονόμος",
+    "ἐπιστάται ἐπιστάτης ἔργων"
+  ],
+  "filters": {
+    "source": [
+      "lxx_swete"
+    ],
+    "testament": [
+      "OT"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.0308,
+      "verse_uid": "lxx_swete:15.9.28",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1CH",
+      "book_name": "1 Chronicles",
+      "chapter": 9,
+      "verse": 28,
+      "edition": "",
+      "source_ref": "15.9.28",
+      "canon_ref": "1CH.9.28",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἐξ αὐτῶν ἐπὶ τὰ σκεύη τῆς λειτουργίας, ὅτι ἐν ἀριθμῷ εἰσοίσουσιν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5322
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5949
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02905,
+      "verse_uid": "lxx_swete:27.101.23",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 101,
+      "verse": 23,
+      "edition": "",
+      "source_ref": "27.101.23",
+      "canon_ref": "PSA.102.22",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐν τῷ συναχθῆναι λαοὺς ἐπὶ τὸ αὐτὸ καὶ βασιλείας τοῦ δουλεύειν τῷ κυρίῳ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.5103
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6114
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.0265,
+      "verse_uid": "lxx_swete:27.109.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 109,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "27.109.6",
+      "canon_ref": "PSA.110.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "κρινεῖ ἐν τοῖς ἔθνεσιν, πληρώσει πτῶμα. συνθλάσει κεφαλὰς ἐπὶ γῆν πολλήν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5377
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 30,
+          "score": 0.5548
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.02623,
+      "verse_uid": "lxx_swete:48.3.13",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 3,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "48.3.13",
+      "canon_ref": "ISA.3.13",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἀλλὰ νῦν καταστήσεται εἰς κρίσιν κύριος καὶ στήσει εἰς κρίσιν τὸν λαὸν αὐτοῦ·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.5096
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.5716
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02565,
+      "verse_uid": "lxx_swete:29.8.18",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 8,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "29.8.18",
+      "canon_ref": "PRO.8.18",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "πλοῦτος καὶ δόξα ἐμοὶ ὑπάρχει, καὶ κτῆσις πολλῶν καὶ δικαιοσύνη.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.5277
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 28,
+          "score": 0.5552
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.02462,
+      "verse_uid": "lxx_swete:15.29.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1CH",
+      "book_name": "1 Chronicles",
+      "chapter": 29,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "15.29.6",
+      "canon_ref": "1CH.29.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ προεθύμησαν ἄρχοντες πατριῶν καὶ οἱἄρχοντες τῶν υἱῶν Ἰσραήλ, καὶ οἱ χιλίαρχοι καὶ οἱ ἑκατόνταρχοι, καὶ οἱ προστάται τῶν ἔργων, καὶ οἱ οἰκοδόμοι τοῦ βασιλέως·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.5694
+        },
+        {
+          "query": "ἐπιστάται ἐπιστάτης ἔργων",
+          "method": "lexical",
+          "rank": 30,
+          "score": -6.275
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:48.56.8",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 56,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "48.56.8",
+      "canon_ref": "ISA.56.8",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "εἶπεν Κύριος ὃ συνάγων τοὺς διεσπαρμένους Ἰσραήλ, ὅτι συνάξω ἐπ’ αὐτὸν συναγωγήν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.488
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:27.24.9",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 24,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "27.24.9",
+      "canon_ref": "PSA.25.9",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὁδηγήσει πρᾳεῖς ἐν κρίσει, διδάξει πρᾳεῖς ὁδοὺς αὐτοῦ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5809
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:13.4.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1KI",
+      "book_name": "1 Kings",
+      "chapter": 4,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "13.4.6",
+      "canon_ref": "1KI.4.6",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ Ἀχεὶ ἦν οἰκονόμος, καὶ ἐλιὰκ ὁ οἰκονόμος, καὶ Ἐλιὰβ υἱὸς Σὰφ ἐπὶ τῆς πατριᾶς, καὶ Ἀδωνειρὰμ υἱὸς Ἐφρὰ ἐπὶ τῶν φόρων.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "τάξει οἰκονόμος",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.49
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01639,
+      "verse_uid": "lxx_swete:13.5.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "1KI",
+      "book_name": "1 Kings",
+      "chapter": 5,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "13.5.16",
+      "canon_ref": "1KI.5.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "χωρὶς ἀρχόντων τῶν καθεσταμένων ἐπὶ τῶν ἔργων τῶν Σαλωμών, τρεῖς χιλιάδες καὶ ἑξακόσιοι ἐπιστάται, οἱ ποιοῦντες τὰ ἔργα.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπιστάται ἐπιστάτης ἔργων",
+          "method": "lexical",
+          "rank": 1,
+          "score": -16.5487
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:49.36.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 36,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "49.36.4",
+      "canon_ref": "JER.29.4",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "Οὕτως εἶπεν Κύριος ὁ θεὸς Ἰσραὴλ ἐπὶ τὴν ἀποικίαν ἣν ἀπῴκισα ἀπὸ Ἰερουσαλήμ",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4792
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:32.36.11",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 36,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "32.36.11",
+      "canon_ref": "JOB.36.11",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐὰν ἀκούσωσιν καὶ δουλεύσωσιν, συντελέσουσιν τὰς ἡμέρας αὐτῶν ἐν ἀγαθοῖς, καὶ τὰ ἔτη αὐτῶν ἐν εὐπρεπείαις.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5451
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:27.70.7",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 70,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "27.70.7",
+      "canon_ref": "PSA.71.7",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ὡσεὶ τέρας ἐγενήθην τοῖς πολλοῖς, καὶ σὺ βοηθὸς κραταιός.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5978
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:48.36.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 36,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "48.36.3",
+      "canon_ref": "ISA.36.3",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "καὶ ἐξῆλθεν πρὸς αὐτὸν Ἐλιακεὶμ ὃ τοῦ Χελκίου οἰκονόμος καὶ Σόμνας ὁ γραμματεὺς καὶ Ἰωὰχ ὁ τοῦ Ἀσὰφ ὁ ὑπομνηματογράφος.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "τάξει οἰκονόμος",
+          "method": "lexical",
+          "rank": 2,
+          "score": -9.3599
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01613,
+      "verse_uid": "lxx_swete:32.37.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 37,
+      "verse": 16,
+      "edition": "",
+      "source_ref": "32.37.16",
+      "canon_ref": "JOB.37.16",
+      "alignment": "mapped",
+      "versification": "lxx",
+      "text_display": "ἐπίσταται δὲ διάκρισιν νεφῶν, ἐξαίσια δὲ πτώματα πονηρῶν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπιστάται ἐπιστάτης ἔργων",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.8424
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6114,
+    "vector_margin": 0.0136,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 8,
+    "lists_with_hits": 5,
+    "lists_containing_top_result": 2
+  }
+}

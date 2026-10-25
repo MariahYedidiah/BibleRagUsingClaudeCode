@@ -1,0 +1,22 @@
+{
+ "canon_ref": "ISA.40.3",
+ "verse_uid": "lxx_swete:48.40.3",
+ "source": "lxx_swete",
+ "corpus_label": "Septuagint Greek (Swete LXX)",
+ "original": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ Ἑτοιμάσατε τὴν ὁδόν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους τοῦ θεοῦ ἡμῶν.",
+ "translation": "The voice of one crying in the wilderness: Prepare the way of the Lord; make straight the paths of our God.",
+ "method": "machine",
+ "translator": "claude:claude-sonnet-5-5",
+ "literal_notes": [
+  "βοῶντος: present participle, 'of one crying out'",
+  "Κυρίου: divine name rendered 'the Lord'"
+ ],
+ "uncertainties": [],
+ "web_reference": "web:ISA.40.3",
+ "differences_from_web": [
+  "LXX places 'in the wilderness' with the crying voice (ἐν τῇ ἐρήμῳ βοῶντος); Hebrew/WEB place 'in the wilderness' with 'prepare the way'",
+  "LXX has 'make straight the paths of our God' where WEB has 'make a level highway in the desert for our God'; 'desert' is not in the LXX verse"
+ ],
+ "_web_text": "The voice of one who calls out, “Prepare the way of the LORD in the wilderness! Make a level highway in the desert for our God.",
+ "_edition": null
+}

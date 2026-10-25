@@ -1,0 +1,83 @@
+[
+ {
+  "canon_ref": "MRK.1.3",
+  "verse_uid": "sblgnt:MRK.1.3",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ,",
+  "translation": "A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight,",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Quotation formula-less continuation of v.2; verse begins mid-sentence"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:MRK.1.3",
+  "differences_from_web": [
+   "WEB adds 'Make ready'; Greek verb is ἑτοιμάσατε, same sense"
+  ],
+  "_web_text": "the voice of one crying in the wilderness, ‘Make ready the way of the Lord! Make his paths straight!’”",
+  "_edition": null
+ },
+ {
+  "canon_ref": "LUK.3.4",
+  "verse_uid": "sblgnt:LUK.3.4",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "ὡς γέγραπται ἐν βίβλῳ λόγων Ἠσαΐου τοῦ ⸂ προφήτου ⸃· Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+  "translation": "As it is written in the book of the words of Isaiah the prophet: A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight,",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ὡς γέγραπται: citation formula"
+  ],
+  "uncertainties": [
+   "variant unit: προφήτου is marked by ⸂ ⸃"
+  ],
+  "web_reference": "web:LUK.3.4",
+  "differences_from_web": [],
+  "_web_text": "As it is written in the book of the words of Isaiah the prophet, “The voice of one crying in the wilderness, ‘Make ready the way of the Lord. Make his paths straight.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "MAT.3.3",
+  "verse_uid": "sblgnt:MAT.3.3",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "οὗτος γάρ ἐστιν ὁ ῥηθεὶς ⸂ διὰ ⸃ Ἠσαΐου τοῦ προφήτου λέγοντος· Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+  "translation": "For this is the one spoken of through Isaiah the prophet, saying: A voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ῥηθεὶς: aorist passive participle, 'the one spoken of'"
+  ],
+  "uncertainties": [
+   "variant unit: διά is marked by ⸂ ⸃"
+  ],
+  "web_reference": "web:MAT.3.3",
+  "differences_from_web": [],
+  "_web_text": "For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make the way of the Lord ready! Make his paths straight!”",
+  "_edition": null
+ },
+ {
+  "canon_ref": "JHN.1.23",
+  "verse_uid": "sblgnt:JHN.1.23",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "ἔφη· Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἠσαΐας ὁ προφήτης.",
+  "translation": "He said: I am a voice of one crying in the wilderness: Make straight the way of the Lord, as Isaiah the prophet said.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Εὐθύνατε: 'make straight', differs from the verb 'prepare' in the Synoptics"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:JHN.1.23",
+  "differences_from_web": [
+   "John has 'make straight' (Εὐθύνατε) rather than 'prepare/make ready'",
+   "Speaker identifies himself as the voice (Ἐγὼ φωνή)"
+  ],
+  "_web_text": "He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’ as Isaiah the prophet said.”",
+  "_edition": null
+ }
+]

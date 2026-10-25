@@ -1,0 +1,21 @@
+{
+  "level": "high",
+  "basis": "21 passages kept; 7 references found in two or more languages; 12 passages found by both vector and lexical search",
+  "signals": {
+    "passages_kept": 21,
+    "cross_lingual_refs": [
+      "1JN.1.1",
+      "GEN.1.1",
+      "ISA.40.5",
+      "JHN.1.1",
+      "JHN.1.14",
+      "JHN.1.2",
+      "PRO.8.22"
+    ],
+    "found_by_both_methods": 12,
+    "above_vector_floor": 18,
+    "found_by_two_or_more_queries": 9,
+    "top_vector_score": 0.9441,
+    "vector_search_available": true
+  }
+}

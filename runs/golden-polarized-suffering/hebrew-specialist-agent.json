@@ -1,0 +1,408 @@
+{
+  "agent": "hebrew-specialist-agent",
+  "run_id": "golden-polarized-suffering",
+  "corpus": "oshb_wlc",
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "רחום חנון רחמיו רחמים",
+    "עני עניי ענינו צרה בצר צעקה זעקה",
+    "שכח תשכחני תסתיר דמעתי דמעה",
+    "עד־אנה תשכחני תסתיר",
+    "ראה ראיתי עני עמי צעקתם"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5902,
+      "vector_margin": 0.0111,
+      "vector_lexical_overlap_top10": 2,
+      "lists": 13,
+      "lists_with_hits": 9,
+      "lists_containing_top_result": 4
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.44.24",
+      "verse_uid": "oshb_wlc:Ps.44.25",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5482
+        },
+        {
+          "query": "עני עניי ענינו צרה בצר צעקה זעקה",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.9466
+        },
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 3,
+          "score": -13.6644
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 11,
+          "score": -13.6644
+        }
+      ],
+      "rrf": 0.06248,
+      "relevance": "Communal lament voicing the complaint directly: why do you hide your face and forget our affliction and oppression.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.44.24",
+          "verse": 24,
+          "text_display": "ע֤וּרָ/ה ׀ לָ֖/מָּה תִישַׁ֥ן ׀ אֲדֹנָ֑/י הָ֝קִ֗יצָ/ה אַל־תִּזְנַ֥ח לָ/נֶֽצַח׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.44.25",
+          "verse": 25,
+          "text_display": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.44.26",
+          "verse": 26,
+          "text_display": "כִּ֤י שָׁ֣חָה לֶ/עָפָ֣ר נַפְשֵׁ֑/נוּ דָּבְקָ֖ה לָ/אָ֣רֶץ בִּטְנֵֽ/נוּ׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.44.24",
+        "verse_uid": "oshb_wlc:Ps.44.25",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃",
+        "translation": "Why do you hide your face; do you forget our affliction and our oppression?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה not in this verse; פָנֶיךָ 'your face'"
+        ],
+        "uncertainties": [
+          "Verb forms are imperfect; rendered as present questions",
+          "verse numbering: Hebrew Ps 44:25 = English 44:24"
+        ],
+        "web_reference": "web:PSA.44.24",
+        "differences_from_web": [
+          "WEB 'Why do you hide your face, and forget'; same sense, mine keeps the question form for both clauses"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.13.1",
+      "verse_uid": "oshb_wlc:Ps.13.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 1,
+          "score": -25.5554
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 1,
+          "score": -44.5648
+        }
+      ],
+      "rrf": 0.03279,
+      "relevance": "Individual lament: how long will you forget me, how long hide your face; the question as the sufferer asks it.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.13.1",
+          "verse": 1,
+          "text_display": "לַ/מְנַצֵּ֗חַ מִזְמ֥וֹר לְ/דָוִֽד׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.13.2",
+          "verse": 2,
+          "text_display": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.13.3",
+          "verse": 3,
+          "text_display": "עַד־אָ֨נָה אָשִׁ֪ית עֵצ֡וֹת בְּ/נַפְשִׁ֗/י יָג֣וֹן בִּ/לְבָבִ֣/י יוֹמָ֑ם עַד־אָ֓נָה ׀ יָר֖וּם אֹיְבִ֣/י עָלָֽ/י׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.13.1",
+        "verse_uid": "oshb_wlc:Ps.13.2",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+        "translation": "How long, O LORD, will you forget me forever? How long will you hide your face from me?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "נֶצַח 'forever / perpetually'"
+        ],
+        "uncertainties": [
+          "Hebrew Ps 13:2 = English 13:1 (title is Hebrew v.1)"
+        ],
+        "web_reference": "web:PSA.13.1",
+        "differences_from_web": [
+          "WEB places 'forever' as a separate question; mine joins it to the verb"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "PSA.88.14",
+      "verse_uid": "oshb_wlc:Ps.88.15",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "לָ/מָ֣ה יְ֭הוָה תִּזְנַ֣ח נַפְשִׁ֑/י תַּסְתִּ֖יר פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 4,
+          "score": -13.2899
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 12,
+          "score": -13.2899
+        }
+      ],
+      "rrf": 0.02951,
+      "relevance": "Lament: why do you reject my soul and hide your face from me; felt divine absence in suffering.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Ps.88.14",
+          "verse": 14,
+          "text_display": "וַ/אֲנִ֤י ׀ אֵלֶ֣י/ךָ יְהוָ֣ה שִׁוַּ֑עְתִּי וּ֝/בַ/בֹּ֗קֶר תְּֽפִלָּתִ֥/י תְקַדְּמֶֽ/ךָּ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.88.15",
+          "verse": 15,
+          "text_display": "לָ/מָ֣ה יְ֭הוָה תִּזְנַ֣ח נַפְשִׁ֑/י תַּסְתִּ֖יר פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Ps.88.16",
+          "verse": 16,
+          "text_display": "עָ֘נִ֤י אֲנִ֣י וְ/גֹוֵ֣עַ מִ/נֹּ֑עַר נָשָׂ֖אתִי אֵמֶ֣י/ךָ אָפֽוּנָה׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.88.14",
+        "verse_uid": "oshb_wlc:Ps.88.15",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "לָ/מָ֣ה יְ֭הוָה תִּזְנַ֣ח נַפְשִׁ֑/י תַּסְתִּ֖יר פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+        "translation": "Why, O LORD, do you cast off my soul? Why do you hide your face from me?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "נַפְשִׁי 'my soul / my life'"
+        ],
+        "uncertainties": [
+          "Hebrew Ps 88:15 = English 88:14 (title is Hebrew v.1)"
+        ],
+        "web_reference": "web:PSA.88.14",
+        "differences_from_web": [
+          "WEB 'reject'; mine 'cast off' (same sense)"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "JOB.13.24",
+      "verse_uid": "oshb_wlc:Job.13.24",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר וְ/תַחְשְׁבֵ֖/נִי לְ/אוֹיֵ֣ב לָֽ/ךְ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5326
+        },
+        {
+          "query": "שכח תשכחני תסתיר דמעתי דמעה",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.6644
+        },
+        {
+          "query": "עד־אנה תשכחני תסתיר",
+          "method": "lexical",
+          "rank": 10,
+          "score": -13.6644
+        }
+      ],
+      "rrf": 0.04534,
+      "relevance": "Job asks why God hides his face and counts him an enemy; protest of apparent divine indifference.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Job.13.23",
+          "verse": 23,
+          "text_display": "כַּ/מָּ֣ה לִ֭/י עֲוֺנ֣וֹת וְ/חַטָּא֑וֹת פִּֽשְׁעִ֥/י וְ֝/חַטָּאתִ֗/י הֹדִיעֵֽ/נִי׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Job.13.24",
+          "verse": 24,
+          "text_display": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר וְ/תַחְשְׁבֵ֖/נִי לְ/אוֹיֵ֣ב לָֽ/ךְ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Job.13.25",
+          "verse": 25,
+          "text_display": "הֶ/עָלֶ֣ה נִדָּ֣ף תַּעֲר֑וֹץ וְ/אֶת־קַ֖שׁ יָבֵ֣שׁ תִּרְדֹּֽף׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "JOB.13.24",
+        "verse_uid": "oshb_wlc:Job.13.24",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר וְ/תַחְשְׁבֵ֖/נִי לְ/אוֹיֵ֣ב לָֽ/ךְ׃",
+        "translation": "Why do you hide your face, and regard me as your enemy?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "וְתַחְשְׁבֵנִי 'and you reckon me'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:JOB.13.24",
+        "differences_from_web": [
+          "WEB 'consider'; no significant difference"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "EXO.3.7",
+      "verse_uid": "oshb_wlc:Exod.3.7",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ראה ראיתי עני עמי צעקתם",
+          "method": "lexical",
+          "rank": 1,
+          "score": -39.4911
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "God's response: he has seen the affliction of his people, heard their cry and knows their pain.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Exod.3.6",
+          "verse": 6,
+          "text_display": "וַ/יֹּ֗אמֶר אָנֹכִי֙ אֱלֹהֵ֣י אָבִ֔י/ךָ אֱלֹהֵ֧י אַבְרָהָ֛ם אֱלֹהֵ֥י יִצְחָ֖ק וֵ/אלֹהֵ֣י יַעֲקֹ֑ב וַ/יַּסְתֵּ֤ר מֹשֶׁה֙ פָּנָ֔י/ו כִּ֣י יָרֵ֔א מֵ/הַבִּ֖יט אֶל־הָ/אֱלֹהִֽים׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Exod.3.7",
+          "verse": 7,
+          "text_display": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Exod.3.8",
+          "verse": 8,
+          "text_display": "וָ/אֵרֵ֞ד לְ/הַצִּיל֣/וֹ ׀ מִ/יַּ֣ד מִצְרַ֗יִם וּֽ/לְ/הַעֲלֹת/וֹ֮ מִן־הָ/אָ֣רֶץ הַ/הִוא֒ אֶל־אֶ֤רֶץ טוֹבָה֙ וּ/רְחָבָ֔ה אֶל־אֶ֛רֶץ זָבַ֥ת חָלָ֖ב וּ/דְבָ֑שׁ אֶל־מְק֤וֹם הַֽ/כְּנַעֲנִי֙ וְ/הַ֣/חִתִּ֔י וְ/הָֽ/אֱמֹרִי֙ וְ/הַ/פְּרִזִּ֔י וְ/הַ/חִוִּ֖י וְ/הַ/יְבוּסִֽי׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "EXO.3.7",
+        "verse_uid": "oshb_wlc:Exod.3.7",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃",
+        "translation": "And the LORD said, 'I have indeed seen the affliction of my people who are in Egypt, and I have heard their cry because of their taskmasters, for I know his pains.'",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יְהוָה rendered 'the LORD'",
+          "רָאֹה רָאִיתי infinitive absolute + perfect for emphasis"
+        ],
+        "uncertainties": [
+          "Final suffix on מַכְאֹבָיו is singular 'his' (the people as a collective), rendered 'his pains' literally"
+        ],
+        "web_reference": "web:EXO.3.7",
+        "differences_from_web": [
+          "WEB 'their sorrows'; mine keeps the singular suffix 'his'"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "oshb_wlc:Ps.107.8",
+      "reason": "Refrain of thanksgiving for rescue; relevant but less direct than kept verses, cut by k"
+    },
+    {
+      "verse_uid": "oshb_wlc:Eccl.7.13",
+      "reason": "About God's work, not suffering care"
+    },
+    {
+      "verse_uid": "oshb_wlc:Isa.2.12",
+      "reason": "Day of the LORD, unrelated"
+    },
+    {
+      "verse_uid": "oshb_wlc:Eccl.12.14",
+      "reason": "Judgment of deeds, unrelated"
+    },
+    {
+      "verse_uid": "oshb_wlc:Ps.10.9",
+      "reason": "Describes the wicked lying in wait for the afflicted; context only"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Vector search was up; results were weak for compassion passages (e.g. Ps 103, Ex 34:6 not retrieved)."
+  ]
+}

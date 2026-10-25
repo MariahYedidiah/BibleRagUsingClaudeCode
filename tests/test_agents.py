@@ -98,14 +98,21 @@ def test_pack_copies_text_and_evidence(store, search_file):
 
 
 def test_pack_resolves_references(store, search_file):
-    r = pack(store, search_file, [{"canon_ref": "isa.40.3", "relevance": "verified OT target"}])
+    r = pack(store, search_file, [{"canon_ref": "isa.40.3", "relevance": "verified OT target"}],
+             references=["ISA.40.3"])
     p = r["passages"][0]
     assert p["verse_uid"] == "oshb_wlc:Isa.40.3" and p["found_by"] == ["reference"]
 
 
 def test_pack_rejects_unknown_references(store, search_file):
     with pytest.raises(ValueError):
-        pack(store, search_file, [{"canon_ref": "ISA.99.1", "relevance": "x"}])
+        pack(store, search_file, [{"canon_ref": "ISA.99.1", "relevance": "x"}], references=["ISA.99.1"])
+
+
+def test_pack_rejects_verses_neither_searched_nor_requested(store, search_file):
+    # a real verse picked from memory: not in the search results, not a delegated reference
+    with pytest.raises(ValueError, match="not in any saved search"):
+        pack(store, search_file, [{"canon_ref": "ISA.40.3", "relevance": "x"}])
 
 
 def test_pack_attaches_translations(tmp_path, store, search_file):

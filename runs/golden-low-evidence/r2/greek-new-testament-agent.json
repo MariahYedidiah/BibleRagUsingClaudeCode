@@ -1,0 +1,99 @@
+{
+  "agent": "greek-new-testament-agent",
+  "run_id": "golden-low-evidence/r2",
+  "corpus": "sblgnt",
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν",
+    "ἐπισκόπους ἐπίσκοπον προϊστάμενος κυβερνήσεις",
+    "τάξει τάξιν εὐσχημόνως",
+    "κατέστησεν καταστήσει δούλους"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.579,
+      "vector_margin": 0.0017,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 10,
+      "lists_with_hits": 7,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [],
+  "discarded": [
+    {
+      "verse_uid": "sblgnt:1CO.14.40",
+      "reason": "Order in congregational worship; only a loose echo of 'everything in order', not about configuring technical systems"
+    },
+    {
+      "verse_uid": "sblgnt:LUK.12.42",
+      "reason": "Parable of a faithful household steward; thematic echo of management, not about system configuration"
+    },
+    {
+      "verse_uid": "sblgnt:MAT.24.47",
+      "reason": "Servant set over a master's possessions; loose thematic echo"
+    },
+    {
+      "verse_uid": "sblgnt:TIT.1.7",
+      "reason": "Qualities of an overseer as God's steward; character, not system management"
+    },
+    {
+      "verse_uid": "sblgnt:1TI.3.2",
+      "reason": "Overseer qualifications; not relevant to the question"
+    },
+    {
+      "verse_uid": "sblgnt:LUK.16.3",
+      "reason": "Dishonest steward losing his position; not relevant"
+    },
+    {
+      "verse_uid": "sblgnt:TIT.2.9",
+      "reason": "Slaves' conduct toward masters; not relevant"
+    },
+    {
+      "verse_uid": "sblgnt:1CO.12.20",
+      "reason": "Many members, one body; lexical noise"
+    },
+    {
+      "verse_uid": "sblgnt:1CO.16.9",
+      "reason": "Open door for ministry; noise"
+    },
+    {
+      "verse_uid": "sblgnt:ROM.3.6",
+      "reason": "God judging the world; noise"
+    },
+    {
+      "verse_uid": "sblgnt:TIT.3.13",
+      "reason": "Travel provisions; noise"
+    },
+    {
+      "verse_uid": "sblgnt:ROM.8.5",
+      "reason": "Mindset of flesh vs Spirit; noise"
+    },
+    {
+      "verse_uid": "sblgnt:HEB.11.40",
+      "reason": "Noise"
+    },
+    {
+      "verse_uid": "sblgnt:LUK.22.12",
+      "reason": "Preparing a room for Passover; noise"
+    },
+    {
+      "verse_uid": "sblgnt:MAT.24.40",
+      "reason": "Noise"
+    }
+  ],
+  "missing": [
+    {
+      "field": "Passage on configuring computer or cluster systems",
+      "reason": "Not a biblical topic; no SBLGNT verse speaks to it"
+    }
+  ],
+  "notes": [
+    "Vector and lexical search in SBLGNT found nothing that addresses configuring a Kubernetes cluster or managing a complex technical system. Hits on stewards, overseers and 'order' are only loose thematic echoes. No kept verse, so no OT quotation flags."
+  ]
+}

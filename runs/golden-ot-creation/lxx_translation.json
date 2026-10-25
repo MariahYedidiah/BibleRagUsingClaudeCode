@@ -1,0 +1,108 @@
+[
+ {
+  "canon_ref": "GEN.1.1",
+  "verse_uid": "lxx_swete:01.1.1",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+  "translation": "In the beginning God made the heaven and the earth.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Opening words are in capitals in Swete; ἐποίησεν 'made' (not a verb of creating ex nihilo)"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.1",
+  "differences_from_web": [
+   "LXX has 'made' (ἐποίησεν) where WEB has 'created' (Heb. ברא)",
+   "LXX has singular 'the heaven' where WEB has plural 'the heavens'"
+  ],
+  "_web_text": "In the beginning, God created the heavens and the earth.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.3",
+  "verse_uid": "lxx_swete:01.1.3",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς· καὶ ἐγένετο φῶς.",
+  "translation": "And God said, 'Let light come to be.' And light came to be.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Γενηθήτω: aorist passive imperative, 'let there come to be'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.3",
+  "differences_from_web": [
+   "No meaningful difference in sense; LXX uses 'come to be' (γίνομαι) for Hebrew 'be'"
+  ],
+  "_web_text": "God said, “Let there be light,” and there was light.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.26",
+  "verse_uid": "lxx_swete:01.1.26",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς.",
+  "translation": "And God said, 'Let us make man according to our image and according to likeness; and let them rule over the fishes of the sea and the birds of the heaven and the cattle and all the earth and all the creeping things that creep on the earth.'",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἡμετέραν: 'our', adjective agreeing with image",
+   "πάτης appears to be a damaged/variant form, probably intended as 'all' (πάσης); sense read from context"
+  ],
+  "uncertainties": [
+   "Possible textual/OCR damage in one word near \"all the earth\"; translated by context"
+  ],
+  "web_reference": "web:GEN.1.26",
+  "differences_from_web": [
+   "LXX has 'according to our image and according to likeness' (adjective ἡμετέραν, with 'and' linking the two phrases) where WEB has 'in our image, after our likeness'",
+   "LXX 'let them rule' (ἀρχέτωσαν) vs WEB 'have dominion'"
+  ],
+  "_web_text": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.27",
+  "verse_uid": "lxx_swete:01.1.27",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς.",
+  "translation": "And God made the man; according to the image of God he made him; male and female he made them.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἐποίησεν repeated three times"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.27",
+  "differences_from_web": [
+   "LXX uses 'made' (ἐποίησεν) throughout where WEB has 'created'",
+   "LXX has 'the man' (τὸν ἄνθρωπον); 'according to the image of God' where WEB has 'in God's image'"
+  ],
+  "_web_text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.2.2",
+  "verse_uid": "lxx_swete:01.2.2",
+  "source": "lxx_swete",
+  "corpus_label": "Septuagint Greek (Swete LXX)",
+  "original": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρα τῇ ἕκτη τὰ ἔργα αὐτοῦ ἃ ἐποίησεν· καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἐποίησεν.",
+  "translation": "And on the sixth day God completed his works that he had made; and on the seventh day he rested from all his works that he had made.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "συνετέλεσεν: 'completed, finished'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.2.2",
+  "differences_from_web": [
+   "LXX says God completed his works on the SIXTH day (ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ); WEB (Hebrew) says the SEVENTH day"
+  ],
+  "_web_text": "On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done.",
+  "_edition": null
+ }
+]

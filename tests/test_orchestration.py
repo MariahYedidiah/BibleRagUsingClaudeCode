@@ -118,7 +118,7 @@ def test_new_run_and_trace(tmp_runs):
 
 # --- building a run ---------------------------------------------------------------------
 
-def lexical_result(store, tmp_path, agent, corpus, lexical, keep, run_id, translate=False):
+def lexical_result(store, tmp_path, agent, corpus, lexical, keep, run_id, translate=False, references=()):
     out = Retriever(store).search([], {"source": corpus}, k=10, mode="lexical", lexical_queries=lexical)
     search = tmp_path / f"{agent}-search.json"
     search.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
@@ -137,7 +137,7 @@ def lexical_result(store, tmp_path, agent, corpus, lexical, keep, run_id, transl
         translations.write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
     r = results.pack_specialist(agent, run_id, corpus, [search],
                                 {"keep": [{"verse_uid": u, "relevance": "test"} for u in keep]},
-                                store, translations)
+                                store, translations, references=references)
     runs.save(r, runs.run_dir(run_id) / f"{agent}.json")
     return r
 
@@ -148,7 +148,7 @@ def ot_run(tmp_runs, tmp_path, store):
     lexical_result(store, tmp_path, "hebrew-specialist-agent", "oshb_wlc", ["רחום וחנון"],
                    ["oshb_wlc:Ps.103.8", "oshb_wlc:Exod.34.6"], "ot", translate=True)
     lexical_result(store, tmp_path, "english-retrieval-agent", "web", ["compassionate and gracious"],
-                   ["web:PSA.103.8", "web:EXO.34.6"], "ot")
+                   ["web:PSA.103.8", "web:EXO.34.6"], "ot", references=["PSA.103.8", "EXO.34.6"])
     return "ot"
 
 

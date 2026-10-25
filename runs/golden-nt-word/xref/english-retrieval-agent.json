@@ -1,0 +1,331 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-nt-word/xref",
+  "corpus": "web",
+  "queries": [
+    "In the beginning was the Word"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.8382,
+      "vector_margin": 0.092,
+      "vector_lexical_overlap_top10": 4,
+      "lists": 2,
+      "lists_with_hits": 2,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "JHN.1.1",
+      "verse_uid": "web:JHN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.8382
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.3105
+        }
+      ],
+      "rrf": 0.03279,
+      "relevance": "Direct match: the opening of John's prologue, 'In the beginning was the Word', found by vector and lexical search (rank 1).",
+      "context": [
+        {
+          "verse_uid": "web:JHN.1.1",
+          "verse": 1,
+          "text_display": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        {
+          "verse_uid": "web:JHN.1.2",
+          "verse": 2,
+          "text_display": "The same was in the beginning with God."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "canon_ref": "1JN.1.1",
+      "verse_uid": "web:1JN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6643
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 7,
+          "score": -9.5166
+        }
+      ],
+      "rrf": 0.0308,
+      "relevance": "Same Word-and-beginning language in 1 John ('the Word of life' from the beginning); found by both methods (rank 3).",
+      "context": [
+        {
+          "verse_uid": "web:1JN.1.1",
+          "verse": 1,
+          "text_display": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life"
+        },
+        {
+          "verse_uid": "web:1JN.1.2",
+          "verse": 2,
+          "text_display": "(and the life was revealed, and we have seen, and testify, and declare to you the life, the eternal life, which was with the Father, and was revealed to us);"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "canon_ref": "JHN.1.2",
+      "verse_uid": "web:JHN.1.2",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "The same was in the beginning with God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.7462
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 8,
+          "score": -9.0932
+        }
+      ],
+      "rrf": 0.03083,
+      "relevance": "Continues the John 1 opening ('the same was in the beginning with God'); found by both methods (rank 2).",
+      "context": [
+        {
+          "verse_uid": "web:JHN.1.1",
+          "verse": 1,
+          "text_display": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        {
+          "verse_uid": "web:JHN.1.2",
+          "verse": 2,
+          "text_display": "The same was in the beginning with God."
+        },
+        {
+          "verse_uid": "web:JHN.1.3",
+          "verse": 3,
+          "text_display": "All things were made through him. Without him, nothing was made that has been made."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "canon_ref": "GEN.1.1",
+      "verse_uid": "web:GEN.1.1",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "In the beginning, God created the heavens and the earth.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.6449
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 9,
+          "score": -8.6327
+        }
+      ],
+      "rrf": 0.0292,
+      "relevance": "Requested reference: the Genesis creation opening, the 'beginning' parallel to John 1:1. Found by both methods (rank 5).",
+      "context": [
+        {
+          "verse_uid": "web:GEN.1.1",
+          "verse": 1,
+          "text_display": "In the beginning, God created the heavens and the earth."
+        },
+        {
+          "verse_uid": "web:GEN.1.2",
+          "verse": 2,
+          "text_display": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "canon_ref": "PRO.8.22",
+      "verse_uid": "web:PRO.8.22",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "“The LORD possessed me in the beginning of his work, before his deeds of old.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.6169
+        },
+        {
+          "query": "In the beginning was the Word",
+          "method": "lexical",
+          "rank": 16,
+          "score": -7.6625
+        }
+      ],
+      "rrf": 0.02649,
+      "relevance": "Requested reference: Wisdom personified as present 'from the beginning' before creation; found by both methods (rank 7).",
+      "context": [
+        {
+          "verse_uid": "web:PRO.8.21",
+          "verse": 21,
+          "text_display": "that I may give wealth to those who love me. I fill their treasuries."
+        },
+        {
+          "verse_uid": "web:PRO.8.22",
+          "verse": 22,
+          "text_display": "“The LORD possessed me in the beginning of his work, before his deeds of old."
+        },
+        {
+          "verse_uid": "web:PRO.8.23",
+          "verse": 23,
+          "text_display": "I was set up from everlasting, from the beginning, before the earth existed."
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "canon_ref": "ISA.40.5",
+      "verse_uid": "web:ISA.40.5",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "The LORD’s glory shall be revealed, and all flesh shall see it together; for the mouth of the LORD has spoken it.”",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Requested reference: 'the mouth of the LORD has spoken' and the glory revealed; a thematic word-of-God parallel, not a lexical match. Not in the search top 15, so kept only because it was requested.",
+      "context": [
+        {
+          "verse_uid": "web:ISA.40.4",
+          "verse": 4,
+          "text_display": "Every valley shall be exalted, and every mountain and hill shall be made low. The uneven shall be made level, and the rough places a plain."
+        },
+        {
+          "verse_uid": "web:ISA.40.5",
+          "verse": 5,
+          "text_display": "The LORD’s glory shall be revealed, and all flesh shall see it together; for the mouth of the LORD has spoken it.”"
+        },
+        {
+          "verse_uid": "web:ISA.40.6",
+          "verse": 6,
+          "text_display": "The voice of one saying, “Cry out!” One said, “What shall I cry?” “All flesh is like grass, and all its glory is like the flower of the field."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "'word' used of the eyewitness tradition ('the word' delivered), not the beginning-Word theme.",
+      "verse_uid": "web:LUK.1.2"
+    },
+    {
+      "reason": "Lexical hit on 'beginning' only, in an ethical command sense (old commandment from the beginning).",
+      "verse_uid": "web:1JN.2.7"
+    },
+    {
+      "reason": "Adjacent to PRO.8.22 but already represented by the requested PRO.8.22; kept to one Proverbs passage to avoid redundancy.",
+      "verse_uid": "web:PRO.8.23"
+    },
+    {
+      "reason": "Narrative of Pentecost ('the beginning'); mentions the start of the Spirit's work, not the Word.",
+      "verse_uid": "web:ACT.11.15"
+    },
+    {
+      "reason": "Vector-only hit on 'whole earth had one language'; not about the beginning or the Word.",
+      "verse_uid": "web:GEN.11.1"
+    },
+    {
+      "reason": "Lexical hit on 'the word came from the LORD' in a narrative; formulaic, not the theme.",
+      "verse_uid": "web:JER.26.1"
+    },
+    {
+      "reason": "Lexical hit on the formula 'the word came to Jeremiah'; formulaic, not the theme.",
+      "verse_uid": "web:JER.27.1"
+    },
+    {
+      "reason": "Lexical hit on the formula 'the word of the LORD came'; formulaic, not the theme.",
+      "verse_uid": "web:JER.49.34"
+    },
+    {
+      "reason": "Vector-only hit on 'the word of God grew and multiplied'; about spread of the message, not the beginning-Word.",
+      "verse_uid": "web:ACT.12.24"
+    },
+    {
+      "reason": "Vector-only hit on David's 'word of the LORD' oracle; not about the beginning.",
+      "verse_uid": "web:2SA.23.2"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Query variants: only one (the original question); no neutral or contrasting variant was run, which is fine for a non-polarized question.",
+    "Service was up: hybrid vector + lexical search. Vector and lexical results were both checked.",
+    "A supplementary lexical-only search ('beginning Word') was run and inspected; it surfaced nothing new beyond the kept passages.",
+    "Kept list is the top 3 search passages (JHN.1.1, 1JN.1.1, JHN.1.2) plus the three requested references (GEN.1.1, PRO.8.22, ISA.40.5), as the instructions require.",
+    "Relevance for the requested references was judged from their listed relevance only; ISA.40.5 is thematic and is weak as a direct parallel."
+  ]
+}

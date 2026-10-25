@@ -1,0 +1,114 @@
+[
+ {
+  "canon_ref": "PSA.44.24",
+  "verse_uid": "oshb_wlc:Ps.44.25",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃",
+  "translation": "Why do you hide your face; do you forget our affliction and our oppression?",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "יְהוָה not in this verse; פָנֶיךָ 'your face'"
+  ],
+  "uncertainties": [
+   "Verb forms are imperfect; rendered as present questions",
+   "verse numbering: Hebrew Ps 44:25 = English 44:24"
+  ],
+  "web_reference": "web:PSA.44.24",
+  "differences_from_web": [
+   "WEB 'Why do you hide your face, and forget'; same sense, mine keeps the question form for both clauses"
+  ],
+  "_web_text": "Why do you hide your face, and forget our affliction and our oppression?",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.13.1",
+  "verse_uid": "oshb_wlc:Ps.13.2",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+  "translation": "How long, O LORD, will you forget me forever? How long will you hide your face from me?",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "יְהוָה rendered 'the LORD'",
+   "נֶצַח 'forever / perpetually'"
+  ],
+  "uncertainties": [
+   "Hebrew Ps 13:2 = English 13:1 (title is Hebrew v.1)"
+  ],
+  "web_reference": "web:PSA.13.1",
+  "differences_from_web": [
+   "WEB places 'forever' as a separate question; mine joins it to the verb"
+  ],
+  "_web_text": "How long, LORD? Will you forget me forever? How long will you hide your face from me?",
+  "_edition": null
+ },
+ {
+  "canon_ref": "PSA.88.14",
+  "verse_uid": "oshb_wlc:Ps.88.15",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "לָ/מָ֣ה יְ֭הוָה תִּזְנַ֣ח נַפְשִׁ֑/י תַּסְתִּ֖יר פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+  "translation": "Why, O LORD, do you cast off my soul? Why do you hide your face from me?",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "יְהוָה rendered 'the LORD'",
+   "נַפְשִׁי 'my soul / my life'"
+  ],
+  "uncertainties": [
+   "Hebrew Ps 88:15 = English 88:14 (title is Hebrew v.1)"
+  ],
+  "web_reference": "web:PSA.88.14",
+  "differences_from_web": [
+   "WEB 'reject'; mine 'cast off' (same sense)"
+  ],
+  "_web_text": "LORD, why do you reject my soul? Why do you hide your face from me?",
+  "_edition": null
+ },
+ {
+  "canon_ref": "JOB.13.24",
+  "verse_uid": "oshb_wlc:Job.13.24",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר וְ/תַחְשְׁבֵ֖/נִי לְ/אוֹיֵ֣ב לָֽ/ךְ׃",
+  "translation": "Why do you hide your face, and regard me as your enemy?",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "וְתַחְשְׁבֵנִי 'and you reckon me'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:JOB.13.24",
+  "differences_from_web": [
+   "WEB 'consider'; no significant difference"
+  ],
+  "_web_text": "Why do you hide your face, and consider me your enemy?",
+  "_edition": null
+ },
+ {
+  "canon_ref": "EXO.3.7",
+  "verse_uid": "oshb_wlc:Exod.3.7",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃",
+  "translation": "And the LORD said, 'I have indeed seen the affliction of my people who are in Egypt, and I have heard their cry because of their taskmasters, for I know his pains.'",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "יְהוָה rendered 'the LORD'",
+   "רָאֹה רָאִיתי infinitive absolute + perfect for emphasis"
+  ],
+  "uncertainties": [
+   "Final suffix on מַכְאֹבָיו is singular 'his' (the people as a collective), rendered 'his pains' literally"
+  ],
+  "web_reference": "web:EXO.3.7",
+  "differences_from_web": [
+   "WEB 'their sorrows'; mine keeps the singular suffix 'his'"
+  ],
+  "_web_text": "The LORD said, “I have surely seen the affliction of my people who are in Egypt, and have heard their cry because of their taskmasters, for I know their sorrows.",
+  "_edition": null
+ }
+]

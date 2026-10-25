@@ -23,5 +23,7 @@ data/
 .claude/settings.local.json
 .claude/worktrees/
 
-# Agent and skill run outputs (example runs are committed explicitly later)
-runs/
+# Agent and skill run outputs; the golden-query example runs (runs/golden-*) are committed
+runs/*
+!runs/golden-*/
+!runs/README.md

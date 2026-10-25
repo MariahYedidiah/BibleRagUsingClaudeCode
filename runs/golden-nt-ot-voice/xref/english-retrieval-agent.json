@@ -1,0 +1,132 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-nt-ot-voice/xref",
+  "corpus": "web",
+  "queries": [
+    "Who is the voice crying in the wilderness?"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6668,
+      "vector_margin": 0.0451,
+      "vector_lexical_overlap_top10": 2,
+      "lists": 2,
+      "lists_with_hits": 2,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "ISA.40.3",
+      "verse_uid": "web:ISA.40.3",
+      "source": "web",
+      "language": "en",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "The voice of one who calls out, “Prepare the way of the LORD in the wilderness! Make a level highway in the desert for our God.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.5882
+        },
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "lexical",
+          "rank": 11,
+          "score": -9.782
+        }
+      ],
+      "rrf": 0.0276,
+      "relevance": "Requested reference. Isaiah 40:3 is the OT source of the 'voice crying in the wilderness' wording; it answers the question by naming the speaker as 'one who calls out'. Found by vector search at rank 4 of the combined list.",
+      "context": [
+        {
+          "verse_uid": "web:ISA.40.2",
+          "verse": 2,
+          "text_display": "“Speak comfortably to Jerusalem, and call out to her that her warfare is accomplished, that her iniquity is pardoned, that she has received of the LORD’s hand double for all her sins.”"
+        },
+        {
+          "verse_uid": "web:ISA.40.3",
+          "verse": 3,
+          "text_display": "The voice of one who calls out, “Prepare the way of the LORD in the wilderness! Make a level highway in the desert for our God."
+        },
+        {
+          "verse_uid": "web:ISA.40.4",
+          "verse": 4,
+          "text_display": "Every valley shall be exalted, and every mountain and hill shall be made low. The uneven shall be made level, and the rough places a plain."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "NT quotation of Isa 40:3; k=1 keeps only the OT source, and this quotation is handled by the cross-reference agent.",
+      "verse_uid": "web:MRK.1.3"
+    },
+    {
+      "reason": "NT quotation of Isa 40:3; k=1 limit, covered by cross-reference links.",
+      "verse_uid": "web:MAT.3.3"
+    },
+    {
+      "reason": "NT quotation of Isa 40:3 with John the Baptist as speaker; k=1 limit.",
+      "verse_uid": "web:JHN.1.23"
+    },
+    {
+      "reason": "NT quotation of Isa 40:3-5; k=1 limit.",
+      "verse_uid": "web:LUK.3.4"
+    },
+    {
+      "reason": "Shares the words 'voice' and 'wilderness' but describes the LORD's voice shaking the wilderness; does not address who cries out.",
+      "verse_uid": "web:PSA.29.8"
+    },
+    {
+      "reason": "Lexical overlap only; a narrative about an unclean spirit crying out, unrelated to the speaker in the wilderness.",
+      "verse_uid": "web:MRK.1.26"
+    },
+    {
+      "reason": "Lexical overlap on 'wilderness'; a lament over the desolate land, not a voice crying.",
+      "verse_uid": "web:JER.9.10"
+    },
+    {
+      "reason": "Rhetorical question about God not hearing a cry; does not identify a voice in the wilderness.",
+      "verse_uid": "web:JOB.27.9"
+    },
+    {
+      "reason": "Lexical overlap on 'voice' and 'crying'; judgement on shepherds, not the wilderness voice.",
+      "verse_uid": "web:JER.25.36"
+    },
+    {
+      "reason": "Lexical overlap on 'crying'; messengers weeping, unrelated to the wilderness voice.",
+      "verse_uid": "web:ISA.33.7"
+    },
+    {
+      "reason": "Lexical overlap on 'crying'; a cry of lament over Moab, unrelated.",
+      "verse_uid": "web:JER.48.4"
+    },
+    {
+      "reason": "Lexical overlap on 'voice' and 'crying'; a promise of joy in the new creation, unrelated.",
+      "verse_uid": "web:ISA.65.19"
+    },
+    {
+      "reason": "Lexical overlap on 'crying'; a prayer for help, not about the wilderness voice.",
+      "verse_uid": "web:PSA.61.1"
+    },
+    {
+      "reason": "Lexical overlap on 'crying' with a loud voice; Jesus' last words on the cross, unrelated.",
+      "verse_uid": "web:LUK.23.46"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "k=1, single query variant. Service up, hybrid search. ISA.40.3 is also a requested reference, so it is kept by reference. The NT quotations of Isa 40:3 (MRK.1.3, MAT.3.3, JHN.1.23, LUK.3.4) answer the question as well and are left to the cross-reference agent under the xref run."
+  ]
+}

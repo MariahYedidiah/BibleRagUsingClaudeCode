@@ -1,0 +1,27 @@
+{
+ "keep": [
+  {
+   "canon_ref": "GEN.1.1",
+   "relevance": "Requested; LXX opening 'in the beginning' parallels Jn 1:1 \u1f10\u03bd \u1f00\u03c1\u03c7\u1fc7"
+  },
+  {
+   "canon_ref": "PRO.8.22",
+   "relevance": "Requested; Wisdom as 'beginning of his ways', background for the Logos/Wisdom idea"
+  },
+  {
+   "canon_ref": "ISA.40.5",
+   "relevance": "Requested; glory of the Lord revealed, linked with Jn 1:14 themes"
+  }
+ ],
+ "discard": [
+  {
+   "verse_uid": "lxx_swete:29.16.4",
+   "reason": "top lexical hit but only generic 'word/beginning' vocabulary; not about the Word as creative principle"
+  }
+ ],
+ "notes": [
+  "Search results mostly generic uses of \u03bb\u03cc\u03b3\u03bf\u03c2/\u1fe5\u1fc6\u03bc\u03b1; no better candidates than the requested refs. All three are alignment mapped.",
+  "PRO.8.22 LXX 'created me' differs from Hebrew 'possessed me'."
+ ],
+ "missing": []
+}

@@ -1,0 +1,68 @@
+{
+  "keep": [
+    {
+      "canon_ref": "GEN.1.1",
+      "relevance": "States the core creation claim: God created the heavens and the earth. Found by both vector and lexical search, query 1 and 2."
+    },
+    {
+      "canon_ref": "GEN.1.26",
+      "relevance": "God's decision to make humankind in his image and give dominion over creatures. Found by both methods, query 2."
+    },
+    {
+      "canon_ref": "GEN.1.27",
+      "relevance": "Narrates God creating humankind in his image, male and female. Found by both methods, query 1 and 2."
+    },
+    {
+      "canon_ref": "GEN.1.25",
+      "relevance": "God makes the land animals and livestock after their kind and sees they are good. Found by both methods, query 2."
+    },
+    {
+      "canon_ref": "GEN.2.3",
+      "relevance": "God blesses and sanctifies the seventh day because he rested from all his work of creation. Found by both methods, query 1 and 2."
+    }
+  ],
+  "discard": [
+    {
+      "reason": "Genealogical formula ('history of the generations'); mentions creation only as a dating phrase.",
+      "verse_uid": "web:GEN.2.4"
+    },
+    {
+      "reason": "Genealogy opening; mentions creating man only in passing.",
+      "verse_uid": "web:GEN.5.1"
+    },
+    {
+      "reason": "Rest on the seventh day; relevant to creation week but less direct than GEN.2.3, which is kept.",
+      "verse_uid": "web:GEN.2.2"
+    },
+    {
+      "reason": "Naming of animals in the Eden narrative, not a statement about creation itself.",
+      "verse_uid": "web:GEN.2.19"
+    },
+    {
+      "reason": "Creation of sun, moon and stars; relevant but cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.16"
+    },
+    {
+      "reason": "Naming of light and darkness and day one; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.5"
+    },
+    {
+      "reason": "Naming of the sky on day two; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.8"
+    },
+    {
+      "reason": "Creation of sea creatures and birds; cut to keep k=5 best passages.",
+      "verse_uid": "web:GEN.1.21"
+    },
+    {
+      "reason": "Creation of land animals; cut in favor of GEN.1.25 which states the same act with the approval.",
+      "verse_uid": "web:GEN.1.24"
+    }
+  ],
+  "notes": [
+    "Service was up (vector + lexical). Search used both query variants with filters testament=OT, book=GEN.",
+    "The neutral and contrasting variants are not polarized here; query 2 contributed GEN.1.26 and GEN.1.25 mainly.",
+    "GEN.1.2 and GEN.1.31 were not in the top 15 and were not kept, so the creation account is only partly represented."
+  ],
+  "missing": []
+}

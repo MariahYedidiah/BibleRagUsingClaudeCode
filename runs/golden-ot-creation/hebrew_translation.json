@@ -1,0 +1,111 @@
+[
+ {
+  "canon_ref": "GEN.1.1",
+  "verse_uid": "oshb_wlc:Gen.1.1",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+  "translation": "In the beginning God created the heavens and the earth.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "Hebrew has the verb ברא (created) with God as sole subject"
+  ],
+  "uncertainties": [
+   "Could be read 'When God began to create...' (construct reading of בראשית)"
+  ],
+  "web_reference": "web:GEN.1.1",
+  "differences_from_web": [
+   "WEB adds a comma after 'In the beginning'; no sense difference"
+  ],
+  "_web_text": "In the beginning, God created the heavens and the earth.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.3",
+  "verse_uid": "oshb_wlc:Gen.1.3",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃",
+  "translation": "And God said, \"Let there be light,\" and there was light.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "אלהים rendered 'God'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.3",
+  "differences_from_web": [
+   "Hebrew begins with 'And'; WEB omits it"
+  ],
+  "_web_text": "God said, “Let there be light,” and there was light.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.26",
+  "verse_uid": "oshb_wlc:Gen.1.26",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃",
+  "translation": "And God said, \"Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the birds of the heavens, the livestock, all the earth, and every creeping thing that creeps on the earth.\"",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "אדם rendered 'humankind'",
+   "נעשה 'let us make': plural cohortive"
+  ],
+  "uncertainties": [
+   "The plural 'us' is variously explained (divine council, plural of majesty, deliberation)"
+  ],
+  "web_reference": "web:GEN.1.26",
+  "differences_from_web": [
+   "WEB has 'man' where I have 'humankind'",
+   "WEB 'sky' vs my 'heavens'"
+  ],
+  "_web_text": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.1.27",
+  "verse_uid": "oshb_wlc:Gen.1.27",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+  "translation": "And God created humankind in his image; in the image of God he created him; male and female he created them.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ברא 'created' repeated three times"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:GEN.1.27",
+  "differences_from_web": [
+   "WEB 'man' vs my 'humankind'",
+   "WEB omits initial 'And'"
+  ],
+  "_web_text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "GEN.2.3",
+  "verse_uid": "oshb_wlc:Gen.2.3",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ",
+  "translation": "And God blessed the seventh day and made it holy, because on it he rested from all his work that God had created to make.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "אשר ברא אלהים לעשות: 'that God created, to make' (literally)"
+  ],
+  "uncertainties": [
+   "The final phrase is idiomatic: 'which God had created and made' or 'in creating'"
+  ],
+  "web_reference": "web:GEN.2.3",
+  "differences_from_web": [
+   "WEB 'work of creation which he had done' smooths the Hebrew 'created to make'"
+  ],
+  "_web_text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.",
+  "_edition": null
+ }
+]

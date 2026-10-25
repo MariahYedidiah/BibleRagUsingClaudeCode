@@ -1,0 +1,467 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-polarized-suffering/xref",
+  "corpus": "lxx_swete",
+  "queries": [
+    "Why doesn't God care about human suffering?"
+  ],
+  "lexical_queries": [
+    "θλῖψις θλίψει θλίψεως θλίψιν ταπείνωσιν πόνον",
+    "ἐπίβλεψον ἐγκατέλιπεσ ἐγκαταλείψει ἐλέησον"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6137,
+      "vector_margin": 0.0131,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 4,
+      "lists_with_hits": 3,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.22.1",
+      "verse_uid": "lxx_swete:27.21.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Ὁ θεὸς ὁ θεός μου, πρόσχες μοι· ἳνα τί ἐγκατέλιπές με; μακρὰν ἀπὸ τῆς σωτηρίας μου οἱ λόγοι τῶν παραπτωμάτων",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Cry of abandonment, 'why have you forsaken me': the voice of the sufferer who feels God does not care",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.21.1",
+          "verse": 1,
+          "text_display": "Εἰς τὸ τέλος, ὑπὲρ τῆς ἀντιλήμψεως τῆς ἑωθινῆς· ψαλμὸς τῷ Δαυείδ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.21.2",
+          "verse": 2,
+          "text_display": "Ὁ θεὸς ὁ θεός μου, πρόσχες μοι· ἳνα τί ἐγκατέλιπές με; μακρὰν ἀπὸ τῆς σωτηρίας μου οἱ λόγοι τῶν παραπτωμάτων"
+        },
+        {
+          "verse_uid": "lxx_swete:27.21.3",
+          "verse": 3,
+          "text_display": "ὁ θεός μου, κεκράξομαι ἡμέρας πρὸς σὲ καὶ οὐκ εἰσακούσῃ, καὶ νυκτός, καὶ οὐκ εἰς ἄνοιαν ἐμοί."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.22.1",
+        "verse_uid": "lxx_swete:27.21.2",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "Ὁ θεὸς ὁ θεός μου, πρόσχες μοι· ἳνα τί ἐγκατέλιπές με; μακρὰν ἀπὸ τῆς σωτηρίας μου οἱ λόγοι τῶν παραπτωμάτων",
+        "translation": "O God, my God, attend to me; why have you forsaken me? Far from my salvation are the words of my transgressions.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "LXX has 'attend to me' (πρόσχες μοι), absent from the Hebrew/WEB"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.22.1",
+        "differences_from_web": [
+          "LXX has 'attend to me' (πρόσχες μοι), absent from the Hebrew/WEB",
+          "LXX 'salvation' and 'transgressions' where WEB has 'helping me' and 'groaning'",
+          "Swete numbers this Ps 21:2 (Greek numbering)"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.55.22",
+      "verse_uid": "lxx_swete:27.54.23",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἐπίριψον ἐπὶ Κύριον τὴν μέριμνάν σου, καὶ αὐτός σε διαθρέψει· οὐ δώσει εἰς τὸν αἰῶνα σάλον τῷ δικαίῳ.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Counter-evidence: cast your care on the Lord, he will nourish",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.54.22",
+          "verse": 22,
+          "text_display": "διεμερίσθησαν ἀπὸ ὀργῆς τοῦ προσώπου αὐτοῦ, καὶ ἤγγισεν ἡ καρδία αὐτοῦ· ἡπαλύνθησαν οἱ λόγοι αὐτοῦ ὑπέρ ἔλαιον, καὶ αὐτοί εἰσιν βολίδες."
+        },
+        {
+          "verse_uid": "lxx_swete:27.54.23",
+          "verse": 23,
+          "text_display": "ἐπίριψον ἐπὶ Κύριον τὴν μέριμνάν σου, καὶ αὐτός σε διαθρέψει· οὐ δώσει εἰς τὸν αἰῶνα σάλον τῷ δικαίῳ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.54.24",
+          "verse": 24,
+          "text_display": "σὺ δέ, ὁ θεός, κατάξεις αὐτοὺς εἰς φρέαρ διαφθορᾶς· ἄνδρες αἱμάτων καὶ δολιότητος οὐ μὴ ἡμισεύσωσιν τὰς ἡμέρας αὐτῶν· ἐγὼ δὲ ἐλπιῶ ἐπὶ σέ, Κύριε."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.55.22",
+        "verse_uid": "lxx_swete:27.54.23",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἐπίριψον ἐπὶ Κύριον τὴν μέριμνάν σου, καὶ αὐτός σε διαθρέψει· οὐ δώσει εἰς τὸν αἰῶνα σάλον τῷ δικαίῳ.",
+        "translation": "Cast your care upon the Lord, and he will nourish you; he will not give the righteous shaking forever.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "LXX 'care' (μέριμνα) and 'nourish' (διαθρέψει) for WEB 'burden' and 'sustain'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.55.22",
+        "differences_from_web": [
+          "LXX 'care' (μέριμνα) and 'nourish' (διαθρέψει) for WEB 'burden' and 'sustain'",
+          "Swete numbers this Ps 54:23"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "PSA.37.5",
+      "verse_uid": "lxx_swete:27.36.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἀποκάλυψον πρὸς Κύριον τὴν ὁδόν σου καὶ ἔλπισον ἐπʼ αὐτόν, καὶ αὐτὸς ποιήσει·",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Counter-evidence: entrust your way to the Lord, he will act",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.36.4",
+          "verse": 4,
+          "text_display": "κατατρύφησον τοῦ κυρίου, καὶ δώσει σοι τὰ αἰτήματα τῆς καρδίας σου."
+        },
+        {
+          "verse_uid": "lxx_swete:27.36.5",
+          "verse": 5,
+          "text_display": "ἀποκάλυψον πρὸς Κύριον τὴν ὁδόν σου καὶ ἔλπισον ἐπʼ αὐτόν, καὶ αὐτὸς ποιήσει·"
+        },
+        {
+          "verse_uid": "lxx_swete:27.36.6",
+          "verse": 6,
+          "text_display": "καὶ ἐξοίσει ὡς φῶς τὴν δικαιοσύνην σου, καὶ τὸ κρίμα σου ὡς μεσημβρίαν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.37.5",
+        "verse_uid": "lxx_swete:27.36.5",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἀποκάλυψον πρὸς Κύριον τὴν ὁδόν σου καὶ ἔλπισον ἐπʼ αὐτόν, καὶ αὐτὸς ποιήσει·",
+        "translation": "Reveal your way to the Lord and hope in him, and he will act.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "LXX 'reveal' (ἀποκάλυψον) where WEB has 'commit'; no 'also'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.37.5",
+        "differences_from_web": [
+          "LXX 'reveal' (ἀποκάλυψον) where WEB has 'commit'; no 'also'",
+          "Swete numbers this Ps 36:5"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "PSA.56.3",
+      "verse_uid": "lxx_swete:27.55.4",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "φοβηθήσονται, ἐγὼ δὲ ἐπὶ σοὶ ἐλπιῶ.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Trust amid fear (LXX: third-person 'they will be afraid')",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.55.3",
+          "verse": 3,
+          "text_display": "κατεπάτησάν με οἱ ἐχθροί μου ὅλην τὴν ἡμέραν ἀπὸ ὕψους ἡμέρας· ὅτι πολλοὶ οἱ πολεμοῦντές με"
+        },
+        {
+          "verse_uid": "lxx_swete:27.55.4",
+          "verse": 4,
+          "text_display": "φοβηθήσονται, ἐγὼ δὲ ἐπὶ σοὶ ἐλπιῶ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.55.5",
+          "verse": 5,
+          "text_display": "ἐν τῷ θεῷ ἐπαινέσω τοὺς λόγους μου ὅλην τὴν ἡμέραν· ἐν τῷ θεῷ ἤλπισα, οὐ φοβηθήσομαι τί ποιήσει μοι σάρξ."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.56.3",
+        "verse_uid": "lxx_swete:27.55.4",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "φοβηθήσονται, ἐγὼ δὲ ἐπὶ σοὶ ἐλπιῶ.",
+        "translation": "They will be afraid, but I will hope in you.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "LXX 'they will be afraid' (3rd person plural) where WEB has 'when I am afraid'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.56.3",
+        "differences_from_web": [
+          "LXX 'they will be afraid' (3rd person plural) where WEB has 'when I am afraid'",
+          "Swete numbers this Ps 55:4"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "PSA.34.15",
+      "verse_uid": "lxx_swete:27.33.16",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ὅτι ὀφθαλμοὶ Κυρίου ἐπὶ δικαίους. καὶ ὦτα αὐτοῦ εἰς δέησιν αὐτῶν·",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "God's eyes and ears attend the righteous and their supplication",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.33.15",
+          "verse": 15,
+          "text_display": "ἔκκλινον ἀπὸ κακοῦ καὶ ποίησον ἀγαθόν, ζήτησον εἰρήνην καὶ δίωξον αὐτήν."
+        },
+        {
+          "verse_uid": "lxx_swete:27.33.16",
+          "verse": 16,
+          "text_display": "ὅτι ὀφθαλμοὶ Κυρίου ἐπὶ δικαίους. καὶ ὦτα αὐτοῦ εἰς δέησιν αὐτῶν·"
+        },
+        {
+          "verse_uid": "lxx_swete:27.33.17",
+          "verse": 17,
+          "text_display": "πρόσωπον δὲ Κυρίου ἐπὶ ποιοῦντας κακά, τοῦ ἐξολεθρεῦσαι ἐκ γῆς τὸ μνημόσυνον αὐτῶν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.34.15",
+        "verse_uid": "lxx_swete:27.33.16",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ὅτι ὀφθαλμοὶ Κυρίου ἐπὶ δικαίους. καὶ ὦτα αὐτοῦ εἰς δέησιν αὐτῶν·",
+        "translation": "For the eyes of the Lord are on the righteous, and his ears are open to their supplication.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "Sense close to WEB; Swete numbers this Ps 33:16"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.34.15",
+        "differences_from_web": [
+          "Sense close to WEB; Swete numbers this Ps 33:16"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "canon_ref": "PSA.27.13",
+      "verse_uid": "lxx_swete:27.26.13",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "πιστεύσω τοῦ ἰδεῖν τὰ ἀγαθὰ Κυρίου ἐν γῇ ζώντων.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Hope of seeing the Lord's goodness in the land of the living",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.26.12",
+          "verse": 12,
+          "text_display": "μὴ παραδῷς με εἰς ψυχὰς θλιβόντων με. ὅτι ἐπανέστησάν μοι μάρτυρες ἄδικοι, καὶ ἐψεύσατο ἡ ἀδικία ἑαυτῇ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.26.13",
+          "verse": 13,
+          "text_display": "πιστεύσω τοῦ ἰδεῖν τὰ ἀγαθὰ Κυρίου ἐν γῇ ζώντων."
+        },
+        {
+          "verse_uid": "lxx_swete:27.26.14",
+          "verse": 14,
+          "text_display": "ὑπόμεινον τὸν κύριον· ἀνδρίζου, καὶ κραταιούσθω ἡ καρδία σου, καὶ ὑπόμεινον τὸν κύριον."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.27.13",
+        "verse_uid": "lxx_swete:27.26.13",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "πιστεύσω τοῦ ἰδεῖν τὰ ἀγαθὰ Κυρίου ἐν γῇ ζώντων.",
+        "translation": "I believe that I shall see the good things of the Lord in the land of the living.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "LXX 'I believe to see' where WEB has 'I am still confident'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.27.13",
+        "differences_from_web": [
+          "LXX 'I believe to see' where WEB has 'I am still confident'",
+          "Swete numbers this Ps 26:13"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "canon_ref": "PSA.142.4",
+      "verse_uid": "lxx_swete:27.141.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "κατενόουν εἰς τὰ δεξιὰ καὶ ἐπέβλεπον, ὅτι οὐκ ἦν ὁ ἐπιγινώσκων με· ἀπώλετο φυγὴ ἀπʼ ἐμοῦ, καὶ οὐκ ἔστιν ὁ ἐκζητῶν τὴν ψυχήν μοσ.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Complaint that no one cares for the psalmist's soul",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.141.4",
+          "verse": 4,
+          "text_display": "ἐν τῷ ἐκλείπειν ἐξ ἐμοῦ τὸ πνεῦμά μου, καὶ σὺ ἔγνως τὰς τρίβους μου· ἐν ὁδῷ ταύτῃ ᾗ ἐπορευόμην ἔκρυψάν μοι παγίδα."
+        },
+        {
+          "verse_uid": "lxx_swete:27.141.5",
+          "verse": 5,
+          "text_display": "κατενόουν εἰς τὰ δεξιὰ καὶ ἐπέβλεπον, ὅτι οὐκ ἦν ὁ ἐπιγινώσκων με· ἀπώλετο φυγὴ ἀπʼ ἐμοῦ, καὶ οὐκ ἔστιν ὁ ἐκζητῶν τὴν ψυχήν μοσ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.141.6",
+          "verse": 6,
+          "text_display": "πρὸς σέ, Κύρω, ἐκέκραξα, καὶ εἶπα Σὺ εἶ ἡ ἐλπίς μου, μερίς μου ἐν γῇ ζώντων."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.142.4",
+        "verse_uid": "lxx_swete:27.141.5",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "κατενόουν εἰς τὰ δεξιὰ καὶ ἐπέβλεπον, ὅτι οὐκ ἦν ὁ ἐπιγινώσκων με· ἀπώλετο φυγὴ ἀπʼ ἐμοῦ, καὶ οὐκ ἔστιν ὁ ἐκζητῶν τὴν ψυχήν μοσ.",
+        "translation": "I looked to the right and watched, for there was no one who recognized me; flight has perished from me, and there is no one seeking out my soul.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐπέβλεπον imperfect: 'was watching'"
+        ],
+        "uncertainties": [
+          "final word of the Greek text appears in the store with a damaged ending (μοσ); read as 'my soul'"
+        ],
+        "web_reference": "web:PSA.142.4",
+        "differences_from_web": [
+          "ἐπέβλεπον imperfect: 'was watching'",
+          "LXX 'no one who recognized me' where WEB has 'no one who is concerned for me'",
+          "Swete numbers this Ps 141:5"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:27.93.14",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.43.22",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:48.28.13",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.24.16",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:51.3.36",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:48.28.10",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.118.132",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:41.3.9",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:11.1.6",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.85.16",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.76.8",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:48.26.16",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.122.3",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:29.15.11",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:27.7.15",
+      "reason": "lexical hit only; not a direct statement on God's care or neglect of suffering"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Search was hybrid (service up). All kept verses are Psalms; Swete uses Greek psalm numbering (e.g. Swete Ps 21:2 = English Ps 22:1), all mapped to the requested canon_refs.",
+    "Kept verses are the leader's requested references; search results beyond them were weaker.",
+    "Ps 22:1 LXX differs from the Hebrew in the second half (transgressions/salvation vs groaning/helping); Ps 56:3 LXX is third person plural."
+  ]
+}

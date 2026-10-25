@@ -1,0 +1,15 @@
+{"query":"What does Genesis say about creation?","language":"he","corpus":"oshb_wlc",
+"terms":[
+{"term":"בראשית","gloss":"in the beginning","hits":5},
+{"term":"ברא","gloss":"he created","hits":17},
+{"term":"ויברא","gloss":"and he created","hits":2},
+{"term":"השמים","gloss":"the heavens","hits":223},
+{"term":"הארץ","gloss":"the earth","hits":852},
+{"term":"אור","gloss":"light","hits":55},
+{"term":"בצלמנו","gloss":"in our image","hits":1},
+{"term":"צלם","gloss":"image","hits":3},
+{"term":"רקיע","gloss":"firmament","hits":3},
+{"term":"וישבת","gloss":"and he rested","hits":16},
+{"term":"ויצר","gloss":"and he formed","hits":18}],
+"lexical_queries":["בראשית ברא ויברא","בצלמנו צלם רקיע וישבת ויצר אור"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":["ברא in other books too; filter GEN"]}

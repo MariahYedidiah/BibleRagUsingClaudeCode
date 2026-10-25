@@ -1,0 +1,523 @@
+{
+  "queries": [
+    "the Word became flesh and dwelt among us",
+    "his name is called the Word of God"
+  ],
+  "lexical_queries": [
+    "σὰρξ ἐγένετο ἐσκήνωσεν",
+    "Λόγος Θεοῦ βεβαμμένον κέκληται"
+  ],
+  "filters": {
+    "source": [
+      "sblgnt"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.03279,
+      "verse_uid": "sblgnt:REV.19.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "REV",
+      "book_name": "Revelation",
+      "chapter": 19,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "REV.19.13",
+      "canon_ref": "REV.19.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6329
+        },
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 1,
+          "score": -35.4626
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.03016,
+      "verse_uid": "sblgnt:LUK.3.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 3,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "LUK.3.6",
+      "canon_ref": "LUK.3.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 10,
+          "score": 0.569
+        },
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 3,
+          "score": -9.5967
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.02921,
+      "verse_uid": "sblgnt:2TI.2.11",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "2TI",
+      "book_name": "2 Timothy",
+      "chapter": 2,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "2TI.2.11",
+      "canon_ref": "2TI.2.11",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πιστὸς ὁ λόγος· εἰ γὰρ συναπεθάνομεν, καὶ συζήσομεν·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6575
+        },
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 18,
+          "score": -7.5747
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.02895,
+      "verse_uid": "sblgnt:1TI.4.5",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 4,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "1TI.4.5",
+      "canon_ref": "1TI.4.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἁγιάζεται γὰρ διὰ λόγου θεοῦ καὶ ἐντεύξεως.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5919
+        },
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6222
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02762,
+      "verse_uid": "sblgnt:ACT.12.24",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 12,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "ACT.12.24",
+      "canon_ref": "ACT.12.24",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ὁ δὲ λόγος τοῦ ⸂ θεοῦ ⸃ ηὔξανεν καὶ ἐπληθύνετο.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 27,
+          "score": 0.5795
+        },
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.9361
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.02743,
+      "verse_uid": "sblgnt:ACT.19.20",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 19,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "ACT.19.20",
+      "canon_ref": "ACT.19.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὕτως κατὰ κράτος ⸂ τοῦ κυρίου ὁ λόγος ⸃ ηὔξανεν καὶ ἴσχυεν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.6201
+        },
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 20,
+          "score": -7.1911
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.02705,
+      "verse_uid": "sblgnt:ACT.2.26",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 2,
+      "verse": 26,
+      "edition": "",
+      "source_ref": "ACT.2.26",
+      "canon_ref": "ACT.2.26",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "διὰ τοῦτο ηὐφράνθη ⸂ ἡ καρδία μου ⸃ καὶ ἠγαλλιάσατο ἡ γλῶσσά μου, ἔτι δὲ καὶ ἡ σάρξ μου κατασκηνώσει ἐπ᾽ ἐλπίδι·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.6056
+        },
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 16,
+          "score": -7.2697
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.02684,
+      "verse_uid": "sblgnt:COL.1.8",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "COL",
+      "book_name": "Colossians",
+      "chapter": 1,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "COL.1.8",
+      "canon_ref": "COL.1.8",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ὁ καὶ δηλώσας ἡμῖν τὴν ὑμῶν ἀγάπην ἐν πνεύματι.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6114
+        },
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.5515
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.02506,
+      "verse_uid": "sblgnt:JHN.1.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "JHN.1.6",
+      "canon_ref": "JHN.1.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 13,
+          "score": 0.5658
+        },
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 28,
+          "score": -6.0744
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:JHN.1.14",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "JHN",
+      "book_name": "John",
+      "chapter": 1,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "JHN.1.14",
+      "canon_ref": "JHN.1.14",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -20.8613
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:ACT.6.4",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ACT",
+      "book_name": "Acts",
+      "chapter": 6,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "ACT.6.4",
+      "canon_ref": "ACT.6.4",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἡμεῖς δὲ τῇ προσευχῇ καὶ τῇ διακονίᾳ τοῦ λόγου προσκαρτερήσομεν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6575
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:1CO.15.39",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 15,
+      "verse": 39,
+      "edition": "",
+      "source_ref": "1CO.15.39",
+      "canon_ref": "1CO.15.39",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οὐ πᾶσα σὰρξ ἡ αὐτὴ σάρξ, ἀλλὰ ἄλλη μὲν ἀνθρώπων, ἄλλη δὲ σὰρξ κτηνῶν, ἄλλη δὲ ⸂ σὰρξ πτηνῶν ⸃, ἄλλη δὲ ⸂ ἰχθύων ⸃.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.14
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:GAL.5.25",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "GAL",
+      "book_name": "Galatians",
+      "chapter": 5,
+      "verse": 25,
+      "edition": "",
+      "source_ref": "GAL.5.25",
+      "canon_ref": "GAL.5.25",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἰ ζῶμεν πνεύματι, πνεύματι καὶ στοιχῶμεν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "the Word became flesh and dwelt among us",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6372
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:MAT.1.21",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 1,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "MAT.1.21",
+      "canon_ref": "MAT.1.21",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τέξεται δὲ υἱὸν καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν, αὐτὸς γὰρ σώσει τὸν λαὸν αὐτοῦ ἀπὸ τῶν ἁμαρτιῶν αὐτῶν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5933
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01587,
+      "verse_uid": "sblgnt:1CO.7.18",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 7,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "1CO.7.18",
+      "canon_ref": "1CO.7.18",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "περιτετμημένος τις ἐκλήθη; μὴ ἐπισπάσθω· ἐν ἀκροβυστίᾳ ⸂ κέκληταί τις ⸃ ; μὴ περιτεμνέσθω.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.5341
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6575,
+    "vector_margin": 0.0,
+    "vector_lexical_overlap_top10": 2,
+    "lists": 6,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 2
+  }
+}

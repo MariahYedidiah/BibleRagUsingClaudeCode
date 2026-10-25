@@ -1,0 +1,22 @@
+{"query":"Why doesn't God care about human suffering?","language":"he","corpus":"oshb_wlc",
+"terms":[
+{"term":"רחום","gloss":"compassionate","hits":12},
+{"term":"חנון","gloss":"gracious","hits":19},
+{"term":"רחמיו","gloss":"his compassion","hits":5},
+{"term":"רחמים","gloss":"compassion","hits":4},
+{"term":"עני","gloss":"afflicted, poor","hits":50},
+{"term":"עניי","gloss":"my affliction / afflicted of","hits":15},
+{"term":"ענינו","gloss":"our affliction","hits":4},
+{"term":"צרה","gloss":"distress","hits":38},
+{"term":"בצר","gloss":"in distress","hits":22},
+{"term":"צעקה","gloss":"cry","hits":11},
+{"term":"זעקה","gloss":"cry","hits":6},
+{"term":"שכח","gloss":"forgot","hits":4},
+{"term":"תשכחני","gloss":"you forget me","hits":1},
+{"term":"תסתיר","gloss":"you hide","hits":5},
+{"term":"דמעתי","gloss":"my tears","hits":4},
+{"term":"דמעה","gloss":"tear","hits":9}
+],
+"lexical_queries":["רחום חנון רחמיו רחמים","עני עניי ענינו צרה בצר צעקה זעקה","שכח תשכחני תסתיר דמעתי דמעה"],
+"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,
+"notes":["צרה and עני can be homographs/common words; צר can mean enemy so omitted"]}

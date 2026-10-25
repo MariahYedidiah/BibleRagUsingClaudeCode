@@ -16,6 +16,8 @@
     bible-rag run confidence ID                      evidence confidence from the specialist results
     bible-rag run answer ID                          synthesis.json -> answer.json + answer.md, validated
     bible-rag run show ID                            trace and files (demo mode)
+    bible-rag eval retrieval [--k 10] [--out FILE]   recall per corpus on eval/retrieval_cases.json (service)
+    bible-rag eval run ID --golden NAME              property checks of a run (eval/golden_queries.json)
 
 Errors print {"error": ...} and exit non-zero: 1 for a bad request, 2 if the service is down.
 `validate` exits 1 when the answer is invalid.
@@ -166,7 +168,8 @@ def pack(args):
     if args.pack_kind == "specialist":
         obj = results.pack_specialist(
             args.agent, args.run, SPECIALIST_CORPUS[args.agent], args.search,
-            results.load_json(args.selection), store, args.translations, args.context)
+            results.load_json(args.selection), store, args.translations, args.context,
+            csv(args.references) or ())
         check = validator.validate_specialist(obj, store)
     else:
         adjust = results.load_json(args.adjust) if args.adjust else None
@@ -215,6 +218,27 @@ def run(args):
             (d / "answer.md").write_text(runs.render(answer), encoding="utf-8")
         emit({"answer": str(d / "answer.json"), "markdown": str(d / "answer.md") if result["valid"] else None,
               **result}, 0 if result["valid"] else 1)
+
+
+def evaluate(args):
+    from bible_rag import evaluate as ev
+    from bible_rag.store import VerseStore
+
+    store = VerseStore()
+    if args.eval_cmd == "retrieval":
+        call(args.port, "/health")  # fail fast with the start-the-service message
+        out = ev.retrieval(ev.load_cases("retrieval_cases.json")["cases"],
+                           lambda request: call(args.port, "/search", request), store, args.k)
+        if args.out:
+            from bible_rag.runs import save
+
+            save(out, args.out)
+        emit(out["summary"])
+    golden = {g["name"]: g for g in ev.load_cases("golden_queries.json")["queries"]}
+    if args.golden not in golden:
+        emit({"error": f"unknown golden query {args.golden}; one of {', '.join(golden)}"}, 1)
+    result = ev.check_run(args.id, golden[args.golden], store)
+    emit(result, 0 if result["passed"] else 1)
 
 
 def serve(args):
@@ -309,6 +333,8 @@ def parser():
     ps.add_argument("--selection", required=True, help="keep/discard JSON written by the agent")
     ps.add_argument("--translations", help="translation skill output for the kept verses")
     ps.add_argument("--context", type=int, default=0)
+    ps.add_argument("--references", help="the delegation's references, comma-separated (canon_refs); "
+                                         "the only verses that may be kept without a search hit")
     ps.add_argument("--out", required=True)
     px = pk_sub.add_parser("xrefs")
     px.add_argument("refs", nargs="+", help="NT canon_refs to look up")
@@ -318,6 +344,16 @@ def parser():
     px.add_argument("--limit", type=int, default=20)
     px.add_argument("--adjust", help="JSON with downgrades and notes written by the agent")
     px.add_argument("--out", required=True)
+
+    e = sub.add_parser("eval", help="phase 7 evaluation: retrieval recall and golden-query runs")
+    e_sub = e.add_subparsers(dest="eval_cmd", required=True)
+    er = e_sub.add_parser("retrieval")
+    er.add_argument("--k", type=int, default=10)
+    er.add_argument("--out", help="also write every row to this JSON file")
+    er.add_argument("--port", type=int, default=SERVICE_PORT)
+    eg = e_sub.add_parser("run")
+    eg.add_argument("id")
+    eg.add_argument("--golden", required=True)
     return p
 
 
@@ -335,6 +371,8 @@ def main(argv=None):
             return pack(args)
         if args.command == "run":
             return run(args)
+        if args.command == "eval":
+            return evaluate(args)
         emit({"search": search, "verse": verse, "xref": xref, "terms": terms,
               "draft": draft}[args.command](args))
     except ServiceDown as e:

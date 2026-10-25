@@ -1,0 +1,434 @@
+{
+  "agent": "greek-new-testament-agent",
+  "run_id": "golden-nt-word",
+  "corpus": "sblgnt",
+  "queries": [
+    "In the beginning was the Word",
+    "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+    "the Word became flesh and dwelt among us",
+    "his name is called the Word of God"
+  ],
+  "lexical_queries": [
+    "ἀρχῇ λόγος ἦν",
+    "λόγος σάρξ ἐγένετο",
+    "λόγον λόγῳ ἀρχή",
+    "σὰρξ ἐγένετο ἐσκήνωσεν",
+    "Λόγος Θεοῦ βεβαμμένον κέκληται"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.7681,
+      "vector_margin": 0.1332,
+      "vector_lexical_overlap_top10": 4,
+      "lists": 7,
+      "lists_with_hits": 5,
+      "lists_containing_top_result": 5
+    },
+    {
+      "top_vector_score": 0.6575,
+      "vector_margin": 0.0,
+      "vector_lexical_overlap_top10": 2,
+      "lists": 6,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "JHN.1.1",
+      "verse_uid": "sblgnt:JHN.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.671
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.7681
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -23.308
+        },
+        {
+          "query": "λόγος σάρξ ἐγένετο",
+          "method": "lexical",
+          "rank": 8,
+          "score": -9.2743
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 27,
+          "score": -7.4358
+        }
+      ],
+      "rrf": 0.07538,
+      "relevance": "Direct match: in the beginning was the Word, with God, was God.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:JHN.1.1",
+          "verse": 1,
+          "text_display": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος."
+        },
+        {
+          "verse_uid": "sblgnt:JHN.1.2",
+          "verse": 2,
+          "text_display": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "JHN.1.1",
+        "verse_uid": "sblgnt:JHN.1.1",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+        "translation": "In the beginning the Word was, and the Word was with God, and the Word was God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἦν: imperfect, continuing existence",
+          "θεὸς ἦν ὁ λόγος: anarthrous θεός as predicate"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:JHN.1.1",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "JHN.1.2",
+      "verse_uid": "sblgnt:JHN.1.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6254
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.6082
+        },
+        {
+          "query": "ἀρχῇ λόγος ἦν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -15.0101
+        },
+        {
+          "query": "λόγον λόγῳ ἀρχή",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.4736
+        }
+      ],
+      "rrf": 0.06281,
+      "relevance": "Continues the prologue: the Word was in the beginning with God.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:JHN.1.1",
+          "verse": 1,
+          "text_display": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος."
+        },
+        {
+          "verse_uid": "sblgnt:JHN.1.2",
+          "verse": 2,
+          "text_display": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν."
+        },
+        {
+          "verse_uid": "sblgnt:JHN.1.3",
+          "verse": 3,
+          "text_display": "πάντα δι᾽ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν"
+        }
+      ],
+      "translation": {
+        "canon_ref": "JHN.1.2",
+        "verse_uid": "sblgnt:JHN.1.2",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+        "translation": "This one was in the beginning with God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "οὗτος: 'this one', referring to the Word"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:JHN.1.2",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "JHN.1.14",
+      "verse_uid": "sblgnt:JHN.1.14",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "σὰρξ ἐγένετο ἐσκήνωσεν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -20.8613
+        }
+      ],
+      "rrf": 0.01639,
+      "relevance": "The Word became flesh; not in the top-15 search hits but the second half of the query and same prologue.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:JHN.1.13",
+          "verse": 13,
+          "text_display": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ᾽ ἐκ θεοῦ ἐγεννήθησαν."
+        },
+        {
+          "verse_uid": "sblgnt:JHN.1.14",
+          "verse": 14,
+          "text_display": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·"
+        },
+        {
+          "verse_uid": "sblgnt:JHN.1.15",
+          "verse": 15,
+          "text_display": "( Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· Οὗτος ἦν ⸂ ὃν εἶπον ⸃· Ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν· )"
+        }
+      ],
+      "translation": {
+        "canon_ref": "JHN.1.14",
+        "verse_uid": "sblgnt:JHN.1.14",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+        "translation": "And the Word became flesh and dwelt among us, and we beheld his glory, glory as of an only-begotten from a father, full of grace and truth.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐσκήνωσεν: 'pitched his tent / tabernacled'",
+          "μονογενοῦς: 'only-begotten / unique'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:JHN.1.14",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "1JN.1.1",
+      "verse_uid": "sblgnt:1JN.1.1",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.5913
+        },
+        {
+          "query": "In the beginning was the Word, and the Word was with God, and the Word was God; the Word became flesh",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6349
+        }
+      ],
+      "rrf": 0.03105,
+      "relevance": "'from the beginning' and 'the Word of life'; parallel to the John prologue.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:1JN.1.1",
+          "verse": 1,
+          "text_display": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—"
+        },
+        {
+          "verse_uid": "sblgnt:1JN.1.2",
+          "verse": 2,
+          "text_display": "καὶ ἡ ζωὴ ἐφανερώθη, καὶ ἑωράκαμεν καὶ μαρτυροῦμεν καὶ ἀπαγγέλλομεν ὑμῖν τὴν ζωὴν τὴν αἰώνιον ἥτις ἦν πρὸς τὸν πατέρα καὶ ἐφανερώθη ἡμῖν—"
+        }
+      ],
+      "translation": {
+        "canon_ref": "1JN.1.1",
+        "verse_uid": "sblgnt:1JN.1.1",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—",
+        "translation": "What was from the beginning, what we have heard, what we have seen with our eyes, what we beheld and our hands handled, concerning the Word of life—",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "neuter relative ὅ repeated; sentence continues in the next verse"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:1JN.1.1",
+        "differences_from_web": []
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "REV.19.13",
+      "verse_uid": "sblgnt:REV.19.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "his name is called the Word of God",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6329
+        },
+        {
+          "query": "Λόγος Θεοῦ βεβαμμένον κέκληται",
+          "method": "lexical",
+          "rank": 1,
+          "score": -35.4626
+        }
+      ],
+      "rrf": 0.03279,
+      "relevance": "'The Word of God' as a name of the rider; related title.",
+      "context": [
+        {
+          "verse_uid": "sblgnt:REV.19.12",
+          "verse": 12,
+          "text_display": "οἱ δὲ ὀφθαλμοὶ ⸂ αὐτοῦ ⸃ φλὸξ πυρός, καὶ ἐπὶ τὴν κεφαλὴν αὐτοῦ διαδήματα πολλά, ⸂ ἔχων ⸃ ὄνομα γεγραμμένον ὃ οὐδεὶς οἶδεν εἰ μὴ αὐτός,"
+        },
+        {
+          "verse_uid": "sblgnt:REV.19.13",
+          "verse": 13,
+          "text_display": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ."
+        },
+        {
+          "verse_uid": "sblgnt:REV.19.14",
+          "verse": 14,
+          "text_display": "καὶ τὰ στρατεύματα ⸂ τὰ ⸃ ἐν τῷ οὐρανῷ ἠκολούθει αὐτῷ ἐφ᾽ ἵπποις λευκοῖς, ἐνδεδυμένοι βύσσινον λευκὸν καθαρόν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "REV.19.13",
+        "verse_uid": "sblgnt:REV.19.13",
+        "source": "sblgnt",
+        "corpus_label": "New Testament Greek (SBLGNT)",
+        "original": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.",
+        "translation": "And he is clothed in a garment dipped in blood, and his name is called The Word of God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ὁ Λόγος: title 'the Word'"
+        ],
+        "uncertainties": [
+          "variant unit: βεβαμμένον (marked ⸂ ⸃)",
+          "variant unit: κέκληται (marked ⸂ ⸃)"
+        ],
+        "web_reference": "web:REV.19.13",
+        "differences_from_web": []
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "'the word of God' as the gospel message, not the pre-existent Word",
+      "verse_uid": "sblgnt:ACT.12.24"
+    },
+    {
+      "reason": "word of the Lord spreading; message sense",
+      "verse_uid": "sblgnt:ACT.19.20"
+    },
+    {
+      "reason": "'beginning' of birth pains; false hit",
+      "verse_uid": "sblgnt:MAT.24.8"
+    },
+    {
+      "reason": "seed is the word of God; parable",
+      "verse_uid": "sblgnt:LUK.8.11"
+    },
+    {
+      "reason": "'faithful is the saying'; false hit",
+      "verse_uid": "sblgnt:2TI.2.11"
+    },
+    {
+      "reason": "'the beginning and the end'; no Word",
+      "verse_uid": "sblgnt:REV.22.13"
+    },
+    {
+      "reason": "'beginning of the gospel'; no Word",
+      "verse_uid": "sblgnt:MRK.1.1"
+    },
+    {
+      "reason": "oracles of God; false hit",
+      "verse_uid": "sblgnt:ROM.3.2"
+    },
+    {
+      "reason": "eyewitnesses and ministers of the word; message sense",
+      "verse_uid": "sblgnt:LUK.1.2"
+    },
+    {
+      "reason": "word of wisdom/knowledge; false hit",
+      "verse_uid": "sblgnt:1CO.12.8"
+    },
+    {
+      "reason": "'first account'; false hit",
+      "verse_uid": "sblgnt:ACT.1.1"
+    },
+    {
+      "reason": "word of faith; message sense",
+      "verse_uid": "sblgnt:ROM.10.8"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "REV.19.13 relies on text marked as variant units (βεβαμμένον, κέκληται) in SBLGNT.",
+    "JHN.1.1 and JHN.1.2: 'In the beginning' wording may echo the opening of Hebrew scripture (allusion candidate; cross-reference agent to verify).",
+    "JHN.1.14: ἐσκήνωσεν 'dwelt/tabernacled' may recall tabernacle language (candidate only).",
+    "No explicit quotation formulas in kept verses.",
+    "JHN.1.14 and REV.19.13 were retrieved by a second search (nt_search2.json), not the first."
+  ]
+}

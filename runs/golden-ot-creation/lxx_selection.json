@@ -1,0 +1,43 @@
+{
+ "keep": [
+  {
+   "verse_uid": "lxx_swete:01.1.1",
+   "relevance": "Opening statement of creation"
+  },
+  {
+   "verse_uid": "lxx_swete:01.1.3",
+   "relevance": "God creates light by speaking"
+  },
+  {
+   "verse_uid": "lxx_swete:01.1.26",
+   "relevance": "Making of humankind in image and likeness"
+  },
+  {
+   "verse_uid": "lxx_swete:01.1.27",
+   "relevance": "Humankind made male and female in God's image"
+  },
+  {
+   "verse_uid": "lxx_swete:01.2.2",
+   "relevance": "Completion of creation and rest on the seventh day (LXX: sixth day)"
+  }
+ ],
+ "discard": [
+  {
+   "verse_uid": "lxx_swete:01.5.1",
+   "reason": "Genealogy recap of Adam's creation; secondary"
+  },
+  {
+   "verse_uid": "lxx_swete:01.1.20",
+   "reason": "Creatures of water/air; lower priority than k limit"
+  },
+  {
+   "verse_uid": "lxx_swete:01.2.4",
+   "reason": "Summary formula; lower priority than k limit"
+  }
+ ],
+ "notes": [
+  "All results are Genesis, alignment mapped. Gen 2:2: LXX reads sixth day where Hebrew/WEB reads seventh.",
+  "Gen 1:1 LXX uses ποιέω 'made' rather than 'created'."
+ ],
+ "missing": []
+}

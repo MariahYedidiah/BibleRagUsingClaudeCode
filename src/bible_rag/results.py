@@ -27,8 +27,13 @@ def load_json(path):
 
 
 def pack_specialist(agent, run_id, corpus, search_files, selection, store, translations=None,
-                    context=0):
-    """SpecialistResult dict. Raises ValueError for selections the store can't resolve."""
+                    context=0, references=()):
+    """SpecialistResult dict. Raises ValueError for selections the store can't resolve.
+
+    A kept verse must be in one of the saved searches or be one of the delegation's
+    `references`; anything else would be a verse chosen from memory, not retrieved.
+    """
+    references = {r.upper() for r in references}
     searches = [load_json(p) for p in search_files]
     hits, rrf = {}, {}
     queries, lexical_queries, signals, service = [], [], [], "down"
@@ -64,6 +69,10 @@ def pack_specialist(agent, run_id, corpus, search_files, selection, store, trans
             if uid in seen:
                 continue
             seen.add(uid)
+            if uid not in hits and row["canon_ref"] not in references:
+                raise ValueError(f"{uid} is not in any saved search and not one of the requested "
+                                 f"references ({', '.join(sorted(references)) or 'none'}); keep only "
+                                 f"retrieved verses, or search for it first")
             found = sorted({h["method"] for h in hits.get(uid, [])}) or ["reference"]
             passage = {
                 "rank": len(passages) + 1, "canon_ref": row["canon_ref"], "verse_uid": uid,

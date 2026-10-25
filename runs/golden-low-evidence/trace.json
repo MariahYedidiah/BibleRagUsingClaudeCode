@@ -1,0 +1,152 @@
+{
+  "run_id": "golden-low-evidence",
+  "question": "What does the Bible say about configuring a Kubernetes cluster?",
+  "started": "2026-10-24T10:36:36",
+  "events": [
+    {
+      "t": "2026-10-24T10:36:39",
+      "event": "analysis",
+      "agent": "leader-agent",
+      "path": "runs/golden-low-evidence/analysis.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:36:40",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1",
+      "detail": "web"
+    },
+    {
+      "t": "2026-10-24T10:36:41",
+      "event": "delegate",
+      "agent": "hebrew-specialist-agent",
+      "group": "r1",
+      "detail": "oshb_wlc"
+    },
+    {
+      "t": "2026-10-24T10:36:42",
+      "event": "delegate",
+      "agent": "septuagint-specialist-agent",
+      "group": "r1",
+      "detail": "lxx_swete"
+    },
+    {
+      "t": "2026-10-24T10:36:43",
+      "event": "delegate",
+      "agent": "greek-new-testament-agent",
+      "group": "r1",
+      "detail": "sblgnt"
+    },
+    {
+      "t": "2026-10-24T10:37:41",
+      "event": "result",
+      "agent": "hebrew-specialist-agent",
+      "path": "runs/golden-low-evidence/hebrew-specialist-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:37:42",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-low-evidence/english-retrieval-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:38:20",
+      "event": "result",
+      "agent": "septuagint-specialist-agent",
+      "path": "runs/golden-low-evidence/septuagint-specialist-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:38:21",
+      "event": "result",
+      "agent": "greek-new-testament-agent",
+      "path": "runs/golden-low-evidence/greek-new-testament-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:38:23",
+      "event": "retry",
+      "agent": "leader-agent",
+      "detail": "insufficient: no passage kept in any corpus; broader reformulations"
+    },
+    {
+      "t": "2026-10-24T10:38:25",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r2",
+      "detail": "retry, broader terms"
+    },
+    {
+      "t": "2026-10-24T10:38:26",
+      "event": "delegate",
+      "agent": "hebrew-specialist-agent",
+      "group": "r2",
+      "detail": "retry, broader terms"
+    },
+    {
+      "t": "2026-10-24T10:38:27",
+      "event": "delegate",
+      "agent": "septuagint-specialist-agent",
+      "group": "r2",
+      "detail": "retry, broader terms"
+    },
+    {
+      "t": "2026-10-24T10:38:28",
+      "event": "delegate",
+      "agent": "greek-new-testament-agent",
+      "group": "r2",
+      "detail": "retry, broader terms"
+    },
+    {
+      "t": "2026-10-24T10:39:45",
+      "event": "result",
+      "agent": "hebrew-specialist-agent",
+      "path": "runs/golden-low-evidence/r2/hebrew-specialist-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:39:55",
+      "event": "result",
+      "agent": "septuagint-specialist-agent",
+      "path": "runs/golden-low-evidence/r2/septuagint-specialist-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:39:56",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-low-evidence/r2/english-retrieval-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:40:10",
+      "event": "result",
+      "agent": "greek-new-testament-agent",
+      "path": "runs/golden-low-evidence/r2/greek-new-testament-agent.json",
+      "status": "empty"
+    },
+    {
+      "t": "2026-10-24T10:40:12",
+      "event": "delegate",
+      "agent": "synthesis-agent",
+      "group": "synth",
+      "detail": "insufficient after retry"
+    },
+    {
+      "t": "2026-10-24T10:40:41",
+      "event": "result",
+      "agent": "synthesis-agent",
+      "path": "runs/golden-low-evidence/answer.md",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:40:43",
+      "event": "answer",
+      "agent": "leader-agent",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "keep": [
+    {
+      "verse_uid": "sblgnt:MAT.27.46",
+      "relevance": "Voices the complaint of abandonment in suffering (cry of dereliction)."
+    },
+    {
+      "verse_uid": "sblgnt:1PE.5.7",
+      "relevance": "Direct statement that God cares (μέλει) about the suffering/anxious; answers the premise."
+    },
+    {
+      "verse_uid": "sblgnt:2CO.1.4",
+      "relevance": "God as the one who comforts people in all affliction."
+    },
+    {
+      "verse_uid": "sblgnt:LUK.7.13",
+      "relevance": "The Lord's compassion toward a grieving widow, shown in action."
+    },
+    {
+      "verse_uid": "sblgnt:ROM.8.35",
+      "relevance": "Lists afflictions and asks whether any can separate believers from Christ's love; answers the doubt of abandonment."
+    }
+  ],
+  "discard": [
+    {
+      "verse_uid": "sblgnt:ROM.2.23",
+      "reason": "Lexical false hit; about dishonoring God through law-breaking."
+    },
+    {
+      "verse_uid": "sblgnt:1TH.2.19",
+      "reason": "Hope/joy of boasting; not about suffering."
+    },
+    {
+      "verse_uid": "sblgnt:ROM.3.6",
+      "reason": "God's judging the world; not about suffering."
+    },
+    {
+      "verse_uid": "sblgnt:TIT.2.11",
+      "reason": "Grace for all people; too general."
+    },
+    {
+      "verse_uid": "sblgnt:2CO.11.11",
+      "reason": "Paul's love for Corinthians; false hit."
+    },
+    {
+      "verse_uid": "sblgnt:ROM.1.18",
+      "reason": "Wrath of God; off-topic."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.2.7",
+      "reason": "Forgiveness dispute; false hit."
+    },
+    {
+      "verse_uid": "sblgnt:LUK.3.18",
+      "reason": "παρακαλῶν meaning exhorting; not comfort."
+    },
+    {
+      "verse_uid": "sblgnt:JHN.10.13",
+      "reason": "Hired hand does not care; about shepherd contrast, not God's care for sufferers."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.15.34",
+      "reason": "Parallel to Matt 27:46; omitted to stay within k."
+    },
+    {
+      "verse_uid": "sblgnt:MAT.14.14",
+      "reason": "Compassion passage; duplicate theme, omitted within k."
+    },
+    {
+      "verse_uid": "sblgnt:MRK.8.2",
+      "reason": "Compassion passage; omitted within k."
+    },
+    {
+      "verse_uid": "sblgnt:2CO.7.4",
+      "reason": "Paul's own comfort/joy; less direct."
+    }
+  ],
+  "notes": [
+    "MAT.27.46 appears to be a quotation of an OT cry (Aramaic/Greek rendering of a lament), explicit citation not marked by a formula; cross-reference agent should verify.",
+    "1PE.5.7 may allude to OT wording about casting cares on God; verify.",
+    "MAT.27.46 contains SBLGNT variant-unit markers (ἀνεβόησεν; Ἠλὶ ἠλὶ).",
+    "The NT contains no verse that voices the complaint 'God does not care' directly except the cry of dereliction; NT retrieval was weak and results mostly lexical.",
+    "ROM.8.35 is followed by an OT quotation in v.36 (not kept); verse 35 itself has no formula."
+  ],
+  "missing": [
+    {
+      "field": "Direct NT statements that God forgets sufferers",
+      "reason": "None found in SBLGNT; the lament motif is mainly OT."
+    }
+  ]
+}

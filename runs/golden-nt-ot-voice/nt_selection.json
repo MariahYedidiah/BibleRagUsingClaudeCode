@@ -1,0 +1,43 @@
+{
+ "keep": [
+  {
+   "verse_uid": "sblgnt:JHN.1.23",
+   "relevance": "Direct answer: John the Baptist says of himself 'I am a voice of one crying in the wilderness', citing Isaiah."
+  },
+  {
+   "verse_uid": "sblgnt:MAT.3.3",
+   "relevance": "Identifies John the Baptist's ministry (context v.1-2) as the fulfilment of the voice crying in the wilderness, attributed to Isaiah."
+  },
+  {
+   "verse_uid": "sblgnt:MRK.1.3",
+   "relevance": "Quotes the voice crying in the wilderness, applied to John (v.4)."
+  },
+  {
+   "verse_uid": "sblgnt:LUK.3.4",
+   "relevance": "Quotes the voice crying in the wilderness with 'as it is written' formula, applied to John (v.2-3)."
+  }
+ ],
+ "discard": [
+  {
+   "verse_uid": "sblgnt:JHN.11.43",
+   "reason": "matches only 'loud voice'; unrelated"
+  },
+  {
+   "verse_uid": "sblgnt:LUK.5.16",
+   "reason": "wilderness only; Jesus withdrawing"
+  },
+  {
+   "verse_uid": "sblgnt:MAT.23.38",
+   "reason": "desolate house, not the voice"
+  },
+  {
+   "verse_uid": "sblgnt:MRK.1.12",
+   "reason": "Spirit drives Jesus to wilderness; not the voice"
+  }
+ ],
+ "notes": [
+  "JHN.1.23, MAT.3.3, MRK.1.3, LUK.3.4 quote OT wording; MAT.3.3, LUK.3.4 and JHN.1.23 name Isaiah/introduce with formulas (ὡς γέγραπται, ῥηθεὶς, καθὼς εἶπεν Ἠσαΐας). MRK.1.3 continues a citation begun in v.2. Cross-reference agent should verify the OT source.",
+  "LUK.3.4 contains ⸂ ⸃ variant on προφήτου; MAT.3.3 on διά."
+ ],
+ "missing": []
+}

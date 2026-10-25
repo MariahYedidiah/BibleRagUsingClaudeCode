@@ -1,0 +1,8 @@
+{"keep":[],"discard":[
+{"verse_uid":"sblgnt:PHP.3.11","reason":"top vector hit but only generic similarity (cosine 0.47); nothing about servers or system configuration"},
+{"verse_uid":"sblgnt:LUK.22.9","reason":"preparing for the Passover; not about computing infrastructure"},
+{"verse_uid":"sblgnt:EPH.2.21","reason":"building metaphor for the church; lexical match on oikodome only"},
+{"verse_uid":"sblgnt:1CO.14.40","reason":"'order' in worship; keyword match on taxis, not configuration of systems"},
+{"verse_uid":"sblgnt:MRK.11.16","reason":"carrying a vessel (skeuos) through the temple; word match only"}],
+"notes":["Kubernetes and container orchestration are modern technology with no counterpart in the New Testament. Search returned only weak, incidental word matches (vessels, order, building). No kept verses, so no OT quotations or textual variants to flag."],
+"missing":[{"field":"New Testament verses on configuring a Kubernetes cluster","reason":"topic does not occur in the Greek New Testament"}]}

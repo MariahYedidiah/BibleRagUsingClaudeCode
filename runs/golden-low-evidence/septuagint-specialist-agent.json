@@ -1,0 +1,60 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-low-evidence",
+  "corpus": "lxx_swete",
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "configuring a cluster of computer servers to run software containers"
+  ],
+  "lexical_queries": [
+    "συναγωγή κατασκευή οἰκοδομή",
+    "σκεύη σκεῦος"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.488,
+      "vector_margin": 0.0088,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 6,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:48.56.8",
+      "reason": "gathering of scattered Israel; only a surface match to 'cluster/gather'"
+    },
+    {
+      "verse_uid": "lxx_swete:16.26.15",
+      "reason": "siege engines; mechanical devices, not computing"
+    },
+    {
+      "verse_uid": "lxx_swete:02.27.19",
+      "reason": "tabernacle equipment (vessels/construction); lexical coincidence with 'configuration'"
+    },
+    {
+      "verse_uid": "lxx_swete:03.15.12",
+      "reason": "ritual uncleanness of a vessel; matches 'container' only by word"
+    },
+    {
+      "verse_uid": "lxx_swete:04.31.20",
+      "reason": "purification of vessels; no relevance"
+    },
+    {
+      "verse_uid": "lxx_swete:49.36.4",
+      "reason": "letter to exiles; no relevance"
+    }
+  ],
+  "missing": [
+    {
+      "field": "Passages on Kubernetes cluster configuration",
+      "reason": "modern technology absent from the Septuagint"
+    }
+  ],
+  "notes": [
+    "Low vector score (top 0.488, margin 0.009) and no vector/lexical overlap; the Bible has no passage about Kubernetes or server clusters. Only incidental word matches (vessels, construction, gathering)."
+  ]
+}

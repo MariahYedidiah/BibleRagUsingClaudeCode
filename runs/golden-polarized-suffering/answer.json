@@ -1,0 +1,609 @@
+{
+  "question": "Why doesn't God care about human suffering?",
+  "answer": "The retrieved passages do not give a reason why God does not care. They do two other things. Some voice the same complaint as the question, and they voice it as prayer addressed to God. Others state that God sees, hears and cares about people who suffer. The evidence does not settle the tension between these two groups. It records both.\n\n**The complaint is in the texts themselves.** Several psalms ask God almost the question asked here. In the WEB, [PSA.44.24] asks why God hides his face and forgets the people's affliction and oppression. The Hebrew text (OSHB/WLC) and its machine translation say the same thing. The Septuagint Greek (Swete LXX) differs somewhat. In the machine translation, God *turns* his face away, and the people complain of their *poverty* (πτωχία) and affliction, not of affliction and oppression. [PSA.13.1] asks \"How long?\" Will God forget the speaker forever and hide his face? The same cry of abandonment appears in the New Testament. In the New Testament Greek (SBLGNT), [MAT.27.46] has Jesus cry \"My God, my God, why have you forsaken me?\" This is a verified quotation of [PSA.22.1] (OpenBible cross-references). There the Septuagint again differs from the Hebrew. In the machine translation it adds \"attend to me\", and it reads \"words of my transgressions\" where the Hebrew speaks of roaring (WEB: \"groaning\"). The cross-reference data also marks Lamentations 1:12 as only a *possible* allusion in Matthew 27:46. Other kept laments make the same protest, including Job 13:24, Psalm 88:14, Psalm 10:1 (LXX: God \"overlooks\" people in affliction) and Habakkuk 1:2. None of these texts treats the complaint as forbidden. They address it to God directly.\n\n**Passages about God's response.** Other passages say the opposite of the question's premise. In [EXO.3.7], God says he has seen the affliction of his people, heard their cry and knows their pain. (The Hebrew uses a singular suffix, \"his pains\"; WEB has \"their sorrows\".) [PSA.34.15] says the LORD's eyes are toward the righteous and his ears toward their cry. [1PE.5.7] tells readers to cast their anxiety on God \"because he cares about you\" (SBLGNT, machine translation). This answers the question's wording most directly. It draws on [PSA.55.22], a verified cross-reference: cast your burden on the LORD and he will sustain you. In the Septuagint version of that verse, the word is \"care\" (μέριμνα) and God will \"nourish\" you.\n\n**What the evidence does not show.** No retrieved passage explains *why* suffering continues or why God seems silent. The laments ask that question and leave it open. The response passages say that God sees and cares, but they do not say why the suffering happens. The Hebrew specialist also noted that well-known passages about God's compassion (such as Exodus 34:6 and Psalm 103) did not come up in this search. The 'response' side may therefore be under-represented here.",
+  "passages": [
+    {
+      "canon_ref": "PSA.44.24",
+      "display_ref": "Psalms 44:24",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "Why do you hide your face, and forget our affliction and our oppression?",
+          "verse_uid": "web:PSA.44.24"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "לָֽ/מָּה־פָנֶ֥י/ךָ תַסְתִּ֑יר תִּשְׁכַּ֖ח עָנְיֵ֣/נוּ וְֽ/לַחֲצֵֽ/נוּ׃",
+          "verse_uid": "oshb_wlc:Ps.44.25"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "Why do you hide your face; do you forget our affliction and our oppression?",
+          "translates": "oshb_wlc:Ps.44.25",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Verb forms are imperfect; rendered as present questions; verse numbering: Hebrew Ps 44:25 = English 44:24; WEB 'Why do you hide your face, and forget'; same sense, mine keeps the question form for both clauses"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "ἵνα τί τὸ πρόσωπόν σου ἀποστρέφεις ἐπιλανθάνῃ τῆς πτωχίας ἡμῶν καὶ τῆς θλίψεως ἡμῶν",
+          "verse_uid": "lxx_swete:27.43.25"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "Why do you turn your face away? You forget our poverty and our affliction.",
+          "translates": "lxx_swete:27.43.25",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX 'turn away your face' where WEB has 'hide your face'; LXX 'our poverty' (πτωχία) where WEB has 'our affliction'; 'oppression' is rendered 'affliction' (θλῖψις); LXX has no 'and' linking two questions; the verse opens with ἵνα τί 'why' once"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.032,
+          "relevance": "Lament: 'Why do you hide your face, and forget our affliction and our oppression?' Direct complaint about God's apparent indifference to suffering. Found by vector and lexical search (variant 4)."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06248,
+          "relevance": "Communal lament voicing the complaint directly: why do you hide your face and forget our affliction and oppression."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.02828,
+          "relevance": "Lament voicing the complaint: God turns his face away and forgets our poverty and affliction."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "Communal lament: why do you hide your face and forget our affliction? (LXX: 'turn away', 'poverty')",
+      "missing": []
+    },
+    {
+      "canon_ref": "PSA.13.1",
+      "display_ref": "Psalms 13:1",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "How long, LORD? Will you forget me forever? How long will you hide your face from me?",
+          "verse_uid": "web:PSA.13.1"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "עַד־אָ֣נָה יְ֭הוָה תִּשְׁכָּחֵ֣/נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣י/ךָ מִמֶּֽ/נִּי׃",
+          "verse_uid": "oshb_wlc:Ps.13.2"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "How long, O LORD, will you forget me forever? How long will you hide your face from me?",
+          "translates": "oshb_wlc:Ps.13.2",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Hebrew Ps 13:2 = English 13:1 (title is Hebrew v.1); WEB places 'forever' as a separate question; mine joins it to the verb"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.03279,
+          "relevance": "Lament: 'How long, LORD? Will you forget me forever? How long will you hide your face from me?' Voices the complaint that God seems absent from suffering. Found by vector and lexical search (polarized-variant 'hide your face / forget our affliction')."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.03279,
+          "relevance": "Individual lament: how long will you forget me, how long hide your face; the question as the sufferer asks it."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "Individual lament: how long will you forget me and hide your face?",
+      "missing": [
+        {
+          "field": "lxx_swete",
+          "reason": "not retrieved by septuagint-specialist-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "MAT.27.46",
+      "display_ref": "Matthew 27:46",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+          "verse_uid": "sblgnt:MAT.27.46"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "About the ninth hour Jesus cried out with a loud voice, saying, \"Eli, Eli, lema sabachthani?\" that is, \"My God, my God, why have you forsaken me?\"",
+          "translates": "sblgnt:MAT.27.46",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "variant unit: ἀνεβόησεν (cried out); variant unit: Ἠλὶ ἠλὶ (Eli, Eli)"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01613,
+          "relevance": "Voices the complaint of abandonment in suffering (cry of dereliction)."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "PSA.22.1",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 83,
+          "note": null
+        },
+        {
+          "to": "ISA.53.10",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 44,
+          "note": "votes reflect the suffering-servant theme; the cry itself quotes PSA.22.1, no shared wording"
+        },
+        {
+          "to": "PSA.71.11",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 25,
+          "note": "shares the idea of being forsaken only; not the source of the cry"
+        },
+        {
+          "to": "LAM.1.12",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 20,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "Jesus' cry of abandonment on the cross, quoting Psalm 22:1",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "PSA.22.1",
+      "display_ref": "Psalms 22:1",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "My God, my God, why have you forsaken me? Why are you so far from helping me, and from the words of my groaning?",
+          "verse_uid": "web:PSA.22.1"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "אֵלִ֣/י אֵ֭לִ/י לָ/מָ֣ה עֲזַבְתָּ֑/נִי רָח֥וֹק מִֽ֝/ישׁוּעָתִ֗/י דִּבְרֵ֥י שַׁאֲגָתִֽ/י׃",
+          "verse_uid": "oshb_wlc:Ps.22.2"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "My God, my God, why have you forsaken me? Far from my salvation are the words of my roaring.",
+          "translates": "oshb_wlc:Ps.22.2",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Second clause is difficult; 'far from my salvation' may be read as 'why are you far from my salvation'; WEB reads 'far from helping me' for 'far from my salvation'; WEB supplies 'Why are you so' before 'far'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "Ὁ θεὸς ὁ θεός μου, πρόσχες μοι· ἳνα τί ἐγκατέλιπές με; μακρὰν ἀπὸ τῆς σωτηρίας μου οἱ λόγοι τῶν παραπτωμάτων",
+          "verse_uid": "lxx_swete:27.21.2"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "O God, my God, attend to me; why have you forsaken me? Far from my salvation are the words of my transgressions.",
+          "translates": "lxx_swete:27.21.2",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX has 'attend to me' (πρόσχες μοι), absent from the Hebrew/WEB; LXX 'salvation' and 'transgressions' where WEB has 'helping me' and 'groaning'; Swete numbers this Ps 21:2 (Greek numbering)"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "vector"
+          ],
+          "rrf": 0.01493,
+          "relevance": "Lament of felt abandonment by God while suffering; the core of the 'why does God seem absent' question. Requested reference."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "Lament: why has God forsaken me, far from my cry; voices the felt absence of care"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Cry of abandonment, 'why have you forsaken me': the voice of the sufferer who feels God does not care"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "MAT.27.46"
+      ],
+      "note": "Verified source of Matthew 27:46; the LXX adds 'attend to me'",
+      "missing": []
+    },
+    {
+      "canon_ref": "EXO.3.7",
+      "display_ref": "Exodus 3:7",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וַ/יֹּ֣אמֶר יְהוָ֔ה רָאֹ֥ה רָאִ֛יתִי אֶת־עֳנִ֥י עַמִּ֖/י אֲשֶׁ֣ר בְּ/מִצְרָ֑יִם וְ/אֶת־צַעֲקָתָ֤/ם שָׁמַ֨עְתִּי֙ מִ/פְּנֵ֣י נֹֽגְשָׂ֔י/ו כִּ֥י יָדַ֖עְתִּי אֶת־מַכְאֹבָֽי/ו׃",
+          "verse_uid": "oshb_wlc:Exod.3.7"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And the LORD said, 'I have indeed seen the affliction of my people who are in Egypt, and I have heard their cry because of their taskmasters, for I know his pains.'",
+          "translates": "oshb_wlc:Exod.3.7",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Final suffix on מַכְאֹבָיו is singular 'his' (the people as a collective), rendered 'his pains' literally; WEB 'their sorrows'; mine keeps the singular suffix 'his'"
+        }
+      ],
+      "retrieval": {
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "God's response: he has seen the affliction of his people, heard their cry and knows their pain."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God says he has seen the affliction, heard the cry and knows the pain of his people",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        },
+        {
+          "field": "lxx_swete",
+          "reason": "not retrieved by septuagint-specialist-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "1PE.5.7",
+      "display_ref": "1 Peter 5:7",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν.",
+          "verse_uid": "sblgnt:1PE.5.7"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "casting all your anxiety on him, because he cares about you.",
+          "translates": "sblgnt:1PE.5.7",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": null
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.03178,
+          "relevance": "Direct statement that God cares (μέλει) about the suffering/anxious; answers the premise."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "PSA.55.22",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 372,
+          "note": null
+        },
+        {
+          "to": "PSA.37.5",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 256,
+          "note": null
+        },
+        {
+          "to": "PSA.56.3",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 191,
+          "note": null
+        },
+        {
+          "to": "PSA.34.15",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 141,
+          "note": null
+        },
+        {
+          "to": "PSA.27.13",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 117,
+          "note": null
+        },
+        {
+          "to": "1SA.30.6",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 113,
+          "note": "narrative of David strengthening himself in God; similar theme, not a quotation of 1PE.5.7"
+        },
+        {
+          "to": "PSA.142.4",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 93,
+          "note": null
+        },
+        {
+          "to": "1SA.1.10",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 59,
+          "note": "Hannah's distress in prayer; thematic similarity only"
+        }
+      ],
+      "referenced_by": [],
+      "note": "Cast your anxiety on God, 'because he cares about you'",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "PSA.55.22",
+      "display_ref": "Psalms 55:22",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "Cast your burden on the LORD and he will sustain you. He will never allow the righteous to be moved.",
+          "verse_uid": "web:PSA.55.22"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "הַשְׁלֵ֤ךְ עַל־יְהוָ֨ה ׀ יְהָבְ/ךָ֮ וְ/ה֪וּא יְכַ֫לְכְּלֶ֥/ךָ לֹא־יִתֵּ֖ן לְ/עוֹלָ֥ם מ֗וֹט לַ/צַּדִּֽיק׃",
+          "verse_uid": "oshb_wlc:Ps.55.23"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "Cast your burden upon the LORD, and he will sustain you; he will never let the righteous be shaken.",
+          "translates": "oshb_wlc:Ps.55.23",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "יְהָב is rare; 'burden' or 'lot/gift'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "ἐπίριψον ἐπὶ Κύριον τὴν μέριμνάν σου, καὶ αὐτός σε διαθρέψει· οὐ δώσει εἰς τὸν αἰῶνα σάλον τῷ δικαίῳ.",
+          "verse_uid": "lxx_swete:27.54.23"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "Cast your care upon the Lord, and he will nourish you; he will not give the righteous shaking forever.",
+          "translates": "lxx_swete:27.54.23",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX 'care' (μέριμνα) and 'nourish' (διαθρέψει) for WEB 'burden' and 'sustain'; Swete numbers this Ps 54:23"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Contrasting answer: the LORD sustains and does not let the righteous be moved. Requested reference."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Invitation to cast burdens on God, who sustains the righteous; answers the premise of divine indifference"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Counter-evidence: cast your care on the Lord, he will nourish"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "1PE.5.7"
+      ],
+      "note": "Verified Old Testament reference for 1 Peter 5:7: cast your burden on the LORD",
+      "missing": []
+    },
+    {
+      "canon_ref": "PSA.34.15",
+      "display_ref": "Psalms 34:15",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "The LORD’s eyes are toward the righteous. His ears listen to their cry.",
+          "verse_uid": "web:PSA.34.15"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "עֵינֵ֣י יְ֭הוָה אֶל־צַדִּיקִ֑ים וְ֝/אָזְנָ֗י/ו אֶל־שַׁוְעָתָֽ/ם׃",
+          "verse_uid": "oshb_wlc:Ps.34.16"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "The eyes of the LORD are toward the righteous, and his ears toward their cry for help.",
+          "translates": "oshb_wlc:Ps.34.16",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "WEB 'listen' is added as a verb"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "ὅτι ὀφθαλμοὶ Κυρίου ἐπὶ δικαίους. καὶ ὦτα αὐτοῦ εἰς δέησιν αὐτῶν·",
+          "verse_uid": "lxx_swete:27.33.16"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "For the eyes of the Lord are on the righteous, and his ears are open to their supplication.",
+          "translates": "lxx_swete:27.33.16",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Sense close to WEB; Swete numbers this Ps 33:16"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Contrasting answer: God's eyes and ears are toward the righteous and their cry. Requested reference."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "God's eyes and ears are toward the righteous and their cry; direct counter to indifference"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "God's eyes and ears attend the righteous and their supplication"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "1PE.5.7"
+      ],
+      "note": "The LORD's eyes and ears are toward the righteous and their cry",
+      "missing": []
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "basis": "42 passages kept; 9 references found in two or more languages; 10 passages found by both vector and lexical search",
+    "signals": {
+      "passages_kept": 42,
+      "cross_lingual_refs": [
+        "PSA.13.1",
+        "PSA.142.4",
+        "PSA.22.1",
+        "PSA.27.13",
+        "PSA.34.15",
+        "PSA.37.5",
+        "PSA.44.24",
+        "PSA.55.22",
+        "PSA.56.3"
+      ],
+      "found_by_both_methods": 10,
+      "above_vector_floor": 31,
+      "found_by_two_or_more_queries": 15,
+      "top_vector_score": 0.8504,
+      "vector_search_available": true
+    }
+  },
+  "clarifying_question": null,
+  "run_id": "golden-polarized-suffering"
+}

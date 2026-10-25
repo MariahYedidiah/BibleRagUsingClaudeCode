@@ -1,0 +1,102 @@
+{
+  "agent": "hebrew-specialist-agent",
+  "run_id": "golden-nt-ot-voice/xref",
+  "corpus": "oshb_wlc",
+  "queries": [
+    "Who is the voice crying in the wilderness?"
+  ],
+  "lexical_queries": [
+    "קול קורא",
+    "במדבר מדבר פנו ישרו"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5368,
+      "vector_margin": 0.0469,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 4,
+      "lists_with_hits": 3,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "ISA.40.3",
+      "verse_uid": "oshb_wlc:Isa.40.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "קול קורא",
+          "method": "lexical",
+          "rank": 1,
+          "score": -20.054
+        },
+        {
+          "query": "במדבר מדבר פנו ישרו",
+          "method": "lexical",
+          "rank": 1,
+          "score": -31.1998
+        }
+      ],
+      "rrf": 0.03279,
+      "relevance": "The voice crying in the wilderness: 'prepare the way of the LORD'; the passage quoted in the Gospels.",
+      "context": [
+        {
+          "verse_uid": "oshb_wlc:Isa.40.2",
+          "verse": 2,
+          "text_display": "דַּבְּר֞וּ עַל־לֵ֤ב יְרֽוּשָׁלִַ֨ם֙ וְ/קִרְא֣וּ אֵלֶ֔י/הָ כִּ֤י מָֽלְאָה֙ צְבָאָ֔/הּ כִּ֥י נִרְצָ֖ה עֲוֺנָ֑/הּ כִּ֤י לָקְחָה֙ מִ/יַּ֣ד יְהוָ֔ה כִּפְלַ֖יִם בְּ/כָל־חַטֹּאתֶֽי/הָ׃ ס"
+        },
+        {
+          "verse_uid": "oshb_wlc:Isa.40.3",
+          "verse": 3,
+          "text_display": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃"
+        },
+        {
+          "verse_uid": "oshb_wlc:Isa.40.4",
+          "verse": 4,
+          "text_display": "כָּל־גֶּיא֙ יִנָּשֵׂ֔א וְ/כָל־הַ֥ר וְ/גִבְעָ֖ה יִשְׁפָּ֑לוּ וְ/הָיָ֤ה הֶֽ/עָקֹב֙ לְ/מִישׁ֔וֹר וְ/הָ/רְכָסִ֖ים לְ/בִקְעָֽה׃"
+        }
+      ],
+      "translation": {
+        "canon_ref": "ISA.40.3",
+        "verse_uid": "oshb_wlc:Isa.40.3",
+        "source": "oshb_wlc",
+        "corpus_label": "Hebrew (OSHB/WLC)",
+        "original": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃",
+        "translation": "A voice is calling: In the wilderness prepare the way of the LORD; make straight in the desert plain a highway for our God.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "יהוה rendered 'the LORD'",
+          "בַּמִּדְבָּר could belong with 'calling' (MT accents place it with 'prepare')"
+        ],
+        "uncertainties": [
+          "Phrase division: 'a voice calls in the wilderness' vs. 'in the wilderness prepare' (the Hebrew accents favor the latter; the Gospels and LXX take the former)"
+        ],
+        "web_reference": "web:ISA.40.3",
+        "differences_from_web": [
+          "WEB reads 'The voice of one who calls out'; mine 'A voice is calling' (qol as exclamation)",
+          "WEB 'level highway'; mine 'highway', 'make straight'"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "oshb_wlc:Job.15.21",
+      "reason": "voice of terrors, unrelated"
+    }
+  ],
+  "missing": [],
+  "notes": []
+}

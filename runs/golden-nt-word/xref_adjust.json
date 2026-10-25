@@ -1,0 +1,8 @@
+{"downgrade":[
+{"from":"JHN.1.1","to":"ISA.9.6","relation":"thematic","note":"Messianic titles (divine child); no shared wording with the Logos prologue"},
+{"from":"JHN.1.1","to":"ISA.7.14","relation":"thematic","note":"Immanuel theme; no shared wording with John 1:1"},
+{"from":"JHN.1.1","to":"PSA.45.6","relation":"thematic","note":"Addresses the king as God; theme only, no distinctive shared wording"},
+{"from":"JHN.1.1","to":"ISA.40.9","relation":"thematic","note":"'Behold your God' proclamation; theme only"},
+{"from":"JHN.1.14","to":"ISA.7.14","relation":"thematic","note":"God-with-us theme; no distinctive shared wording"},
+{"from":"JHN.1.14","to":"PSA.2.7","relation":"thematic","note":"Divine sonship theme; no shared wording with 'only begotten' in this verse"}],
+"notes":["JHN.1.1 echoes GEN.1.1 ('in the beginning'), an allusion rather than a quotation formula","JHN.1.14 ISA.40.5 (glory revealed) kept as verified by votes, an echo not a quotation","JHN.1.2 has no OT links in the dataset"]}

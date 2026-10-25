@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **bible-rag** is a retrieval-augmented generation (RAG) system over the Bible in Hebrew, Greek and English. The goal: embed verses, retrieve the relevant ones for a question, and answer with an LLM grounded in those verses.
 
-**Status:** phases 1–6 are done (retrieval, validator, verse alignment + cross-references, translation skills, specialist agents, leader + synthesis); next is the golden-query evaluation (phase 7). `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` and is being built phase by phase; all agents, skills and checks exist. Run it with `claude --agent leader-agent` or `/bible-ask "<question>" [--demo]`.
+**Status:** all seven phases are done (retrieval, validator, verse alignment + cross-references, translation skills, specialist agents, leader + synthesis, golden-query evaluation); results are in `docs/evaluation.md`. `scripts/build_index.py` builds the canonical Parquet table, a SQLite verse store with an FTS5 index, and a Chroma collection embedded with `BAAI/bge-m3`. The `bible-rag` CLI and a local retrieval service do hybrid search over both. The agent system is specified in `docs/agent-system-prompt.md` ; all agents, skills and checks exist. Run it with `claude --agent leader-agent` or `/bible-ask "<question>" [--demo]`.
 
 ## Environment
 
@@ -28,6 +28,8 @@ uv run bible-rag search "God's compassion for the suffering" "variant 2" --lang 
 uv run bible-rag search --lexical "ואהבת לרעך כמוך" --lang he --mode lexical   # no service needed
 uv run bible-rag verse JHN.3.16 --source sblgnt,web --context 2                 # no service needed
 uv run bible-rag xref MRK.1.3 --testament OT                                    # cross-references, no service
+uv run bible-rag eval retrieval --out eval/results/retrieval.json               # recall per corpus (service)
+uv run bible-rag eval run golden-ot-creation --golden ot_creation               # golden-run checks, no service
 ```
 
 ## Retrieval (phase 1)
@@ -111,7 +113,7 @@ Five subagents in `.claude/agents/`. Each judges relevance; deterministic comman
 | `greek-new-testament-agent` | `sblgnt` | sonnet | english-to-greek, greek-to-english |
 | `cross-reference-agent` | `cross_refs` | sonnet | none |
 
-- Retrieval specialists: `bible-rag health` → (query skill for lexical terms) → `bible-rag search ... > runs/<id>/<x>_search.json` (`--mode lexical` without English queries when the service is down) → judge relevance → translate kept verses (`draft` + skill + `check translation`) → selection file (`keep` with `relevance`, `discard` with `reason`, `notes`, `missing`, no scripture) → `bible-rag pack specialist ... --out runs/<id>/<agent>.json`, which copies texts from the store and runs `check specialist`. They reply with only the path and a two-line summary.
+- Retrieval specialists: `bible-rag health` → (query skill for lexical terms) → `bible-rag search ... > runs/<id>/<x>_search.json` (`--mode lexical` without English queries when the service is down) → judge relevance → translate kept verses (`draft` + skill + `check translation`) → selection file (`keep` with `relevance`, `discard` with `reason`, `notes`, `missing`, no scripture) → `bible-rag pack specialist ... --references <delegated refs> --out runs/<id>/<agent>.json`, which copies texts from the store and runs `check specialist`. A kept verse must be in a saved search or among the delegated `--references`; `pack` rejects verses picked from memory. They reply with only the path and a two-line summary.
 - Cross-reference agent: `bible-rag xref` → optional `xref_adjust.json` (downgrades with notes only) → `bible-rag pack xrefs ... --out runs/<id>/cross-reference-agent.json` (`check xrefs`: every link in the dataset, votes exact, no upgrades, `verified_targets` = verified links).
 - `.claude/settings.json` allows `Bash(uv run bible-rag *)` and edits under `runs/**`, so agents run without permission prompts.
 - New agent files can take a while to be picked up by a running session; if an agent type is "not found", wait or start a new session.
@@ -127,11 +129,20 @@ Five subagents in `.claude/agents/`. Each judges relevance; deterministic comman
 ## Known data issues
 
 - **Fixed in `extract_verses.py`:** OSHB `<note>` text (English editorial notes, "KJV:Ps.23.1" markers, qere readings) leaked into 2,000+ Hebrew verses; notes are now skipped, so text is the written (ketiv) text. Swete psalm/ode titles carried stale verse numbers (Ps 22's title was "22.32") and are now verse 0. Swete digitization artifacts (alternate verse numbers "(52)", glued digits/superscripts, Roman numerals, Latin look-alike letters, stray sigla) are cleaned by `clean_lxx`. Typo Ps 88.84 → 88.48 (`LXX_VERSE_FIXES`).
-- **Hebrew embeddings use pointed text** (user decision, 2026-10-24). bge-m3's tokenizer splits pointed Hebrew into single letters and vowel marks (mean 77.5 tokens/verse vs 25.9 unpointed, where it sees whole words like `▁ישראל`), so Hebrew embeds ~3× slower and may embed less well. Check with phase 7's cross-lingual recall before changing; switching would mean re-embedding all Hebrew verses. Also: ~2% of WEB verses exceed `MAX_SEQ_LEN` 256 tokens and are truncated for embedding.
+- **Hebrew embeddings use pointed text** (user decision, 2026-10-24). bge-m3's tokenizer splits pointed Hebrew into single letters and vowel marks (mean 77.5 tokens/verse vs 25.9 unpointed, where it sees whole words like `▁ישראל`), so Hebrew embeds ~3× slower and embeds worse: on the same 4,036-verse pool, English → Hebrew recall@10 is 0.60 pointed vs 0.88 unpointed (`experiments/hebrew_pointing.py`, `docs/evaluation.md`). Switching means re-embedding the Hebrew verses from `fold(text_norm)`; it is the owner's call. Also: ~2% of WEB verses exceed `MAX_SEQ_LEN` 256 tokens and are truncated for embedding.
+- **Fixed in phase 7:** 2,079 WEB verses carried USFM word markup (`Selah|strong="H5542"`) from `\+w` words nested in character styles; `clean_usfm` handles them. Chroma's default HNSW settings left ~2% of verses unreachable by their own vector; `build_index.HNSW` uses 32 neighbors / ef 200.
+- **Swete has no Ecclesiastes** (the upstream converter skips book 30), so there is no LXX evidence for it.
 - **Not fixed:** ~100 LXX verses have OCR errors inside Greek words ("Μrπτον" for Αἴγυπτον); guessing corrections would be riskier than leaving them. Swete Song 7 and Job 16 each have one verse labeled with the wrong chapter. SBLGNT keeps its ⸂ ⸃ ⟦ ⟧ signs in `text_display`; `normalize()` drops them for embedding and search.
 - The JSONL files still carry raw book codes (OSIS for Hebrew, `LXX_<prefix>` for some LXX books); `books.py` normalizes them in the Parquet/SQLite layer.
 
 Use `bible_rag.text.normalize()` before embedding a query and `fold()` before an FTS5 `MATCH`, the same as at index time.
+
+## Evaluation (phase 7)
+
+- `bible-rag eval retrieval` searches each corpus with `eval/retrieval_cases.json` (41 answerable + 6 off-topic English queries) and reports recall@1/5/10 and MRR per corpus and mode. Current: WEB recall@10 0.98, LXX 0.83, SBLGNT 0.69, Hebrew 0.44 (English queries only; specialists add Hebrew/Greek lexical terms).
+- `bible-rag eval run <run_id> --golden <name>` checks a finished run against `eval/golden_queries.json`: expected references kept and shown, validator, section labels, machine-translation flags, verified links, agents and parallel groups in the trace, variant count, retry and insufficient-evidence behaviour.
+- One example run per golden query is committed as `runs/golden-*` (`.gitignore` excepts them); `tests/test_evaluation.py` re-checks them offline.
+- **Confidence calibration:** `runs.VECTOR_FLOOR` holds the per-corpus top cosine that off-topic questions reach; a run whose kept passages all score below it is capped at `low`.
 
 ## Planned stack
 

@@ -1,0 +1,97 @@
+[
+ {
+  "canon_ref": "JHN.1.1",
+  "verse_uid": "sblgnt:JHN.1.1",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+  "translation": "In the beginning the Word was, and the Word was with God, and the Word was God.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἦν: imperfect, continuing existence",
+   "θεὸς ἦν ὁ λόγος: anarthrous θεός as predicate"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:JHN.1.1",
+  "differences_from_web": [],
+  "_web_text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "JHN.1.2",
+  "verse_uid": "sblgnt:JHN.1.2",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+  "translation": "This one was in the beginning with God.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "οὗτος: 'this one', referring to the Word"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:JHN.1.2",
+  "differences_from_web": [],
+  "_web_text": "The same was in the beginning with God.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "JHN.1.14",
+  "verse_uid": "sblgnt:JHN.1.14",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+  "translation": "And the Word became flesh and dwelt among us, and we beheld his glory, glory as of an only-begotten from a father, full of grace and truth.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ἐσκήνωσεν: 'pitched his tent / tabernacled'",
+   "μονογενοῦς: 'only-begotten / unique'"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:JHN.1.14",
+  "differences_from_web": [],
+  "_web_text": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth.",
+  "_edition": null
+ },
+ {
+  "canon_ref": "1JN.1.1",
+  "verse_uid": "sblgnt:1JN.1.1",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—",
+  "translation": "What was from the beginning, what we have heard, what we have seen with our eyes, what we beheld and our hands handled, concerning the Word of life—",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "neuter relative ὅ repeated; sentence continues in the next verse"
+  ],
+  "uncertainties": [],
+  "web_reference": "web:1JN.1.1",
+  "differences_from_web": [],
+  "_web_text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
+  "_edition": null
+ },
+ {
+  "canon_ref": "REV.19.13",
+  "verse_uid": "sblgnt:REV.19.13",
+  "source": "sblgnt",
+  "corpus_label": "New Testament Greek (SBLGNT)",
+  "original": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.",
+  "translation": "And he is clothed in a garment dipped in blood, and his name is called The Word of God.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+   "ὁ Λόγος: title 'the Word'"
+  ],
+  "uncertainties": [
+   "variant unit: βεβαμμένον (marked ⸂ ⸃)",
+   "variant unit: κέκληται (marked ⸂ ⸃)"
+  ],
+  "web_reference": "web:REV.19.13",
+  "differences_from_web": [],
+  "_web_text": "He is clothed in a garment sprinkled with blood. His name is called “The Word of God.”",
+  "_edition": null
+ }
+]

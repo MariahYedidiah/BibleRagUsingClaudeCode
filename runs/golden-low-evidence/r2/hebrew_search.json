@@ -1,0 +1,483 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "פקיד פקדים נצבים",
+    "מלאכה משרתים"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.02783,
+      "verse_uid": "oshb_wlc:Deut.1.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "DEU",
+      "book_name": "Deuteronomy",
+      "chapter": 1,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Deut.1.13",
+      "canon_ref": "DEU.1.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "הָב֣וּ לָ֠/כֶם אֲנָשִׁ֨ים חֲכָמִ֧ים וּ/נְבֹנִ֛ים וִ/ידֻעִ֖ים לְ/שִׁבְטֵי/כֶ֑ם וַ/אֲשִׂימֵ֖/ם בְּ/רָאשֵׁי/כֶֽם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5625
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.5362
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02552,
+      "verse_uid": "oshb_wlc:Exod.31.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EXO",
+      "book_name": "Exodus",
+      "chapter": 31,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Exod.31.3",
+      "canon_ref": "EXO.31.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וָ/אֲמַלֵּ֥א אֹת֖/וֹ ר֣וּחַ אֱלֹהִ֑ים בְּ/חָכְמָ֛ה וּ/בִ/תְבוּנָ֥ה וּ/בְ/דַ֖עַת וּ/בְ/כָל־מְלָאכָֽה׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 26,
+          "score": 0.545
+        },
+        {
+          "query": "מלאכה משרתים",
+          "method": "lexical",
+          "rank": 12,
+          "score": -10.0425
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.02475,
+      "verse_uid": "oshb_wlc:2Chr.34.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 34,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "2Chr.34.13",
+      "canon_ref": "2CH.34.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/עַ֣ל הַ/סַּבָּלִ֗ים וּֽ/מְנַצְּחִים֙ לְ/כֹל֙ עֹשֵׂ֣ה מְלָאכָ֔ה לַ/עֲבוֹדָ֖ה וַ/עֲבוֹדָ֑ה וּ/מֵֽ/הַ/לְוִיִּ֔ם סוֹפְרִ֥ים וְ/שֹׁטְרִ֖ים וְ/שׁוֹעֲרִֽים׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 25,
+          "score": 0.5272
+        },
+        {
+          "query": "מלאכה משרתים",
+          "method": "lexical",
+          "rank": 17,
+          "score": -9.3164
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Jer.45.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 45,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Jer.45.2",
+      "canon_ref": "JER.45.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כֹּֽה־אָמַ֥ר יְהוָ֖ה אֱלֹהֵ֣י יִשְׂרָאֵ֑ל עָלֶ֖י/ךָ בָּרֽוּךְ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5113
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Job.38.27",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 38,
+      "verse": 27,
+      "edition": "",
+      "source_ref": "Job.38.27",
+      "canon_ref": "JOB.38.27",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לְ/הַשְׂבִּ֣יעַ שֹׁ֭אָה וּ/מְשֹׁאָ֑ה וּ֝/לְ/הַצְמִ֗יחַ מֹ֣צָא דֶֽשֶׁא׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5858
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:2Chr.35.10",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 35,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "2Chr.35.10",
+      "canon_ref": "2CH.35.10",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/תִּכּ֖וֹן הָ/עֲבוֹדָ֑ה וַ/יַּֽעַמְד֨וּ הַ/כֹּהֲנִ֧ים עַל־עָמְדָ֛/ם וְ/הַ/לְוִיִּ֥ם עַל־מַחְלְקוֹתָ֖/ם כְּ/מִצְוַ֥ת הַ/מֶּֽלֶךְ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5612
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:2Sam.8.14",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "2SA",
+      "book_name": "2 Samuel",
+      "chapter": 8,
+      "verse": 14,
+      "edition": "",
+      "source_ref": "2Sam.8.14",
+      "canon_ref": "2SA.8.14",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יָּ֨שֶׂם בֶּ/אֱד֜וֹם נְצִבִ֗ים בְּ/כָל־אֱדוֹם֙ שָׂ֣ם נְצִבִ֔ים וַ/יְהִ֥י כָל־אֱד֖וֹם עֲבָדִ֣ים לְ/דָוִ֑ד וַ/יּ֤וֹשַׁע יְהוָה֙ אֶת־דָּוִ֔ד בְּ/כֹ֖ל אֲשֶׁ֥ר הָלָֽךְ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "פקיד פקדים נצבים",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.7201
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:1Chr.22.15",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "1CH",
+      "book_name": "1 Chronicles",
+      "chapter": 22,
+      "verse": 15,
+      "edition": "",
+      "source_ref": "1Chr.22.15",
+      "canon_ref": "1CH.22.15",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/עִמְּ/ךָ֤ לָ/רֹב֙ עֹשֵׂ֣י מְלָאכָ֔ה חֹצְבִ֕ים וְ/חָרָשֵׁ֥י אֶ֖בֶן וָ/עֵ֑ץ וְ/כָל־חָכָ֖ם בְּ/כָל־מְלָאכָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "מלאכה משרתים",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.0464
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Jer.30.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 30,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "Jer.30.12",
+      "canon_ref": "JER.30.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֣י כֹ֥ה אָמַ֛ר יְהוָ֖ה אָנ֣וּשׁ לְ/שִׁבְרֵ֑/ךְ נַחְלָ֖ה מַכָּתֵֽ/ךְ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5033
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Eccl.3.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ECC",
+      "book_name": "Ecclesiastes",
+      "chapter": 3,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "Eccl.3.1",
+      "canon_ref": "ECC.3.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לַ/כֹּ֖ל זְמָ֑ן וְ/עֵ֥ת לְ/כָל־חֵ֖פֶץ תַּ֥חַת הַ/שָּׁמָֽיִם׃ ס",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5793
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Prov.30.24",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 30,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "Prov.30.24",
+      "canon_ref": "PRO.30.24",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אַרְבָּ֣עָה הֵ֭ם קְטַנֵּי־אָ֑רֶץ וְ֝/הֵ֗מָּה חֲכָמִ֥ים מְחֻכָּמִֽים׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5611
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Gen.41.34",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 41,
+      "verse": 34,
+      "edition": "",
+      "source_ref": "Gen.41.34",
+      "canon_ref": "GEN.41.34",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יַעֲשֶׂ֣ה פַרְעֹ֔ה וְ/יַפְקֵ֥ד פְּקִדִ֖ים עַל־הָ/אָ֑רֶץ וְ/חִמֵּשׁ֙ אֶת־אֶ֣רֶץ מִצְרַ֔יִם בְּ/שֶׁ֖בַע שְׁנֵ֥י הַ/שָּׂבָֽע׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "פקיד פקדים נצבים",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.3393
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:2Chr.13.10",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "2CH",
+      "book_name": "2 Chronicles",
+      "chapter": 13,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "2Chr.13.10",
+      "canon_ref": "2CH.13.10",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/אֲנַ֛חְנוּ יְהוָ֥ה אֱלֹהֵ֖י/נוּ וְ/לֹ֣א עֲזַבְנֻ֑/הוּ וְ/כֹ֨הֲנִ֜ים מְשָׁרְתִ֤ים לַֽ/יהוָה֙ בְּנֵ֣י אַהֲרֹ֔ן וְ/הַ/לְוִיִּ֖ם בַּ/מְלָֽאכֶת׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "מלאכה משרתים",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.3152
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Zech.8.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ZEC",
+      "book_name": "Zechariah",
+      "chapter": 8,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Zech.8.2",
+      "canon_ref": "ZEC.8.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כֹּ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת קִנֵּ֥אתִי לְ/צִיּ֖וֹן קִנְאָ֣ה גְדוֹלָ֑ה וְ/חֵמָ֥ה גְדוֹלָ֖ה קִנֵּ֥אתִי לָֽ/הּ׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.489
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Job.33.17",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 33,
+      "verse": 17,
+      "edition": "",
+      "source_ref": "Job.33.17",
+      "canon_ref": "JOB.33.17",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לְ֭/הָסִיר אָדָ֣ם מַעֲשֶׂ֑ה וְ/גֵוָ֖ה מִ/גֶּ֣בֶר יְכַסֶּֽה׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5781
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5858,
+    "vector_margin": 0.0065,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 8,
+    "lists_with_hits": 5,
+    "lists_containing_top_result": 2
+  }
+}

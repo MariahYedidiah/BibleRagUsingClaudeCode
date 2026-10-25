@@ -1,0 +1,598 @@
+{
+  "question": "In the beginning was the Word",
+  "answer": "The question quotes the opening words of the Gospel of John [JHN.1.1]. Both the WEB and the New Testament Greek (SBLGNT) were retrieved for it, and they agree: the verse makes three statements about \"the Word\" (Greek *ho logos*). The Word was in the beginning, the Word was with God, and the Word was God. The next verse repeats the point that this Word was \"in the beginning with God\" [JHN.1.2].\n\nLater in the same prologue the passage says what happened to the Word: it \"became flesh\" and lived among people, and its glory was seen, \"full of grace and truth\" [JHN.1.14]. The machine translation of the SBLGNT renders the verb as \"dwelt\". The specialist noted that the Greek verb (*eskēnōsen*) may recall tabernacle language. That is only a suggestion about the word; the dataset doesn't link this verse to the tabernacle.\n\nTwo other New Testament passages use the same language. The opening of 1 John speaks of what \"was from the beginning\", which the writers heard, saw and touched, \"concerning the Word of life\" [1JN.1.1]. In Revelation, the name of the rider \"is called The Word of God\" [REV.19.13]. In the SBLGNT text of this verse, two words are marked as places where manuscripts differ (*bebammenon* \"dipped\" and *keklētai* \"is called\").\n\n**Old Testament background.** John 1:1–14 has no quotation formula. The links below are verified cross-references in the OpenBible dataset (many votes). They show the background readers have connected with these verses. They don't mean John claims to quote these texts.\n\n- John's opening \"in the beginning\" goes back to the first verse of Genesis [GEN.1.1]. In the Septuagint Greek (Swete LXX) the wording is the same as in John 1:1 (*en archē*). The Septuagint has \"made\" (*epoiēsen*) where the Hebrew text (OSHB/WLC) has \"created\" (*bara*). The machine translation of the Hebrew notes that the verse can also be read \"When God began to create…\". Genesis does not mention a \"word\" in this verse.\n- John 1:1 is also linked to Wisdom speaking in Proverbs, \"in the beginning of his work, before his deeds of old\" [PRO.8.22]. Here the sources differ, and the difference should be kept. The WEB has \"The LORD possessed me\". The machine translation of the Hebrew has \"acquired me\" and notes that the Hebrew verb can mean \"acquired\", \"possessed\" or \"created\". The Septuagint has \"created me\" (*ektisen*), \"as the beginning of his ways\".\n- John 1:14 (\"we saw his glory\") is linked to the promise that \"the LORD's glory shall be revealed, and all flesh shall see it together\" [ISA.40.5]. Here the Septuagint differs from the Hebrew text: it says all flesh will see \"the salvation of God\". It also has \"the Lord has spoken\" where the Hebrew has \"the mouth of the LORD has spoken\".\n\nThe dataset has three weaker links from John 1:14, which were not checked further. It possibly alludes to Isaiah 53:2, Isaiah 60:1 and Psalm 45:2. Other links (Isaiah 9:6, Isaiah 7:14, Psalm 45:6, Isaiah 40:9, Psalm 2:7) are thematic similarities only.",
+  "passages": [
+    {
+      "canon_ref": "JHN.1.1",
+      "display_ref": "John 1:1",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+          "verse_uid": "sblgnt:JHN.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "In the beginning the Word was, and the Word was with God, and the Word was God.",
+          "translates": "sblgnt:JHN.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": null
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+          "verse_uid": "web:JHN.1.1"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.07538,
+          "relevance": "Direct match: in the beginning was the Word, with God, was God."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06557,
+          "relevance": "Direct match: the opening of the question. Found by both query variants (vector and lexical)."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "GEN.1.1",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 344,
+          "note": null
+        },
+        {
+          "to": "PRO.8.22",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 107,
+          "note": null
+        },
+        {
+          "to": "ISA.9.6",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 95,
+          "note": "Messianic titles (divine child); no shared wording with the Logos prologue"
+        },
+        {
+          "to": "ISA.7.14",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 78,
+          "note": "Immanuel theme; no shared wording with John 1:1"
+        },
+        {
+          "to": "PSA.45.6",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 39,
+          "note": "Addresses the king as God; theme only, no distinctive shared wording"
+        },
+        {
+          "to": "ISA.40.9",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 37,
+          "note": "'Behold your God' proclamation; theme only"
+        }
+      ],
+      "referenced_by": [],
+      "note": "the verse the question quotes: the Word in the beginning, with God, and God",
+      "missing": []
+    },
+    {
+      "canon_ref": "GEN.1.1",
+      "display_ref": "Genesis 1:1",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "In the beginning, God created the heavens and the earth.",
+          "verse_uid": "web:GEN.1.1"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+          "verse_uid": "oshb_wlc:Gen.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "In the beginning God created the heavens and the earth.",
+          "translates": "oshb_wlc:Gen.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Verse can be read 'When God began to create...' (construct בראשית)"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+          "verse_uid": "lxx_swete:01.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "In the beginning God made the heaven and the earth.",
+          "translates": "lxx_swete:01.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX has ἐποίησεν 'made' where the Hebrew has בָּרָא 'created' (WEB); LXX opening ἐν ἀρχῇ-style phrase 'in the beginning' matches the wording of Jn 1:1, but Genesis has no 'word'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.0292,
+          "relevance": "Requested reference: the Genesis creation opening, the 'beginning' parallel to John 1:1. Found by both methods (rank 5)."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "Requested; 'In the beginning' (בראשית) - the opening that John 1:1 echoes"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Requested; LXX opening 'in the beginning' parallels Jn 1:1 ἐν ἀρχῇ"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "JHN.1.1"
+      ],
+      "note": "verified cross-reference: the 'in the beginning' of Genesis (LXX 'made', Hebrew 'created')",
+      "missing": []
+    },
+    {
+      "canon_ref": "PRO.8.22",
+      "display_ref": "Proverbs 8:22",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "“The LORD possessed me in the beginning of his work, before his deeds of old.",
+          "verse_uid": "web:PRO.8.22"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "יְֽהוָ֗ה קָ֭נָ/נִי רֵאשִׁ֣ית דַּרְכּ֑/וֹ קֶ֖דֶם מִפְעָלָ֣י/ו מֵ/אָֽז׃",
+          "verse_uid": "oshb_wlc:Prov.8.22"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "The LORD acquired me as the beginning of his way, the first of his works of old.",
+          "translates": "oshb_wlc:Prov.8.22",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "קנה may mean 'acquired', 'possessed' or 'created'; Wisdom speaks; WEB 'possessed me in the beginning of his work' differs: I take ראשית as 'beginning' in apposition to me, and render קנני 'acquired'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "Κύριος ἔκτισέν με ἀρχὴν ὁδῶν αὐτοῦ εἰς ἔργα αὐτοῦ,",
+          "verse_uid": "lxx_swete:29.8.22"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "The Lord created me as the beginning of his ways, for his works,",
+          "translates": "lxx_swete:29.8.22",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX 'created me' (ἔκτισεν) where Hebrew קָנָנִי is 'possessed/acquired me' (WEB 'possessed'); LXX 'as the beginning of his ways, for his works' versus WEB 'in the beginning of his work'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.02649,
+          "relevance": "Requested reference: Wisdom personified as present 'from the beginning' before creation; found by both methods (rank 7)."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.03132,
+          "relevance": "Requested; Wisdom present at the beginning of God's work, found by vector and lexical search; background for the Word's preexistence"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Requested; Wisdom as 'beginning of his ways', background for the Logos/Wisdom idea"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "JHN.1.1"
+      ],
+      "note": "verified cross-reference: Wisdom at the beginning of God's work (LXX 'created me', Hebrew 'possessed/acquired me')",
+      "missing": []
+    },
+    {
+      "canon_ref": "JHN.1.2",
+      "display_ref": "John 1:2",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+          "verse_uid": "sblgnt:JHN.1.2"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "This one was in the beginning with God.",
+          "translates": "sblgnt:JHN.1.2",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": null
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "The same was in the beginning with God.",
+          "verse_uid": "web:JHN.1.2"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06281,
+          "relevance": "Continues the prologue: the Word was in the beginning with God."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06352,
+          "relevance": "Restates the beginning and the Word's relation to God. Found by both variants at vector ranks 2 and 2; supporting context for JHN.1.1."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "repeats that the Word was in the beginning with God",
+      "missing": []
+    },
+    {
+      "canon_ref": "JHN.1.14",
+      "display_ref": "John 1:14",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+          "verse_uid": "sblgnt:JHN.1.14"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "And the Word became flesh and dwelt among us, and we beheld his glory, glory as of an only-begotten from a father, full of grace and truth.",
+          "translates": "sblgnt:JHN.1.14",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": null
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth.",
+          "verse_uid": "web:JHN.1.14"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "The Word became flesh; not in the top-15 search hits but the second half of the query and same prologue."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04671,
+          "relevance": "The Word becoming flesh, the second half of the contrasting variant. Found by the expanded variant (vector rank 3, lexical rank 2)."
+        }
+      },
+      "cross_refs": [
+        {
+          "to": "ISA.40.5",
+          "relation": "verified",
+          "dataset": "openbible",
+          "votes": 77,
+          "note": null
+        },
+        {
+          "to": "ISA.7.14",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 38,
+          "note": "God-with-us theme; no distinctive shared wording"
+        },
+        {
+          "to": "PSA.2.7",
+          "relation": "thematic",
+          "dataset": "openbible",
+          "votes": 34,
+          "note": "Divine sonship theme; no shared wording with 'only begotten' in this verse"
+        },
+        {
+          "to": "ISA.53.2",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 24,
+          "note": null
+        },
+        {
+          "to": "ISA.60.1",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 15,
+          "note": null
+        },
+        {
+          "to": "PSA.45.2",
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "votes": 12,
+          "note": null
+        }
+      ],
+      "referenced_by": [],
+      "note": "the Word became flesh; his glory was seen",
+      "missing": []
+    },
+    {
+      "canon_ref": "ISA.40.5",
+      "display_ref": "Isaiah 40:5",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "The LORD’s glory shall be revealed, and all flesh shall see it together; for the mouth of the LORD has spoken it.”",
+          "verse_uid": "web:ISA.40.5"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וְ/נִגְלָ֖ה כְּב֣וֹד יְהוָ֑ה וְ/רָא֤וּ כָל־בָּשָׂר֙ יַחְדָּ֔ו כִּ֛י פִּ֥י יְהוָ֖ה דִּבֵּֽר׃ ס",
+          "verse_uid": "oshb_wlc:Isa.40.5"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And the glory of the LORD will be revealed, and all flesh will see it together, for the mouth of the LORD has spoken.",
+          "translates": "oshb_wlc:Isa.40.5",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "WEB adds 'it' after 'see' (the Hebrew has an object suffix-less 'see together'); sense is the same"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "καὶ ὀφθήσεται ἡ δόξα Κυρίου, καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ, ὅτι Κύριος ἐλάλησεν.",
+          "verse_uid": "lxx_swete:48.40.5"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "And the glory of the Lord will be seen, and all flesh will see the salvation of God, for the Lord has spoken.",
+          "translates": "lxx_swete:48.40.5",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX adds 'and all flesh will see the salvation of God' (τὸ σωτήριον τοῦ θεοῦ) where the Hebrew has 'all flesh shall see it together'; LXX lacks 'together'; 'mouth of the LORD has spoken' becomes 'the Lord has spoken'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Requested reference: 'the mouth of the LORD has spoken' and the glory revealed; a thematic word-of-God parallel, not a lexical match. Not in the search top 15, so kept only because it was requested."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Requested; verified OT target of the cross-reference: the mouth of the LORD has spoken (divine word)"
+        },
+        "lxx_swete": {
+          "found_by": [
+            "reference"
+          ],
+          "rrf": null,
+          "relevance": "Requested; glory of the Lord revealed, linked with Jn 1:14 themes"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [
+        "JHN.1.14"
+      ],
+      "note": "verified cross-reference: the LORD's glory revealed to all flesh (LXX adds 'the salvation of God')",
+      "missing": []
+    },
+    {
+      "canon_ref": "1JN.1.1",
+      "display_ref": "1 John 1:1",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "Ὃ ἦν ἀπ᾽ ἀρχῆς, ὃ ἀκηκόαμεν, ὃ ἑωράκαμεν τοῖς ὀφθαλμοῖς ἡμῶν, ὃ ἐθεασάμεθα καὶ αἱ χεῖρες ἡμῶν ἐψηλάφησαν, περὶ τοῦ λόγου τῆς ζωῆς—",
+          "verse_uid": "sblgnt:1JN.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "What was from the beginning, what we have heard, what we have seen with our eyes, what we beheld and our hands handled, concerning the Word of life—",
+          "translates": "sblgnt:1JN.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": null
+        },
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
+          "verse_uid": "web:1JN.1.1"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "vector"
+          ],
+          "rrf": 0.03105,
+          "relevance": "'from the beginning' and 'the Word of life'; parallel to the John prologue."
+        },
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.05954,
+          "relevance": "Describes the Word of life as from the beginning. Found by both variants, lexical rank 4 for the short query."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "'from the beginning' and 'the Word of life' in 1 John",
+      "missing": []
+    },
+    {
+      "canon_ref": "REV.19.13",
+      "display_ref": "Revelation 19:13",
+      "testament": "NT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "sblgnt",
+          "language": "grc",
+          "text": "καὶ περιβεβλημένος ἱμάτιον ⸂ βεβαμμένον ⸃ αἵματι, καὶ ⸂ κέκληται ⸃ τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.",
+          "verse_uid": "sblgnt:REV.19.13"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "sblgnt",
+          "language": "en",
+          "text": "And he is clothed in a garment dipped in blood, and his name is called The Word of God.",
+          "translates": "sblgnt:REV.19.13",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "variant unit: βεβαμμένον (marked ⸂ ⸃); variant unit: κέκληται (marked ⸂ ⸃)"
+        }
+      ],
+      "retrieval": {
+        "sblgnt": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.03279,
+          "relevance": "'The Word of God' as a name of the rider; related title."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "the rider's name, 'The Word of God' (SBLGNT marks textual variants)",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        }
+      ]
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "basis": "21 passages kept; 7 references found in two or more languages; 12 passages found by both vector and lexical search",
+    "signals": {
+      "passages_kept": 21,
+      "cross_lingual_refs": [
+        "1JN.1.1",
+        "GEN.1.1",
+        "ISA.40.5",
+        "JHN.1.1",
+        "JHN.1.14",
+        "JHN.1.2",
+        "PRO.8.22"
+      ],
+      "found_by_both_methods": 12,
+      "above_vector_floor": 18,
+      "found_by_two_or_more_queries": 9,
+      "top_vector_score": 0.9441,
+      "vector_search_available": true
+    }
+  },
+  "clarifying_question": null,
+  "run_id": "golden-nt-word"
+}

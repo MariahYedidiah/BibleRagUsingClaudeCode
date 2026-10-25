@@ -1,0 +1,524 @@
+{
+  "queries": [
+    "What does Genesis say about creation?",
+    "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day"
+  ],
+  "lexical_queries": [
+    "בראשית ברא ויברא",
+    "בצלמנו צלם רקיע וישבת ויצר אור"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ],
+    "book_id": [
+      "GEN"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.04408,
+      "verse_uid": "oshb_wlc:Gen.1.26",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 26,
+      "edition": "",
+      "source_ref": "Gen.1.26",
+      "canon_ref": "GEN.1.26",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.479
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 18,
+          "score": 0.5564
+        },
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.3382
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.04123,
+      "verse_uid": "oshb_wlc:Gen.5.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 5,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "Gen.5.1",
+      "canon_ref": "GEN.5.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "זֶ֣ה סֵ֔פֶר תּוֹלְדֹ֖ת אָדָ֑ם בְּ/י֗וֹם בְּרֹ֤א אֱלֹהִים֙ אָדָ֔ם בִּ/דְמ֥וּת אֱלֹהִ֖ים עָשָׂ֥ה אֹתֽ/וֹ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.4549
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 22,
+          "score": 0.5497
+        },
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.2959
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.03021,
+      "verse_uid": "oshb_wlc:Gen.2.4",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 2,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "Gen.2.4",
+      "canon_ref": "GEN.2.4",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אֵ֣לֶּה תוֹלְד֧וֹת הַ/שָּׁמַ֛יִם וְ/הָ/אָ֖רֶץ בְּ/הִבָּֽרְאָ֑/ם בְּ/י֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְ/שָׁמָֽיִם׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.4613
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6088
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.02924,
+      "verse_uid": "oshb_wlc:Gen.2.19",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 2,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "Gen.2.19",
+      "canon_ref": "GEN.2.19",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יִּצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים מִן־הָֽ/אֲדָמָ֗ה כָּל־חַיַּ֤ת הַ/שָּׂדֶה֙ וְ/אֵת֙ כָּל־ע֣וֹף הַ/שָּׁמַ֔יִם וַ/יָּבֵא֙ אֶל־הָ֣/אָדָ֔ם לִ/רְא֖וֹת מַה־יִּקְרָא־ל֑/וֹ וְ/כֹל֩ אֲשֶׁ֨ר יִקְרָא־ל֧/וֹ הָֽ/אָדָ֛ם נֶ֥פֶשׁ חַיָּ֖ה ה֥וּא שְׁמֽ/וֹ׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.594
+        },
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 11,
+          "score": -7.3822
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02818,
+      "verse_uid": "oshb_wlc:Gen.1.6",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "Gen.1.6",
+      "canon_ref": "GEN.1.6",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּ/ת֣וֹךְ הַ/מָּ֑יִם וִ/יהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָ/מָֽיִם׃",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 23,
+          "score": 0.449
+        },
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.5341
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.02788,
+      "verse_uid": "oshb_wlc:Gen.2.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 2,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Gen.2.3",
+      "canon_ref": "GEN.2.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 20,
+          "score": 0.5521
+        },
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 5,
+          "score": -9.3906
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.02669,
+      "verse_uid": "oshb_wlc:Gen.5.7",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 5,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "Gen.5.7",
+      "canon_ref": "GEN.5.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַֽ/יְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣/וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּ/שְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַ/יּ֥וֹלֶד בָּנִ֖ים וּ/בָנֽוֹת׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 7,
+          "score": 0.4669
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 25,
+          "score": 0.5481
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Gen.5.9",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 5,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "Gen.5.9",
+      "canon_ref": "GEN.5.9",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַֽ/יְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת־קֵינָֽן׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.4941
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Gen.3.21",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 3,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "Gen.3.21",
+      "canon_ref": "GEN.3.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יַּעַשׂ֩ יְהוָ֨ה אֱלֹהִ֜ים לְ/אָדָ֧ם וּ/לְ/אִשְׁתּ֛/וֹ כָּתְנ֥וֹת ע֖וֹר וַ/יַּלְבִּשֵֽׁ/ם׃ פ",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6097
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Gen.1.27",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 27,
+      "edition": "",
+      "source_ref": "Gen.1.27",
+      "canon_ref": "GEN.1.27",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 1,
+          "score": -25.4481
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Gen.1.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Gen.1.3",
+      "canon_ref": "GEN.1.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.7051
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Gen.43.11",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 43,
+      "verse": 11,
+      "edition": "",
+      "source_ref": "Gen.43.11",
+      "canon_ref": "GEN.43.11",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יֹּ֨אמֶר אֲלֵ/הֶ֜ם יִשְׂרָאֵ֣ל אֲבִי/הֶ֗ם אִם־כֵּ֣ן ׀ אֵפוֹא֮ זֹ֣את עֲשׂוּ֒ קְח֞וּ מִ/זִּמְרַ֤ת הָ/אָ֨רֶץ֙ בִּ/כְלֵי/כֶ֔ם וְ/הוֹרִ֥ידוּ לָ/אִ֖ישׁ מִנְחָ֑ה מְעַ֤ט צֳרִי֙ וּ/מְעַ֣ט דְּבַ֔שׁ נְכֹ֣את וָ/לֹ֔ט בָּטְנִ֖ים וּ/שְׁקֵדִֽים׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4815
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Gen.1.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "Gen.1.1",
+      "canon_ref": "GEN.1.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ברא ויברא",
+          "method": "lexical",
+          "rank": 2,
+          "score": -24.9966
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Gen.1.25",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 25,
+      "edition": "",
+      "source_ref": "Gen.1.25",
+      "canon_ref": "GEN.1.25",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָ/אָ֜רֶץ לְ/מִינָ֗/הּ וְ/אֶת־הַ/בְּהֵמָה֙ לְ/מִינָ֔/הּ וְ/אֵ֛ת כָּל־רֶ֥מֶשׂ הָֽ/אֲדָמָ֖ה לְ/מִינֵ֑/הוּ וַ/יַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.6059
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Gen.46.24",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 46,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "Gen.46.24",
+      "canon_ref": "GEN.46.24",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וּ/בְנֵ֖י נַפְתָּלִ֑י יַחְצְאֵ֥ל וְ/גוּנִ֖י וְ/יֵ֥צֶר וְ/שִׁלֵּֽם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בצלמנו צלם רקיע וישבת ויצר אור",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.9584
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6097,
+    "vector_margin": 0.0009,
+    "vector_lexical_overlap_top10": 1,
+    "lists": 6,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 3
+  }
+}

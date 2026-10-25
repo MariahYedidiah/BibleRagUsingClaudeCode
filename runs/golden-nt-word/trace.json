@@ -1,0 +1,133 @@
+{
+  "run_id": "golden-nt-word",
+  "question": "In the beginning was the Word",
+  "started": "2026-10-24T10:05:56",
+  "events": [
+    {
+      "t": "2026-10-24T10:06:27",
+      "event": "analysis",
+      "agent": "leader-agent",
+      "path": "runs/golden-nt-word/analysis.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:11:06",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1",
+      "detail": "web (NT)"
+    },
+    {
+      "t": "2026-10-24T10:11:07",
+      "event": "delegate",
+      "agent": "greek-new-testament-agent",
+      "group": "r1",
+      "detail": "sblgnt"
+    },
+    {
+      "t": "2026-10-24T10:12:17",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-nt-word/english-retrieval-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:15:43",
+      "event": "result",
+      "agent": "greek-new-testament-agent",
+      "detail": "JHN.1.14 and REV.19.13 kept without a search hit",
+      "path": "runs/golden-nt-word/greek-new-testament-agent.json",
+      "status": "failed"
+    },
+    {
+      "t": "2026-10-24T10:15:44",
+      "event": "delegate",
+      "agent": "greek-new-testament-agent",
+      "group": "r1-retry",
+      "detail": "re-pack: keep only retrieved verses"
+    },
+    {
+      "t": "2026-10-24T10:16:28",
+      "event": "result",
+      "agent": "greek-new-testament-agent",
+      "path": "runs/golden-nt-word/greek-new-testament-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:16:29",
+      "event": "delegate",
+      "agent": "cross-reference-agent",
+      "group": "xref",
+      "detail": "flagged OT echoes JHN.1.1 JHN.1.2 JHN.1.14"
+    },
+    {
+      "t": "2026-10-24T10:17:10",
+      "event": "result",
+      "agent": "cross-reference-agent",
+      "path": "runs/golden-nt-word/cross-reference-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:17:13",
+      "event": "delegate",
+      "agent": "hebrew-specialist-agent",
+      "group": "r1-ot",
+      "detail": "verified targets GEN.1.1 PRO.8.22 ISA.40.5"
+    },
+    {
+      "t": "2026-10-24T10:17:15",
+      "event": "delegate",
+      "agent": "septuagint-specialist-agent",
+      "group": "r1-ot",
+      "detail": "verified targets GEN.1.1 PRO.8.22 ISA.40.5"
+    },
+    {
+      "t": "2026-10-24T10:17:17",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1-ot",
+      "detail": "verified targets GEN.1.1 PRO.8.22 ISA.40.5"
+    },
+    {
+      "t": "2026-10-24T10:36:06",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-nt-word/xref/english-retrieval-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:36:08",
+      "event": "result",
+      "agent": "hebrew-specialist-agent",
+      "path": "runs/golden-nt-word/xref/hebrew-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:36:09",
+      "event": "result",
+      "agent": "septuagint-specialist-agent",
+      "path": "runs/golden-nt-word/xref/septuagint-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:36:11",
+      "event": "delegate",
+      "agent": "synthesis-agent",
+      "group": "synth",
+      "detail": "after xref round"
+    },
+    {
+      "t": "2026-10-24T10:37:17",
+      "event": "result",
+      "agent": "synthesis-agent",
+      "path": "runs/golden-nt-word/answer.md",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:37:20",
+      "event": "answer",
+      "agent": "leader-agent",
+      "status": "ok"
+    }
+  ]
+}

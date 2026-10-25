@@ -1,0 +1,401 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-ot-creation",
+  "corpus": "lxx_swete",
+  "queries": [
+    "What does Genesis say about creation?",
+    "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day"
+  ],
+  "lexical_queries": [
+    "ἔκτισεν κτίσεως ἀρχῇ",
+    "στερέωμα εἰκόνα ὁμοίωσιν",
+    "κατέπαυσεν ἑβδόμῃ φῶς ἐποίησεν"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.7361,
+      "vector_margin": 0.0573,
+      "vector_lexical_overlap_top10": 6,
+      "lists": 7,
+      "lists_with_hits": 5,
+      "lists_containing_top_result": 4
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "GEN.1.1",
+      "verse_uid": "lxx_swete:01.1.1",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5101
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.7361
+        },
+        {
+          "query": "ἔκτισεν κτίσεως ἀρχῇ",
+          "method": "lexical",
+          "rank": 1,
+          "score": -8.7539
+        },
+        {
+          "query": "κατέπαυσεν ἑβδόμῃ φῶς ἐποίησεν",
+          "method": "lexical",
+          "rank": 16,
+          "score": -6.1128
+        }
+      ],
+      "rrf": 0.06207,
+      "relevance": "Opening statement of creation",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.1.1",
+          "verse": 1,
+          "text_display": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.2",
+          "verse": 2,
+          "text_display": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου· καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.1",
+        "verse_uid": "lxx_swete:01.1.1",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+        "translation": "In the beginning God made the heaven and the earth.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "Opening words are in capitals in Swete; ἐποίησεν 'made' (not a verb of creating ex nihilo)"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.1",
+        "differences_from_web": [
+          "LXX has 'made' (ἐποίησεν) where WEB has 'created' (Heb. ברא)",
+          "LXX has singular 'the heaven' where WEB has plural 'the heavens'"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "GEN.1.3",
+      "verse_uid": "lxx_swete:01.1.3",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς· καὶ ἐγένετο φῶς.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.4736
+        },
+        {
+          "query": "κατέπαυσεν ἑβδόμῃ φῶς ἐποίησεν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -10.4636
+        }
+      ],
+      "rrf": 0.03002,
+      "relevance": "God creates light by speaking",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.1.2",
+          "verse": 2,
+          "text_display": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου· καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.3",
+          "verse": 3,
+          "text_display": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς· καὶ ἐγένετο φῶς."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.4",
+          "verse": 4,
+          "text_display": "καὶ ἴδεν ὁ θεὸς τὸ φῶς ὅτι καλόν· καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.3",
+        "verse_uid": "lxx_swete:01.1.3",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς· καὶ ἐγένετο φῶς.",
+        "translation": "And God said, 'Let light come to be.' And light came to be.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "Γενηθήτω: aorist passive imperative, 'let there come to be'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.3",
+        "differences_from_web": [
+          "No meaningful difference in sense; LXX uses 'come to be' (γίνομαι) for Hebrew 'be'"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "GEN.1.26",
+      "verse_uid": "lxx_swete:01.1.26",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.6087
+        },
+        {
+          "query": "στερέωμα εἰκόνα ὁμοίωσιν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.0832
+        }
+      ],
+      "rrf": 0.02973,
+      "relevance": "Making of humankind in image and likeness",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.1.25",
+          "verse": 25,
+          "text_display": "καὶ ἐποίησεν ὁ θεὸς τὰ θηρία τῆς γῆς κατὰ γένος καὶ τὰ κτήνη κατὰ γένος καὶ πάντα τὰ ἑρπετὰ τῆς γῆς κατὰ γένος αὐτῶν· καὶ ἴδεν ὁ θεὸς ὅτι καλά."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.26",
+          "verse": 26,
+          "text_display": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.27",
+          "verse": 27,
+          "text_display": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.26",
+        "verse_uid": "lxx_swete:01.1.26",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς.",
+        "translation": "And God said, 'Let us make man according to our image and according to likeness; and let them rule over the fishes of the sea and the birds of the heaven and the cattle and all the earth and all the creeping things that creep on the earth.'",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἡμετέραν: 'our', adjective agreeing with image",
+          "πάτης appears to be a damaged/variant form, probably intended as 'all' (πάσης); sense read from context"
+        ],
+        "uncertainties": [
+          "Possible textual/OCR damage in one word near \"all the earth\"; translated by context"
+        ],
+        "web_reference": "web:GEN.1.26",
+        "differences_from_web": [
+          "LXX has 'according to our image and according to likeness' (adjective ἡμετέραν, with 'and' linking the two phrases) where WEB has 'in our image, after our likeness'",
+          "LXX 'let them rule' (ἀρχέτωσαν) vs WEB 'have dominion'"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "GEN.1.27",
+      "verse_uid": "lxx_swete:01.1.27",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does Genesis say about creation?",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.4422
+        },
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 21,
+          "score": 0.5981
+        },
+        {
+          "query": "στερέωμα εἰκόνα ὁμοίωσιν",
+          "method": "lexical",
+          "rank": 2,
+          "score": -8.8175
+        },
+        {
+          "query": "κατέπαυσεν ἑβδόμῃ φῶς ἐποίησεν",
+          "method": "lexical",
+          "rank": 4,
+          "score": -7.9704
+        }
+      ],
+      "rrf": 0.056,
+      "relevance": "Humankind made male and female in God's image",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.1.26",
+          "verse": 26,
+          "text_display": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.27",
+          "verse": 27,
+          "text_display": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.28",
+          "verse": 28,
+          "text_display": "καὶ ηὐλόγησεν αὐτοὺς ὁ θεὸς λέγων Αὐξάνεσθε καὶ πληθύνεσθε, καὶ πληρώσατε τὴν γῆν καὶ κατακυριεύσατε αὐτῆς, καὶ ἄρχετε τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.27",
+        "verse_uid": "lxx_swete:01.1.27",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς.",
+        "translation": "And God made the man; according to the image of God he made him; male and female he made them.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἐποίησεν repeated three times"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.27",
+        "differences_from_web": [
+          "LXX uses 'made' (ἐποίησεν) throughout where WEB has 'created'",
+          "LXX has 'the man' (τὸν ἄνθρωπον); 'according to the image of God' where WEB has 'in God's image'"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "GEN.2.2",
+      "verse_uid": "lxx_swete:01.2.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρα τῇ ἕκτη τὰ ἔργα αὐτοῦ ἃ ἐποίησεν· καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἐποίησεν.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning God created the heavens and the earth; God made light, the sky, the land, plants, animals and humankind in his image, and rested on the seventh day",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.6297
+        },
+        {
+          "query": "κατέπαυσεν ἑβδόμῃ φῶς ἐποίησεν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -19.6355
+        }
+      ],
+      "rrf": 0.03154,
+      "relevance": "Completion of creation and rest on the seventh day (LXX: sixth day)",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.2.1",
+          "verse": 1,
+          "text_display": "Καὶ συνετελέσθησαν ὁ οὐρανὸς καὶ ἡ γῆ καὶ πᾶς ὁ κόσμος αὐτῶν."
+        },
+        {
+          "verse_uid": "lxx_swete:01.2.2",
+          "verse": 2,
+          "text_display": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρα τῇ ἕκτη τὰ ἔργα αὐτοῦ ἃ ἐποίησεν· καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἐποίησεν."
+        },
+        {
+          "verse_uid": "lxx_swete:01.2.3",
+          "verse": 3,
+          "text_display": "καὶ ηὐλόγησεν ὁ θεὸς τὴν ἡμέραν τὴν ἑβδόμην καὶ ἡγίασεν αὐτήν, ὅτι ἐν αὐτῇ κατέπαυσεν ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἤρξατο ὁ θεὸς ποιῆσαι."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.2.2",
+        "verse_uid": "lxx_swete:01.2.2",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρα τῇ ἕκτη τὰ ἔργα αὐτοῦ ἃ ἐποίησεν· καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἐποίησεν.",
+        "translation": "And on the sixth day God completed his works that he had made; and on the seventh day he rested from all his works that he had made.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "συνετέλεσεν: 'completed, finished'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.2.2",
+        "differences_from_web": [
+          "LXX says God completed his works on the SIXTH day (ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ); WEB (Hebrew) says the SEVENTH day"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:01.5.1",
+      "reason": "Genealogy recap of Adam's creation; secondary"
+    },
+    {
+      "verse_uid": "lxx_swete:01.1.20",
+      "reason": "Creatures of water/air; lower priority than k limit"
+    },
+    {
+      "verse_uid": "lxx_swete:01.2.4",
+      "reason": "Summary formula; lower priority than k limit"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "All results are Genesis, alignment mapped. Gen 2:2: LXX reads sixth day where Hebrew/WEB reads seventh.",
+    "Gen 1:1 LXX uses ποιέω 'made' rather than 'created'."
+  ]
+}

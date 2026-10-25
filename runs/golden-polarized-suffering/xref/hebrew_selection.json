@@ -1,0 +1,37 @@
+{
+ "keep": [
+  {
+   "canon_ref": "PSA.22.1",
+   "relevance": "Lament: why has God forsaken me, far from my cry; voices the felt absence of care"
+  },
+  {
+   "canon_ref": "PSA.55.22",
+   "relevance": "Invitation to cast burdens on God, who sustains the righteous; answers the premise of divine indifference"
+  },
+  {
+   "canon_ref": "PSA.37.5",
+   "relevance": "Commit your way to God and trust; he will act"
+  },
+  {
+   "canon_ref": "PSA.56.3",
+   "relevance": "Trust in God in fear"
+  },
+  {
+   "canon_ref": "PSA.34.15",
+   "relevance": "God's eyes and ears are toward the righteous and their cry; direct counter to indifference"
+  },
+  {
+   "canon_ref": "PSA.27.13",
+   "relevance": "Confidence in seeing the LORD's goodness amid distress"
+  },
+  {
+   "canon_ref": "PSA.142.4",
+   "relevance": "Lament of one with no one who cares, turning to God as refuge"
+  }
+ ],
+ "discard": [],
+ "notes": [
+  "Requested references (verified OT targets) kept; k=7 filled by them. Search also found PSA.86.7, PSA.44.21, PSA.69.17, LAM.3.22, JOB.39.17 (not kept due to k limit; JOB.39.17 unrelated ostrich verse)."
+ ],
+ "missing": []
+}

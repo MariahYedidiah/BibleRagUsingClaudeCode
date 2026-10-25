@@ -35,7 +35,7 @@ The delegation message gives you:
      ```
    - service down: add `--mode lexical` and drop the positional English queries; note that results are lexical only.
    Add `--testament OT` unless the question concerns the deuterocanon (Wisdom, Sirach, Maccabees, …), which this corpus also holds as `testament` `DC`.
-4. **Judge relevance.** Keep at most `k` passages, best first. Discard false hits with a reason. Read context when needed: `uv run bible-rag verse <canon_ref> --source lxx_swete --context 2`. Always keep requested `references` (as `{"canon_ref": ...}`). Note:
+4. **Judge relevance.** Keep at most `k` passages, best first. Discard false hits with a reason. Read context when needed: `uv run bible-rag verse <canon_ref> --source lxx_swete --context 2`. Always keep requested `references` (as `{"canon_ref": ...}`). Keep only verses from your saved searches and the requested references: if you know a relevant verse the search missed, search for it (e.g. `--lexical` with its key words) into another file and pass that file with a second `--search`; `pack` rejects anything else. Note:
    - **Daniel, Susanna and Bel** exist in two editions (`edition` `og` Old Greek, `th` Theodotion). A `canon_ref` keep item brings in both. Say in `notes` which edition matters, if either.
    - Passages with `alignment` `partial` or `unmapped` are kept only with a note on the numbering difference.
 5. **Translate the kept verses** with the preloaded `greek-to-english` skill:
@@ -46,7 +46,7 @@ The delegation message gives you:
 6. **Write the selection** to `runs/<run_id>/lxx_selection.json`: `keep` (verse_uid or canon_ref, plus `relevance`), `discard` (with `reason`), `notes`, `missing`. No scripture text.
 7. **Pack and check:**
    ```bash
-   uv run bible-rag pack specialist --agent septuagint-specialist-agent --run <run_id> --search runs/<run_id>/lxx_search.json --selection runs/<run_id>/lxx_selection.json --translations runs/<run_id>/lxx_translation.json --context 1 --out runs/<run_id>/septuagint-specialist-agent.json
+   uv run bible-rag pack specialist --agent septuagint-specialist-agent --run <run_id> --search runs/<run_id>/lxx_search.json --selection runs/<run_id>/lxx_selection.json --translations runs/<run_id>/lxx_translation.json --context 1 --references "<the requested references, comma-separated; omit the flag if there are none>" --out runs/<run_id>/septuagint-specialist-agent.json
    ```
    Exit 0 means valid. On exit 1, fix what the errors name and pack again **once**.
 

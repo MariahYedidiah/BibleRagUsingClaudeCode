@@ -1,0 +1,76 @@
+{
+  "run_id": "golden-ot-creation",
+  "question": "What does Genesis say about creation?",
+  "started": "2026-10-24T10:05:08",
+  "events": [
+    {
+      "t": "2026-10-24T10:05:25",
+      "event": "analysis",
+      "agent": "leader-agent",
+      "path": "runs/golden-ot-creation/analysis.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:05:27",
+      "event": "delegate",
+      "agent": "english-retrieval-agent",
+      "group": "r1",
+      "detail": "web (OT, Genesis)"
+    },
+    {
+      "t": "2026-10-24T10:05:29",
+      "event": "delegate",
+      "agent": "hebrew-specialist-agent",
+      "group": "r1",
+      "detail": "oshb_wlc"
+    },
+    {
+      "t": "2026-10-24T10:05:30",
+      "event": "delegate",
+      "agent": "septuagint-specialist-agent",
+      "group": "r1",
+      "detail": "lxx_swete"
+    },
+    {
+      "t": "2026-10-24T10:11:31",
+      "event": "result",
+      "agent": "hebrew-specialist-agent",
+      "path": "runs/golden-ot-creation/hebrew-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:11:37",
+      "event": "result",
+      "agent": "english-retrieval-agent",
+      "path": "runs/golden-ot-creation/english-retrieval-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:11:42",
+      "event": "result",
+      "agent": "septuagint-specialist-agent",
+      "path": "runs/golden-ot-creation/septuagint-specialist-agent.json",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:11:44",
+      "event": "delegate",
+      "agent": "synthesis-agent",
+      "group": "synth",
+      "detail": "confidence computed"
+    },
+    {
+      "t": "2026-10-24T10:12:43",
+      "event": "result",
+      "agent": "synthesis-agent",
+      "path": "runs/golden-ot-creation/answer.md",
+      "status": "ok"
+    },
+    {
+      "t": "2026-10-24T10:12:45",
+      "event": "answer",
+      "agent": "leader-agent",
+      "status": "ok"
+    }
+  ]
+}

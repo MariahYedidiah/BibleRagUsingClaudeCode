@@ -1,0 +1,120 @@
+{
+  "agent": "cross-reference-agent",
+  "run_id": "golden-nt-word",
+  "entries": [
+    {
+      "from_ref": "JHN.1.1",
+      "links": [
+        {
+          "to": "GEN.1.1",
+          "votes": 344,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "PRO.8.22",
+          "votes": 107,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": "Prov.8.22-Prov.8.31"
+        },
+        {
+          "to": "ISA.9.6",
+          "votes": 95,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "Messianic titles (divine child); no shared wording with the Logos prologue"
+        },
+        {
+          "to": "ISA.7.14",
+          "votes": 78,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "Immanuel theme; no shared wording with John 1:1"
+        },
+        {
+          "to": "PSA.45.6",
+          "votes": 39,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "Addresses the king as God; theme only, no distinctive shared wording"
+        },
+        {
+          "to": "ISA.40.9",
+          "votes": 37,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": "Isa.40.9-Isa.40.11",
+          "note": "'Behold your God' proclamation; theme only"
+        }
+      ]
+    },
+    {
+      "from_ref": "JHN.1.14",
+      "links": [
+        {
+          "to": "ISA.40.5",
+          "votes": 77,
+          "relation": "verified",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "ISA.7.14",
+          "votes": 38,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "God-with-us theme; no distinctive shared wording"
+        },
+        {
+          "to": "PSA.2.7",
+          "votes": 34,
+          "relation": "thematic",
+          "dataset": "openbible",
+          "to_range": null,
+          "note": "Divine sonship theme; no shared wording with 'only begotten' in this verse"
+        },
+        {
+          "to": "ISA.53.2",
+          "votes": 24,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        },
+        {
+          "to": "ISA.60.1",
+          "votes": 15,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": "Isa.60.1-Isa.60.2"
+        },
+        {
+          "to": "PSA.45.2",
+          "votes": 12,
+          "relation": "possible_allusion",
+          "dataset": "openbible",
+          "to_range": null
+        }
+      ]
+    },
+    {
+      "from_ref": "JHN.1.2",
+      "links": []
+    }
+  ],
+  "verified_targets": [
+    "GEN.1.1",
+    "PRO.8.22",
+    "ISA.40.5"
+  ],
+  "notes": [
+    "JHN.1.1 echoes GEN.1.1 ('in the beginning'), an allusion rather than a quotation formula",
+    "JHN.1.14 ISA.40.5 (glory revealed) kept as verified by votes, an echo not a quotation",
+    "JHN.1.2 has no OT links in the dataset"
+  ]
+}

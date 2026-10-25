@@ -1,0 +1,57 @@
+{
+  "agent": "hebrew-specialist-agent",
+  "run_id": "golden-low-evidence/r2",
+  "corpus": "oshb_wlc",
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "פקיד פקדים נצבים",
+    "מלאכה משרתים"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5858,
+      "vector_margin": 0.0065,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 8,
+      "lists_with_hits": 5,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [],
+  "discarded": [
+    {
+      "verse_uid": "oshb_wlc:Deut.1.13",
+      "reason": "choosing wise men as leaders; general leadership, not system configuration"
+    },
+    {
+      "verse_uid": "oshb_wlc:Exod.31.3",
+      "reason": "craftsmanship skill for the tabernacle; loose echo"
+    },
+    {
+      "verse_uid": "oshb_wlc:2Chr.34.13",
+      "reason": "overseers of temple workers; no relation to configuring a technical system"
+    },
+    {
+      "verse_uid": "oshb_wlc:Eccl.3.1",
+      "reason": "a time for everything; thematic echo only"
+    },
+    {
+      "verse_uid": "oshb_wlc:Gen.41.34",
+      "reason": "Joseph's appointment of overseers over grain; agricultural administration, not computing"
+    }
+  ],
+  "missing": [
+    {
+      "field": "passages",
+      "reason": "The Hebrew Old Testament has nothing about configuring a Kubernetes cluster; retrieved verses on overseers and orderly work are only loose thematic echoes."
+    }
+  ],
+  "notes": [
+    "Vector and lexical search found only loose thematic echoes of organization and oversight; none addresses Kubernetes or technical system configuration."
+  ]
+}

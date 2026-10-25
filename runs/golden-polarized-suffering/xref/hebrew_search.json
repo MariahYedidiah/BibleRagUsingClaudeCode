@@ -1,0 +1,462 @@
+{
+  "queries": [
+    "Why doesn't God care about human suffering?"
+  ],
+  "lexical_queries": [
+    "עני עניי צרה צרתי בצר צעקה שועת",
+    "רחמים רחמיו חסדו",
+    "עזבתני תסתר"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Job.39.17",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 39,
+      "verse": 17,
+      "edition": "",
+      "source_ref": "Job.39.17",
+      "canon_ref": "JOB.39.17",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּֽי־הִשָּׁ֣/הּ אֱל֣וֹהַּ חָכְמָ֑ה וְ/לֹא־חָ֥לַק לָ֝֗/הּ בַּ/בִּינָֽה׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5903
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Ps.86.7",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 86,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "Ps.86.7",
+      "canon_ref": "PSA.86.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "בְּ/י֣וֹם צָ֭רָתִ֥/י אֶקְרָאֶ֗/ךָּ כִּ֣י תַעֲנֵֽ/נִי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עני עניי צרה צרתי בצר צעקה שועת",
+          "method": "lexical",
+          "rank": 1,
+          "score": -14.351
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Ps.77.10",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 77,
+      "verse": 10,
+      "edition": "",
+      "source_ref": "Ps.77.10",
+      "canon_ref": "PSA.77.9",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "הֲ/שָׁכַ֣ח חַנּ֣וֹת אֵ֑ל אִם־קָפַ֥ץ בְּ֝/אַ֗ף רַחֲמָ֥י/ו סֶֽלָה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "רחמים רחמיו חסדו",
+          "method": "lexical",
+          "rank": 1,
+          "score": -12.9354
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Ps.22.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 22,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Ps.22.2",
+      "canon_ref": "PSA.22.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אֵלִ֣/י אֵ֭לִ/י לָ/מָ֣ה עֲזַבְתָּ֑/נִי רָח֥וֹק מִֽ֝/ישׁוּעָתִ֗/י דִּבְרֵ֥י שַׁאֲגָתִֽ/י׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עזבתני תסתר",
+          "method": "lexical",
+          "rank": 1,
+          "score": -13.985
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ps.44.22",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 44,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "Ps.44.22",
+      "canon_ref": "PSA.44.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "הֲ/לֹ֣א אֱ֭לֹהִים יַֽחֲקָר־זֹ֑את כִּֽי־ה֥וּא יֹ֝דֵ֗עַ תַּעֲלֻמ֥וֹת לֵֽב׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5791
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ps.142.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 142,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Ps.142.3",
+      "canon_ref": "PSA.142.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אֶשְׁפֹּ֣ךְ לְ/פָנָ֣י/ו שִׂיחִ֑/י צָ֝רָתִ֗/י לְ/פָנָ֥י/ו אַגִּֽיד׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עני עניי צרה צרתי בצר צעקה שועת",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.9466
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Jer.42.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 42,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "Jer.42.12",
+      "canon_ref": "JER.42.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/אֶתֵּ֥ן לָ/כֶ֛ם רַחֲמִ֖ים וְ/רִחַ֣ם אֶתְ/כֶ֑ם וְ/הֵשִׁ֥יב אֶתְ/כֶ֖ם אֶל־אַדְמַתְ/כֶֽם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "רחמים רחמיו חסדו",
+          "method": "lexical",
+          "rank": 2,
+          "score": -12.8595
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Ps.119.19",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 119,
+      "verse": 19,
+      "edition": "",
+      "source_ref": "Ps.119.19",
+      "canon_ref": "PSA.119.19",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "גֵּ֣ר אָנֹכִ֣י בָ/אָ֑רֶץ אַל־תַּסְתֵּ֥ר מִ֝מֶּ֗/נִּי מִצְוֺתֶֽי/ךָ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עזבתני תסתר",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.0614
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Isa.57.21",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "ISA",
+      "book_name": "Isaiah",
+      "chapter": 57,
+      "verse": 21,
+      "edition": "",
+      "source_ref": "Isa.57.21",
+      "canon_ref": "ISA.57.21",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אֵ֣ין שָׁל֔וֹם אָמַ֥ר אֱלֹהַ֖/י לָ/רְשָׁעִֽים׃ ס",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5756
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:1Sam.5.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "1SA",
+      "book_name": "1 Samuel",
+      "chapter": 5,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "1Sam.5.12",
+      "canon_ref": "1SA.5.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/הָֽ/אֲנָשִׁים֙ אֲשֶׁ֣ר לֹא־מֵ֔תוּ הֻכּ֖וּ ב/עפלים וַ/תַּ֛עַל שַֽׁוְעַ֥ת הָ/עִ֖יר הַ/שָּׁמָֽיִם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עני עניי צרה צרתי בצר צעקה שועת",
+          "method": "lexical",
+          "rank": 3,
+          "score": -13.2767
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Lam.3.22",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 3,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "Lam.3.22",
+      "canon_ref": "LAM.3.22",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "חַֽסְדֵ֤י יְהוָה֙ כִּ֣י לֹא־תָ֔מְנוּ כִּ֥י לֹא־כָל֖וּ רַחֲמָֽי/ו׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "רחמים רחמיו חסדו",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.5993
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Ps.69.18",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 69,
+      "verse": 18,
+      "edition": "",
+      "source_ref": "Ps.69.18",
+      "canon_ref": "PSA.69.17",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/אַל־תַּסְתֵּ֣ר פָּ֭נֶי/ךָ מֵֽ/עַבְדֶּ֑/ךָ כִּֽי־צַר־לִ֝֗/י מַהֵ֥ר עֲנֵֽ/נִי׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עזבתני תסתר",
+          "method": "lexical",
+          "rank": 3,
+          "score": -12.3827
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Ps.32.2",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 32,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "Ps.32.2",
+      "canon_ref": "PSA.32.2",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "אַ֥שְֽׁרֵי אָדָ֗ם לֹ֤א יַחְשֹׁ֬ב יְהוָ֣ה ל֣/וֹ עָוֺ֑ן וְ/אֵ֖ין בְּ/רוּח֣/וֹ רְמִיָּה׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.566
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Jer.48.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 48,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "Jer.48.3",
+      "canon_ref": "JER.48.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "ק֥וֹל צְעָקָ֖ה מֵ/חֹֽרוֹנָ֑יִם שֹׁ֖ד וָ/שֶׁ֥בֶר גָּדֽוֹל׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "עני עניי צרה צרתי בצר צעקה שועת",
+          "method": "lexical",
+          "rank": 4,
+          "score": -12.6271
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Gen.43.30",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 43,
+      "verse": 30,
+      "edition": "",
+      "source_ref": "Gen.43.30",
+      "canon_ref": "GEN.43.30",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יְמַהֵ֣ר יוֹסֵ֗ף כִּֽי־נִכְמְר֤וּ רַחֲמָי/ו֙ אֶל־אָחִ֔י/ו וַ/יְבַקֵּ֖שׁ לִ/בְכּ֑וֹת וַ/יָּבֹ֥א הַ/חַ֖דְרָ/ה וַ/יֵּ֥בְךְּ שָֽׁמָּ/ה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "רחמים רחמיו חסדו",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.4132
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.5903,
+    "vector_margin": 0.0112,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 5,
+    "lists_with_hits": 4,
+    "lists_containing_top_result": 1
+  }
+}

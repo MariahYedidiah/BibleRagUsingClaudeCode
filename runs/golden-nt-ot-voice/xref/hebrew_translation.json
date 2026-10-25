@@ -1,0 +1,24 @@
+{
+  "canon_ref": "ISA.40.3",
+  "verse_uid": "oshb_wlc:Isa.40.3",
+  "source": "oshb_wlc",
+  "corpus_label": "Hebrew (OSHB/WLC)",
+  "original": "ק֣וֹל קוֹרֵ֔א בַּ/מִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהוָ֑ה יַשְּׁרוּ֙ בָּ/עֲרָבָ֔ה מְסִלָּ֖ה לֵ/אלֹהֵֽי/נוּ׃",
+  "translation": "A voice is calling: In the wilderness prepare the way of the LORD; make straight in the desert plain a highway for our God.",
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "literal_notes": [
+    "יהוה rendered 'the LORD'",
+    "בַּמִּדְבָּר could belong with 'calling' (MT accents place it with 'prepare')"
+  ],
+  "uncertainties": [
+    "Phrase division: 'a voice calls in the wilderness' vs. 'in the wilderness prepare' (the Hebrew accents favor the latter; the Gospels and LXX take the former)"
+  ],
+  "web_reference": "web:ISA.40.3",
+  "differences_from_web": [
+    "WEB reads 'The voice of one who calls out'; mine 'A voice is calling' (qol as exclamation)",
+    "WEB 'level highway'; mine 'highway', 'make straight'"
+  ],
+  "_web_text": "The voice of one who calls out, “Prepare the way of the LORD in the wilderness! Make a level highway in the desert for our God.",
+  "_edition": null
+}

@@ -1,0 +1,463 @@
+{
+  "question": "What does Genesis say about creation?",
+  "answer": "The retrieved passages all come from the opening creation account of Genesis (chapters 1 and 2) and describe it in four steps.\n\n**God creates everything.** Genesis opens by saying that God created the heavens and the earth \"in the beginning\" [GEN.1.1]. The Hebrew text (OSHB/WLC) uses the verb ברא with God as its only subject. The machine translation notes that the opening word can also be read as \"When God began to create...\". The Septuagint Greek (Swete LXX) has a different verb here, ἐποίησεν (\"made\"), not a verb specific to creating, and it has the singular \"heaven\" where WEB has \"the heavens\" (machine translation).\n\n**God creates by speaking.** Light comes into being when God says \"Let there be light\" [GEN.1.3]. The Hebrew, the Septuagint and WEB agree in sense here. The Septuagint phrases it as \"let light come to be\" (γίνομαι).\n\n**Living things and humankind.** God makes the land animals and livestock \"after their kind\" and sees that it is good [GEN.1.25]. Then God says \"Let us make\" humankind in his image and likeness, to rule over the fish, birds, livestock and the earth [GEN.1.26]. The Hebrew uses a plural cohortive (\"let us make\"). The Hebrew machine translation lists several readings of this plural (divine council, plural of majesty, deliberation) and doesn't choose between them. The next verse says that God created humankind in his own image, \"male and female\" [GEN.1.27]. The Hebrew uses ברא three times in this verse. The Septuagint uses ἐποίησεν (\"made\") all three times, and it says \"according to the image of God\" where WEB has \"in God's image\" (machine translation). In Gen 1:26 the Swete text has one word that may be damaged (πάτης, probably for πάσης, \"all\"), so the machine translation reads it from context.\n\n**Completion and rest.** God blesses the seventh day and makes it holy, because on it he rested from all his work of creation [GEN.2.3]. Literally, the Hebrew of this verse says \"that God created to make\". The machine translation notes that WEB's \"his work of creation which he had done\" smooths over this idiom. For Gen 2:2 only the Septuagint was kept. It says that God completed his works **on the sixth day** and rested on the seventh [GEN.2.2]. The Septuagint specialist's comparison notes that WEB, following the Hebrew, has God finishing his work on the *seventh* day. The WEB and Hebrew texts of Gen 2:2 weren't retrieved as passages, so this difference rests on the specialist's comparison. The two readings are reported as they stand, without trying to reconcile them.\n\nThe evidence covers only part of the account. It doesn't include Gen 1:2 (the formless earth and the Spirit over the waters), the other days of creation, Gen 1:31 (\"very good\"), or the second creation narrative of Gen 2:4 onward (the forming of the man, the garden, the woman). For those, these results support no claims.",
+  "passages": [
+    {
+      "canon_ref": "GEN.1.1",
+      "display_ref": "Genesis 1:1",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "In the beginning, God created the heavens and the earth.",
+          "verse_uid": "web:GEN.1.1"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+          "verse_uid": "oshb_wlc:Gen.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "In the beginning God created the heavens and the earth.",
+          "translates": "oshb_wlc:Gen.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Could be read 'When God began to create...' (construct reading of בראשית); WEB adds a comma after 'In the beginning'; no sense difference"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+          "verse_uid": "lxx_swete:01.1.1"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "In the beginning God made the heaven and the earth.",
+          "translates": "lxx_swete:01.1.1",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX has 'made' (ἐποίησεν) where WEB has 'created' (Heb. ברא); LXX has singular 'the heaven' where WEB has plural 'the heavens'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04892,
+          "relevance": "States the core creation claim: God created the heavens and the earth. Found by both vector and lexical search, query 1 and 2."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01613,
+          "relevance": "Opening statement: God created the heavens and the earth."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.06207,
+          "relevance": "Opening statement of creation"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "Opening statement: God created the heavens and the earth (LXX: 'made', singular 'heaven')",
+      "missing": []
+    },
+    {
+      "canon_ref": "GEN.1.3",
+      "display_ref": "Genesis 1:3",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־אֽוֹר׃",
+          "verse_uid": "oshb_wlc:Gen.1.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And God said, \"Let there be light,\" and there was light.",
+          "translates": "oshb_wlc:Gen.1.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Hebrew begins with 'And'; WEB omits it"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς· καὶ ἐγένετο φῶς.",
+          "verse_uid": "lxx_swete:01.1.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "And God said, 'Let light come to be.' And light came to be.",
+          "translates": "lxx_swete:01.1.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "No meaningful difference in sense; LXX uses 'come to be' (γίνομαι) for Hebrew 'be'"
+        }
+      ],
+      "retrieval": {
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "God creates light by speaking."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.03002,
+          "relevance": "God creates light by speaking"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God creates light by speaking",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "GEN.1.26",
+      "display_ref": "Genesis 1:26",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+          "verse_uid": "web:GEN.1.26"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וַ/יֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּ/צַלְמֵ֖/נוּ כִּ/דְמוּתֵ֑/נוּ וְ/יִרְדּוּ֩ בִ/דְגַ֨ת הַ/יָּ֜ם וּ/בְ/ע֣וֹף הַ/שָּׁמַ֗יִם וּ/בַ/בְּהֵמָה֙ וּ/בְ/כָל־הָ/אָ֔רֶץ וּ/בְ/כָל־הָ/רֶ֖מֶשׂ הָֽ/רֹמֵ֥שׂ עַל־הָ/אָֽרֶץ׃",
+          "verse_uid": "oshb_wlc:Gen.1.26"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And God said, \"Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the birds of the heavens, the livestock, all the earth, and every creeping thing that creeps on the earth.\"",
+          "translates": "oshb_wlc:Gen.1.26",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "The plural 'us' is variously explained (divine council, plural of majesty, deliberation); WEB has 'man' where I have 'humankind'; WEB 'sky' vs my 'heavens'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "καὶ εἶπεν ὁ θεός Ποιήσωμεν ἄνθρωπον κατ’ εἰκόνα ἡμετέραν καὶ κἀθ᾽ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης καὶ τῶν πετεινῶν τοῦ οὐρανοῦ καὶ τῶν κτηνῶν καὶ πάτης τῆς γῆς καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς.",
+          "verse_uid": "lxx_swete:01.1.26"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "And God said, 'Let us make man according to our image and according to likeness; and let them rule over the fishes of the sea and the birds of the heaven and the cattle and all the earth and all the creeping things that creep on the earth.'",
+          "translates": "lxx_swete:01.1.26",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "Possible textual/OCR damage in one word near \"all the earth\"; translated by context; LXX has 'according to our image and according to likeness' (adjective ἡμετέραν, with 'and' linking the two phrases) where WEB has 'in our image, after our likeness'; LXX 'let them rule' (ἀρχέτωσαν) vs WEB 'have dominion'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04236,
+          "relevance": "God's decision to make humankind in his image and give dominion over creatures. Found by both methods, query 2."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04408,
+          "relevance": "God decides to make humankind in his image with dominion."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.02973,
+          "relevance": "Making of humankind in image and likeness"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God resolves to make humankind in his image, with rule over creatures",
+      "missing": []
+    },
+    {
+      "canon_ref": "GEN.1.27",
+      "display_ref": "Genesis 1:27",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+          "verse_uid": "web:GEN.1.27"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+          "verse_uid": "oshb_wlc:Gen.1.27"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And God created humankind in his image; in the image of God he created him; male and female he created them.",
+          "translates": "oshb_wlc:Gen.1.27",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "WEB 'man' vs my 'humankind'; WEB omits initial 'And'"
+        },
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον, κατ’ εἰκόνα θεοῦ ἐποίησεν αὐτόν· ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς.",
+          "verse_uid": "lxx_swete:01.1.27"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "And God made the man; according to the image of God he made him; male and female he made them.",
+          "translates": "lxx_swete:01.1.27",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX uses 'made' (ἐποίησεν) throughout where WEB has 'created'; LXX has 'the man' (τὸν ἄνθρωπον); 'according to the image of God' where WEB has 'in God's image'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.04665,
+          "relevance": "Narrates God creating humankind in his image, male and female. Found by both methods, query 1 and 2."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical"
+          ],
+          "rrf": 0.01639,
+          "relevance": "God creates humankind in his image, male and female."
+        },
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.056,
+          "relevance": "Humankind made male and female in God's image"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God creates humankind in his image, male and female (LXX: 'made')",
+      "missing": []
+    },
+    {
+      "canon_ref": "GEN.1.25",
+      "display_ref": "Genesis 1:25",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.",
+          "verse_uid": "web:GEN.1.25"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.0445,
+          "relevance": "God makes the land animals and livestock after their kind and sees they are good. Found by both methods, query 2."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God makes the land animals after their kind and sees that it is good",
+      "missing": [
+        {
+          "field": "oshb_wlc",
+          "reason": "not retrieved by hebrew-specialist-agent"
+        },
+        {
+          "field": "lxx_swete",
+          "reason": "not retrieved by septuagint-specialist-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "GEN.2.3",
+      "display_ref": "Genesis 2:3",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "established_translation",
+          "source": "web",
+          "language": "en",
+          "text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.",
+          "verse_uid": "web:GEN.2.3"
+        },
+        {
+          "kind": "original",
+          "source": "oshb_wlc",
+          "language": "he",
+          "text": "וַ/יְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַ/שְּׁבִיעִ֔י וַ/יְקַדֵּ֖שׁ אֹת֑/וֹ כִּ֣י ב֤/וֹ שָׁבַת֙ מִ/כָּל־מְלַאכְתּ֔/וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַ/עֲשֽׂוֹת׃ פ",
+          "verse_uid": "oshb_wlc:Gen.2.3"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "oshb_wlc",
+          "language": "en",
+          "text": "And God blessed the seventh day and made it holy, because on it he rested from all his work that God had created to make.",
+          "translates": "oshb_wlc:Gen.2.3",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "The final phrase is idiomatic: 'which God had created and made' or 'in creating'; WEB 'work of creation which he had done' smooths the Hebrew 'created to make'"
+        }
+      ],
+      "retrieval": {
+        "web": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.0463,
+          "relevance": "God blesses and sanctifies the seventh day because he rested from all his work of creation. Found by both methods, query 1 and 2."
+        },
+        "oshb_wlc": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.02788,
+          "relevance": "God rests on the seventh day, blessing it, after finishing his creative work."
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "God blesses and sanctifies the seventh day, resting from his work of creation",
+      "missing": [
+        {
+          "field": "lxx_swete",
+          "reason": "not retrieved by septuagint-specialist-agent"
+        }
+      ]
+    },
+    {
+      "canon_ref": "GEN.2.2",
+      "display_ref": "Genesis 2:2",
+      "testament": "OT",
+      "alignment": "mapped",
+      "texts": [
+        {
+          "kind": "original",
+          "source": "lxx_swete",
+          "language": "grc",
+          "text": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρα τῇ ἕκτη τὰ ἔργα αὐτοῦ ἃ ἐποίησεν· καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ ὧν ἐποίησεν.",
+          "verse_uid": "lxx_swete:01.2.2"
+        },
+        {
+          "kind": "machine_translation",
+          "source": "lxx_swete",
+          "language": "en",
+          "text": "And on the sixth day God completed his works that he had made; and on the seventh day he rested from all his works that he had made.",
+          "translates": "lxx_swete:01.2.2",
+          "translator": "claude:claude-sonnet-5-5",
+          "notes": "LXX says God completed his works on the SIXTH day (ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ); WEB (Hebrew) says the SEVENTH day"
+        }
+      ],
+      "retrieval": {
+        "lxx_swete": {
+          "found_by": [
+            "lexical",
+            "vector"
+          ],
+          "rrf": 0.03154,
+          "relevance": "Completion of creation and rest on the seventh day (LXX: sixth day)"
+        }
+      },
+      "cross_refs": [],
+      "referenced_by": [],
+      "note": "Septuagint only: God completes his works on the sixth day (Hebrew/WEB: seventh)",
+      "missing": [
+        {
+          "field": "web",
+          "reason": "not retrieved by english-retrieval-agent"
+        },
+        {
+          "field": "oshb_wlc",
+          "reason": "not retrieved by hebrew-specialist-agent"
+        }
+      ]
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "basis": "15 passages kept; 5 references found in two or more languages; 12 passages found by both vector and lexical search",
+    "signals": {
+      "passages_kept": 15,
+      "cross_lingual_refs": [
+        "GEN.1.1",
+        "GEN.1.26",
+        "GEN.1.27",
+        "GEN.1.3",
+        "GEN.2.3"
+      ],
+      "found_by_both_methods": 12,
+      "top_vector_score": 0.8299,
+      "vector_search_available": true
+    }
+  },
+  "clarifying_question": null,
+  "run_id": "golden-ot-creation"
+}

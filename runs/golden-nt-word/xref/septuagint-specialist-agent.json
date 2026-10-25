@@ -1,0 +1,192 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-nt-word/xref",
+  "corpus": "lxx_swete",
+  "queries": [
+    "In the beginning was the Word"
+  ],
+  "lexical_queries": [
+    "λόγος λόγον λόγῳ ῥῆμα",
+    "ἀρχῇ ἀρχήν",
+    "σοφία"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.6712,
+      "vector_margin": 0.0079,
+      "vector_lexical_overlap_top10": 0,
+      "lists": 5,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "GEN.1.1",
+      "verse_uid": "lxx_swete:01.1.1",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Requested; LXX opening 'in the beginning' parallels Jn 1:1 ἐν ἀρχῇ",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:01.1.1",
+          "verse": 1,
+          "text_display": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."
+        },
+        {
+          "verse_uid": "lxx_swete:01.1.2",
+          "verse": 2,
+          "text_display": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου· καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος."
+        }
+      ],
+      "translation": {
+        "canon_ref": "GEN.1.1",
+        "verse_uid": "lxx_swete:01.1.1",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ΕΝ ΑΡΧΗ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+        "translation": "In the beginning God made the heaven and the earth.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ΕΝ ΑΡΧΗ: 'in beginning' (no article); ἐποίησεν 'made' (aorist)"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:GEN.1.1",
+        "differences_from_web": [
+          "LXX has ἐποίησεν 'made' where the Hebrew has בָּרָא 'created' (WEB)",
+          "LXX opening ἐν ἀρχῇ-style phrase 'in the beginning' matches the wording of Jn 1:1, but Genesis has no 'word'"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PRO.8.22",
+      "verse_uid": "lxx_swete:29.8.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Κύριος ἔκτισέν με ἀρχὴν ὁδῶν αὐτοῦ εἰς ἔργα αὐτοῦ,",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Requested; Wisdom as 'beginning of his ways', background for the Logos/Wisdom idea",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:29.8.21",
+          "verse": 21,
+          "text_display": "ἵνα μερίσω τοῖς ἐμέ ἀγαπῶσιν ὕπαρξιν, καὶ τοὺς θησαυροὺς αὐτῶν ἐμπλήσω ἀγαθῶν."
+        },
+        {
+          "verse_uid": "lxx_swete:29.8.22",
+          "verse": 22,
+          "text_display": "Κύριος ἔκτισέν με ἀρχὴν ὁδῶν αὐτοῦ εἰς ἔργα αὐτοῦ,"
+        },
+        {
+          "verse_uid": "lxx_swete:29.8.23",
+          "verse": 23,
+          "text_display": "πρὸ τοῦ αἰῶνος ἐθεμελίωσέν με ἐν ἀρχῇ,"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PRO.8.22",
+        "verse_uid": "lxx_swete:29.8.22",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "Κύριος ἔκτισέν με ἀρχὴν ὁδῶν αὐτοῦ εἰς ἔργα αὐτοῦ,",
+        "translation": "The Lord created me as the beginning of his ways, for his works,",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἔκτισέν με: aorist 'created me'",
+          "ἀρχὴν ὁδῶν: 'a beginning of (his) ways'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PRO.8.22",
+        "differences_from_web": [
+          "LXX 'created me' (ἔκτισεν) where Hebrew קָנָנִי is 'possessed/acquired me' (WEB 'possessed')",
+          "LXX 'as the beginning of his ways, for his works' versus WEB 'in the beginning of his work'"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "ISA.40.5",
+      "verse_uid": "lxx_swete:48.40.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "καὶ ὀφθήσεται ἡ δόξα Κυρίου, καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ, ὅτι Κύριος ἐλάλησεν.",
+      "found_by": [
+        "reference"
+      ],
+      "hits": [],
+      "rrf": null,
+      "relevance": "Requested; glory of the Lord revealed, linked with Jn 1:14 themes",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:48.40.4",
+          "verse": 4,
+          "text_display": "πᾶσα φάραγξ πληρωθήσεται, καὶ πᾶν ὅρος καὶ βουνὸς ταπεινωθήσεται· καὶ ἔσται τὰ, σκολιὰ εἷς εὐθεῖαν, καὶ ἡ τραχεῖα εἷς ὁδοὺς λείας,"
+        },
+        {
+          "verse_uid": "lxx_swete:48.40.5",
+          "verse": 5,
+          "text_display": "καὶ ὀφθήσεται ἡ δόξα Κυρίου, καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ, ὅτι Κύριος ἐλάλησεν."
+        },
+        {
+          "verse_uid": "lxx_swete:48.40.6",
+          "verse": 6,
+          "text_display": "Φωνὴ λέγοντος Βόησον. καὶ εἶπα Τί βοήσω; Πᾶσα σὰρξ χόρτος, καὶ πᾶσα δόξα ἀνθρώπου ὡς ἄνθος χόρτου·"
+        }
+      ],
+      "translation": {
+        "canon_ref": "ISA.40.5",
+        "verse_uid": "lxx_swete:48.40.5",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "καὶ ὀφθήσεται ἡ δόξα Κυρίου, καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ θεοῦ, ὅτι Κύριος ἐλάλησεν.",
+        "translation": "And the glory of the Lord will be seen, and all flesh will see the salvation of God, for the Lord has spoken.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "τὸ σωτήριον τοῦ θεοῦ: 'the salvation of God'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:ISA.40.5",
+        "differences_from_web": [
+          "LXX adds 'and all flesh will see the salvation of God' (τὸ σωτήριον τοῦ θεοῦ) where the Hebrew has 'all flesh shall see it together'",
+          "LXX lacks 'together'; 'mouth of the LORD has spoken' becomes 'the Lord has spoken'"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:29.16.4",
+      "reason": "top lexical hit but only generic 'word/beginning' vocabulary; not about the Word as creative principle"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Search results mostly generic uses of λόγος/ῥῆμα; no better candidates than the requested refs. All three are alignment mapped.",
+    "PRO.8.22 LXX 'created me' differs from Hebrew 'possessed me'."
+  ]
+}

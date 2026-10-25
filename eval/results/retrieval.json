@@ -1,0 +1,2757 @@
+{
+  "k": 10,
+  "summary": {
+    "lxx_swete/hybrid": {
+      "n": 24,
+      "top_vector_score_median": 0.674,
+      "top_vector_score_min": 0.5376,
+      "top_vector_score_max": 0.8452,
+      "recall@1": 0.5,
+      "recall@5": 0.667,
+      "recall@10": 0.833,
+      "mrr": 0.585,
+      "misses": [
+        "May the Lord bless you and keep you",
+        "Hear, Israel: the Lord our God is one",
+        "My God, my God, why have you abandoned me?",
+        "They will beat their swords into plowshares"
+      ]
+    },
+    "lxx_swete/vector": {
+      "n": 24,
+      "top_vector_score_median": 0.674,
+      "top_vector_score_min": 0.5376,
+      "top_vector_score_max": 0.8452,
+      "recall@1": 0.5,
+      "recall@5": 0.667,
+      "recall@10": 0.833,
+      "mrr": 0.585,
+      "misses": [
+        "May the Lord bless you and keep you",
+        "Hear, Israel: the Lord our God is one",
+        "My God, my God, why have you abandoned me?",
+        "They will beat their swords into plowshares"
+      ]
+    },
+    "off_topic": {
+      "n": 48,
+      "top_vector_score_median": 0.4679,
+      "top_vector_score_min": 0.4117,
+      "top_vector_score_max": 0.5519
+    },
+    "oshb_wlc/hybrid": {
+      "n": 25,
+      "top_vector_score_median": 0.6416,
+      "top_vector_score_min": 0.5181,
+      "top_vector_score_max": 0.7836,
+      "recall@1": 0.16,
+      "recall@5": 0.36,
+      "recall@10": 0.44,
+      "mrr": 0.254,
+      "misses": [
+        "The Spirit of God was hovering over the surface of the waters",
+        "Abraham believed God and it was counted to him as righteousness",
+        "A pillar of cloud by day and a pillar of fire by night led the people",
+        "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+        "The Lord is my shepherd, I lack nothing",
+        "The fear of the Lord is where wisdom and knowledge begin",
+        "They will beat their swords into plowshares",
+        "A virgin will conceive and bear a son, Immanuel",
+        "Comfort, comfort my people, says your God",
+        "Do not be afraid, for I am with you and will strengthen you",
+        "He was led like a lamb to the slaughter and did not open his mouth",
+        "I will give you a new heart and put a new spirit within you",
+        "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+        "The righteous will live by his faith"
+      ]
+    },
+    "oshb_wlc/vector": {
+      "n": 25,
+      "top_vector_score_median": 0.6416,
+      "top_vector_score_min": 0.5181,
+      "top_vector_score_max": 0.7836,
+      "recall@1": 0.16,
+      "recall@5": 0.36,
+      "recall@10": 0.44,
+      "mrr": 0.254,
+      "misses": [
+        "The Spirit of God was hovering over the surface of the waters",
+        "Abraham believed God and it was counted to him as righteousness",
+        "A pillar of cloud by day and a pillar of fire by night led the people",
+        "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+        "The Lord is my shepherd, I lack nothing",
+        "The fear of the Lord is where wisdom and knowledge begin",
+        "They will beat their swords into plowshares",
+        "A virgin will conceive and bear a son, Immanuel",
+        "Comfort, comfort my people, says your God",
+        "Do not be afraid, for I am with you and will strengthen you",
+        "He was led like a lamb to the slaughter and did not open his mouth",
+        "I will give you a new heart and put a new spirit within you",
+        "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+        "The righteous will live by his faith"
+      ]
+    },
+    "sblgnt/hybrid": {
+      "n": 16,
+      "top_vector_score_median": 0.6526,
+      "top_vector_score_min": 0.5775,
+      "top_vector_score_max": 0.8058,
+      "recall@1": 0.375,
+      "recall@5": 0.688,
+      "recall@10": 0.688,
+      "mrr": 0.497,
+      "misses": [
+        "The Word became flesh and lived among us",
+        "Should I be anxious about tomorrow?",
+        "Nothing can separate us from the love of God",
+        "I can do everything through Christ who gives me strength",
+        "Faith is being sure of what we hope for"
+      ]
+    },
+    "sblgnt/vector": {
+      "n": 16,
+      "top_vector_score_median": 0.6526,
+      "top_vector_score_min": 0.5775,
+      "top_vector_score_max": 0.8058,
+      "recall@1": 0.375,
+      "recall@5": 0.688,
+      "recall@10": 0.688,
+      "mrr": 0.497,
+      "misses": [
+        "The Word became flesh and lived among us",
+        "Should I be anxious about tomorrow?",
+        "Nothing can separate us from the love of God",
+        "I can do everything through Christ who gives me strength",
+        "Faith is being sure of what we hope for"
+      ]
+    },
+    "web/hybrid": {
+      "n": 41,
+      "top_vector_score_median": 0.8349,
+      "top_vector_score_min": 0.6549,
+      "top_vector_score_max": 0.9811,
+      "recall@1": 0.854,
+      "recall@5": 0.976,
+      "recall@10": 0.976,
+      "mrr": 0.909,
+      "misses": [
+        "Jesus cried when his friend died"
+      ]
+    },
+    "web/vector": {
+      "n": 41,
+      "top_vector_score_median": 0.8349,
+      "top_vector_score_min": 0.6549,
+      "top_vector_score_max": 0.9811,
+      "recall@1": 0.854,
+      "recall@5": 0.976,
+      "recall@10": 0.976,
+      "mrr": 0.889,
+      "misses": [
+        "Love the people around you as much as you love yourself"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.9811,
+      "vector_margin": 0.2456
+    },
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.9811,
+      "vector_margin": 0.2456
+    },
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 2,
+      "top": "GEN.2.4",
+      "top_vector_score": 0.6413,
+      "vector_margin": 0.0036
+    },
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "GEN.2.4",
+      "top_vector_score": 0.6413,
+      "vector_margin": 0.0036
+    },
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.8452,
+      "vector_margin": 0.1333
+    },
+    {
+      "query": "In the beginning God created the heavens and the earth",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.8452,
+      "vector_margin": 0.1333
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.1.2",
+      "top_vector_score": 0.783,
+      "vector_margin": 0.0725
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.1.2",
+      "top_vector_score": 0.783,
+      "vector_margin": 0.0725
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.69.1",
+      "top_vector_score": 0.6009,
+      "vector_margin": 0.0074
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.69.1",
+      "top_vector_score": 0.6009,
+      "vector_margin": 0.0074
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 7,
+      "top": "PSA.107.25",
+      "top_vector_score": 0.6319,
+      "vector_margin": 0.0001
+    },
+    {
+      "query": "The Spirit of God was hovering over the surface of the waters",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 7,
+      "top": "PSA.107.25",
+      "top_vector_score": 0.6319,
+      "vector_margin": 0.0001
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.1.27",
+      "top_vector_score": 0.8681,
+      "vector_margin": 0.1433
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.1.27",
+      "top_vector_score": 0.8681,
+      "vector_margin": 0.1433
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 6,
+      "top": "GEN.3.21",
+      "top_vector_score": 0.6985,
+      "vector_margin": 0.0446
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 6,
+      "top": "GEN.3.21",
+      "top_vector_score": 0.6985,
+      "vector_margin": 0.0446
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 2,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.6633,
+      "vector_margin": 0.0034
+    },
+    {
+      "query": "God created people in his own image, male and female",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "GEN.1.1",
+      "top_vector_score": 0.6633,
+      "vector_margin": 0.0034
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.15.6",
+      "top_vector_score": 0.7368,
+      "vector_margin": 0.0103
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.15.6",
+      "top_vector_score": 0.7368,
+      "vector_margin": 0.0103
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "GEN.17.3",
+      "top_vector_score": 0.6199,
+      "vector_margin": 0.0104
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "GEN.17.3",
+      "top_vector_score": 0.6199,
+      "vector_margin": 0.0104
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "GEN.15.6",
+      "top_vector_score": 0.7902,
+      "vector_margin": 0.1557
+    },
+    {
+      "query": "Abraham believed God and it was counted to him as righteousness",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "GEN.15.6",
+      "top_vector_score": 0.7902,
+      "vector_margin": 0.1557
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 2,
+      "top": "EXO.6.2",
+      "top_vector_score": 0.8106,
+      "vector_margin": 0.0229
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "EXO.6.2",
+      "top_vector_score": 0.8106,
+      "vector_margin": 0.0229
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 10,
+      "top": "EXO.6.2",
+      "top_vector_score": 0.7033,
+      "vector_margin": 0.0878
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 10,
+      "top": "EXO.6.2",
+      "top_vector_score": 0.7033,
+      "vector_margin": 0.0878
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EXO.3.14",
+      "top_vector_score": 0.6596,
+      "vector_margin": 0.0009
+    },
+    {
+      "query": "God told Moses his name: I am who I am",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EXO.3.14",
+      "top_vector_score": 0.6596,
+      "vector_margin": 0.0009
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EXO.13.22",
+      "top_vector_score": 0.8389,
+      "vector_margin": 0.0371
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EXO.13.22",
+      "top_vector_score": 0.8389,
+      "vector_margin": 0.0371
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "GEN.7.12",
+      "top_vector_score": 0.6042,
+      "vector_margin": 0.0011
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "GEN.7.12",
+      "top_vector_score": 0.6042,
+      "vector_margin": 0.0011
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 2,
+      "top": "NEH.9.12",
+      "top_vector_score": 0.6552,
+      "vector_margin": 0.035
+    },
+    {
+      "query": "A pillar of cloud by day and a pillar of fire by night led the people",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "NEH.9.12",
+      "top_vector_score": 0.6552,
+      "vector_margin": 0.035
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EXO.20.8",
+      "top_vector_score": 0.9192,
+      "vector_margin": 0.1726
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EXO.20.8",
+      "top_vector_score": 0.9192,
+      "vector_margin": 0.1726
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 1,
+      "top": "DEU.5.12",
+      "top_vector_score": 0.6591,
+      "vector_margin": 0.0017
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "DEU.5.12",
+      "top_vector_score": 0.6591,
+      "vector_margin": 0.0017
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EXO.20.8",
+      "top_vector_score": 0.7091,
+      "vector_margin": 0.0612
+    },
+    {
+      "query": "Remember the Sabbath day and keep it holy",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EXO.20.8",
+      "top_vector_score": 0.7091,
+      "vector_margin": 0.0612
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PSA.103.8",
+      "top_vector_score": 0.9547,
+      "vector_margin": 0.0173
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PSA.103.8",
+      "top_vector_score": 0.9547,
+      "vector_margin": 0.0173
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.99.2",
+      "top_vector_score": 0.6142,
+      "vector_margin": 0.0118
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.99.2",
+      "top_vector_score": 0.6142,
+      "vector_margin": 0.0118
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 4,
+      "top": "PSA.33.5",
+      "top_vector_score": 0.7039,
+      "vector_margin": 0.0117
+    },
+    {
+      "query": "The Lord is merciful and gracious, slow to anger and abundant in loving kindness",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 4,
+      "top": "PSA.33.5",
+      "top_vector_score": 0.7039,
+      "vector_margin": 0.0117
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "LEV.19.18",
+      "top_vector_score": 0.6549,
+      "vector_margin": 0.015
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "LEV.19.18",
+      "top_vector_score": 0.6549,
+      "vector_margin": 0.015
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 4,
+      "top": "PSA.119.17",
+      "top_vector_score": 0.6151,
+      "vector_margin": 0.0061
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 4,
+      "top": "PSA.119.17",
+      "top_vector_score": 0.6151,
+      "vector_margin": 0.0061
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 7,
+      "top": "PSA.119.54",
+      "top_vector_score": 0.6385,
+      "vector_margin": 0.0212
+    },
+    {
+      "query": "Love your neighbor as yourself",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 7,
+      "top": "PSA.119.54",
+      "top_vector_score": 0.6385,
+      "vector_margin": 0.0212
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.36.10",
+      "top_vector_score": 0.6576,
+      "vector_margin": 0.0219
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "LEV.19.18",
+      "top_vector_score": 0.6576,
+      "vector_margin": 0.0219
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 3,
+      "top": "PSA.119.119",
+      "top_vector_score": 0.6136,
+      "vector_margin": 0.0044
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 3,
+      "top": "PSA.119.119",
+      "top_vector_score": 0.6136,
+      "vector_margin": 0.0044
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 8,
+      "top": "PSA.60.5",
+      "top_vector_score": 0.5813,
+      "vector_margin": 0.0105
+    },
+    {
+      "query": "Love the people around you as much as you love yourself",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 8,
+      "top": "PSA.60.5",
+      "top_vector_score": 0.5813,
+      "vector_margin": 0.0105
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "NUM.6.24",
+      "top_vector_score": 0.9231,
+      "vector_margin": 0.1387
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "NUM.6.24",
+      "top_vector_score": 0.9231,
+      "vector_margin": 0.1387
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 2,
+      "top": "PSA.54.1",
+      "top_vector_score": 0.7212,
+      "vector_margin": 0.0124
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "PSA.54.1",
+      "top_vector_score": 0.7212,
+      "vector_margin": 0.0124
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "NUM.6.25",
+      "top_vector_score": 0.7437,
+      "vector_margin": 0.007
+    },
+    {
+      "query": "May the Lord bless you and keep you",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "NUM.6.25",
+      "top_vector_score": 0.7437,
+      "vector_margin": 0.007
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "DEU.6.4",
+      "top_vector_score": 0.9513,
+      "vector_margin": 0.1815
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "DEU.6.4",
+      "top_vector_score": 0.9513,
+      "vector_margin": 0.1815
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 1,
+      "top": "DEU.6.4",
+      "top_vector_score": 0.7836,
+      "vector_margin": 0.1302
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "DEU.6.4",
+      "top_vector_score": 0.7836,
+      "vector_margin": 0.1302
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.50.7",
+      "top_vector_score": 0.7037,
+      "vector_margin": 0.001
+    },
+    {
+      "query": "Hear, Israel: the Lord our God is one",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.50.7",
+      "top_vector_score": 0.7037,
+      "vector_margin": 0.001
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PSA.23.1",
+      "top_vector_score": 0.9402,
+      "vector_margin": 0.1886
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PSA.23.1",
+      "top_vector_score": 0.9402,
+      "vector_margin": 0.1886
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "1KI.5.4",
+      "top_vector_score": 0.686,
+      "vector_margin": 0.0346
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "1KI.5.4",
+      "top_vector_score": 0.686,
+      "vector_margin": 0.0346
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PSA.23.1",
+      "top_vector_score": 0.773,
+      "vector_margin": 0.1081
+    },
+    {
+      "query": "The Lord is my shepherd, I lack nothing",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PSA.23.1",
+      "top_vector_score": 0.773,
+      "vector_margin": 0.1081
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PSA.22.1",
+      "top_vector_score": 0.8536,
+      "vector_margin": 0.1104
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PSA.22.1",
+      "top_vector_score": 0.8536,
+      "vector_margin": 0.1104
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 2,
+      "top": "JDG.10.13",
+      "top_vector_score": 0.6416,
+      "vector_margin": 0.0125
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "JDG.10.13",
+      "top_vector_score": 0.6416,
+      "vector_margin": 0.0125
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.88.14",
+      "top_vector_score": 0.6712,
+      "vector_margin": 0.0449
+    },
+    {
+      "query": "My God, my God, why have you abandoned me?",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.88.14",
+      "top_vector_score": 0.6712,
+      "vector_margin": 0.0449
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PRO.9.10",
+      "top_vector_score": 0.8349,
+      "vector_margin": 0.0277
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PRO.9.10",
+      "top_vector_score": 0.8349,
+      "vector_margin": 0.0277
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "JOB.15.8",
+      "top_vector_score": 0.5682,
+      "vector_margin": 0.0023
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JOB.15.8",
+      "top_vector_score": 0.5682,
+      "vector_margin": 0.0023
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 4,
+      "top": "PRO.16.4",
+      "top_vector_score": 0.6768,
+      "vector_margin": 0.0239
+    },
+    {
+      "query": "The fear of the Lord is where wisdom and knowledge begin",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 4,
+      "top": "PRO.16.4",
+      "top_vector_score": 0.6768,
+      "vector_margin": 0.0239
+    },
+    {
+      "query": "There is a time for everything under heaven",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ECC.3.1",
+      "top_vector_score": 0.8425,
+      "vector_margin": 0.1647
+    },
+    {
+      "query": "There is a time for everything under heaven",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ECC.3.1",
+      "top_vector_score": 0.8425,
+      "vector_margin": 0.1647
+    },
+    {
+      "query": "There is a time for everything under heaven",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ECC.3.1",
+      "top_vector_score": 0.6865,
+      "vector_margin": 0.0713
+    },
+    {
+      "query": "There is a time for everything under heaven",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ECC.3.1",
+      "top_vector_score": 0.6865,
+      "vector_margin": 0.0713
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 5,
+      "top": "JOL.3.10",
+      "top_vector_score": 0.7382,
+      "vector_margin": 0.0408
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "JOL.3.10",
+      "top_vector_score": 0.7382,
+      "vector_margin": 0.0408
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.22.18",
+      "top_vector_score": 0.6227,
+      "vector_margin": 0.0314
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.22.18",
+      "top_vector_score": 0.6227,
+      "vector_margin": 0.0314
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "JER.46.3",
+      "top_vector_score": 0.5921,
+      "vector_margin": 0.0036
+    },
+    {
+      "query": "They will beat their swords into plowshares",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JER.46.3",
+      "top_vector_score": 0.5921,
+      "vector_margin": 0.0036
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.7.14",
+      "top_vector_score": 0.8115,
+      "vector_margin": 0.1636
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.7.14",
+      "top_vector_score": 0.8115,
+      "vector_margin": 0.1636
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "EXO.2.2",
+      "top_vector_score": 0.5927,
+      "vector_margin": 0.0096
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "EXO.2.2",
+      "top_vector_score": 0.5927,
+      "vector_margin": 0.0096
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.7.14",
+      "top_vector_score": 0.6448,
+      "vector_margin": 0.0746
+    },
+    {
+      "query": "A virgin will conceive and bear a son, Immanuel",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.7.14",
+      "top_vector_score": 0.6448,
+      "vector_margin": 0.0746
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.40.1",
+      "top_vector_score": 0.9675,
+      "vector_margin": 0.2184
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.40.1",
+      "top_vector_score": 0.9675,
+      "vector_margin": 0.2184
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "2SA.22.2",
+      "top_vector_score": 0.6444,
+      "vector_margin": 0.013
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "2SA.22.2",
+      "top_vector_score": 0.6444,
+      "vector_margin": 0.013
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.40.1",
+      "top_vector_score": 0.7484,
+      "vector_margin": 0.01
+    },
+    {
+      "query": "Comfort, comfort my people, says your God",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.40.1",
+      "top_vector_score": 0.7484,
+      "vector_margin": 0.01
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 3,
+      "top": "ISA.43.5",
+      "top_vector_score": 0.7846,
+      "vector_margin": 0.0075
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.41.10",
+      "top_vector_score": 0.7846,
+      "vector_margin": 0.0075
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "JOS.1.9",
+      "top_vector_score": 0.6651,
+      "vector_margin": 0.0087
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JOS.1.9",
+      "top_vector_score": 0.6651,
+      "vector_margin": 0.0087
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.41.10",
+      "top_vector_score": 0.7409,
+      "vector_margin": 0.0141
+    },
+    {
+      "query": "Do not be afraid, for I am with you and will strengthen you",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.41.10",
+      "top_vector_score": 0.7409,
+      "vector_margin": 0.0141
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.53.7",
+      "top_vector_score": 0.7668,
+      "vector_margin": 0.0906
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.53.7",
+      "top_vector_score": 0.7668,
+      "vector_margin": 0.0906
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "EXO.16.24",
+      "top_vector_score": 0.6368,
+      "vector_margin": 0.0048
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "EXO.16.24",
+      "top_vector_score": 0.6368,
+      "vector_margin": 0.0048
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ISA.53.7",
+      "top_vector_score": 0.6475,
+      "vector_margin": 0.0047
+    },
+    {
+      "query": "He was led like a lamb to the slaughter and did not open his mouth",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ISA.53.7",
+      "top_vector_score": 0.6475,
+      "vector_margin": 0.0047
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EZK.36.26",
+      "top_vector_score": 0.8236,
+      "vector_margin": 0.0368
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EZK.36.26",
+      "top_vector_score": 0.8236,
+      "vector_margin": 0.0368
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.18.35",
+      "top_vector_score": 0.6672,
+      "vector_margin": 0.0035
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.18.35",
+      "top_vector_score": 0.6672,
+      "vector_margin": 0.0035
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EZK.36.26",
+      "top_vector_score": 0.6894,
+      "vector_margin": 0.0317
+    },
+    {
+      "query": "I will give you a new heart and put a new spirit within you",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EZK.36.26",
+      "top_vector_score": 0.6894,
+      "vector_margin": 0.0317
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JOL.2.28",
+      "top_vector_score": 0.8467,
+      "vector_margin": 0.1222
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JOL.2.28",
+      "top_vector_score": 0.8467,
+      "vector_margin": 0.1222
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "EZK.16.21",
+      "top_vector_score": 0.6555,
+      "vector_margin": 0.0033
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "EZK.16.21",
+      "top_vector_score": 0.6555,
+      "vector_margin": 0.0033
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JOL.2.28",
+      "top_vector_score": 0.7206,
+      "vector_margin": 0.0814
+    },
+    {
+      "query": "I will pour out my Spirit on all flesh, your sons and daughters will prophesy",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JOL.2.28",
+      "top_vector_score": 0.7206,
+      "vector_margin": 0.0814
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.775,
+      "vector_margin": 0.1105
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.775,
+      "vector_margin": 0.1105
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.5181,
+      "vector_margin": 0.0082
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.5181,
+      "vector_margin": 0.0082
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.5376,
+      "vector_margin": 0.0401
+    },
+    {
+      "query": "Jonah was inside the fish for three days and three nights",
+      "kind": "paraphrase",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JON.1.17",
+      "top_vector_score": 0.5376,
+      "vector_margin": 0.0401
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 5,
+      "top": "PSA.37.29",
+      "top_vector_score": 0.7583,
+      "vector_margin": 0.0051
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "PSA.37.29",
+      "top_vector_score": 0.7583,
+      "vector_margin": 0.0051
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "LEV.12.3",
+      "top_vector_score": 0.6432,
+      "vector_margin": 0.0245
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "LEV.12.3",
+      "top_vector_score": 0.6432,
+      "vector_margin": 0.0245
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": 8,
+      "top": "PRO.10.16",
+      "top_vector_score": 0.6365,
+      "vector_margin": 0.0013
+    },
+    {
+      "query": "The righteous will live by his faith",
+      "kind": "quote",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": 8,
+      "top": "PRO.10.16",
+      "top_vector_score": 0.6365,
+      "vector_margin": 0.0013
+    },
+    {
+      "query": "In the beginning was the Word, and the Word was with God",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.1.1",
+      "top_vector_score": 0.9424,
+      "vector_margin": 0.1148
+    },
+    {
+      "query": "In the beginning was the Word, and the Word was with God",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JHN.1.1",
+      "top_vector_score": 0.9424,
+      "vector_margin": 0.1148
+    },
+    {
+      "query": "In the beginning was the Word, and the Word was with God",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.1.1",
+      "top_vector_score": 0.7402,
+      "vector_margin": 0.0824
+    },
+    {
+      "query": "In the beginning was the Word, and the Word was with God",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JHN.1.1",
+      "top_vector_score": 0.7402,
+      "vector_margin": 0.0824
+    },
+    {
+      "query": "The Word became flesh and lived among us",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.1.14",
+      "top_vector_score": 0.7928,
+      "vector_margin": 0.0594
+    },
+    {
+      "query": "The Word became flesh and lived among us",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JHN.1.14",
+      "top_vector_score": 0.7928,
+      "vector_margin": 0.0594
+    },
+    {
+      "query": "The Word became flesh and lived among us",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "2TI.2.11",
+      "top_vector_score": 0.6546,
+      "vector_margin": 0.0108
+    },
+    {
+      "query": "The Word became flesh and lived among us",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "2TI.2.11",
+      "top_vector_score": 0.6546,
+      "vector_margin": 0.0108
+    },
+    {
+      "query": "God loved the world so much that he gave his only Son",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.8352,
+      "vector_margin": 0.0719
+    },
+    {
+      "query": "God loved the world so much that he gave his only Son",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.8352,
+      "vector_margin": 0.0719
+    },
+    {
+      "query": "God loved the world so much that he gave his only Son",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.7376,
+      "vector_margin": 0.0431
+    },
+    {
+      "query": "God loved the world so much that he gave his only Son",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "JHN.3.16",
+      "top_vector_score": 0.7376,
+      "vector_margin": 0.0431
+    },
+    {
+      "query": "Jesus cried when his friend died",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "JHN.11.35",
+      "top_vector_score": 0.8334,
+      "vector_margin": 0.1503
+    },
+    {
+      "query": "Jesus cried when his friend died",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "MRK.15.37",
+      "top_vector_score": 0.8334,
+      "vector_margin": 0.1503
+    },
+    {
+      "query": "Jesus cried when his friend died",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 4,
+      "top": "JHN.11.23",
+      "top_vector_score": 0.5978,
+      "vector_margin": 0.0035
+    },
+    {
+      "query": "Jesus cried when his friend died",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 4,
+      "top": "JHN.11.23",
+      "top_vector_score": 0.5978,
+      "vector_margin": 0.0035
+    },
+    {
+      "query": "I am the way, the truth and the life",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 5,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7349,
+      "vector_margin": 0.0165
+    },
+    {
+      "query": "I am the way, the truth and the life",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7349,
+      "vector_margin": 0.0165
+    },
+    {
+      "query": "I am the way, the truth and the life",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 2,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7215,
+      "vector_margin": 0.0601
+    },
+    {
+      "query": "I am the way, the truth and the life",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "JHN.6.48",
+      "top_vector_score": 0.7215,
+      "vector_margin": 0.0601
+    },
+    {
+      "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.5.3",
+      "top_vector_score": 0.9627,
+      "vector_margin": 0.2106
+    },
+    {
+      "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.5.3",
+      "top_vector_score": 0.9627,
+      "vector_margin": 0.2106
+    },
+    {
+      "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.5.3",
+      "top_vector_score": 0.8058,
+      "vector_margin": 0.0881
+    },
+    {
+      "query": "Blessed are the poor in spirit, for theirs is the kingdom of heaven",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.5.3",
+      "top_vector_score": 0.8058,
+      "vector_margin": 0.0881
+    },
+    {
+      "query": "Our Father in heaven, may your name be kept holy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.6.9",
+      "top_vector_score": 0.8558,
+      "vector_margin": 0.1351
+    },
+    {
+      "query": "Our Father in heaven, may your name be kept holy",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.6.9",
+      "top_vector_score": 0.8558,
+      "vector_margin": 0.1351
+    },
+    {
+      "query": "Our Father in heaven, may your name be kept holy",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.6.9",
+      "top_vector_score": 0.7688,
+      "vector_margin": 0.1033
+    },
+    {
+      "query": "Our Father in heaven, may your name be kept holy",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.6.9",
+      "top_vector_score": 0.7688,
+      "vector_margin": 0.1033
+    },
+    {
+      "query": "Should I be anxious about tomorrow?",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.6.34",
+      "top_vector_score": 0.7599,
+      "vector_margin": 0.1338
+    },
+    {
+      "query": "Should I be anxious about tomorrow?",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.6.34",
+      "top_vector_score": 0.7599,
+      "vector_margin": 0.1338
+    },
+    {
+      "query": "Should I be anxious about tomorrow?",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "1CO.15.30",
+      "top_vector_score": 0.5775,
+      "vector_margin": 0.0248
+    },
+    {
+      "query": "Should I be anxious about tomorrow?",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "1CO.15.30",
+      "top_vector_score": 0.5775,
+      "vector_margin": 0.0248
+    },
+    {
+      "query": "Go and make disciples of all nations, baptizing them",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "MAT.28.19",
+      "top_vector_score": 0.8735,
+      "vector_margin": 0.1814
+    },
+    {
+      "query": "Go and make disciples of all nations, baptizing them",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "MAT.28.19",
+      "top_vector_score": 0.8735,
+      "vector_margin": 0.1814
+    },
+    {
+      "query": "Go and make disciples of all nations, baptizing them",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 2,
+      "top": "LUK.2.31",
+      "top_vector_score": 0.6644,
+      "vector_margin": 0.0042
+    },
+    {
+      "query": "Go and make disciples of all nations, baptizing them",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "LUK.2.31",
+      "top_vector_score": 0.6644,
+      "vector_margin": 0.0042
+    },
+    {
+      "query": "The wages of sin is death, but the gift of God is eternal life",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ROM.6.23",
+      "top_vector_score": 0.8306,
+      "vector_margin": 0.1126
+    },
+    {
+      "query": "The wages of sin is death, but the gift of God is eternal life",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ROM.6.23",
+      "top_vector_score": 0.8306,
+      "vector_margin": 0.1126
+    },
+    {
+      "query": "The wages of sin is death, but the gift of God is eternal life",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ROM.6.23",
+      "top_vector_score": 0.6417,
+      "vector_margin": 0.0247
+    },
+    {
+      "query": "The wages of sin is death, but the gift of God is eternal life",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ROM.6.23",
+      "top_vector_score": 0.6417,
+      "vector_margin": 0.0247
+    },
+    {
+      "query": "Nothing can separate us from the love of God",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "ROM.8.39",
+      "top_vector_score": 0.7057,
+      "vector_margin": 0.0476
+    },
+    {
+      "query": "Nothing can separate us from the love of God",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "ROM.8.39",
+      "top_vector_score": 0.7057,
+      "vector_margin": 0.0476
+    },
+    {
+      "query": "Nothing can separate us from the love of God",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "MRK.10.9",
+      "top_vector_score": 0.6354,
+      "vector_margin": 0.0208
+    },
+    {
+      "query": "Nothing can separate us from the love of God",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "MRK.10.9",
+      "top_vector_score": 0.6354,
+      "vector_margin": 0.0208
+    },
+    {
+      "query": "Love is patient and kind, it does not envy or boast",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "1CO.13.4",
+      "top_vector_score": 0.8702,
+      "vector_margin": 0.1837
+    },
+    {
+      "query": "Love is patient and kind, it does not envy or boast",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "1CO.13.4",
+      "top_vector_score": 0.8702,
+      "vector_margin": 0.1837
+    },
+    {
+      "query": "Love is patient and kind, it does not envy or boast",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 2,
+      "top": "REV.3.19",
+      "top_vector_score": 0.6053,
+      "vector_margin": 0.0009
+    },
+    {
+      "query": "Love is patient and kind, it does not envy or boast",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 2,
+      "top": "REV.3.19",
+      "top_vector_score": 0.6053,
+      "vector_margin": 0.0009
+    },
+    {
+      "query": "You are saved by grace through faith, not by your own doing",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EPH.2.8",
+      "top_vector_score": 0.8625,
+      "vector_margin": 0.1412
+    },
+    {
+      "query": "You are saved by grace through faith, not by your own doing",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EPH.2.8",
+      "top_vector_score": 0.8625,
+      "vector_margin": 0.1412
+    },
+    {
+      "query": "You are saved by grace through faith, not by your own doing",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 1,
+      "top": "EPH.2.8",
+      "top_vector_score": 0.6476,
+      "vector_margin": 0.0028
+    },
+    {
+      "query": "You are saved by grace through faith, not by your own doing",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "EPH.2.8",
+      "top_vector_score": 0.6476,
+      "vector_margin": 0.0028
+    },
+    {
+      "query": "I can do everything through Christ who gives me strength",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "PHP.4.13",
+      "top_vector_score": 0.9673,
+      "vector_margin": 0.2403
+    },
+    {
+      "query": "I can do everything through Christ who gives me strength",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "PHP.4.13",
+      "top_vector_score": 0.9673,
+      "vector_margin": 0.2403
+    },
+    {
+      "query": "I can do everything through Christ who gives me strength",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "1CO.16.24",
+      "top_vector_score": 0.6507,
+      "vector_margin": 0.0074
+    },
+    {
+      "query": "I can do everything through Christ who gives me strength",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "1CO.16.24",
+      "top_vector_score": 0.6507,
+      "vector_margin": 0.0074
+    },
+    {
+      "query": "Faith is being sure of what we hope for",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "HEB.11.1",
+      "top_vector_score": 0.7866,
+      "vector_margin": 0.0377
+    },
+    {
+      "query": "Faith is being sure of what we hope for",
+      "kind": "paraphrase",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 4,
+      "top": "GAL.5.5",
+      "top_vector_score": 0.7866,
+      "vector_margin": 0.0377
+    },
+    {
+      "query": "Faith is being sure of what we hope for",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "EPH.3.12",
+      "top_vector_score": 0.6838,
+      "vector_margin": 0.0265
+    },
+    {
+      "query": "Faith is being sure of what we hope for",
+      "kind": "paraphrase",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "EPH.3.12",
+      "top_vector_score": 0.6838,
+      "vector_margin": 0.0265
+    },
+    {
+      "query": "I stand at the door and knock",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": 1,
+      "top": "REV.3.20",
+      "top_vector_score": 0.797,
+      "vector_margin": 0.1264
+    },
+    {
+      "query": "I stand at the door and knock",
+      "kind": "quote",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": 1,
+      "top": "REV.3.20",
+      "top_vector_score": 0.797,
+      "vector_margin": 0.1264
+    },
+    {
+      "query": "I stand at the door and knock",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": 5,
+      "top": "JHN.10.9",
+      "top_vector_score": 0.6293,
+      "vector_margin": 0.0206
+    },
+    {
+      "query": "I stand at the door and knock",
+      "kind": "quote",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": 5,
+      "top": "JHN.10.9",
+      "top_vector_score": 0.6293,
+      "vector_margin": 0.0206
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "EZK.21.16",
+      "top_vector_score": 0.4485,
+      "vector_margin": 0.0024
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "EZK.21.16",
+      "top_vector_score": 0.4485,
+      "vector_margin": 0.0024
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.89.17",
+      "top_vector_score": 0.4781,
+      "vector_margin": 0.0003
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.89.17",
+      "top_vector_score": 0.4781,
+      "vector_margin": 0.0003
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "JER.29.11",
+      "top_vector_score": 0.4461,
+      "vector_margin": 0.0053
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JER.29.11",
+      "top_vector_score": 0.4461,
+      "vector_margin": 0.0053
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "PHP.3.11",
+      "top_vector_score": 0.4596,
+      "vector_margin": 0.0467
+    },
+    {
+      "query": "How do I configure a Kubernetes cluster?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PHP.3.11",
+      "top_vector_score": 0.4596,
+      "vector_margin": 0.0467
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.83.13",
+      "top_vector_score": 0.4525,
+      "vector_margin": 0.0057
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "SNG.5.10",
+      "top_vector_score": 0.4525,
+      "vector_margin": 0.0057
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.21.3",
+      "top_vector_score": 0.4311,
+      "vector_margin": 0.0045
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.21.3",
+      "top_vector_score": 0.4311,
+      "vector_margin": 0.0045
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.128.2",
+      "top_vector_score": 0.4132,
+      "vector_margin": 0.0071
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.128.2",
+      "top_vector_score": 0.4132,
+      "vector_margin": 0.0071
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "JAS.3.11",
+      "top_vector_score": 0.4117,
+      "vector_margin": 0.0251
+    },
+    {
+      "query": "What is the best recipe for chocolate chip cookies?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JAS.3.11",
+      "top_vector_score": 0.4117,
+      "vector_margin": 0.0251
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "GAL.1.5",
+      "top_vector_score": 0.4941,
+      "vector_margin": 0.003
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "GAL.1.5",
+      "top_vector_score": 0.4941,
+      "vector_margin": 0.003
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "JOB.21.31",
+      "top_vector_score": 0.414,
+      "vector_margin": 0.004
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JOB.21.31",
+      "top_vector_score": 0.414,
+      "vector_margin": 0.004
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "4MA.18.24",
+      "top_vector_score": 0.4526,
+      "vector_margin": 0.0442
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "4MA.18.24",
+      "top_vector_score": 0.4526,
+      "vector_margin": 0.0442
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "LUK.9.25",
+      "top_vector_score": 0.45,
+      "vector_margin": 0.0146
+    },
+    {
+      "query": "Who won the football World Cup in 2022?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "LUK.9.25",
+      "top_vector_score": 0.45,
+      "vector_margin": 0.0146
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "ECC.5.6",
+      "top_vector_score": 0.5519,
+      "vector_margin": 0.0083
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "ROM.8.31",
+      "top_vector_score": 0.5519,
+      "vector_margin": 0.0083
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "ISA.52.3",
+      "top_vector_score": 0.5141,
+      "vector_margin": 0.0014
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "ISA.52.3",
+      "top_vector_score": 0.5141,
+      "vector_margin": 0.0014
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "TOB.4.12",
+      "top_vector_score": 0.5124,
+      "vector_margin": 0.0028
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "TOB.4.12",
+      "top_vector_score": 0.5124,
+      "vector_margin": 0.0028
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "MAT.26.68",
+      "top_vector_score": 0.4891,
+      "vector_margin": 0.0089
+    },
+    {
+      "query": "What does the Bible say about smartphones and social media?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "MAT.26.68",
+      "top_vector_score": 0.4891,
+      "vector_margin": 0.0089
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.119.130",
+      "top_vector_score": 0.4834,
+      "vector_margin": 0.0078
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.119.130",
+      "top_vector_score": 0.4834,
+      "vector_margin": 0.0078
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "JOB.9.2",
+      "top_vector_score": 0.471,
+      "vector_margin": 0.003
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JOB.9.2",
+      "top_vector_score": 0.471,
+      "vector_margin": 0.003
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "WIS.14.14",
+      "top_vector_score": 0.4622,
+      "vector_margin": 0.006
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "WIS.14.14",
+      "top_vector_score": 0.4622,
+      "vector_margin": 0.006
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "HEB.13.3",
+      "top_vector_score": 0.4648,
+      "vector_margin": 0.0223
+    },
+    {
+      "query": "Explain quantum entanglement in simple terms",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "HEB.13.3",
+      "top_vector_score": 0.4648,
+      "vector_margin": 0.0223
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "vector",
+      "rank": null,
+      "top": "2CO.6.15",
+      "top_vector_score": 0.5191,
+      "vector_margin": 0.0115
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "web",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "2CO.6.15",
+      "top_vector_score": 0.5191,
+      "vector_margin": 0.0115
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "vector",
+      "rank": null,
+      "top": "PSA.10.13",
+      "top_vector_score": 0.5042,
+      "vector_margin": 0.0005
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "oshb_wlc",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "PSA.10.13",
+      "top_vector_score": 0.5042,
+      "vector_margin": 0.0005
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "vector",
+      "rank": null,
+      "top": "HOS.13.9",
+      "top_vector_score": 0.4872,
+      "vector_margin": 0.0077
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "lxx_swete",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "HOS.13.9",
+      "top_vector_score": 0.4872,
+      "vector_margin": 0.0077
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "vector",
+      "rank": null,
+      "top": "JHN.11.40",
+      "top_vector_score": 0.4919,
+      "vector_margin": 0.0123
+    },
+    {
+      "query": "What does the Bible teach about cryptocurrency investing?",
+      "kind": "off_topic",
+      "corpus": "sblgnt",
+      "mode": "hybrid",
+      "rank": null,
+      "top": "JHN.11.40",
+      "top_vector_score": 0.4919,
+      "vector_margin": 0.0123
+    }
+  ]
+}

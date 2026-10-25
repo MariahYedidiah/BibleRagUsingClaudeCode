@@ -29,12 +29,12 @@ You decide **which verses are relevant and why**. Deterministic tools do everyth
    - service down: add `--mode lexical`, and note that results are lexical only.
    Add filter flags (`--testament OT`, `--book PSA,ISA`) when given.
    You may add one extra `--lexical "<key words>"` with distinctive words of the question (names, rare words).
-3. **Judge relevance.** Keep at most `k` passages, best first. Discard false hits with a reason (a word used in an unrelated sense, a narrative that mentions the word without addressing the question). Read context when needed: `uv run bible-rag verse <canon_ref> --source web --context 2`. Always keep requested `references` (as `{"canon_ref": ...}`).
+3. **Judge relevance.** Keep at most `k` passages, best first. Discard false hits with a reason (a word used in an unrelated sense, a narrative that mentions the word without addressing the question). Read context when needed: `uv run bible-rag verse <canon_ref> --source web --context 2`. Always keep requested `references` (as `{"canon_ref": ...}`). Keep only verses from your saved searches and the requested references: if you know a relevant verse the search missed, search for it (e.g. `--lexical` with its key words) into another file and pass that file with a second `--search`; `pack` rejects anything else.
    For a polarized question, keep the passages that best answer it, even if they come from the neutral or contrasting variant, and say which variant found them.
 4. **Write the selection** to `runs/<run_id>/english_selection.json`: `keep` (verse_uid or canon_ref, plus `relevance`), `discard` (with `reason`), `notes`, `missing`. No scripture text.
 5. **Pack and check:**
    ```bash
-   uv run bible-rag pack specialist --agent english-retrieval-agent --run <run_id> --search runs/<run_id>/english_search.json --selection runs/<run_id>/english_selection.json --context 1 --out runs/<run_id>/english-retrieval-agent.json
+   uv run bible-rag pack specialist --agent english-retrieval-agent --run <run_id> --search runs/<run_id>/english_search.json --selection runs/<run_id>/english_selection.json --context 1 --references "<the requested references, comma-separated; omit the flag if there are none>" --out runs/<run_id>/english-retrieval-agent.json
    ```
    Exit 0 means valid. On exit 1, fix what the errors name and pack again **once**.
 

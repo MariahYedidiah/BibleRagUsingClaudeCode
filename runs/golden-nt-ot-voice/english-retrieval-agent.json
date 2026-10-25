@@ -1,0 +1,313 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-nt-ot-voice",
+  "corpus": "web",
+  "queries": [
+    "Who is the voice crying in the wilderness?",
+    "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.9578,
+      "vector_margin": 0.0993,
+      "vector_lexical_overlap_top10": 5,
+      "lists": 4,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 4
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "MRK.1.3",
+      "verse_uid": "web:MRK.1.3",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "the voice of one crying in the wilderness, ‘Make ready the way of the Lord! Make his paths straight!’”",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6664
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.9578
+        },
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "lexical",
+          "rank": 1,
+          "score": -19.3324
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "lexical",
+          "rank": 1,
+          "score": -52.5434
+        }
+      ],
+      "rrf": 0.06557,
+      "relevance": "Mark identifies the voice crying in the wilderness as the forerunner's voice (quoting Isaiah 40:3); found by both query variants, vector and lexical.",
+      "context": [
+        {
+          "verse_uid": "web:MRK.1.2",
+          "verse": 2,
+          "text_display": "As it is written in the prophets, “Behold, I send my messenger before your face, who will prepare your way before you:"
+        },
+        {
+          "verse_uid": "web:MRK.1.3",
+          "verse": 3,
+          "text_display": "the voice of one crying in the wilderness, ‘Make ready the way of the Lord! Make his paths straight!’”"
+        },
+        {
+          "verse_uid": "web:MRK.1.4",
+          "verse": 4,
+          "text_display": "John came baptizing in the wilderness and preaching the baptism of repentance for forgiveness of sins."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "canon_ref": "JHN.1.23",
+      "verse_uid": "web:JHN.1.23",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’ as Isaiah the prophet said.”",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.579
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.7943
+        },
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "lexical",
+          "rank": 2,
+          "score": -17.4836
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "lexical",
+          "rank": 4,
+          "score": -38.9194
+        }
+      ],
+      "rrf": 0.06325,
+      "relevance": "John the Baptist answers the Pharisees' question directly: he says he is the voice of one crying in the wilderness; found by both variants and both methods.",
+      "context": [
+        {
+          "verse_uid": "web:JHN.1.22",
+          "verse": 22,
+          "text_display": "They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?”"
+        },
+        {
+          "verse_uid": "web:JHN.1.23",
+          "verse": 23,
+          "text_display": "He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’ as Isaiah the prophet said.”"
+        },
+        {
+          "verse_uid": "web:JHN.1.24",
+          "verse": 24,
+          "text_display": "The ones who had been sent were from the Pharisees."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "canon_ref": "MAT.3.3",
+      "verse_uid": "web:MAT.3.3",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make the way of the Lord ready! Make his paths straight!”",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.5543
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.8096
+        },
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "lexical",
+          "rank": 3,
+          "score": -15.1634
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "lexical",
+          "rank": 2,
+          "score": -41.5765
+        }
+      ],
+      "rrf": 0.06237,
+      "relevance": "Matthew identifies the speaker in the wilderness as the one spoken of by Isaiah the prophet, the voice crying in the wilderness; found by both methods.",
+      "context": [
+        {
+          "verse_uid": "web:MAT.3.2",
+          "verse": 2,
+          "text_display": "“Repent, for the Kingdom of Heaven is at hand!”"
+        },
+        {
+          "verse_uid": "web:MAT.3.3",
+          "verse": 3,
+          "text_display": "For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make the way of the Lord ready! Make his paths straight!”"
+        },
+        {
+          "verse_uid": "web:MAT.3.4",
+          "verse": 4,
+          "text_display": "Now John himself wore clothing made of camel’s hair with a leather belt around his waist. His food was locusts and wild honey."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "canon_ref": "LUK.3.4",
+      "verse_uid": "web:LUK.3.4",
+      "source": "web",
+      "language": "en",
+      "testament": "NT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "As it is written in the book of the words of Isaiah the prophet, “The voice of one crying in the wilderness, ‘Make ready the way of the Lord. Make his paths straight.",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.551
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.8585
+        },
+        {
+          "query": "Who is the voice crying in the wilderness?",
+          "method": "lexical",
+          "rank": 4,
+          "score": -14.916
+        },
+        {
+          "query": "the voice of one crying in the wilderness, prepare the way of the Lord, make his paths straight",
+          "method": "lexical",
+          "rank": 3,
+          "score": -40.921
+        }
+      ],
+      "rrf": 0.06152,
+      "relevance": "Luke gives the Isaiah citation of the voice crying in the wilderness, introducing John's ministry; found by both methods.",
+      "context": [
+        {
+          "verse_uid": "web:LUK.3.3",
+          "verse": 3,
+          "text_display": "He came into all the region around the Jordan, preaching the baptism of repentance for remission of sins."
+        },
+        {
+          "verse_uid": "web:LUK.3.4",
+          "verse": 4,
+          "text_display": "As it is written in the book of the words of Isaiah the prophet, “The voice of one crying in the wilderness, ‘Make ready the way of the Lord. Make his paths straight."
+        },
+        {
+          "verse_uid": "web:LUK.3.5",
+          "verse": 5,
+          "text_display": "Every valley will be filled. Every mountain and hill will be brought low. The crooked will become straight, and the rough ways smooth."
+        }
+      ]
+    }
+  ],
+  "discarded": [
+    {
+      "reason": "Lexical match on 'crying' and 'voice' in an unrelated sense (an unclean spirit crying out); not about the wilderness voice.",
+      "verse_uid": "web:MRK.1.26"
+    },
+    {
+      "reason": "'Voice' of a multitude in a heavenly scene; does not address the wilderness voice.",
+      "verse_uid": "web:REV.19.6"
+    },
+    {
+      "reason": "'Crying with a loud voice' at the crucifixion; not about the voice in the wilderness.",
+      "verse_uid": "web:LUK.23.46"
+    },
+    {
+      "reason": "'Crying with a loud voice' of unclean spirits; unrelated sense.",
+      "verse_uid": "web:ACT.8.7"
+    },
+    {
+      "reason": "'Crying out with a loud voice' of the demoniac; unrelated sense.",
+      "verse_uid": "web:MRK.5.7"
+    },
+    {
+      "reason": "Vector-only hit on 'ways'; no relation to the question.",
+      "verse_uid": "web:ROM.3.16"
+    },
+    {
+      "reason": "'Crying with a loud voice' of an angel; unrelated sense.",
+      "verse_uid": "web:REV.14.15"
+    },
+    {
+      "reason": "Vector-only hit on a blind man begging; no relation to the question.",
+      "verse_uid": "web:LUK.18.35"
+    },
+    {
+      "reason": "'Crying out' of a mob; unrelated sense.",
+      "verse_uid": "web:ACT.21.36"
+    },
+    {
+      "reason": "'Straight' as a street name; unrelated to 'make straight' in the wilderness citation.",
+      "verse_uid": "web:ACT.9.11"
+    },
+    {
+      "reason": "Mentions the wilderness but not the voice; does not address the question.",
+      "verse_uid": "web:MRK.1.12"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Search used --testament NT with two query variants (hybrid mode, service up). The question is answered by the Isaiah 40:3 citation in the Gospels; the OT source (ISA.40.3) is outside this NT-filtered retrieval and is left to the cross-reference/OT specialists. Kept 4 of k=5 because no fifth WEB passage in the NT addresses the question directly; MRK.1.2 (Isaiah messenger introduction) was not added because it does not mention the voice."
+  ]
+}

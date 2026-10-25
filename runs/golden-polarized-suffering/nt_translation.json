@@ -1,0 +1,96 @@
+[
+  {
+    "canon_ref": "MAT.27.46",
+    "verse_uid": "sblgnt:MAT.27.46",
+    "source": "sblgnt",
+    "corpus_label": "New Testament Greek (SBLGNT)",
+    "original": "περὶ δὲ τὴν ἐνάτην ὥραν ⸂ ἀνεβόησεν ⸃ ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· ⸂ Ἠλὶ ἠλὶ ⸃ λεμὰ σαβαχθάνι; τοῦτ᾽ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+    "translation": "About the ninth hour Jesus cried out with a loud voice, saying, \"Eli, Eli, lema sabachthani?\" that is, \"My God, my God, why have you forsaken me?\"",
+    "method": "machine",
+    "translator": "claude:claude-sonnet-5-5",
+    "literal_notes": [
+      "ἐγκατέλιπες: aorist, 'you forsook'"
+    ],
+    "uncertainties": [
+      "variant unit: ἀνεβόησεν (cried out)",
+      "variant unit: Ἠλὶ ἠλὶ (Eli, Eli)"
+    ],
+    "web_reference": "web:MAT.27.46",
+    "differences_from_web": [],
+    "_web_text": "About the ninth hour Jesus cried with a loud voice, saying, “ Eli|strong=\"G2241\" , Eli|strong=\"G2241\" , lima sabachthani|strong=\"G4518\" ?” That is, “ My|strong=\"G1473\" God|strong=\"G2316\" , my|strong=\"G1473\" God|strong=\"G2316\" , why|strong=\"G2444\" have|strong=\"G1473\" you|strong=\"G3004\" forsaken|strong=\"G1459\" me|strong=\"G1473\" ?”",
+    "_edition": null
+  },
+  {
+    "canon_ref": "1PE.5.7",
+    "verse_uid": "sblgnt:1PE.5.7",
+    "source": "sblgnt",
+    "corpus_label": "New Testament Greek (SBLGNT)",
+    "original": "πᾶσαν τὴν μέριμναν ὑμῶν ἐπιρίψαντες ἐπ᾽ αὐτόν, ὅτι αὐτῷ μέλει περὶ ὑμῶν.",
+    "translation": "casting all your anxiety on him, because he cares about you.",
+    "method": "machine",
+    "translator": "claude:claude-sonnet-5-5",
+    "literal_notes": [
+      "ἐπιρίψαντες: aorist participle, 'having cast'",
+      "μέλει: impersonal, 'it is a concern to him'"
+    ],
+    "uncertainties": [],
+    "web_reference": "web:1PE.5.7",
+    "differences_from_web": [],
+    "_web_text": "casting all your worries on him, because he cares for you.",
+    "_edition": null
+  },
+  {
+    "canon_ref": "2CO.1.4",
+    "verse_uid": "sblgnt:2CO.1.4",
+    "source": "sblgnt",
+    "corpus_label": "New Testament Greek (SBLGNT)",
+    "original": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν, εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ.",
+    "translation": "who comforts us in all our affliction, so that we may be able to comfort those in any affliction through the comfort with which we ourselves are comforted by God.",
+    "method": "machine",
+    "translator": "claude:claude-sonnet-5-5",
+    "literal_notes": [
+      "παρακαλέω/παράκλησις: comfort/encourage word group"
+    ],
+    "uncertainties": [],
+    "web_reference": "web:2CO.1.4",
+    "differences_from_web": [],
+    "_web_text": "who comforts us in all our affliction, that we may be able to comfort those who are in any affliction, through the comfort with which we ourselves are comforted by God.",
+    "_edition": null
+  },
+  {
+    "canon_ref": "LUK.7.13",
+    "verse_uid": "sblgnt:LUK.7.13",
+    "source": "sblgnt",
+    "corpus_label": "New Testament Greek (SBLGNT)",
+    "original": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ᾽ αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε.",
+    "translation": "And when the Lord saw her, he had compassion on her and said to her, \"Do not weep.\"",
+    "method": "machine",
+    "translator": "claude:claude-sonnet-5-5",
+    "literal_notes": [
+      "ἐσπλαγχνίσθη: aorist passive deponent, 'was moved with compassion'"
+    ],
+    "uncertainties": [],
+    "web_reference": "web:LUK.7.13",
+    "differences_from_web": [],
+    "_web_text": "When the Lord saw her, he had compassion on her and said to her, “Don’ t|strong=\"G3588\" cry.”",
+    "_edition": null
+  },
+  {
+    "canon_ref": "ROM.8.35",
+    "verse_uid": "sblgnt:ROM.8.35",
+    "source": "sblgnt",
+    "corpus_label": "New Testament Greek (SBLGNT)",
+    "original": "τίς ἡμᾶς χωρίσει ἀπὸ τῆς ἀγάπης τοῦ Χριστοῦ; θλῖψις ἢ στενοχωρία ἢ διωγμὸς ἢ λιμὸς ἢ γυμνότης ἢ κίνδυνος ἢ μάχαιρα;",
+    "translation": "Who will separate us from the love of Christ? Affliction, or distress, or persecution, or famine, or nakedness, or danger, or sword?",
+    "method": "machine",
+    "translator": "claude:claude-sonnet-5-5",
+    "literal_notes": [
+      "θλῖψις: affliction/tribulation"
+    ],
+    "uncertainties": [],
+    "web_reference": "web:ROM.8.35",
+    "differences_from_web": [],
+    "_web_text": "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?",
+    "_edition": null
+  }
+]

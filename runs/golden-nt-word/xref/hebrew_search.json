@@ -1,0 +1,473 @@
+{
+  "queries": [
+    "In the beginning was the Word"
+  ],
+  "lexical_queries": [
+    "בראשית ראשית ברא",
+    "הדבר חכמה קנני"
+  ],
+  "filters": {
+    "source": [
+      "oshb_wlc"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.03132,
+      "verse_uid": "oshb_wlc:Prov.8.22",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 8,
+      "verse": 22,
+      "edition": "",
+      "source_ref": "Prov.8.22",
+      "canon_ref": "PRO.8.22",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "יְֽהוָ֗ה קָ֭נָ/נִי רֵאשִׁ֣ית דַּרְכּ֑/וֹ קֶ֖דֶם מִפְעָלָ֣י/ו מֵ/אָֽז׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 7,
+          "score": -11.0396
+        },
+        {
+          "query": "הדבר חכמה קנני",
+          "method": "lexical",
+          "rank": 1,
+          "score": -15.0669
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.03002,
+      "verse_uid": "oshb_wlc:Prov.4.7",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PRO",
+      "book_name": "Proverbs",
+      "chapter": 4,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "Prov.4.7",
+      "canon_ref": "PRO.4.7",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "רֵאשִׁ֣ית חָ֭כְמָה קְנֵ֣ה חָכְמָ֑ה וּ/בְ/כָל־קִ֝נְיָנְ/ךָ֗ קְנֵ֣ה בִינָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 12,
+          "score": -10.7451
+        },
+        {
+          "query": "הדבר חכמה קנני",
+          "method": "lexical",
+          "rank": 2,
+          "score": -11.772
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:1Chr.17.3",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "1CH",
+      "book_name": "1 Chronicles",
+      "chapter": 17,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "1Chr.17.3",
+      "canon_ref": "1CH.17.3",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַֽ/יְהִ֖י בַּ/לַּ֣יְלָה הַ/ה֑וּא וַ/יְהִי֙ דְּבַר־אֱלֹהִ֔ים אֶל־נָתָ֖ן לֵ/אמֹֽר׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.6337
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.01639,
+      "verse_uid": "oshb_wlc:Gen.1.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "Gen.1.1",
+      "canon_ref": "GEN.1.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "בְּ/רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַ/שָּׁמַ֖יִם וְ/אֵ֥ת הָ/אָֽרֶץ׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 1,
+          "score": -24.9966
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:2Sam.7.4",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "2SA",
+      "book_name": "2 Samuel",
+      "chapter": 7,
+      "verse": 4,
+      "edition": "",
+      "source_ref": "2Sam.7.4",
+      "canon_ref": "2SA.7.4",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יְהִ֖י בַּ/לַּ֣יְלָה הַ/ה֑וּא וַֽ/יְהִי֙ דְּבַר־יְהוָ֔ה אֶל־נָתָ֖ן לֵ/אמֹֽר׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.6061
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01613,
+      "verse_uid": "oshb_wlc:Gen.1.27",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "GEN",
+      "book_name": "Genesis",
+      "chapter": 1,
+      "verse": 27,
+      "edition": "",
+      "source_ref": "Gen.1.27",
+      "canon_ref": "GEN.1.27",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וַ/יִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽ/אָדָם֙ בְּ/צַלְמ֔/וֹ בְּ/צֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑/וֹ זָכָ֥ר וּ/נְקֵבָ֖ה בָּרָ֥א אֹתָֽ/ם׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 2,
+          "score": -13.1087
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Lam.3.47",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "LAM",
+      "book_name": "Lamentations",
+      "chapter": 3,
+      "verse": 47,
+      "edition": "",
+      "source_ref": "Lam.3.47",
+      "canon_ref": "LAM.3.47",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "פַּ֧חַד וָ/פַ֛חַת הָ֥יָה לָ֖/נוּ הַ/שֵּׁ֥את וְ/הַ/שָּֽׁבֶר׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 3,
+          "score": 0.5861
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Ezek.21.24",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 21,
+      "verse": 24,
+      "edition": "",
+      "source_ref": "Ezek.21.24",
+      "canon_ref": "EZK.21.19",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וְ/אַתָּ֨ה בֶן־אָדָ֜ם שִׂים־לְ/ךָ֣ ׀ שְׁנַ֣יִם דְּרָכִ֗ים לָ/בוֹא֙ חֶ֣רֶב מֶֽלֶךְ־בָּבֶ֔ל מֵ/אֶ֥רֶץ אֶחָ֖ד יֵצְא֣וּ שְׁנֵי/הֶ֑ם וְ/יָ֣ד בָּרֵ֔א בְּ/רֹ֥אשׁ דֶּֽרֶךְ־עִ֖יר בָּרֵֽא׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 3,
+          "score": -11.6756
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01587,
+      "verse_uid": "oshb_wlc:Job.12.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 12,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "Job.12.12",
+      "canon_ref": "JOB.12.12",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "בִּֽ/ישִׁישִׁ֥ים חָכְמָ֑ה וְ/אֹ֖רֶךְ יָמִ֣ים תְּבוּנָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "הדבר חכמה קנני",
+          "method": "lexical",
+          "rank": 3,
+          "score": -10.2693
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Ezek.24.20",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "EZK",
+      "book_name": "Ezekiel",
+      "chapter": 24,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "Ezek.24.20",
+      "canon_ref": "EZK.24.20",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "וָ/אֹמַ֖ר אֲלֵי/הֶ֑ם דְּבַ֨ר־יְהוָ֔ה הָיָ֥ה אֵלַ֖/י לֵ/אמֹֽר׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 4,
+          "score": 0.5853
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Jer.26.1",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JER",
+      "book_name": "Jeremiah",
+      "chapter": 26,
+      "verse": 1,
+      "edition": "",
+      "source_ref": "Jer.26.1",
+      "canon_ref": "JER.26.1",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "בְּ/רֵאשִׁ֗ית מַמְלְכ֛וּת יְהוֹיָקִ֥ים בֶּן־יֹאשִׁיָּ֖הוּ מֶ֣לֶךְ יְהוּדָ֑ה הָיָה֙ הַ/דָּבָ֣ר הַ/זֶּ֔ה מֵ/אֵ֥ת יְהוָ֖ה לֵ/אמֹֽר׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.4132
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01562,
+      "verse_uid": "oshb_wlc:Job.12.13",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 12,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "Job.12.13",
+      "canon_ref": "JOB.12.13",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "עִ֭מּ/וֹ חָכְמָ֣ה וּ/גְבוּרָ֑ה ל֝֗/וֹ עֵצָ֥ה וּ/תְבוּנָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "הדבר חכמה קנני",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.9799
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Ps.33.9",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 33,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "Ps.33.9",
+      "canon_ref": "PSA.33.9",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "כִּ֤י ה֣וּא אָמַ֣ר וַ/יֶּ֑הִי הֽוּא־צִ֝וָּ֗ה וַֽ/יַּעֲמֹֽד׃",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "In the beginning was the Word",
+          "method": "vector",
+          "rank": 5,
+          "score": 0.5804
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Ps.51.12",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "PSA",
+      "book_name": "Psalms",
+      "chapter": 51,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "Ps.51.12",
+      "canon_ref": "PSA.51.10",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "לֵ֣ב טָ֭הוֹר בְּרָא־לִ֣/י אֱלֹהִ֑ים וְ/ר֥וּחַ נָ֝כ֗וֹן חַדֵּ֥שׁ בְּ/קִרְבִּֽ/י׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "בראשית ראשית ברא",
+          "method": "lexical",
+          "rank": 5,
+          "score": -11.0984
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01538,
+      "verse_uid": "oshb_wlc:Job.15.8",
+      "source": "oshb_wlc",
+      "language": "he",
+      "testament": "OT",
+      "book_id": "JOB",
+      "book_name": "Job",
+      "chapter": 15,
+      "verse": 8,
+      "edition": "",
+      "source_ref": "Job.15.8",
+      "canon_ref": "JOB.15.8",
+      "alignment": "mapped",
+      "versification": "wlc",
+      "text_display": "הַ/בְ/ס֣וֹד אֱל֣וֹהַ תִּשְׁמָ֑ע וְ/תִגְרַ֖ע אֵלֶ֣י/ךָ חָכְמָֽה׃",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "הדבר חכמה קנני",
+          "method": "lexical",
+          "rank": 5,
+          "score": -9.9799
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.6337,
+    "vector_margin": 0.0276,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 4,
+    "lists_with_hits": 3,
+    "lists_containing_top_result": 2
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "agent": "english-retrieval-agent",
+  "run_id": "golden-low-evidence",
+  "corpus": "web",
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "configuring a cluster of computer servers to run software containers"
+  ],
+  "lexical_queries": [],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.5025,
+      "vector_margin": 0.0006,
+      "vector_lexical_overlap_top10": 1,
+      "lists": 4,
+      "lists_with_hits": 4,
+      "lists_containing_top_result": 2
+    }
+  ],
+  "passages": [],
+  "discarded": [
+    {
+      "verse_uid": "web:2KI.4.3",
+      "reason": "'containers' used in a narrative about borrowing empty vessels for oil; not about software or cluster configuration"
+    },
+    {
+      "verse_uid": "web:JOB.38.31",
+      "reason": "'cluster' means a star cluster (Pleiades); unrelated sense"
+    },
+    {
+      "verse_uid": "web:SNG.1.14",
+      "reason": "'cluster' means a bunch of henna blossoms; unrelated sense"
+    },
+    {
+      "verse_uid": "web:NUM.13.24",
+      "reason": "'cluster' means a cluster of grapes; unrelated sense"
+    },
+    {
+      "verse_uid": "web:MIC.7.1",
+      "reason": "'cluster of grapes' in a lament; unrelated sense"
+    },
+    {
+      "verse_uid": "web:LEV.15.31",
+      "reason": "ritual purity and the tabernacle; no bearing on configuring a cluster"
+    },
+    {
+      "verse_uid": "web:1TI.4.11",
+      "reason": "generic instruction to teach; does not address configuring systems"
+    },
+    {
+      "verse_uid": "web:GEN.35.3",
+      "reason": "Jacob's altar at Bethel; does not address configuration of a cluster"
+    },
+    {
+      "verse_uid": "web:PSA.64.5",
+      "reason": "lament about hidden snares; unrelated"
+    },
+    {
+      "verse_uid": "web:ISA.3.20",
+      "reason": "'perfume containers' in a list of finery; unrelated sense"
+    },
+    {
+      "verse_uid": "web:AMO.9.9",
+      "reason": "sifting grain among nations; metaphor unrelated to computing"
+    },
+    {
+      "verse_uid": "web:1CO.14.40",
+      "reason": "'let all things be done decently and in order' is about orderly worship in the church, not configuring a computing cluster; it is a loose thematic echo only"
+    },
+    {
+      "verse_uid": "web:JHN.8.5",
+      "reason": "law of stoning in a narrative; unrelated"
+    },
+    {
+      "verse_uid": "web:LUK.17.6",
+      "reason": "faith like a mustard seed; unrelated to configuration"
+    },
+    {
+      "verse_uid": "web:ISA.62.10",
+      "reason": "road-building call to the gates; unrelated"
+    }
+  ],
+  "missing": [
+    {
+      "field": "keep",
+      "reason": "No WEB verse on Kubernetes or modern computing infrastructure; the Bible predates these concepts, so the question cannot be answered from scripture."
+    }
+  ],
+  "notes": [
+    "No WEB passage addresses Kubernetes, container orchestration, server clusters or system configuration. Every hit matches a word ('cluster', 'containers') in an unrelated sense. Result is deliberately empty. Hybrid search (vector + lexical) with both query variants; the closest loose echo, 1CO.14.40 (orderly worship), was discarded."
+  ]
+}

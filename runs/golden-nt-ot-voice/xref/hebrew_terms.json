@@ -1,0 +1,3 @@
+{"query":"Who is the voice crying in the wilderness?","language":"he","corpus":"oshb_wlc",
+"terms":[{"term":"קורא","gloss":"calling, crying (participle)","hits":6},{"term":"קול","gloss":"voice","hits":138},{"term":"מדבר","gloss":"wilderness","hits":83},{"term":"במדבר","gloss":"in the wilderness","hits":138},{"term":"פנו","gloss":"prepare, clear","hits":14},{"term":"ישרו","gloss":"make straight","hits":5}],
+"lexical_queries":["קול קורא","במדבר מדבר פנו ישרו"],"method":"machine","translator":"claude:claude-sonnet-5-5","display":false,"notes":[]}

@@ -1,0 +1,496 @@
+{
+  "queries": [
+    "What does the Bible say about configuring a Kubernetes cluster?",
+    "planning, organizing and managing a large and complex system so that everything is done in order",
+    "servants appointed over many tasks and overseers who manage the work"
+  ],
+  "lexical_queries": [
+    "οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν",
+    "ἐπισκόπους ἐπίσκοπον προϊστάμενος κυβερνήσεις",
+    "τάξει τάξιν εὐσχημόνως",
+    "κατέστησεν καταστήσει δούλους"
+  ],
+  "filters": {
+    "source": [
+      "sblgnt"
+    ]
+  },
+  "mode": "hybrid",
+  "results": [
+    {
+      "rank": 1,
+      "rrf": 0.03055,
+      "verse_uid": "sblgnt:TIT.1.7",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "TIT",
+      "book_name": "Titus",
+      "chapter": 1,
+      "verse": 7,
+      "edition": "",
+      "source_ref": "TIT.1.7",
+      "canon_ref": "TIT.1.7",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "δεῖ γὰρ τὸν ἐπίσκοπον ἀνέγκλητον εἶναι ὡς θεοῦ οἰκονόμον, μὴ αὐθάδη, μὴ ὀργίλον, μὴ πάροινον, μὴ πλήκτην, μὴ αἰσχροκερδῆ,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν",
+          "method": "lexical",
+          "rank": 7,
+          "score": -9.6817
+        },
+        {
+          "query": "ἐπισκόπους ἐπίσκοπον προϊστάμενος κυβερνήσεις",
+          "method": "lexical",
+          "rank": 4,
+          "score": -10.4662
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "rrf": 0.02879,
+      "verse_uid": "sblgnt:LUK.12.42",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 12,
+      "verse": 42,
+      "edition": "",
+      "source_ref": "LUK.12.42",
+      "canon_ref": "LUK.12.42",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "⸂ καὶ εἶπεν ⸃ ὁ κύριος· Τίς ἄρα ἐστὶν ὁ πιστὸς οἰκονόμος, ⸂ ὁ ⸃ φρόνιμος, ὃν καταστήσει ὁ κύριος ἐπὶ τῆς θεραπείας αὐτοῦ τοῦ διδόναι ἐν καιρῷ ⸂ τὸ ⸃ σιτομέτριον;",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν",
+          "method": "lexical",
+          "rank": 11,
+          "score": -8.3478
+        },
+        {
+          "query": "κατέστησεν καταστήσει δούλους",
+          "method": "lexical",
+          "rank": 8,
+          "score": -8.7393
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "rrf": 0.02797,
+      "verse_uid": "sblgnt:1CO.12.20",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 12,
+      "verse": 20,
+      "edition": "",
+      "source_ref": "1CO.12.20",
+      "canon_ref": "1CO.12.20",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "νῦν δὲ πολλὰ ⸂ μὲν ⸃ μέλη, ἓν δὲ σῶμα.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 11,
+          "score": 0.5278
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 12,
+          "score": 0.5554
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "rrf": 0.02725,
+      "verse_uid": "sblgnt:TIT.2.9",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "TIT",
+      "book_name": "Titus",
+      "chapter": 2,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "TIT.2.9",
+      "canon_ref": "TIT.2.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "Δούλους ἰδίοις δεσπόταις ὑποτάσσεσθαι ἐν πᾶσιν, εὐαρέστους εἶναι, μὴ ἀντιλέγοντας,",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 26,
+          "score": 0.5404
+        },
+        {
+          "query": "κατέστησεν καταστήσει δούλους",
+          "method": "lexical",
+          "rank": 4,
+          "score": -9.6375
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "rrf": 0.02542,
+      "verse_uid": "sblgnt:1CO.16.9",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 16,
+      "verse": 9,
+      "edition": "",
+      "source_ref": "1CO.16.9",
+      "canon_ref": "1CO.16.9",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "θύρα γάρ μοι ἀνέῳγεν μεγάλη καὶ ἐνεργής, καὶ ἀντικείμενοι πολλοί.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 14,
+          "score": 0.5185
+        },
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.5435
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:ROM.3.6",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 3,
+      "verse": 6,
+      "edition": "",
+      "source_ref": "ROM.3.6",
+      "canon_ref": "ROM.3.6",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "μὴ γένοιτο· ἐπεὶ πῶς κρινεῖ ὁ θεὸς τὸν κόσμον;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.4746
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:TIT.3.13",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "TIT",
+      "book_name": "Titus",
+      "chapter": 3,
+      "verse": 13,
+      "edition": "",
+      "source_ref": "TIT.3.13",
+      "canon_ref": "TIT.3.13",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ζηνᾶν τὸν νομικὸν καὶ ⸂ Ἀπολλῶν ⸃ σπουδαίως πρόπεμψον, ἵνα μηδὲν αὐτοῖς λείπῃ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.5501
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:ROM.8.5",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "ROM",
+      "book_name": "Romans",
+      "chapter": 8,
+      "verse": 5,
+      "edition": "",
+      "source_ref": "ROM.8.5",
+      "canon_ref": "ROM.8.5",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "οἱ γὰρ κατὰ σάρκα ὄντες τὰ τῆς σαρκὸς φρονοῦσιν, οἱ δὲ κατὰ πνεῦμα τὰ τοῦ πνεύματος.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 1,
+          "score": 0.579
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:LUK.16.3",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 16,
+      "verse": 3,
+      "edition": "",
+      "source_ref": "LUK.16.3",
+      "canon_ref": "LUK.16.3",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "εἶπεν δὲ ἐν ἑαυτῷ ὁ οἰκονόμος· Τί ποιήσω ὅτι ὁ κύριός μου ἀφαιρεῖται τὴν οἰκονομίαν ἀπ᾽ ἐμοῦ; σκάπτειν οὐκ ἰσχύω, ἐπαιτεῖν αἰσχύνομαι·",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "οἰκονόμος οἰκονόμον οἰκονόμοι οἰκονομίαν",
+          "method": "lexical",
+          "rank": 1,
+          "score": -18.1139
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:1TI.3.2",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1TI",
+      "book_name": "1 Timothy",
+      "chapter": 3,
+      "verse": 2,
+      "edition": "",
+      "source_ref": "1TI.3.2",
+      "canon_ref": "1TI.3.2",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "δεῖ οὖν τὸν ἐπίσκοπον ἀνεπίλημπτον εἶναι, μιᾶς γυναικὸς ἄνδρα, νηφάλιον, σώφρονα, κόσμιον, φιλόξενον, διδακτικόν,",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "ἐπισκόπους ἐπίσκοπον προϊστάμενος κυβερνήσεις",
+          "method": "lexical",
+          "rank": 1,
+          "score": -11.6695
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:1CO.14.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "1CO",
+      "book_name": "1 Corinthians",
+      "chapter": 14,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "1CO.14.40",
+      "canon_ref": "1CO.14.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "πάντα ⸂ δὲ ⸃ εὐσχημόνως καὶ κατὰ τάξιν γινέσθω.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "τάξει τάξιν εὐσχημόνως",
+          "method": "lexical",
+          "rank": 1,
+          "score": -25.6953
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "rrf": 0.01639,
+      "verse_uid": "sblgnt:MAT.24.47",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 24,
+      "verse": 47,
+      "edition": "",
+      "source_ref": "MAT.24.47",
+      "canon_ref": "MAT.24.47",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "ἀμὴν λέγω ὑμῖν ὅτι ἐπὶ πᾶσιν τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "κατέστησεν καταστήσει δούλους",
+          "method": "lexical",
+          "rank": 1,
+          "score": -11.977
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:HEB.11.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "HEB",
+      "book_name": "Hebrews",
+      "chapter": 11,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "HEB.11.40",
+      "canon_ref": "HEB.11.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τοῦ θεοῦ περὶ ἡμῶν κρεῖττόν τι προβλεψαμένου, ἵνα μὴ χωρὶς ἡμῶν τελειωθῶσιν.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "What does the Bible say about configuring a Kubernetes cluster?",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.4682
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:LUK.22.12",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "LUK",
+      "book_name": "Luke",
+      "chapter": 22,
+      "verse": 12,
+      "edition": "",
+      "source_ref": "LUK.22.12",
+      "canon_ref": "LUK.22.12",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "κἀκεῖνος ὑμῖν δείξει ἀνάγαιον μέγα ἐστρωμένον· ἐκεῖ ἑτοιμάσατε.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "planning, organizing and managing a large and complex system so that everything is done in order",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5494
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "rrf": 0.01613,
+      "verse_uid": "sblgnt:MAT.24.40",
+      "source": "sblgnt",
+      "language": "grc",
+      "testament": "NT",
+      "book_id": "MAT",
+      "book_name": "Matthew",
+      "chapter": 24,
+      "verse": 40,
+      "edition": "",
+      "source_ref": "MAT.24.40",
+      "canon_ref": "MAT.24.40",
+      "alignment": "mapped",
+      "versification": "kjv",
+      "text_display": "τότε ⸂ δύο ἔσονται ⸃ ἐν τῷ ἀγρῷ, ⸂ εἷς ⸃ παραλαμβάνεται καὶ ⸂ εἷς ⸃ ἀφίεται·",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "servants appointed over many tasks and overseers who manage the work",
+          "method": "vector",
+          "rank": 2,
+          "score": 0.5773
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "signals": {
+    "top_vector_score": 0.579,
+    "vector_margin": 0.0017,
+    "vector_lexical_overlap_top10": 0,
+    "lists": 10,
+    "lists_with_hits": 7,
+    "lists_containing_top_result": 2
+  }
+}

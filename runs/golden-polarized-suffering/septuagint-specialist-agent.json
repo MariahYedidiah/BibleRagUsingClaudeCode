@@ -1,0 +1,411 @@
+{
+  "agent": "septuagint-specialist-agent",
+  "run_id": "golden-polarized-suffering",
+  "corpus": "lxx_swete",
+  "queries": [
+    "Why doesn't God care about human suffering?",
+    "How does the Bible describe God's response to human suffering?",
+    "Which passages describe God's compassion toward people who suffer?",
+    "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?"
+  ],
+  "lexical_queries": [
+    "θλῖψις θλίψει θλίψεως θλίψεις",
+    "ἐλέησον ἠλέησεν ἐλέους οἰκτιρμοί οἰκτίρμων",
+    "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις",
+    "κραυγῆς στεναγμοῦ ἐπήκουσεν εἰσήκουσεν ταπείνωσιν πτωχοῦ"
+  ],
+  "service": "up",
+  "signals": [
+    {
+      "top_vector_score": 0.7026,
+      "vector_margin": 0.0045,
+      "vector_lexical_overlap_top10": 2,
+      "lists": 12,
+      "lists_with_hits": 8,
+      "lists_containing_top_result": 3
+    }
+  ],
+  "passages": [
+    {
+      "rank": 1,
+      "canon_ref": "PSA.44.24",
+      "verse_uid": "lxx_swete:27.43.25",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἵνα τί τὸ πρόσωπόν σου ἀποστρέφεις ἐπιλανθάνῃ τῆς πτωχίας ἡμῶν καὶ τῆς θλίψεως ἡμῶν",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 19,
+          "score": 0.5757
+        },
+        {
+          "query": "ἐπιλάθῃ ἐπελάθου ἀποστρέφεις",
+          "method": "lexical",
+          "rank": 4,
+          "score": -11.1508
+        }
+      ],
+      "rrf": 0.02828,
+      "relevance": "Lament voicing the complaint: God turns his face away and forgets our poverty and affliction.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.43.24",
+          "verse": 24,
+          "text_display": "ἐξεγέρθητι· ἵνα τί ὑπνοῖς, κύριε ἀνάστηθι καὶ μὴ ἀπώσῃ εἰς τέλος."
+        },
+        {
+          "verse_uid": "lxx_swete:27.43.25",
+          "verse": 25,
+          "text_display": "ἵνα τί τὸ πρόσωπόν σου ἀποστρέφεις ἐπιλανθάνῃ τῆς πτωχίας ἡμῶν καὶ τῆς θλίψεως ἡμῶν"
+        },
+        {
+          "verse_uid": "lxx_swete:27.43.26",
+          "verse": 26,
+          "text_display": "ὅτι ἐταπεινώθη εἰς χοῦν ἡ ψυχὴ ἡμῶν, ἐκολλήθη εἰς γῆν ἡ γαστὴρ ἡμῶν."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.44.24",
+        "verse_uid": "lxx_swete:27.43.25",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἵνα τί τὸ πρόσωπόν σου ἀποστρέφεις ἐπιλανθάνῃ τῆς πτωχίας ἡμῶν καὶ τῆς θλίψεως ἡμῶν",
+        "translation": "Why do you turn your face away? You forget our poverty and our affliction.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ἀποστρέφεις: 'turn away' (WEB 'hide')",
+          "Swete numbers this Ps 43:25"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.44.24",
+        "differences_from_web": [
+          "LXX 'turn away your face' where WEB has 'hide your face'",
+          "LXX 'our poverty' (πτωχία) where WEB has 'our affliction'; 'oppression' is rendered 'affliction' (θλῖψις)",
+          "LXX has no 'and' linking two questions; the verse opens with ἵνα τί 'why' once"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "canon_ref": "PSA.10.1",
+      "verse_uid": "lxx_swete:27.9.22",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἵνα τί, Κύριε, ἀφέστηκας μακρόθεν; ὑπερορᾷς ἐν εὐκαιρίαις ἐν θλίψει;",
+      "found_by": [
+        "lexical",
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 24,
+          "score": 0.5272
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 6,
+          "score": 0.609
+        },
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεις",
+          "method": "lexical",
+          "rank": 9,
+          "score": -9.8207
+        }
+      ],
+      "rrf": 0.04155,
+      "relevance": "Lament asking why God stands far off and overlooks people in affliction.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.9.21",
+          "verse": 21,
+          "text_display": "κατάστησον, Κύριε, νομοθέτην ἐπʼ αὐτούς, γνώτωσαν ἔθνη ὅτι οἱ ἄνθρωποί εἰσιν. διάψαλμα."
+        },
+        {
+          "verse_uid": "lxx_swete:27.9.22",
+          "verse": 22,
+          "text_display": "ἵνα τί, Κύριε, ἀφέστηκας μακρόθεν; ὑπερορᾷς ἐν εὐκαιρίαις ἐν θλίψει;"
+        },
+        {
+          "verse_uid": "lxx_swete:27.9.23",
+          "verse": 23,
+          "text_display": "ἐν τῷ ὑπερηφανεύεσθαι τὸν ἀσεβῆ ἐνπυρίζεται ὁ πτωχός· συνλαμβάνονται ἐν διαβουλίοις οἷς διαλογίζονται."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.10.1",
+        "verse_uid": "lxx_swete:27.9.22",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἵνα τί, Κύριε, ἀφέστηκας μακρόθεν; ὑπερορᾷς ἐν εὐκαιρίαις ἐν θλίψει;",
+        "translation": "Why, Lord, have you stood far off? Do you overlook us in times of need, in affliction?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "ὑπερορᾷς: 'look past / disregard'",
+          "Swete numbers this Ps 9:22 (Greek numbering)"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.10.1",
+        "differences_from_web": [
+          "LXX 'overlook/disregard' (ὑπερορᾷς) where WEB has 'hide yourself'"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "canon_ref": "HAB.1.2",
+      "verse_uid": "lxx_swete:43.1.2",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "Ἕως τίνος, Κύριε, κράξομαι, καὶ οὐ μὴ εἰσακούσῃς; βοήσομαι πρὸς σὲ ἀδικούμενος, καὶ οὐ σώσεις;",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "Why doesn't God care about human suffering?",
+          "method": "vector",
+          "rank": 16,
+          "score": 0.5294
+        },
+        {
+          "query": "Why do you hide your face and forget our affliction? How long, Lord, will you forget me?",
+          "method": "vector",
+          "rank": 9,
+          "score": 0.6071
+        }
+      ],
+      "rrf": 0.02765,
+      "relevance": "Prophet's 'how long' complaint that God does not listen or save.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:43.1.1",
+          "verse": 1,
+          "text_display": "Τ λῆμμα ὃ εἶδεν Ἁμβακοὺμ ὁ προφήτης."
+        },
+        {
+          "verse_uid": "lxx_swete:43.1.2",
+          "verse": 2,
+          "text_display": "Ἕως τίνος, Κύριε, κράξομαι, καὶ οὐ μὴ εἰσακούσῃς; βοήσομαι πρὸς σὲ ἀδικούμενος, καὶ οὐ σώσεις;"
+        },
+        {
+          "verse_uid": "lxx_swete:43.1.3",
+          "verse": 3,
+          "text_display": "ἵνα τί ἔδειξάς μοι κόπους καὶ πόνους ἐπιβλέπειν, ταλαιπαωρίαν καὶ ἀσέβειαυ; ἐξ ἐναντίας μου γέγονεν κρίσις, καὶ ὁ κριτὴς λαμβάνει·"
+        }
+      ],
+      "translation": {
+        "canon_ref": "HAB.1.2",
+        "verse_uid": "lxx_swete:43.1.2",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "Ἕως τίνος, Κύριε, κράξομαι, καὶ οὐ μὴ εἰσακούσῃς; βοήσομαι πρὸς σὲ ἀδικούμενος, καὶ οὐ σώσεις;",
+        "translation": "How long, Lord, shall I cry out, and you will not listen? I shall shout to you when wronged, and will you not save?",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "εἰσακούσῃς: aorist subjunctive with οὐ μή, 'you will not listen'"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:HAB.1.2",
+        "differences_from_web": [
+          "LXX 'when wronged' (ἀδικούμενος) where WEB has the cry 'Violence!'"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "canon_ref": "PSA.12.5",
+      "verse_uid": "lxx_swete:27.11.6",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἀπὸ τῆς ταλαιπωρίας τῶν πτωχῶν καὶ ἀπὸ τοῦ στεναγμοῦ τῶν πενήτων νῦν ἀναστήσομαι, λέγει Κύριος· θήσομαι ἐν σωτηρίᾳ, παρησιάσομαι ἐν αὐτῷ.",
+      "found_by": [
+        "vector"
+      ],
+      "hits": [
+        {
+          "query": "How does the Bible describe God's response to human suffering?",
+          "method": "vector",
+          "rank": 15,
+          "score": 0.5066
+        },
+        {
+          "query": "Which passages describe God's compassion toward people who suffer?",
+          "method": "vector",
+          "rank": 8,
+          "score": 0.5496
+        }
+      ],
+      "rrf": 0.02804,
+      "relevance": "God's response: he rises because of the misery of the poor and the groaning of the needy.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.11.5",
+          "verse": 5,
+          "text_display": "τοὺς εἰπόντας Τὴν γλῶσσαν ἡμῶν μεγαλυνοῦμεν, τὰ χείλη ἡμῶν παρʼ ἡμῶν ἐστίν· τίς ἡμῶν κύριός ἐστιν;"
+        },
+        {
+          "verse_uid": "lxx_swete:27.11.6",
+          "verse": 6,
+          "text_display": "ἀπὸ τῆς ταλαιπωρίας τῶν πτωχῶν καὶ ἀπὸ τοῦ στεναγμοῦ τῶν πενήτων νῦν ἀναστήσομαι, λέγει Κύριος· θήσομαι ἐν σωτηρίᾳ, παρησιάσομαι ἐν αὐτῷ."
+        },
+        {
+          "verse_uid": "lxx_swete:27.11.7",
+          "verse": 7,
+          "text_display": "τὰ λόγια Κυρίου λόγια ἁγνά, ἀργύριον πεπυρωμένον, δοκίμιον τῇ γῇ, κεκαθαρισμένον ἑπταπλασίως."
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.12.5",
+        "verse_uid": "lxx_swete:27.11.6",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἀπὸ τῆς ταλαιπωρίας τῶν πτωχῶν καὶ ἀπὸ τοῦ στεναγμοῦ τῶν πενήτων νῦν ἀναστήσομαι, λέγει Κύριος· θήσομαι ἐν σωτηρίᾳ, παρησιάσομαι ἐν αὐτῷ.",
+        "translation": "Because of the misery of the poor and the groaning of the needy, now I will arise, says the Lord. I will set him in safety; I will speak freely in him.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "Swete numbers this Ps 11:6 (Greek numbering)"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.12.5",
+        "differences_from_web": [
+          "LXX final clause 'I will speak freely in him' differs from WEB 'from those who malign him'"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "canon_ref": "PSA.118.5",
+      "verse_uid": "lxx_swete:27.117.5",
+      "source": "lxx_swete",
+      "language": "grc",
+      "testament": "OT",
+      "edition": "",
+      "alignment": "mapped",
+      "text": "ἐν θλίψει ἐπεκαλεσάμην τὸν κύριον, καὶ ἐπήκουσέν μοι εἰς πλατυσμόν.",
+      "found_by": [
+        "lexical"
+      ],
+      "hits": [
+        {
+          "query": "θλῖψις θλίψει θλίψεως θλίψεις",
+          "method": "lexical",
+          "rank": 10,
+          "score": -9.8207
+        },
+        {
+          "query": "κραυγῆς στεναγμοῦ ἐπήκουσεν εἰσήκουσεν ταπείνωσιν πτωχοῦ",
+          "method": "lexical",
+          "rank": 14,
+          "score": -10.246
+        }
+      ],
+      "rrf": 0.0278,
+      "relevance": "God's response: he listened when called upon in affliction.",
+      "context": [
+        {
+          "verse_uid": "lxx_swete:27.117.5",
+          "verse": 5,
+          "text_display": "ἐν θλίψει ἐπεκαλεσάμην τὸν κύριον, καὶ ἐπήκουσέν μοι εἰς πλατυσμόν."
+        },
+        {
+          "verse_uid": "lxx_swete:27.117.6",
+          "verse": 6,
+          "text_display": "Κύριος ἐμοὶ βοηθός, οὐ φοβηθήσομαι· τί ποιήσει μοι ἄνθρωπος;"
+        }
+      ],
+      "translation": {
+        "canon_ref": "PSA.118.5",
+        "verse_uid": "lxx_swete:27.117.5",
+        "source": "lxx_swete",
+        "corpus_label": "Septuagint Greek (Swete LXX)",
+        "original": "ἐν θλίψει ἐπεκαλεσάμην τὸν κύριον, καὶ ἐπήκουσέν μοι εἰς πλατυσμόν.",
+        "translation": "In affliction I called upon the Lord, and he listened to me, leading me into spaciousness.",
+        "method": "machine",
+        "translator": "claude:claude-sonnet-5-5",
+        "literal_notes": [
+          "εἰς πλατυσμόν: 'into a broad place / spaciousness'",
+          "Swete numbers this Ps 117:5 (Greek numbering)"
+        ],
+        "uncertainties": [],
+        "web_reference": "web:PSA.118.5",
+        "differences_from_web": [
+          "LXX 'he listened to me into a broad place' vs WEB 'answered me with freedom'; close in sense"
+        ]
+      }
+    }
+  ],
+  "discarded": [
+    {
+      "verse_uid": "lxx_swete:27.87.15",
+      "reason": "Lament (turns away face) but k=5 limit; weaker than Ps 44:24 and Ps 10:1"
+    },
+    {
+      "verse_uid": "lxx_swete:27.145.7",
+      "reason": "General praise of God's justice; less direct than kept responses"
+    },
+    {
+      "verse_uid": "lxx_swete:27.93.3",
+      "reason": "Lexical false hit on 'how long'; concerns sinners"
+    },
+    {
+      "verse_uid": "lxx_swete:49.1.4",
+      "reason": "False hit; prophetic call formula"
+    },
+    {
+      "verse_uid": "lxx_swete:41.3.9",
+      "reason": "Repentance and divine relenting, not about suffering"
+    },
+    {
+      "verse_uid": "lxx_swete:48.14.3",
+      "reason": "Relief from servitude; tangential"
+    },
+    {
+      "verse_uid": "lxx_swete:51.3.39",
+      "reason": "Man complaining over his sin; tangential"
+    },
+    {
+      "verse_uid": "lxx_swete:27.43.22",
+      "reason": "About God knowing hidden things; not directly relevant"
+    },
+    {
+      "verse_uid": "lxx_swete:48.26.16",
+      "reason": "Remembering God in affliction; tangential"
+    },
+    {
+      "verse_uid": "lxx_swete:27.24.22",
+      "reason": "Plea for redemption; less direct"
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Polarized question: the LXX Psalms voice the complaint (Pss 10:1, 44:24 in English numbering) and also God's response (Pss 12:5, 118:5).",
+    "All kept Psalms use Greek numbering natively (e.g. Ps 43:25 = English 44:24); alignment is mapped.",
+    "Ps 44:24 LXX says 'poverty' (πτωχία) rather than WEB's 'affliction' for the first noun; Ps 10:1 LXX 'overlook' vs Hebrew 'hide'; Ps 12:5 final clause differs from the Hebrew."
+  ]
+}

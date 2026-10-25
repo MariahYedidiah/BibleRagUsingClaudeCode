@@ -1,0 +1,22 @@
+{
+  "query": "Who is the voice crying in the wilderness?",
+  "language": "grc",
+  "corpus": "sblgnt",
+  "terms": [
+    {"term": "φωνή", "gloss": "voice (nom.)", "hits": 62},
+    {"term": "φωνῇ", "gloss": "voice (dat.)", "hits": 62},
+    {"term": "βοῶντος", "gloss": "of one crying (gen. ptc.)", "hits": 4},
+    {"term": "βοῶν", "gloss": "crying (ptc.)", "hits": 2},
+    {"term": "ἐρήμῳ", "gloss": "in the wilderness (dat.)", "hits": 24},
+    {"term": "ἔρημος", "gloss": "wilderness (nom.)", "hits": 5},
+    {"term": "ἐρήμου", "gloss": "of the wilderness (gen.)", "hits": 2},
+    {"term": "ἑτοιμάσατε", "gloss": "prepare! (aor. imp.)", "hits": 7},
+    {"term": "εὐθείας", "gloss": "straight (acc. pl. fem.)", "hits": 4},
+    {"term": "τρίβους", "gloss": "paths (acc.)", "hits": 3}
+  ],
+  "lexical_queries": ["φωνή βοῶντος ἐρήμῳ", "ἑτοιμάσατε εὐθείας τρίβους", "βοῶν ἔρημος ἐρήμου"],
+  "method": "machine",
+  "translator": "claude:claude-sonnet-5-5",
+  "display": false,
+  "notes": []
+}
